@@ -1,0 +1,2329 @@
+window.NAVRE_SEED_PLACES = [
+  {
+    "id": "w-tr/1822581",
+    "name": "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi",
+    "category": "museum",
+    "lat": 41.011111,
+    "lon": 28.978333,
+    "wikiTitle": "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi"
+  },
+  {
+    "id": "w-tr/4542858",
+    "name": "Karaki Hüseyin Çelebi Camii",
+    "category": "mosque",
+    "lat": 41.013056,
+    "lon": 28.977778,
+    "wikiTitle": "Karaki Hüseyin Çelebi Camii"
+  },
+  {
+    "id": "w-tr/4432639",
+    "name": "Balıkesir Han",
+    "category": "monument",
+    "lat": 41.010278,
+    "lon": 28.976667,
+    "wikiTitle": "Balıkesir Han"
+  },
+  {
+    "id": "w-tr/78811",
+    "name": "Zeynep Sultan Camii",
+    "category": "mosque",
+    "lat": 41.01,
+    "lon": 28.978333,
+    "wikiTitle": "Zeynep Sultan Camii"
+  },
+  {
+    "id": "w-tr/719382",
+    "name": "Çinili Köşk",
+    "category": "palace",
+    "lat": 41.011944,
+    "lon": 28.981111,
+    "wikiTitle": "Çinili Köşk"
+  },
+  {
+    "id": "w-tr/4542816",
+    "name": "Vezir Camii",
+    "category": "mosque",
+    "lat": 41.014722,
+    "lon": 28.976667,
+    "wikiTitle": "Vezir Camii"
+  },
+  {
+    "id": "w-tr/407731",
+    "name": "Firuz Ağa Camii",
+    "category": "mosque",
+    "lat": 41.007778,
+    "lon": 28.976389,
+    "wikiTitle": "Firuz Ağa Camii"
+  },
+  {
+    "id": "w-tr/4723076",
+    "name": "Ağalar Camii",
+    "category": "mosque",
+    "lat": 41.013056,
+    "lon": 28.984167,
+    "wikiTitle": "Ağalar Camii"
+  },
+  {
+    "id": "w-tr/190878",
+    "name": "Mahmud Paşa Camii",
+    "category": "mosque",
+    "lat": 41.011111,
+    "lon": 28.971389,
+    "wikiTitle": "Mahmud Paşa Camii"
+  },
+  {
+    "id": "w-tr/2470596",
+    "name": "Germanya Han",
+    "category": "monument",
+    "lat": 41.015278,
+    "lon": 28.9725,
+    "wikiTitle": "Germanya Han"
+  },
+  {
+    "id": "w-tr/1697054",
+    "name": "Hidayet Camii",
+    "category": "mosque",
+    "lat": 41.016667,
+    "lon": 28.973889,
+    "wikiTitle": "Hidayet Camii"
+  },
+  {
+    "id": "w-tr/383755",
+    "name": "Büyük Saray",
+    "category": "palace",
+    "lat": 41.006389,
+    "lon": 28.977778,
+    "wikiTitle": "Büyük Saray"
+  },
+  {
+    "id": "w-tr/4470944",
+    "name": "Köprülü Mehmed Paşa Camii (İstanbul)",
+    "category": "mosque",
+    "lat": 41.008333,
+    "lon": 28.971667,
+    "wikiTitle": "Köprülü Mehmed Paşa Camii (İstanbul)"
+  },
+  {
+    "id": "w-tr/124770",
+    "name": "Nuruosmaniye Camii",
+    "category": "mosque",
+    "lat": 41.010278,
+    "lon": 28.970278,
+    "wikiTitle": "Nuruosmaniye Camii"
+  },
+  {
+    "id": "w-tr/718184",
+    "name": "Dikilitaş (Sultanahmet)",
+    "category": "monument",
+    "lat": 41.006111,
+    "lon": 28.975278,
+    "wikiTitle": "Dikilitaş (Sultanahmet)"
+  },
+  {
+    "id": "w-tr/4468146",
+    "name": "İshak Paşa Camii (İstanbul)",
+    "category": "mosque",
+    "lat": 41.006389,
+    "lon": 28.981667,
+    "wikiTitle": "İshak Paşa Camii (İstanbul)"
+  },
+  {
+    "id": "w-tr/4084375",
+    "name": "Fuad Paşa Camii",
+    "category": "mosque",
+    "lat": 41.006667,
+    "lon": 28.973056,
+    "wikiTitle": "Fuad Paşa Camii"
+  },
+  {
+    "id": "w-tr/1124413",
+    "name": "Kal Kadoş Çorapçı Han Sinagogu",
+    "category": "monument",
+    "lat": 41.014444,
+    "lon": 28.97,
+    "wikiTitle": "Kal Kadoş Çorapçı Han Sinagogu"
+  },
+  {
+    "id": "w-tr/128162",
+    "name": "Gazi Atik Ali Paşa Camii",
+    "category": "mosque",
+    "lat": 41.008611,
+    "lon": 28.970556,
+    "wikiTitle": "Gazi Atik Ali Paşa Camii"
+  },
+  {
+    "id": "w-tr/143292",
+    "name": "Yeni Cami",
+    "category": "mosque",
+    "lat": 41.016944,
+    "lon": 28.972222,
+    "wikiTitle": "Yeni Cami"
+  },
+  {
+    "id": "w-tr/2944214",
+    "name": "Zincirli Han",
+    "category": "monument",
+    "lat": 41.011389,
+    "lon": 28.969167,
+    "wikiTitle": "Zincirli Han"
+  },
+  {
+    "id": "w-tr/9303",
+    "name": "Sultanahmet Camii",
+    "category": "mosque",
+    "lat": 41.005278,
+    "lon": 28.976944,
+    "wikiTitle": "Sultanahmet Camii"
+  },
+  {
+    "id": "w-tr/679072",
+    "name": "Eski Cami",
+    "category": "mosque",
+    "lat": 41.676667,
+    "lon": 26.555833,
+    "wikiTitle": "Eski Cami"
+  },
+  {
+    "id": "w-tr/4619117",
+    "name": "Edirne Eski Cami Minare Çeşmesi",
+    "category": "mosque",
+    "lat": 41.676667,
+    "lon": 26.555556,
+    "wikiTitle": "Edirne Eski Cami Minare Çeşmesi"
+  },
+  {
+    "id": "w-tr/394758",
+    "name": "Üç Şerefeli Cami",
+    "category": "mosque",
+    "lat": 41.678056,
+    "lon": 26.553611,
+    "wikiTitle": "Üç Şerefeli Cami"
+  },
+  {
+    "id": "w-tr/16124",
+    "name": "Selimiye Camii",
+    "category": "mosque",
+    "lat": 41.678056,
+    "lon": 26.559444,
+    "wikiTitle": "Selimiye Camii"
+  },
+  {
+    "id": "w-tr/4421223",
+    "name": "Selçuk Hatun Camii",
+    "category": "mosque",
+    "lat": 41.675278,
+    "lon": 26.558889,
+    "wikiTitle": "Selçuk Hatun Camii"
+  },
+  {
+    "id": "w-tr/4421352",
+    "name": "Şehabeddin Paşa Camii",
+    "category": "mosque",
+    "lat": 41.679444,
+    "lon": 26.558333,
+    "wikiTitle": "Şehabeddin Paşa Camii"
+  },
+  {
+    "id": "w-tr/4420761",
+    "name": "Kuşçu Doğan Camii",
+    "category": "mosque",
+    "lat": 41.68,
+    "lon": 26.554167,
+    "wikiTitle": "Kuşçu Doğan Camii"
+  },
+  {
+    "id": "w-tr/4420848",
+    "name": "Lari Camii",
+    "category": "mosque",
+    "lat": 41.673611,
+    "lon": 26.554167,
+    "wikiTitle": "Lari Camii"
+  },
+  {
+    "id": "w-tr/4424958",
+    "name": "Tamburacılar Camii",
+    "category": "mosque",
+    "lat": 41.673889,
+    "lon": 26.553056,
+    "wikiTitle": "Tamburacılar Camii"
+  },
+  {
+    "id": "w-tr/4416663",
+    "name": "Hıdır Ağa Camii",
+    "category": "mosque",
+    "lat": 41.677222,
+    "lon": 26.560833,
+    "wikiTitle": "Hıdır Ağa Camii"
+  },
+  {
+    "id": "w-tr/4431289",
+    "name": "Zehr-i Mar Camii",
+    "category": "mosque",
+    "lat": 41.678056,
+    "lon": 26.560833,
+    "wikiTitle": "Zehr-i Mar Camii"
+  },
+  {
+    "id": "w-tr/4653351",
+    "name": "Küpeli Minare Çeşmesi",
+    "category": "tower",
+    "lat": 41.678056,
+    "lon": 26.550556,
+    "wikiTitle": "Küpeli Minare Çeşmesi"
+  },
+  {
+    "id": "w-tr/4411397",
+    "name": "Arif Ağa Camii",
+    "category": "mosque",
+    "lat": 41.680833,
+    "lon": 26.553611,
+    "wikiTitle": "Arif Ağa Camii"
+  },
+  {
+    "id": "w-tr/4422356",
+    "name": "Sarıca Paşa Camii",
+    "category": "mosque",
+    "lat": 41.675,
+    "lon": 26.560833,
+    "wikiTitle": "Sarıca Paşa Camii"
+  },
+  {
+    "id": "w-tr/4414781",
+    "name": "Atik Ali Paşa Camii (Edirne)",
+    "category": "mosque",
+    "lat": 41.679444,
+    "lon": 26.561111,
+    "wikiTitle": "Atik Ali Paşa Camii (Edirne)"
+  },
+  {
+    "id": "w-tr/4419855",
+    "name": "Sitti Şah Sultan Camii",
+    "category": "mosque",
+    "lat": 41.673333,
+    "lon": 26.559444,
+    "wikiTitle": "Sitti Şah Sultan Camii"
+  },
+  {
+    "id": "w-tr/4416653",
+    "name": "Gazi Hoca Camii",
+    "category": "mosque",
+    "lat": 41.678611,
+    "lon": 26.548889,
+    "wikiTitle": "Gazi Hoca Camii"
+  },
+  {
+    "id": "w-tr/4416609",
+    "name": "Beylerbeyi Camii (Edirne)",
+    "category": "mosque",
+    "lat": 41.682778,
+    "lon": 26.555,
+    "wikiTitle": "Beylerbeyi Camii (Edirne)"
+  },
+  {
+    "id": "w-tr/4422491",
+    "name": "Yahya Bey Camii",
+    "category": "mosque",
+    "lat": 41.676389,
+    "lon": 26.563333,
+    "wikiTitle": "Yahya Bey Camii"
+  },
+  {
+    "id": "w-tr/4415633",
+    "name": "Defterdar Mustafa Paşa Camii",
+    "category": "mosque",
+    "lat": 41.672778,
+    "lon": 26.561667,
+    "wikiTitle": "Defterdar Mustafa Paşa Camii"
+  },
+  {
+    "id": "w-tr/2445200",
+    "name": "Orhan Gazi Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.183889,
+    "lon": 29.064167,
+    "wikiTitle": "Orhan Gazi Camii (Bursa)"
+  },
+  {
+    "id": "w-tr/130172",
+    "name": "Koza Han",
+    "category": "monument",
+    "lat": 40.184444,
+    "lon": 29.063611,
+    "wikiTitle": "Koza Han"
+  },
+  {
+    "id": "w-tr/4416786",
+    "name": "Şeker Hoca Camii",
+    "category": "mosque",
+    "lat": 40.182778,
+    "lon": 29.061944,
+    "wikiTitle": "Şeker Hoca Camii"
+  },
+  {
+    "id": "w-tr/2350884",
+    "name": "Yeşil Külliye",
+    "category": "mosque",
+    "lat": 40.183889,
+    "lon": 29.061944,
+    "wikiTitle": "Yeşil Külliye"
+  },
+  {
+    "id": "w-tr/127564",
+    "name": "Bursa Ulu Camii",
+    "category": "mosque",
+    "lat": 40.183889,
+    "lon": 29.061944,
+    "wikiTitle": "Bursa Ulu Camii"
+  },
+  {
+    "id": "w-tr/2303657",
+    "name": "İpek Han",
+    "category": "monument",
+    "lat": 40.185278,
+    "lon": 29.060833,
+    "wikiTitle": "İpek Han"
+  },
+  {
+    "id": "w-tr/3514552",
+    "name": "Umurbey Camii",
+    "category": "mosque",
+    "lat": 40.177778,
+    "lon": 29.071389,
+    "wikiTitle": "Umurbey Camii"
+  },
+  {
+    "id": "w-tr/4466863",
+    "name": "Sittî Hatun Camii",
+    "category": "mosque",
+    "lat": 40.185833,
+    "lon": 29.073333,
+    "wikiTitle": "Sittî Hatun Camii"
+  },
+  {
+    "id": "w-tr/1340189",
+    "name": "Yeşil Cami (Bursa)",
+    "category": "mosque",
+    "lat": 40.182222,
+    "lon": 29.074722,
+    "wikiTitle": "Yeşil Cami (Bursa)"
+  },
+  {
+    "id": "w-tr/2303503",
+    "name": "Balibey Han",
+    "category": "monument",
+    "lat": 40.185,
+    "lon": 29.058611,
+    "wikiTitle": "Balibey Han"
+  },
+  {
+    "id": "w-tr/4419979",
+    "name": "Şehreküstü Camii",
+    "category": "mosque",
+    "lat": 40.1875,
+    "lon": 29.060833,
+    "wikiTitle": "Şehreküstü Camii"
+  },
+  {
+    "id": "w-tr/4419995",
+    "name": "Timurtaş Paşa Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.188333,
+    "lon": 29.071667,
+    "wikiTitle": "Timurtaş Paşa Camii (Bursa)"
+  },
+  {
+    "id": "w-tr/4467057",
+    "name": "Hatice İsfendiyar Camii",
+    "category": "mosque",
+    "lat": 40.185556,
+    "lon": 29.075,
+    "wikiTitle": "Hatice İsfendiyar Camii"
+  },
+  {
+    "id": "w-tr/4468193",
+    "name": "Somuncu Baba Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.177778,
+    "lon": 29.058889,
+    "wikiTitle": "Somuncu Baba Camii (Bursa)"
+  },
+  {
+    "id": "w-tr/2054768",
+    "name": "Veled-i Yaniç Camii",
+    "category": "mosque",
+    "lat": 40.185,
+    "lon": 29.056389,
+    "wikiTitle": "Veled-i Yaniç Camii"
+  },
+  {
+    "id": "w-tr/4618488",
+    "name": "Sülüklü Camii",
+    "category": "mosque",
+    "lat": 40.189722,
+    "lon": 29.061111,
+    "wikiTitle": "Sülüklü Camii"
+  },
+  {
+    "id": "w-tr/4436267",
+    "name": "Namazgâh Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.177778,
+    "lon": 29.075556,
+    "wikiTitle": "Namazgâh Camii (Bursa)"
+  },
+  {
+    "id": "w-tr/237756",
+    "name": "Şehadet Camii",
+    "category": "mosque",
+    "lat": 40.186389,
+    "lon": 29.056111,
+    "wikiTitle": "Şehadet Camii"
+  },
+  {
+    "id": "w-tr/1589176",
+    "name": "Hacı Özbek Camii",
+    "category": "mosque",
+    "lat": 40.181111,
+    "lon": 29.080833,
+    "wikiTitle": "Hacı Özbek Camii"
+  },
+  {
+    "id": "w-tr/237732",
+    "name": "Emir Sultan Camii",
+    "category": "mosque",
+    "lat": 40.181111,
+    "lon": 29.081111,
+    "wikiTitle": "Emir Sultan Camii"
+  },
+  {
+    "id": "w-tr/117807",
+    "name": "İsa Bey Camii",
+    "category": "mosque",
+    "lat": 37.952222,
+    "lon": 27.365833,
+    "wikiTitle": "İsa Bey Camii"
+  },
+  {
+    "id": "w-tr/4629348",
+    "name": "Sarıca Kilise",
+    "category": "church",
+    "lat": 38.609722,
+    "lon": 34.896389,
+    "wikiTitle": "Sarıca Kilise"
+  },
+  {
+    "id": "w-tr/2740772",
+    "name": "Karamanoğlu Camii",
+    "category": "mosque",
+    "lat": 38.632778,
+    "lon": 34.910278,
+    "wikiTitle": "Karamanoğlu Camii"
+  },
+  {
+    "id": "w-tr/4096718",
+    "name": "Güray Müze",
+    "category": "museum",
+    "lat": 38.710556,
+    "lon": 34.835,
+    "wikiTitle": "Güray Müze"
+  },
+  {
+    "id": "w-tr/2740768",
+    "name": "Avanos Ulu Camii",
+    "category": "mosque",
+    "lat": 38.719167,
+    "lon": 34.847222,
+    "wikiTitle": "Avanos Ulu Camii"
+  },
+  {
+    "id": "w-tr/4623608",
+    "name": "Şeyh Ali Camii (Nevşehir)",
+    "category": "mosque",
+    "lat": 38.583333,
+    "lon": 34.894167,
+    "wikiTitle": "Şeyh Ali Camii (Nevşehir)"
+  },
+  {
+    "id": "w-tr/4623854",
+    "name": "Mustafapaşa Cami-i Kebir",
+    "category": "mosque",
+    "lat": 38.584444,
+    "lon": 34.898056,
+    "wikiTitle": "Mustafapaşa Cami-i Kebir"
+  },
+  {
+    "id": "w-tr/2740793",
+    "name": "Şanlıurfa Ulu Camii",
+    "category": "mosque",
+    "lat": 37.151389,
+    "lon": 38.79,
+    "wikiTitle": "Şanlıurfa Ulu Camii"
+  },
+  {
+    "id": "w-en/4657098",
+    "name": "Flavian Palace",
+    "category": "palace",
+    "lat": 41.89,
+    "lon": 12.49,
+    "wikiTitle": "Flavian Palace"
+  },
+  {
+    "id": "w-en/2744441",
+    "name": "Temple of Venus and Roma",
+    "category": "temple",
+    "lat": 41.890833,
+    "lon": 12.489722,
+    "wikiTitle": "Temple of Venus and Roma"
+  },
+  {
+    "id": "w-en/46971066",
+    "name": "Temple of Claudius",
+    "category": "temple",
+    "lat": 41.887594,
+    "lon": 12.493367,
+    "wikiTitle": "Temple of Claudius"
+  },
+  {
+    "id": "w-en/5530749",
+    "name": "Basilica of Maxentius",
+    "category": "church",
+    "lat": 41.8919,
+    "lon": 12.4883,
+    "wikiTitle": "Basilica of Maxentius"
+  },
+  {
+    "id": "w-en/65670848",
+    "name": "Palatine Museum",
+    "category": "museum",
+    "lat": 41.888889,
+    "lon": 12.4875,
+    "wikiTitle": "Palatine Museum"
+  },
+  {
+    "id": "w-en/31386912",
+    "name": "Tomb of Pope Julius II",
+    "category": "tomb",
+    "lat": 41.8939,
+    "lon": 12.4934,
+    "wikiTitle": "Tomb of Pope Julius II"
+  },
+  {
+    "id": "w-en/8269670",
+    "name": "Temple of Jupiter Stator (3rd century BC)",
+    "category": "temple",
+    "lat": 41.892,
+    "lon": 12.4874,
+    "wikiTitle": "Temple of Jupiter Stator (3rd century BC)"
+  },
+  {
+    "id": "w-en/7622300",
+    "name": "Temple of Peace, Rome",
+    "category": "temple",
+    "lat": 41.89262,
+    "lon": 12.48761,
+    "wikiTitle": "Temple of Peace, Rome"
+  },
+  {
+    "id": "w-en/4637832",
+    "name": "Temple of Antoninus and Faustina",
+    "category": "temple",
+    "lat": 41.892139,
+    "lon": 12.486689,
+    "wikiTitle": "Temple of Antoninus and Faustina"
+  },
+  {
+    "id": "w-en/48577871",
+    "name": "Palace of Domitian",
+    "category": "palace",
+    "lat": 41.88876,
+    "lon": 12.48641,
+    "wikiTitle": "Palace of Domitian"
+  },
+  {
+    "id": "w-en/1714741",
+    "name": "Temple of Caesar",
+    "category": "temple",
+    "lat": 41.891943,
+    "lon": 12.486246,
+    "wikiTitle": "Temple of Caesar"
+  },
+  {
+    "id": "w-en/1969054",
+    "name": "Temple of Vesta",
+    "category": "temple",
+    "lat": 41.891667,
+    "lon": 12.486111,
+    "wikiTitle": "Temple of Vesta"
+  },
+  {
+    "id": "w-en/1726947",
+    "name": "Basilica Aemilia",
+    "category": "church",
+    "lat": 41.892554,
+    "lon": 12.48623,
+    "wikiTitle": "Basilica Aemilia"
+  },
+  {
+    "id": "w-en/8823431",
+    "name": "Temple of Apollo Palatinus",
+    "category": "temple",
+    "lat": 41.8888,
+    "lon": 12.4857,
+    "wikiTitle": "Temple of Apollo Palatinus"
+  },
+  {
+    "id": "w-en/9508059",
+    "name": "Basilica Fulvia",
+    "category": "church",
+    "lat": 41.89261,
+    "lon": 12.48611,
+    "wikiTitle": "Basilica Fulvia"
+  },
+  {
+    "id": "w-en/2068718",
+    "name": "Temple of Castor and Pollux",
+    "category": "temple",
+    "lat": 41.891667,
+    "lon": 12.485556,
+    "wikiTitle": "Temple of Castor and Pollux"
+  },
+  {
+    "id": "w-en/8871878",
+    "name": "Temple of Victory",
+    "category": "temple",
+    "lat": 41.889444,
+    "lon": 12.485111,
+    "wikiTitle": "Temple of Victory"
+  },
+  {
+    "id": "w-en/4139084",
+    "name": "Temple of Mars Ultor",
+    "category": "temple",
+    "lat": 41.893889,
+    "lon": 12.486944,
+    "wikiTitle": "Temple of Mars Ultor"
+  },
+  {
+    "id": "w-en/8872012",
+    "name": "Temple of Cybele (Palatine)",
+    "category": "temple",
+    "lat": 41.889444,
+    "lon": 12.485,
+    "wikiTitle": "Temple of Cybele (Palatine)"
+  },
+  {
+    "id": "w-en/4307791",
+    "name": "Temple of Janus (Roman Forum)",
+    "category": "temple",
+    "lat": 41.892981,
+    "lon": 12.485722,
+    "wikiTitle": "Temple of Janus (Roman Forum)"
+  },
+  {
+    "id": "w-en/48713140",
+    "name": "Temple of Juno Sospita (Palatine)",
+    "category": "temple",
+    "lat": 41.8896,
+    "lon": 12.4846,
+    "wikiTitle": "Temple of Juno Sospita (Palatine)"
+  },
+  {
+    "id": "w-en/1502079",
+    "name": "Basilica Julia",
+    "category": "church",
+    "lat": 41.89195,
+    "lon": 12.48478,
+    "wikiTitle": "Basilica Julia"
+  },
+  {
+    "id": "w-en/12609717",
+    "name": "Temple of Divus Augustus",
+    "category": "temple",
+    "lat": 41.891616,
+    "lon": 12.484471,
+    "wikiTitle": "Temple of Divus Augustus"
+  },
+  {
+    "id": "w-en/57154857",
+    "name": "Five-Columns Monument",
+    "category": "monument",
+    "lat": 41.892639,
+    "lon": 12.484611,
+    "wikiTitle": "Five-Columns Monument"
+  },
+  {
+    "id": "w-en/70401939",
+    "name": "Church of Panagia Atheniotissa",
+    "category": "church",
+    "lat": 37.9714,
+    "lon": 23.7263,
+    "wikiTitle": "Church of Panagia Atheniotissa"
+  },
+  {
+    "id": "w-en/43095349",
+    "name": "Frankish Tower (Acropolis of Athens)",
+    "category": "tower",
+    "lat": 37.97156,
+    "lon": 23.72508,
+    "wikiTitle": "Frankish Tower (Acropolis of Athens)"
+  },
+  {
+    "id": "w-en/488414",
+    "name": "Temple of Athena Nike",
+    "category": "temple",
+    "lat": 37.9715,
+    "lon": 23.7249,
+    "wikiTitle": "Temple of Athena Nike"
+  },
+  {
+    "id": "w-en/10109465",
+    "name": "Old Temple of Athena",
+    "category": "temple",
+    "lat": 37.9715,
+    "lon": 23.7267,
+    "wikiTitle": "Old Temple of Athena"
+  },
+  {
+    "id": "w-en/22991633",
+    "name": "Sanctuary of Zeus Polieus",
+    "category": "temple",
+    "lat": 37.9718,
+    "lon": 23.7273,
+    "wikiTitle": "Sanctuary of Zeus Polieus"
+  },
+  {
+    "id": "w-en/16811674",
+    "name": "Museum of Pavlos and Alexandra Kanellopoulou",
+    "category": "museum",
+    "lat": 37.972861,
+    "lon": 23.725889,
+    "wikiTitle": "Museum of Pavlos and Alexandra Kanellopoulou"
+  },
+  {
+    "id": "w-en/62076342",
+    "name": "Choragic Monument of Thrasyllos",
+    "category": "monument",
+    "lat": 37.971111,
+    "lon": 23.7275,
+    "wikiTitle": "Choragic Monument of Thrasyllos"
+  },
+  {
+    "id": "w-en/62096361",
+    "name": "Choragic Monument of Nikias",
+    "category": "monument",
+    "lat": 37.970278,
+    "lon": 23.726944,
+    "wikiTitle": "Choragic Monument of Nikias"
+  },
+  {
+    "id": "w-en/22991679",
+    "name": "Sanctuary of Pandion",
+    "category": "temple",
+    "lat": 37.9714,
+    "lon": 23.728,
+    "wikiTitle": "Sanctuary of Pandion"
+  },
+  {
+    "id": "w-en/7972275",
+    "name": "Old Acropolis Museum",
+    "category": "museum",
+    "lat": 37.971,
+    "lon": 23.728,
+    "wikiTitle": "Old Acropolis Museum"
+  },
+  {
+    "id": "w-en/16811588",
+    "name": "Ilias Lalaounis Jewelry Museum",
+    "category": "museum",
+    "lat": 37.969139,
+    "lon": 23.7267,
+    "wikiTitle": "Ilias Lalaounis Jewelry Museum"
+  },
+  {
+    "id": "w-en/21459344",
+    "name": "Church of the Holy Apostles, Athens",
+    "category": "church",
+    "lat": 37.9741,
+    "lon": 23.72396,
+    "wikiTitle": "Church of the Holy Apostles, Athens"
+  },
+  {
+    "id": "w-en/300007",
+    "name": "Tower of the Winds",
+    "category": "tower",
+    "lat": 37.974256,
+    "lon": 23.72707,
+    "wikiTitle": "Tower of the Winds"
+  },
+  {
+    "id": "w-en/31453079",
+    "name": "Fethiye Mosque (Athens)",
+    "category": "mosque",
+    "lat": 37.974444,
+    "lon": 23.726944,
+    "wikiTitle": "Fethiye Mosque (Athens)"
+  },
+  {
+    "id": "w-en/10944017",
+    "name": "Acropolis Museum",
+    "category": "museum",
+    "lat": 37.969108,
+    "lon": 23.728299,
+    "wikiTitle": "Acropolis Museum"
+  },
+  {
+    "id": "w-en/16811875",
+    "name": "Museum of Greek Folk Musical Instruments",
+    "category": "museum",
+    "lat": 37.974389,
+    "lon": 23.727444,
+    "wikiTitle": "Museum of Greek Folk Musical Instruments"
+  },
+  {
+    "id": "w-en/1716924",
+    "name": "Choragic Monument of Lysicrates",
+    "category": "monument",
+    "lat": 37.970833,
+    "lon": 23.73,
+    "wikiTitle": "Choragic Monument of Lysicrates"
+  },
+  {
+    "id": "w-en/16811689",
+    "name": "Museum of the Center for the Acropolis Studies",
+    "category": "museum",
+    "lat": 37.968894,
+    "lon": 23.728881,
+    "wikiTitle": "Museum of the Center for the Acropolis Studies"
+  },
+  {
+    "id": "w-en/22103023",
+    "name": "Synagogue in the Agora of Athens",
+    "category": "synagogue",
+    "lat": 37.9747,
+    "lon": 23.7222,
+    "wikiTitle": "Synagogue in the Agora of Athens"
+  },
+  {
+    "id": "w-en/17717384",
+    "name": "Monument of the Eponymous Heroes",
+    "category": "monument",
+    "lat": 37.975056,
+    "lon": 23.722361,
+    "wikiTitle": "Monument of the Eponymous Heroes"
+  },
+  {
+    "id": "w-en/16811818",
+    "name": "Tzistarakis Mosque",
+    "category": "mosque",
+    "lat": 37.97597,
+    "lon": 23.72602,
+    "wikiTitle": "Tzistarakis Mosque"
+  },
+  {
+    "id": "w-en/9819471",
+    "name": "Temple of Ares",
+    "category": "temple",
+    "lat": 37.9755,
+    "lon": 23.7228,
+    "wikiTitle": "Temple of Ares"
+  },
+  {
+    "id": "w-en/75130584",
+    "name": "Southwest Temple",
+    "category": "temple",
+    "lat": 37.9755,
+    "lon": 23.7228,
+    "wikiTitle": "Southwest Temple"
+  },
+  {
+    "id": "w-en/75177128",
+    "name": "Southeast Temple",
+    "category": "temple",
+    "lat": 37.9755,
+    "lon": 23.7228,
+    "wikiTitle": "Southeast Temple"
+  },
+  {
+    "id": "w-en/16811887",
+    "name": "Hellenic Children's Museum",
+    "category": "museum",
+    "lat": 37.972222,
+    "lon": 23.731667,
+    "wikiTitle": "Hellenic Children's Museum"
+  },
+  {
+    "id": "w-en/17755791",
+    "name": "Temple of Apollo Patroos",
+    "category": "temple",
+    "lat": 37.975542,
+    "lon": 23.722099,
+    "wikiTitle": "Temple of Apollo Patroos"
+  },
+  {
+    "id": "w-en/36173552",
+    "name": "Church of the Pantanassa, Athens",
+    "category": "church",
+    "lat": 37.9765,
+    "lon": 23.7261,
+    "wikiTitle": "Church of the Pantanassa, Athens"
+  },
+  {
+    "id": "w-en/9372378",
+    "name": "Metropolitan Cathedral of Athens",
+    "category": "church",
+    "lat": 37.975253,
+    "lon": 23.730158,
+    "wikiTitle": "Metropolitan Cathedral of Athens"
+  },
+  {
+    "id": "w-en/16811580",
+    "name": "Frissiras Museum",
+    "category": "museum",
+    "lat": 37.972278,
+    "lon": 23.732194,
+    "wikiTitle": "Frissiras Museum"
+  },
+  {
+    "id": "w-en/16811869",
+    "name": "Museum of Greek Folk Art",
+    "category": "museum",
+    "lat": 37.972533,
+    "lon": 23.732308,
+    "wikiTitle": "Museum of Greek Folk Art"
+  },
+  {
+    "id": "w-en/10499343",
+    "name": "Church of Panagia Kapnikarea",
+    "category": "church",
+    "lat": 37.9763,
+    "lon": 23.7286,
+    "wikiTitle": "Church of Panagia Kapnikarea"
+  },
+  {
+    "id": "w-en/19751525",
+    "name": "Philopappos Monument",
+    "category": "monument",
+    "lat": 37.967427,
+    "lon": 23.721183,
+    "wikiTitle": "Philopappos Monument"
+  },
+  {
+    "id": "w-en/79661080",
+    "name": "Church of Saint-Pierre-aux-Bœufs, Paris",
+    "category": "church",
+    "lat": 48.853889,
+    "lon": 2.348889,
+    "wikiTitle": "Church of Saint-Pierre-aux-Bœufs, Paris"
+  },
+  {
+    "id": "w-en/67691325",
+    "name": "Church of Saint-Jean-le-Rond, Paris",
+    "category": "church",
+    "lat": 48.8535,
+    "lon": 2.349,
+    "wikiTitle": "Church of Saint-Jean-le-Rond, Paris"
+  },
+  {
+    "id": "w-en/67654380",
+    "name": "Cathedral of Saint Étienne, Paris",
+    "category": "church",
+    "lat": 48.8534,
+    "lon": 2.3488,
+    "wikiTitle": "Cathedral of Saint Étienne, Paris"
+  },
+  {
+    "id": "w-en/66426232",
+    "name": "Archbishop's Palace of Paris",
+    "category": "palace",
+    "lat": 48.852572,
+    "lon": 2.349591,
+    "wikiTitle": "Archbishop's Palace of Paris"
+  },
+  {
+    "id": "w-en/32742186",
+    "name": "Church of el Carmen (Madrid)",
+    "category": "church",
+    "lat": 40.418244,
+    "lon": -3.704045,
+    "wikiTitle": "Church of el Carmen (Madrid)"
+  },
+  {
+    "id": "w-en/23213031",
+    "name": "Santa Cruz Palace, Madrid",
+    "category": "palace",
+    "lat": 40.4146,
+    "lon": -3.706,
+    "wikiTitle": "Santa Cruz Palace, Madrid"
+  },
+  {
+    "id": "w-en/64658823",
+    "name": "Monument to Federico García Lorca",
+    "category": "monument",
+    "lat": 40.414756,
+    "lon": -3.700511,
+    "wikiTitle": "Monument to Federico García Lorca"
+  },
+  {
+    "id": "w-en/32707312",
+    "name": "Palace of marqués de Miraflores",
+    "category": "palace",
+    "lat": 40.416635,
+    "lon": -3.699134,
+    "wikiTitle": "Palace of marqués de Miraflores"
+  },
+  {
+    "id": "w-en/23291827",
+    "name": "St Sebastian's Church, Madrid",
+    "category": "church",
+    "lat": 40.4137,
+    "lon": -3.7014,
+    "wikiTitle": "St Sebastian's Church, Madrid"
+  },
+  {
+    "id": "w-en/32707244",
+    "name": "Church of las Calatravas (Madrid)",
+    "category": "church",
+    "lat": 40.418236,
+    "lon": -3.69908,
+    "wikiTitle": "Church of las Calatravas (Madrid)"
+  },
+  {
+    "id": "w-en/64650327",
+    "name": "Monument to Mendizábal (Madrid)",
+    "category": "monument",
+    "lat": 40.412368,
+    "lon": -3.704239,
+    "wikiTitle": "Monument to Mendizábal (Madrid)"
+  },
+  {
+    "id": "w-en/32714757",
+    "name": "Monastery of Corpus Christi las Carboneras",
+    "category": "monastery",
+    "lat": 40.414798,
+    "lon": -3.709825,
+    "wikiTitle": "Monastery of Corpus Christi las Carboneras"
+  },
+  {
+    "id": "w-en/32705494",
+    "name": "House-Museum of Lope de Vega",
+    "category": "museum",
+    "lat": 40.414338,
+    "lon": -3.697664,
+    "wikiTitle": "House-Museum of Lope de Vega"
+  },
+  {
+    "id": "w-en/64689880",
+    "name": "Monument to Álvaro de Bazán (Madrid)",
+    "category": "monument",
+    "lat": 40.41512,
+    "lon": -3.710399,
+    "wikiTitle": "Monument to Álvaro de Bazán (Madrid)"
+  },
+  {
+    "id": "w-en/64708027",
+    "name": "Monument to Isabella the Catholic (Granada)",
+    "category": "monument",
+    "lat": 37.175649,
+    "lon": -3.597444,
+    "wikiTitle": "Monument to Isabella the Catholic (Granada)"
+  },
+  {
+    "id": "w-en/6722777",
+    "name": "Granada Cathedral",
+    "category": "church",
+    "lat": 37.176,
+    "lon": -3.599,
+    "wikiTitle": "Granada Cathedral"
+  },
+  {
+    "id": "w-en/68008375",
+    "name": "Sephardic Museum (Granada)",
+    "category": "museum",
+    "lat": 37.1752,
+    "lon": -3.5949,
+    "wikiTitle": "Sephardic Museum (Granada)"
+  },
+  {
+    "id": "w-en/68009735",
+    "name": "Palace of the Forgotten",
+    "category": "palace",
+    "lat": 37.1785,
+    "lon": -3.5938,
+    "wikiTitle": "Palace of the Forgotten"
+  },
+  {
+    "id": "w-en/8216163",
+    "name": "Archaeological Museum of Granada",
+    "category": "archaeological_site",
+    "lat": 37.178611,
+    "lon": -3.591667,
+    "wikiTitle": "Archaeological Museum of Granada"
+  },
+  {
+    "id": "w-en/77158900",
+    "name": "Church of San Miguel Bajo",
+    "category": "church",
+    "lat": 37.181656,
+    "lon": -3.595314,
+    "wikiTitle": "Church of San Miguel Bajo"
+  },
+  {
+    "id": "w-en/6795416",
+    "name": "Palace of Charles V",
+    "category": "palace",
+    "lat": 37.176944,
+    "lon": -3.589444,
+    "wikiTitle": "Palace of Charles V"
+  },
+  {
+    "id": "w-en/67828963",
+    "name": "Granada Mosque",
+    "category": "mosque",
+    "lat": 37.181417,
+    "lon": -3.592,
+    "wikiTitle": "Granada Mosque"
+  },
+  {
+    "id": "w-en/63293296",
+    "name": "Partal Palace",
+    "category": "palace",
+    "lat": 37.17737,
+    "lon": -3.58855,
+    "wikiTitle": "Partal Palace"
+  },
+  {
+    "id": "w-en/73844592",
+    "name": "Church of San Salvador (Granada)",
+    "category": "church",
+    "lat": 37.182278,
+    "lon": -3.591306,
+    "wikiTitle": "Church of San Salvador (Granada)"
+  },
+  {
+    "id": "w-en/71492811",
+    "name": "Palace of the Convent of San Francisco",
+    "category": "palace",
+    "lat": 37.175833,
+    "lon": -3.587139,
+    "wikiTitle": "Palace of the Convent of San Francisco"
+  },
+  {
+    "id": "w-en/79912936",
+    "name": "Church of Saint Peter and Saint Paul (Granada)",
+    "category": "church",
+    "lat": 37.178611,
+    "lon": -3.586111,
+    "wikiTitle": "Church of Saint Peter and Saint Paul (Granada)"
+  },
+  {
+    "id": "w-en/214393",
+    "name": "St. Stephen's Cathedral, Vienna",
+    "category": "church",
+    "lat": 48.2085,
+    "lon": 16.373,
+    "wikiTitle": "St. Stephen's Cathedral, Vienna"
+  },
+  {
+    "id": "w-en/6518322",
+    "name": "Church of the Teutonic Order, Vienna",
+    "category": "church",
+    "lat": 48.2075,
+    "lon": 16.372778,
+    "wikiTitle": "Church of the Teutonic Order, Vienna"
+  },
+  {
+    "id": "w-en/49558009",
+    "name": "Episcopal Palace, Vienna",
+    "category": "palace",
+    "lat": 48.2092,
+    "lon": 16.3731,
+    "wikiTitle": "Episcopal Palace, Vienna"
+  },
+  {
+    "id": "w-en/15131166",
+    "name": "Franciscan Church, Vienna",
+    "category": "church",
+    "lat": 48.2061,
+    "lon": 16.3744,
+    "wikiTitle": "Franciscan Church, Vienna"
+  },
+  {
+    "id": "w-en/40786125",
+    "name": "Winter Palace of Prince Eugene",
+    "category": "palace",
+    "lat": 48.205556,
+    "lon": 16.372778,
+    "wikiTitle": "Winter Palace of Prince Eugene"
+  },
+  {
+    "id": "w-en/20786302",
+    "name": "1981 Vienna synagogue attack",
+    "category": "synagogue",
+    "lat": 48.210556,
+    "lon": 16.376944,
+    "wikiTitle": "1981 Vienna synagogue attack"
+  },
+  {
+    "id": "w-en/22359436",
+    "name": "Jewish Museum Vienna",
+    "category": "museum",
+    "lat": 48.207229,
+    "lon": 16.369017,
+    "wikiTitle": "Jewish Museum Vienna"
+  },
+  {
+    "id": "w-en/5978301",
+    "name": "Dominican Church, Vienna",
+    "category": "church",
+    "lat": 48.2088,
+    "lon": 16.3788,
+    "wikiTitle": "Dominican Church, Vienna"
+  },
+  {
+    "id": "w-en/78019076",
+    "name": "Reformed City Church of Vienna",
+    "category": "church",
+    "lat": 48.20694,
+    "lon": 16.36873,
+    "wikiTitle": "Reformed City Church of Vienna"
+  },
+  {
+    "id": "w-en/19246987",
+    "name": "Maltese Church, Vienna",
+    "category": "church",
+    "lat": 48.205,
+    "lon": 16.371111,
+    "wikiTitle": "Maltese Church, Vienna"
+  },
+  {
+    "id": "w-en/2738909",
+    "name": "St. Rupert's Church, Vienna",
+    "category": "church",
+    "lat": 48.211944,
+    "lon": 16.374444,
+    "wikiTitle": "St. Rupert's Church, Vienna"
+  },
+  {
+    "id": "w-en/3378098",
+    "name": "Capuchin Church, Vienna",
+    "category": "church",
+    "lat": 48.20555,
+    "lon": 16.36972,
+    "wikiTitle": "Capuchin Church, Vienna"
+  },
+  {
+    "id": "w-en/28724858",
+    "name": "Lutheran City Church",
+    "category": "church",
+    "lat": 48.206533,
+    "lon": 16.36848,
+    "wikiTitle": "Lutheran City Church"
+  },
+  {
+    "id": "w-en/13772397",
+    "name": "St. Anne's Church, Vienna",
+    "category": "church",
+    "lat": 48.2044,
+    "lon": 16.3716,
+    "wikiTitle": "St. Anne's Church, Vienna"
+  },
+  {
+    "id": "w-en/22362449",
+    "name": "Austrian Theatre Museum",
+    "category": "museum",
+    "lat": 48.205556,
+    "lon": 16.368333,
+    "wikiTitle": "Austrian Theatre Museum"
+  },
+  {
+    "id": "w-en/6392473",
+    "name": "Church of Saint Michael, Vienna",
+    "category": "church",
+    "lat": 48.208056,
+    "lon": 16.366944,
+    "wikiTitle": "Church of Saint Michael, Vienna"
+  },
+  {
+    "id": "w-en/12224",
+    "name": "Great Pyramid of Giza",
+    "category": "archaeological_site",
+    "lat": 29.979167,
+    "lon": 31.134167,
+    "wikiTitle": "Great Pyramid of Giza"
+  },
+  {
+    "id": "w-en/38040282",
+    "name": "Giza Solar boat museum",
+    "category": "museum",
+    "lat": 29.978056,
+    "lon": 31.134444,
+    "wikiTitle": "Giza Solar boat museum"
+  },
+  {
+    "id": "w-en/36474009",
+    "name": "Pyramid G1-d",
+    "category": "archaeological_site",
+    "lat": 29.978056,
+    "lon": 31.135806,
+    "wikiTitle": "Pyramid G1-d"
+  },
+  {
+    "id": "w-en/33863310",
+    "name": "Pyramid G1-a",
+    "category": "archaeological_site",
+    "lat": 29.978836,
+    "lon": 31.136261,
+    "wikiTitle": "Pyramid G1-a"
+  },
+  {
+    "id": "w-en/33863699",
+    "name": "Pyramid G1-b",
+    "category": "archaeological_site",
+    "lat": 29.978333,
+    "lon": 31.136111,
+    "wikiTitle": "Pyramid G1-b"
+  },
+  {
+    "id": "w-en/33894464",
+    "name": "Pyramid G1-c",
+    "category": "archaeological_site",
+    "lat": 29.97785,
+    "lon": 31.136256,
+    "wikiTitle": "Pyramid G1-c"
+  },
+  {
+    "id": "w-en/1979299",
+    "name": "Giza pyramid complex",
+    "category": "archaeological_site",
+    "lat": 29.976111,
+    "lon": 31.132778,
+    "wikiTitle": "Giza pyramid complex"
+  },
+  {
+    "id": "w-en/1942584",
+    "name": "Pyramid of Khafre",
+    "category": "archaeological_site",
+    "lat": 29.976111,
+    "lon": 31.130833,
+    "wikiTitle": "Pyramid of Khafre"
+  },
+  {
+    "id": "w-en/66858001",
+    "name": "Pyramid G2-a",
+    "category": "archaeological_site",
+    "lat": 29.97474,
+    "lon": 31.13099,
+    "wikiTitle": "Pyramid G2-a"
+  },
+  {
+    "id": "w-en/61847009",
+    "name": "Pyramid of Khentkaus I",
+    "category": "archaeological_site",
+    "lat": 29.973306,
+    "lon": 31.135361,
+    "wikiTitle": "Pyramid of Khentkaus I"
+  },
+  {
+    "id": "w-en/1970544",
+    "name": "Pyramid of Menkaure",
+    "category": "archaeological_site",
+    "lat": 29.9725,
+    "lon": 31.128333,
+    "wikiTitle": "Pyramid of Menkaure"
+  },
+  {
+    "id": "w-en/66856904",
+    "name": "Pyramid G3-a",
+    "category": "archaeological_site",
+    "lat": 29.971667,
+    "lon": 31.128333,
+    "wikiTitle": "Pyramid G3-a"
+  },
+  {
+    "id": "w-en/66856965",
+    "name": "Pyramid G3-b",
+    "category": "archaeological_site",
+    "lat": 29.971667,
+    "lon": 31.127778,
+    "wikiTitle": "Pyramid G3-b"
+  },
+  {
+    "id": "w-en/57286419",
+    "name": "Pyramid G3-c",
+    "category": "archaeological_site",
+    "lat": 29.9716,
+    "lon": 31.1273,
+    "wikiTitle": "Pyramid G3-c"
+  },
+  {
+    "id": "w-en/84482078",
+    "name": "Heit el-Ghurab (City of the Pyramid Builders)",
+    "category": "archaeological_site",
+    "lat": 29.971111,
+    "lon": 31.140556,
+    "wikiTitle": "Heit el-Ghurab (City of the Pyramid Builders)"
+  },
+  {
+    "id": "w-en/5359115",
+    "name": "Grand Egyptian Museum",
+    "category": "museum",
+    "lat": 29.995,
+    "lon": 31.1193,
+    "wikiTitle": "Grand Egyptian Museum"
+  },
+  {
+    "id": "w-en/41873307",
+    "name": "Unfinished Northern Pyramid of Zawyet El Aryan",
+    "category": "archaeological_site",
+    "lat": 29.940122,
+    "lon": 31.151556,
+    "wikiTitle": "Unfinished Northern Pyramid of Zawyet El Aryan"
+  },
+  {
+    "id": "w-en/16810361",
+    "name": "Taha Hussein Museum",
+    "category": "museum",
+    "lat": 30.0049,
+    "lon": 31.1851,
+    "wikiTitle": "Taha Hussein Museum"
+  },
+  {
+    "id": "w-en/2898810",
+    "name": "Layer Pyramid",
+    "category": "archaeological_site",
+    "lat": 29.932778,
+    "lon": 31.161111,
+    "wikiTitle": "Layer Pyramid"
+  },
+  {
+    "id": "w-en/60645629",
+    "name": "Lepsius I Pyramid",
+    "category": "archaeological_site",
+    "lat": 30.040833,
+    "lon": 31.094444,
+    "wikiTitle": "Lepsius I Pyramid"
+  },
+  {
+    "id": "w-en/3246046",
+    "name": "Pyramid of Djedefre",
+    "category": "archaeological_site",
+    "lat": 30.032222,
+    "lon": 31.074722,
+    "wikiTitle": "Pyramid of Djedefre"
+  },
+  {
+    "id": "w-en/63664945",
+    "name": "Manasterly Palace",
+    "category": "palace",
+    "lat": 30.007,
+    "lon": 31.2247,
+    "wikiTitle": "Manasterly Palace"
+  },
+  {
+    "id": "w-en/16810251",
+    "name": "Egyptian Geological Museum",
+    "category": "museum",
+    "lat": 29.9963,
+    "lon": 31.2286,
+    "wikiTitle": "Egyptian Geological Museum"
+  },
+  {
+    "id": "w-en/16810204",
+    "name": "Ahmed Shawki Museum",
+    "category": "museum",
+    "lat": 30.021389,
+    "lon": 31.2175,
+    "wikiTitle": "Ahmed Shawki Museum"
+  },
+  {
+    "id": "w-en/16810303",
+    "name": "Umm Kulthum Museum",
+    "category": "museum",
+    "lat": 30.007222,
+    "lon": 31.225278,
+    "wikiTitle": "Umm Kulthum Museum"
+  },
+  {
+    "id": "w-en/13065978",
+    "name": "Church of the Holy Virgin (Babylon El-Darag)",
+    "category": "church",
+    "lat": 30.0018,
+    "lon": 31.2308,
+    "wikiTitle": "Church of the Holy Virgin (Babylon El-Darag)"
+  },
+  {
+    "id": "w-en/55685610",
+    "name": "Siege of Babylon Fortress",
+    "category": "castle",
+    "lat": 30.0061,
+    "lon": 31.2297,
+    "wikiTitle": "Siege of Babylon Fortress"
+  },
+  {
+    "id": "w-en/12835988",
+    "name": "Babylon Fortress",
+    "category": "castle",
+    "lat": 30.006111,
+    "lon": 31.229722,
+    "wikiTitle": "Babylon Fortress"
+  },
+  {
+    "id": "w-en/12835443",
+    "name": "Hanging Church",
+    "category": "church",
+    "lat": 30.0054,
+    "lon": 31.2301,
+    "wikiTitle": "Hanging Church"
+  },
+  {
+    "id": "w-en/21305754",
+    "name": "Church of St. George (Cairo)",
+    "category": "church",
+    "lat": 30.0064,
+    "lon": 31.23006,
+    "wikiTitle": "Church of St. George (Cairo)"
+  },
+  {
+    "id": "w-en/12674700",
+    "name": "Coptic Museum",
+    "category": "museum",
+    "lat": 30.00563,
+    "lon": 31.23055,
+    "wikiTitle": "Coptic Museum"
+  },
+  {
+    "id": "w-en/11440371",
+    "name": "Ben Ezra Synagogue",
+    "category": "synagogue",
+    "lat": 30.00581,
+    "lon": 31.23097,
+    "wikiTitle": "Ben Ezra Synagogue"
+  },
+  {
+    "id": "w-en/19030942",
+    "name": "Saint Barbara Church in Coptic Cairo",
+    "category": "church",
+    "lat": 30.0057,
+    "lon": 31.2311,
+    "wikiTitle": "Saint Barbara Church in Coptic Cairo"
+  },
+  {
+    "id": "w-en/18974245",
+    "name": "Church of Saint Menas (Cairo)",
+    "category": "church",
+    "lat": 30.006389,
+    "lon": 31.231667,
+    "wikiTitle": "Church of Saint Menas (Cairo)"
+  },
+  {
+    "id": "w-en/4341677",
+    "name": "Karnak Open Air Museum",
+    "category": "museum",
+    "lat": 25.7195,
+    "lon": 32.6574,
+    "wikiTitle": "Karnak Open Air Museum"
+  },
+  {
+    "id": "w-en/2052707",
+    "name": "Temple of Amenhotep IV",
+    "category": "temple",
+    "lat": 25.7182,
+    "lon": 32.6582,
+    "wikiTitle": "Temple of Amenhotep IV"
+  },
+  {
+    "id": "w-en/8191269",
+    "name": "Temple of Ptah (Karnak)",
+    "category": "temple",
+    "lat": 25.7196,
+    "lon": 32.6597,
+    "wikiTitle": "Temple of Ptah (Karnak)"
+  },
+  {
+    "id": "w-en/8191337",
+    "name": "Temple of Khonsu",
+    "category": "temple",
+    "lat": 25.716667,
+    "lon": 32.655833,
+    "wikiTitle": "Temple of Khonsu"
+  },
+  {
+    "id": "w-en/1776608",
+    "name": "Luxor Museum",
+    "category": "museum",
+    "lat": 25.7075,
+    "lon": 32.644722,
+    "wikiTitle": "Luxor Museum"
+  },
+  {
+    "id": "w-en/918219",
+    "name": "Mummification Museum",
+    "category": "museum",
+    "lat": 25.702222,
+    "lon": 32.639722,
+    "wikiTitle": "Mummification Museum"
+  },
+  {
+    "id": "w-en/2957308",
+    "name": "Abu Haggag Mosque",
+    "category": "mosque",
+    "lat": 25.7,
+    "lon": 32.639444,
+    "wikiTitle": "Abu Haggag Mosque"
+  },
+  {
+    "id": "w-en/9527123",
+    "name": "Mortuary Temple of Seti I",
+    "category": "temple",
+    "lat": 25.732778,
+    "lon": 32.628056,
+    "wikiTitle": "Mortuary Temple of Seti I"
+  },
+  {
+    "id": "w-"Pyramid of Nubkheperre Intef",
+    "category": "archaeological_site",
+    "lat": 25.737043,
+    "lon": 32.624022,
+    "wikiTitle": "Pyramid of Nubkheperre Intef"
+  },
+  {
+    "id": "w-en/83172007",
+    "name": "Mortuary temple of Thutmose I",
+    "category": "temple",
+    "lat": 25.730278,
+    "lon": 32.615278,
+    "wikiTitle": "Mortuary temple of Thutmose I"
+  },
+  {
+    "id": "w-en/3255630",
+    "name": "Mortuary Temple of Amenhotep III",
+    "category": "temple",
+    "lat": 25.721,
+    "lon": 32.61,
+    "wikiTitle": "Mortuary Temple of Amenhotep III"
+  },
+  {
+    "id": "w-en/15496978",
+    "name": "TT33 (tomb)",
+    "category": "tomb",
+    "lat": 25.7346,
+    "lon": 32.6122,
+    "wikiTitle": "TT33 (tomb)"
+  },
+  {
+    "id": "w-en/83110974",
+    "name": "Mortuary Temple of Merneptah",
+    "category": "temple",
+    "lat": 25.725002,
+    "lon": 32.606572,
+    "wikiTitle": "Mortuary Temple of Merneptah"
+  },
+  {
+    "id": "w-en/16429736",
+    "name": "Monastery of Saint Epiphanius",
+    "category": "monastery",
+    "lat": 25.734167,
+    "lon": 32.608333,
+    "wikiTitle": "Monastery of Saint Epiphanius"
+  },
+  {
+    "id": "w-en/12936708",
+    "name": "Mortuary temple of Hatshepsut",
+    "category": "temple",
+    "lat": 25.738278,
+    "lon": 32.606583,
+    "wikiTitle": "Mortuary temple of Hatshepsut"
+  },
+  {
+    "id": "w-en/33862680",
+    "name": "Temple of Montu (Medamud)",
+    "category": "temple",
+    "lat": 25.734239,
+    "lon": 32.710172,
+    "wikiTitle": "Temple of Montu (Medamud)"
+  },
+  {
+    "id": "w-en/83158790",
+    "name": "Mortuary Temple of Ay and Horemheb",
+    "category": "temple",
+    "lat": 25.721796,
+    "lon": 32.601201,
+    "wikiTitle": "Mortuary Temple of Ay and Horemheb"
+  },
+  {
+    "id": "w-en/79227863",
+    "name": "Tomb of Wah",
+    "category": "tomb",
+    "lat": 25.735311,
+    "lon": 32.60404,
+    "wikiTitle": "Tomb of Wah"
+  },
+  {
+    "id": "w-en/17377615",
+    "name": "Tomb of Kha and Merit",
+    "category": "tomb",
+    "lat": 25.729039,
+    "lon": 32.600639,
+    "wikiTitle": "Tomb of Kha and Merit"
+  },
+  {
+    "id": "w-en/83256894",
+    "name": "Mortuary Temple of Mentuhotep III",
+    "category": "temple",
+    "lat": 25.73375,
+    "lon": 32.601639,
+    "wikiTitle": "Mortuary Temple of Mentuhotep III"
+  },
+  {
+    "id": "w-en/60762579",
+    "name": "Great Temple (Petra)",
+    "category": "temple",
+    "lat": 30.3288,
+    "lon": 35.4423,
+    "wikiTitle": "Great Temple (Petra)"
+  },
+  {
+    "id": "w-en/60756571",
+    "name": "Temple of the Winged Lions",
+    "category": "temple",
+    "lat": 30.33036,
+    "lon": 35.44254,
+    "wikiTitle": "Temple of the Winged Lions"
+  },
+  {
+    "id": "w-en/64267482",
+    "name": "Wu'ayra Castle",
+    "category": "castle",
+    "lat": 30.333056,
+    "lon": 35.465833,
+    "wikiTitle": "Wu'ayra Castle"
+  },
+  {
+    "id": "w-en/66506675",
+    "name": "Old Petra Museum",
+    "category": "museum",
+    "lat": 30.3246,
+    "lon": 35.46797,
+    "wikiTitle": "Old Petra Museum"
+  },
+  {
+    "id": "w-en/18411283",
+    "name": "Tomb of Aaron (Jordan)",
+    "category": "tomb",
+    "lat": 30.31697,
+    "lon": 35.40636,
+    "wikiTitle": "Tomb of Aaron (Jordan)"
+  },
+  {
+    "id": "w-en/31296552",
+    "name": "Beidha (archaeological site)",
+    "category": "archaeological_site",
+    "lat": 30.37078,
+    "lon": 35.447756,
+    "wikiTitle": "Beidha (archaeological site)"
+  },
+  {
+    "id": "w-en/34787313",
+    "name": "Tomb of Darius the Great",
+    "category": "tomb",
+    "lat": 29.988889,
+    "lon": 52.874722,
+    "wikiTitle": "Tomb of Darius the Great"
+  },
+  {
+    "id": "w-en/83265927",
+    "name": "Tomb of Sirhindi Begum",
+    "category": "tomb",
+    "lat": 27.175612,
+    "lon": 78.044128,
+    "wikiTitle": "Tomb of Sirhindi Begum"
+  },
+  {
+    "id": "w-en/83278404",
+    "name": "Tomb of Fatehpuri Begum",
+    "category": "tomb",
+    "lat": 27.17069,
+    "lon": 78.04074,
+    "wikiTitle": "Tomb of Fatehpuri Begum"
+  },
+  {
+    "id": "w-en/21504167",
+    "name": "Humayun Mosque",
+    "category": "mosque",
+    "lat": 27.182497,
+    "lon": 78.039401,
+    "wikiTitle": "Humayun Mosque"
+  },
+  {
+    "id": "w-en/20694995",
+    "name": "Mina Mosque",
+    "category": "mosque",
+    "lat": 27.178833,
+    "lon": 78.022944,
+    "wikiTitle": "Mina Mosque"
+  },
+  {
+    "id": "w-en/19552420",
+    "name": "Jama Mosque, Agra",
+    "category": "mosque",
+    "lat": 27.182056,
+    "lon": 78.016194,
+    "wikiTitle": "Jama Mosque, Agra"
+  },
+  {
+    "id": "w-en/54390754",
+    "name": "Akbar's Church",
+    "category": "church",
+    "lat": 27.197342,
+    "lon": 78.010397,
+    "wikiTitle": "Akbar's Church"
+  },
+  {
+    "id": "w-en/75136322",
+    "name": "Tomb of Firoz Khan",
+    "category": "tomb",
+    "lat": 27.1379,
+    "lon": 78.002,
+    "wikiTitle": "Tomb of Firoz Khan"
+  },
+  {
+    "id": "w-en/68144438",
+    "name": "Preah Norodom Sihanouk-Angkor Museum",
+    "category": "museum",
+    "lat": 13.382114,
+    "lon": 103.88079,
+    "wikiTitle": "Preah Norodom Sihanouk-Angkor Museum"
+  },
+  {
+    "id": "w-en/55301503",
+    "name": "The Royal Palace, Angkor Thom",
+    "category": "palace",
+    "lat": 13.445556,
+    "lon": 103.855833,
+    "wikiTitle": "The Royal Palace, Angkor Thom"
+  },
+  {
+    "id": "w-en/70100022",
+    "name": "Angkor Panorama Museum",
+    "category": "museum",
+    "lat": 13.377594,
+    "lon": 103.88065,
+    "wikiTitle": "Angkor Panorama Museum"
+  },
+  {
+    "id": "w-en/70283604",
+    "name": "MGC Asian Traditional Textiles Museum",
+    "category": "museum",
+    "lat": 13.375373,
+    "lon": 103.880242,
+    "wikiTitle": "MGC Asian Traditional Textiles Museum"
+  },
+  {
+    "id": "w-en/40852905",
+    "name": "Angkor National Museum",
+    "category": "museum",
+    "lat": 13.3666,
+    "lon": 103.8599,
+    "wikiTitle": "Angkor National Museum"
+  },
+  {
+    "id": "w-en/73241351",
+    "name": "Palace of Prolonging Happiness",
+    "category": "palace",
+    "lat": 39.91887,
+    "lon": 116.39241,
+    "wikiTitle": "Palace of Prolonging Happiness"
+  },
+  {
+    "id": "w-en/341991",
+    "name": "Palace Museum",
+    "category": "palace",
+    "lat": 39.916944,
+    "lon": 116.390833,
+    "wikiTitle": "Palace Museum"
+  },
+  {
+    "id": "w-en/4790556",
+    "name": "Palace of Heavenly Purity",
+    "category": "palace",
+    "lat": 39.91877,
+    "lon": 116.39075,
+    "wikiTitle": "Palace of Heavenly Purity"
+  },
+  {
+    "id": "w-en/12819617",
+    "name": "Palace of Earthly Tranquility",
+    "category": "palace",
+    "lat": 39.919389,
+    "lon": 116.390472,
+    "wikiTitle": "Palace of Earthly Tranquility"
+  },
+  {
+    "id": "w-en/64946060",
+    "name": "Palace of Eternal Longevity",
+    "category": "palace",
+    "lat": 39.91886,
+    "lon": 116.38959,
+    "wikiTitle": "Palace of Eternal Longevity"
+  },
+  {
+    "id": "w-en/65470748",
+    "name": "Palace of Earthly Honour",
+    "category": "palace",
+    "lat": 39.9193,
+    "lon": 116.3896,
+    "wikiTitle": "Palace of Earthly Honour"
+  },
+  {
+    "id": "w-en/19135274",
+    "name": "St. Joseph's Church, Beijing",
+    "category": "church",
+    "lat": 39.915833,
+    "lon": 116.405833,
+    "wikiTitle": "St. Joseph's Church, Beijing"
+  },
+  {
+    "id": "w-en/15998626",
+    "name": "Imperial Ancestral Temple",
+    "category": "temple",
+    "lat": 39.909964,
+    "lon": 116.393542,
+    "wikiTitle": "Imperial Ancestral Temple"
+  },
+  {
+    "id": "w-en/65469974",
+    "name": "Palace of Eternal Spring",
+    "category": "palace",
+    "lat": 39.9193,
+    "lon": 116.3889,
+    "wikiTitle": "Palace of Eternal Spring"
+  },
+  {
+    "id": "w-en/65478826",
+    "name": "Palace of Universal Happiness",
+    "category": "palace",
+    "lat": 39.91976,
+    "lon": 116.38892,
+    "wikiTitle": "Palace of Universal Happiness"
+  },
+  {
+    "id": "w-en/41673736",
+    "name": "Xuanren Temple",
+    "category": "temple",
+    "lat": 39.9225,
+    "lon": 116.4031,
+    "wikiTitle": "Xuanren Temple"
+  },
+  {
+    "id": "w-en/17682025",
+    "name": "National Art Museum of China",
+    "category": "museum",
+    "lat": 39.923611,
+    "lon": 116.402778,
+    "wikiTitle": "National Art Museum of China"
+  },
+  {
+    "id": "w-en/4478888",
+    "name": "National Museum of China",
+    "category": "museum",
+    "lat": 39.9036,
+    "lon": 116.395,
+    "wikiTitle": "National Museum of China"
+  },
+  {
+    "id": "w-en/553605",
+    "name": "Monument to the People's Heroes",
+    "category": "monument",
+    "lat": 39.903056,
+    "lon": 116.391667,
+    "wikiTitle": "Monument to the People's Heroes"
+  },
+  {
+    "id": "w-en/1569098",
+    "name": "Siege of Sanjō Palace",
+    "category": "palace",
+    "lat": 35.0116,
+    "lon": 135.768,
+    "wikiTitle": "Siege of Sanjō Palace"
+  },
+  {
+    "id": "w-en/50921429",
+    "name": "St. Francis Xavier Cathedral, Kyoto",
+    "category": "church",
+    "lat": 35.0097,
+    "lon": 135.7694,
+    "wikiTitle": "St. Francis Xavier Cathedral, Kyoto"
+  },
+  {
+    "id": "w-en/61592832",
+    "name": "Museum of Kyoto",
+    "category": "museum",
+    "lat": 35.009389,
+    "lon": 135.762333,
+    "wikiTitle": "Museum of Kyoto"
+  },
+  {
+    "id": "w-en/14845316",
+    "name": "Kyoto International Manga Museum",
+    "category": "museum",
+    "lat": 35.011649,
+    "lon": 135.759243,
+    "wikiTitle": "Kyoto International Manga Museum"
+  },
+  {
+    "id": "w-en/48347851",
+    "name": "Hosomi Museum",
+    "category": "museum",
+    "lat": 35.0138,
+    "lon": 135.779649,
+    "wikiTitle": "Hosomi Museum"
+  },
+  {
+    "id": "w-en/61786599",
+    "name": "Yūrinkan Museum",
+    "category": "museum",
+    "lat": 35.011728,
+    "lon": 135.781269,
+    "wikiTitle": "Yūrinkan Museum"
+  },
+  {
+    "id": "w-en/22737744",
+    "name": "St. Agnes Cathedral (Kyoto)",
+    "category": "church",
+    "lat": 35.019778,
+    "lon": 135.759028,
+    "wikiTitle": "St. Agnes Cathedral (Kyoto)"
+  },
+  {
+    "id": "w-en/13116922",
+    "name": "Sentō Imperial Palace",
+    "category": "palace",
+    "lat": 35.023303,
+    "lon": 135.763292,
+    "wikiTitle": "Sentō Imperial Palace"
+  },
+  {
+    "id": "w-en/7107624",
+    "name": "Kyoto Municipal Museum of Art",
+    "category": "museum",
+    "lat": 35.012836,
+    "lon": 135.783569,
+    "wikiTitle": "Kyoto Municipal Museum of Art"
+  },
+  {
+    "id": "w-en/1559855",
+    "name": "Kyoto Imperial Palace",
+    "category": "palace",
+    "lat": 35.025278,
+    "lon": 135.762222,
+    "wikiTitle": "Kyoto Imperial Palace"
+  },
+  {
+    "id": "w-en/62611052",
+    "name": "Gojo Bridge",
+    "category": "bridge",
+    "lat": 34.995833,
+    "lon": 135.767778,
+    "wikiTitle": "Gojo Bridge"
+  },
+  {
+    "id": "w-en/48327945",
+    "name": "Kitamura Museum",
+    "category": "museum",
+    "lat": 35.028039,
+    "lon": 135.770411,
+    "wikiTitle": "Kitamura Museum"
+  },
+  {
+    "id": "w-en/545743",
+    "name": "Nijō Castle",
+    "category": "castle",
+    "lat": 35.014167,
+    "lon": 135.7475,
+    "wikiTitle": "Nijō Castle"
+  },
+  {
+    "id": "w-en/30373594",
+    "name": "Ryozen Museum of History",
+    "category": "museum",
+    "lat": 34.998944,
+    "lon": 135.782639,
+    "wikiTitle": "Ryozen Museum of History"
+  },
+  {
+    "id": "w-en/44117289",
+    "name": "Belmond Sanctuary Lodge",
+    "category": "temple",
+    "lat": -13.166,
+    "lon": -72.5429,
+    "wikiTitle": "Belmond Sanctuary Lodge"
+  },
+  {
+    "id": "w-en/3803107",
+    "name": "Temple of the Moon (Peru)",
+    "category": "temple",
+    "lat": -13.152161,
+    "lon": -72.546944,
+    "wikiTitle": "Temple of the Moon (Peru)"
+  },
+  {
+    "id": "w-en/77607423",
+    "name": "Historic Sanctuary of Machu Picchu",
+    "category": "temple",
+    "lat": -13.202778,
+    "lon": -72.555278,
+    "wikiTitle": "Historic Sanctuary of Machu Picchu"
+  },
+  {
+    "id": "w-en/59158122",
+    "name": "Monument to Enrico Martínez",
+    "category": "monument",
+    "lat": 19.433944,
+    "lon": -99.133861,
+    "wikiTitle": "Monument to Enrico Martínez"
+  },
+  {
+    "id": "w-en/59158276",
+    "name": "Statue of Pope John Paul II (Mexico City Metropolitan Cathedral)",
+    "category": "church",
+    "lat": 19.434306,
+    "lon": -99.133722,
+    "wikiTitle": "Statue of Pope John Paul II (Mexico City Metropolitan Cathedral)"
+  },
+  {
+    "id": "w-en/5302839",
+    "name": "Mexico City Metropolitan Cathedral",
+    "category": "church",
+    "lat": 19.434394,
+    "lon": -99.133082,
+    "wikiTitle": "Mexico City Metropolitan Cathedral"
+  },
+  {
+    "id": "w-en/79868445",
+    "name": "Palace of Axayacatl",
+    "category": "palace",
+    "lat": 19.43435,
+    "lon": -99.134083,
+    "wikiTitle": "Palace of Axayacatl"
+  },
+  {
+    "id": "w-en/84525313",
+    "name": "Palace of the Counts of San Bartolomé de Xala",
+    "category": "palace",
+    "lat": 19.43107,
+    "lon": -99.13535,
+    "wikiTitle": "Palace of the Counts of San Bartolomé de Xala"
+  },
+  {
+    "id": "w-en/621357",
+    "name": "Massacre in the Great Temple of Tenochtitlan",
+    "category": "temple",
+    "lat": 19.435,
+    "lon": -99.1314,
+    "wikiTitle": "Massacre in the Great Temple of Tenochtitlan"
+  },
+  {
+    "id": "w-en/22486471",
+    "name": "Caricature Museum, Mexico City",
+    "category": "museum",
+    "lat": 19.435639,
+    "lon": -99.132722,
+    "wikiTitle": "Caricature Museum, Mexico City"
+  },
+  {
+    "id": "w-en/23893776",
+    "name": "Church of San Felipe Neri \"La Profesa\"",
+    "category": "church",
+    "lat": 19.433733,
+    "lon": -99.136547,
+    "wikiTitle": "Church of San Felipe Neri \"La Profesa\""
+  },
+  {
+    "id": "w-en/22416100",
+    "name": "La Enseñanza Church",
+    "category": "church",
+    "lat": 19.436097,
+    "lon": -99.132225,
+    "wikiTitle": "La Enseñanza Church"
+  },
+  {
+    "id": "w-en/60713710",
+    "name": "Church of Santa Inés",
+    "category": "church",
+    "lat": 19.433417,
+    "lon": -99.129083,
+    "wikiTitle": "Church of Santa Inés"
+  },
+  {
+    "id": "w-en/22190866",
+    "name": "José Luis Cuevas Museum",
+    "category": "museum",
+    "lat": 19.433653,
+    "lon": -99.128983,
+    "wikiTitle": "José Luis Cuevas Museum"
+  },
+  {
+    "id": "w-en/24695027",
+    "name": "Valvanera Cathedral, Mexico City",
+    "category": "church",
+    "lat": 19.429408,
+    "lon": -99.130433,
+    "wikiTitle": "Valvanera Cathedral, Mexico City"
+  },
+  {
+    "id": "w-en/22915889",
+    "name": "Palace of the Inquisition",
+    "category": "palace",
+    "lat": 19.437872,
+    "lon": -99.133383,
+    "wikiTitle": "Palace of the Inquisition"
+  },
+  {
+    "id": "w-en/51590655",
+    "name": "Historic Synagogue Justo Sierra 71",
+    "category": "synagogue",
+    "lat": 19.435139,
+    "lon": -99.128194,
+    "wikiTitle": "Historic Synagogue Justo Sierra 71"
+  },
+  {
+    "id": "w-en/22108807",
+    "name": "Palace of Iturbide",
+    "category": "palace",
+    "lat": 19.433764,
+    "lon": -99.138867,
+    "wikiTitle": "Palace of Iturbide"
+  },
+  {
+    "id": "w-en/26417852",
+    "name": "Interactive Museum of Economics",
+    "category": "museum",
+    "lat": 19.435417,
+    "lon": -99.138417,
+    "wikiTitle": "Interactive Museum of Economics"
+  },
+  {
+    "id": "w-en/22365837",
+    "name": "La Santísima Church",
+    "category": "church",
+    "lat": 19.433158,
+    "lon": -99.126861,
+    "wikiTitle": "La Santísima Church"
+  },
+  {
+    "id": "w-en/22636279",
+    "name": "Nuestra Señora de Loreto Church",
+    "category": "church",
+    "lat": 19.436303,
+    "lon": -99.127644,
+    "wikiTitle": "Nuestra Señora de Loreto Church"
+  },
+  {
+    "id": "w-en/52413353",
+    "name": "Porta Coeli Cathedral",
+    "category": "church",
+    "lat": 19.43345,
+    "lon": -99.140197,
+    "wikiTitle": "Porta Coeli Cathedral"
+  }
+];

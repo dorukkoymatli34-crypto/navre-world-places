@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>NAVRE — Tarihi Keşif Haritası</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <style>
+    :root {
+      --bg-base: #0B0D12;
+      --bg-surface: rgba(18, 22, 31, 0.86);
+      --bg-surface-solid: #131722;
+      --bg-card: rgba(255, 255, 255, 0.045);
+      --bg-card-hover: rgba(255, 255, 255, 0.085);
+      --border-subtle: rgba(255, 255, 255, 0.10);
+      --border-accent: rgba(229, 169, 60, 0.45);
+      --text-primary: #F5F7FA;
+      --text-secondary: #9AA4B5;
+      --accent: #E5A93C;
+      --accent-soft: rgba(229, 169, 60, 0.16);
+      --accent-glow: rgba(229, 169, 60, 0.38);
+      --accent-contrast: #0B0D12;
+      --user-dot: #3B82F6;
+      --user-pulse: rgba(59, 130, 246, 0.45);
+      --shadow-elevated: 0 18px 48px rgba(0, 0, 0, 0.55);
+      --ease-luxury: cubic-bezier(0.22, 1, 0.36, 1);
+      --safe-top: env(safe-area-inset-top, 16px);
+      --safe-bottom: env(safe-area-inset-bottom, 16px);
+    }
+
+    body.light-mode {
+      --bg-base: #F6F4EF;
+      --bg-surface: rgba(250, 248, 243, 0.88);
+      --bg-surface-solid: #FAF8F3;
+      --bg-card: rgba(30, 58, 95, 0.045);
+      --bg-card-hover: rgba(30, 58, 95, 0.085);
+      --border-subtle: rgba(30, 58, 95, 0.12);
+      --border-accent: rgba(30, 58, 95, 0.38);
+      --text-primary: #141B29;
+      --text-secondary: #4B566B;
+      --accent: #1E3A5F;
+      --accent-soft: rgba(30, 58, 95, 0.12);
+      --accent-glow: rgba(30, 58, 95, 0.28);
+      --accent-contrast: #FAF8F3;
+      --user-dot: #1E3A5F;
+      --user-pulse: rgba(30, 58, 95, 0.35);
+      --shadow-elevated: 0 18px 44px rgba(20, 27, 41, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #050608;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text-primary);
+    }
+
+    #app-shell {
+      position: relative;
+      width: 100%;
+      max-width: 480px;
+      height: 100dvh;
+      margin: 0 auto;
+      background: var(--bg-base);
+      overflow: hidden;
+      transition: background-color 0.3s var(--ease-luxury), color 0.3s var(--ease-luxury);
+      box-shadow: 0 0 80px rgba(0, 0, 0, 0.65);
+    }
+
+    @media (min-width: 520px) {
+      #app-shell {
+        height: 94dvh;
+        margin-top: 3dvh;
+        border-radius: 34px;
+        border: 1px solid var(--border-subtle);
+      }
+    }
+
+    .screen {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(6px);
+      transition: opacity 0.26s var(--ease-luxury), transform 0.26s var(--ease-luxury);
+    }
+
+    .screen.active {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: var(--bg-base);
+    }
+
+    .leaflet-control-attribution,
+    .leaflet-control-zoom {
+      display: none !important;
+    }
+
+    .glass {
+      background: var(--bg-surface);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-elevated);
+      transition: background-color 0.3s var(--ease-luxury), border-color 0.3s var(--ease-luxury);
+    }
+
+    .top-hud {
+      position: absolute;
+      top: calc(var(--safe-top) + 10px);
+      left: 16px;
+      right: 16px;
+      z-index: 500;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      pointer-events: none;
+    }
+
+    .brand-pill {
+      pointer-events: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+    }
+
+    .brand-logo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+    }
+
+    .radius-tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid var(--border-accent);
+    }
+
+    .hud-actions {
+      pointer-events: auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .icon-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-primary);
+      cursor: pointer;
+      transition: transform 0.2s var(--ease-luxury), background-color 0.25s var(--ease-luxury);
+    }
+
+    .icon-btn:active {
+      transform: scale(0.92);
+    }
+
+    .icon-btn.battery-active {
+      color: #22C55E;
+      border-color: rgba(34, 197, 94, 0.45);
+    }
+
+    .user-marker-wrap {
+      position: relative;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .user-pulse-ring {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--user-pulse);
+      animation: breathePulse 2.8s var(--ease-luxury) infinite;
+    }
+
+    body.battery-saver .user-pulse-ring {
+      animation: none;
+      transform: scale(1.65);
+      opacity: 0.28;
+    }
+
+    .user-core-dot {
+      position: relative;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--user-dot);
+      border: 2.5px solid #FFFFFF;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+    }
+
+    @keyframes breathePulse {
+      0% { transform: scale(1); opacity: 0.55; }
+      75% { transform: scale(2.35); opacity: 0; }
+      100% { transform: scale(2.35); opacity: 0; }
+    }
+
+    .historic-pin {
+      width: 32px;
+      height: 32px;
+      border-radius: 50% 50% 50% 4px;
+      transform: rotate(-45deg) scale(1);
+      background: var(--bg-surface-solid);
+      border: 1.5px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 14px rgba(0, 0, 0, 0.42);
+      transition: transform 0.22s var(--ease-luxury), box-shadow 0.22s var(--ease-luxury), background-color 0.22s var(--ease-luxury);
+    }
+
+    body.zoom-far .historic-pin {
+      width: 22px;
+      height: 22px;
+      border-width: 1.25px;
+    }
+
+    .historic-pin.selected {
+      background: var(--accent);
+      transform: rotate(-45deg) scale(1.24);
+      box-shadow: 0 0 0 6px var(--accent-soft), 0 10px 24px var(--accent-glow);
+      z-index: 900 !important;
+    }
+
+    .historic-pin svg {
+      transform: rotate(45deg);
+      width: 14px;
+      height: 14px;
+      color: var(--accent);
+      transition: color 0.22s var(--ease-luxury);
+    }
+
+    body.zoom-far .historic-pin svg {
+      width: 10px;
+      height: 10px;
+    }
+
+    .historic-pin.selected svg {
+      color: var(--accent-contrast);
+    }
+
+    #nearby-drawer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 76%;
+      z-index: 600;
+      border-radius: 26px 26px 0 0;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: calc(82px + var(--safe-bottom));
+      transform: translateY(58%);
+      transition: transform 0.36s var(--ease-luxury), background-color 0.3s var(--ease-luxury);
+      will-change: transform;
+    }
+
+    #nearby-drawer.dragging {
+      transition: none;
+    }
+
+    .drawer-handle-area {
+      padding: 10px 20px 12px;
+      cursor: grab;
+      touch-action: none;
+    }
+
+    .drawer-pill {
+      width: 38px;
+      height: 4px;
+      border-radius: 999px;
+      background: var(--border-subtle);
+      margin: 0 auto 12px;
+    }
+
+    .drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .drawer-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .drawer-count {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    #nearby-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 4px 16px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overscroll-behavior: contain;
+    }
+
+    #nearby-list::-webkit-scrollbar {
+      width: 0;
+    }
+
+    .place-row {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      cursor: pointer;
+      animation: fadeSlideUp 0.24s var(--ease-luxury) both;
+      transition: transform 0.18s var(--ease-luxury), background-color 0.2s var(--ease-luxury);
+    }
+
+    .place-row:active {
+      transform: scale(0.982);
+      background: var(--bg-card-hover);
+    }
+
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .place-cat-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .place-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .place-name {
+      font-size: 14.5px;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 3px;
+    }
+
+    .place-sub {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .place-distance {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--accent);
+      padding: 5px 10px;
+      border-radius: 10px;
+      background: var(--bg-surface-solid);
+      border: 1px solid var(--border-subtle);
+      flex-shrink: 0;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 28px 16px;
+      color: var(--text-secondary);
+      font-size: 13.5px;
+      line-height: 1.55;
+    }
+
+    #detail-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.48);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 750;
+      transition: opacity 0.3s var(--ease-luxury);
+    }
+
+    #detail-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    #place-detail-sheet {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      max-height: 82%;
+      z-index: 800;
+      border-radius: 28px 28px 0 0;
+      background: var(--bg-surface-solid);
+      border-top: 1px solid var(--border-subtle);
+      box-shadow: 0 -20px 60px rgba(0, 0, 0, 0.55);
+      transform: translateY(105%);
+      transition: transform 0.34s var(--ease-luxury), background-color 0.3s var(--ease-luxury);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #place-detail-sheet.open {
+      transform: translateY(0);
+    }
+
+    .detail-hero {
+      position: relative;
+      height: 176px;
+      background: linear-gradient(135deg, rgba(229, 169, 60, 0.20), rgba(30, 58, 95, 0.36));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .detail-hero img {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.35s var(--ease-luxury);
+    }
+
+    .detail-hero img.loaded {
+      opacity: 1;
+    }
+
+    .detail-fallback-card {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--accent);
+      padding: 16px;
+      text-align: center;
+    }
+
+    .detail-fallback-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+    }
+
+    .detail-hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      background: linear-gradient(to top, var(--bg-surface-solid) 6%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .close-detail-btn {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+      backdrop-filter: blur(12px);
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .detail-body {
+      padding: 0 20px calc(24px + var(--safe-bottom));
+      overflow-y: auto;
+    }
+
+    .detail-badges {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .detail-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+
+    .detail-summary {
+      font-size: 14px;
+      line-height: 1.65;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .stage2-banner {
+      padding: 14px;
+      border-radius: 16px;
+      background: var(--bg-card);
+      border: 1px dashed var(--border-accent);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+    }
+
+    .page-container {
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      padding: calc(var(--safe-top) + 20px) 20px calc(105px + var(--safe-bottom));
+    }
+
+    .page-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .page-subtitle {
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    .settings-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 16px;
+      margin-bottom: 14px;
+    }
+
+    .settings-label {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .settings-desc {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      line-height: 1.45;
+    }
+
+    .chip-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .chip-btn {
+      padding: 10px 8px;
+      border-radius: 12px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-surface-solid);
+      color: var(--text-primary);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s var(--ease-luxury);
+    }
+
+    .chip-btn.active {
+      background: var(--accent);
+      color: var(--accent-contrast);
+      border-color: var(--accent);
+    }
+
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .switch {
+      position: relative;
+      width: 50px;
+      height: 28px;
+      border-radius: 999px;
+      background: var(--border-subtle);
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: background-color 0.25s var(--ease-luxury);
+    }
+
+    .switch.on {
+      background: var(--accent);
+    }
+
+    .switch-knob {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+      transition: transform 0.25s var(--ease-luxury);
+    }
+
+    .switch.on .switch-knob {
+      transform: translateX(22px);
+    }
+
+    .bottom-nav-wrap {
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: calc(12px + var(--safe-bottom));
+      z-index: 700;
+      border-radius: 999px;
+      padding: 6px;
+    }
+
+    .bottom-nav {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+    }
+
+    #nav-pill {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 33.333%;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      border: 1px solid var(--border-accent);
+      transition: transform 0.26s var(--ease-luxury);
+      pointer-events: none;
+    }
+
+    .nav-item {
+      position: relative;
+      z-index: 2;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: color 0.22s var(--ease-luxury);
+    }
+
+    .nav-item.active {
+      color: var(--accent);
+    }
+
+    html[dir="rtl"] .historic-pin {
+      transform: rotate(45deg) scale(1);
+    }
+    html[dir="rtl"] .historic-pin.selected {
+      transform: rotate(45deg) scale(1.24);
+    }
+    html[dir="rtl"] .historic-pin svg {
+      transform: rotate(-45deg);
+    }
+  </style>
+</head>
+<body>
+  <div id="app-shell">
+    <section id="screen-explore" class="screen active">
+      <div id="map"></div>
+
+      <div class="top-hud">
+        <div class="brand-pill glass">
+          <span class="brand-logo">NAVRE</span>
+          <span id="hud-radius-badge" class="radius-tag">2 km</span>
+        </div>
+
+        <div class="hud-actions">
+          <button id="btn-battery-quick" class="icon-btn glass" title="Pil Sağlığı Modu" aria-label="Pil Sağlığı Modu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect>
+              <line x1="22" y1="11" x2="22" y2="13"></line>
+              <path d="M10 10l-2 2h3l-1 2"></path>
+            </svg>
+          </button>
+          <button id="btn-locate-me" class="icon-btn glass" title="Konumuma Odaklan" aria-label="Konumuma Odaklan">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="nearby-drawer" class="glass">
+        <div id="drawer-handle" class="drawer-handle-area">
+          <div class="drawer-pill"></div>
+          <div class="drawer-header">
+            <span id="drawer-title-text" class="drawer-title">Yakınımdakiler</span>
+            <span id="drawer-count-badge" class="drawer-count">0 yer</span>
+          </div>
+        </div>
+        <div id="nearby-list"></div>
+      </div>
+    </section>
+
+    <section id="screen-ai" class="screen">
+      <div class="page-container">
+        <h1 id="ai-page-title" class="page-title">NAVRE AI Rehber</h1>
+        <p id="ai-page-sub" class="page-subtitle">Tarih, mimari ve kültürel miras asistanı 2. Aşamada bu ekrana bağlanacak.</p>
+        <div class="settings-card">
+          <div class="settings-label" id="ai-ready-title">Altyapı Hazır</div>
+          <div class="settings-desc" id="ai-ready-desc">
+            Keşfet sekmesinde herhangi bir tarihi esere dokunduğunda mekân bağlamı bu asistana otomatik aktarılacak şekilde yapılandırıldı.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-settings" class="screen">
+      <div class="page-container">
+        <h1 id="settings-page-title" class="page-title">Ayarlar</h1>
+        <p id="settings-page-sub" class="page-subtitle">Keşif yarıçapını, görünümü ve pil korumasını özelleştirin.</p>
+
+        <div class="settings-card">
+          <div id="lbl-radius" class="settings-label">Yakınımdakiler Yarıçapı</div>
+          <div id="desc-radius" class="settings-desc">Çekmecede listelenecek tarihi eserlerin maksimum uzaklığı.</div>
+          <div id="radius-chips" class="chip-grid"></div>
+        </div>
+
+        <div class="settings-card">
+          <div class="toggle-row">
+            <div>
+              <div id="lbl-theme" class="settings-label">Açık Mod (Light Mode)</div>
+              <div id="desc-theme" class="settings-desc">Harita karolarını ve arayüzü gündüz görünümüne geçirir.</div>
+            </div>
+            <div id="toggle-theme" class="switch" role="switch" aria-checked="false">
+              <div class="switch-knob"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-card">
+          <div class="toggle-row">
+            <div>
+              <div id="lbl-battery" class="settings-label">Pil Sağlığı Modu</div>
+              <div id="desc-battery" class="settings-desc">GPS sıklığını optimize eder ve sürekli arka plan döngü animasyonlarını sadeleştirir.</div>
+            </div>
+            <div id="toggle-battery" class="switch" role="switch" aria-checked="false">
+              <div class="switch-knob"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-card">
+          <div class="toggle-row">
+            <div>
+              <div id="lbl-demo" class="settings-label">Demo / Sunum Güvenlik Modu</div>
+              <div id="desc-demo" class="settings-desc">Ağ yavaşlarsa önbellek verileriyle kesintisiz çalışır.</div>
+            </div>
+            <div id="toggle-demo" class="switch on" role="switch" aria-checked="true">
+              <div class="switch-knob"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-card">
+          <div id="lbl-lang" class="settings-label">Uygulama Dili & Seslendirmen</div>
+          <div id="desc-lang" class="settings-desc">Arayüz, AI metin üretimi ve sinirsel seslendirmen dilini seçin.</div>
+          <div id="lang-chips" class="chip-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <div id="detail-backdrop"></div>
+    <aside id="place-detail-sheet" aria-modal="true">
+      <div class="detail-hero">
+        <div id="detail-fallback-card" class="detail-fallback-card">
+          <div id="detail-fallback-icon"></div>
+          <div id="detail-fallback-label" class="detail-fallback-label">Tarihi Yapı</div>
+        </div>
+        <img id="detail-img" alt="" />
+        <div class="detail-hero-overlay"></div>
+        <button id="btn-close-detail" class="close-detail-btn" aria-label="Kapat">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="detail-body">
+        <div class="detail-badges">
+          <span id="detail-cat-badge" class="badge">Tarihi Yapı</span>
+          <span id="detail-dist-badge" class="badge">0 m</span>
+          <span id="detail-voice-badge" class="badge">Emel Neural</span>
+        </div>
+        <h2 id="detail-title" class="detail-title">Mekân Adı</h2>
+        <p id="detail-summary" class="detail-summary">Tarihi bilgiler yükleniyor...</p>
+        <div class="stage2-banner">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+          </svg>
+          <span id="stage2-note">2. Aşamada: İlk açılışta blurlu üretim animasyonu, 2 dakikalık AI belgesel anlatımı ve sinirsel ses oynatıcı buraya eklenecek.</span>
+        </div>
+      </div>
+    </aside>
+
+    <nav class="bottom-nav-wrap glass">
+      <div class="bottom-nav">
+        <div id="nav-pill"></div>
+        <div class="nav-item active" data-tab="0" data-screen="screen-explore">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+          </svg>
+          <span id="nav-explore">Keşfet</span>
+        </div>
+        <div class="nav-item" data-tab="1" data-screen="screen-ai">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span id="nav-ai">Asistan</span>
+        </div>
+        <div class="nav-item" data-tab="2" data-screen="screen-settings">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+          <span id="nav-settings">Ayarlar</span>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Doğrudan statik mekân verisi (arka planda harita taraması yok) -->
+  <script src="./places.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    const VOICE_CONFIG = {
+      tr: { label: 'Türkçe', neural: 'tr-TR-EmelNeural', shortVoice: 'Emel Neural', langCode: 'tr-TR' },
+      en: { label: 'English', neural: 'en-US-AndrewMultilingualNeural', shortVoice: 'Andrew Neural', langCode: 'en-US' },
+      de: { label: 'Deutsch', neural: 'de-DE-KatjaNeural', shortVoice: 'Katja Neural', langCode: 'de-DE' },
+      fr: { label: 'Français', neural: 'fr-FR-DeniseNeural', shortVoice: 'Denise Neural', langCode: 'fr-FR' },
+      es: { label: 'Español', neural: 'es-ES-ElviraNeural', shortVoice: 'Elvira Neural', langCode: 'es-ES' },
+      ar: { label: 'العربية', neural: 'ar-SA-ZariyahNeural', shortVoice: 'Zariyah Neural', langCode: 'ar-SA' }
+    };
+
+    const I18N = {
+      tr: {
+        navExplore: 'Keşfet', navAi: 'Asistan', navSettings: 'Ayarlar',
+        nearbyTitle: 'Yakınımdakiler', placesFound: '{n} yer',
+        emptyNearby: 'Seçili yarıçap içinde kayıtlı tarihi yapı bulunamadı. Ayarlardan mesafeyi artırabilir veya haritayı kaydırabilirsin.',
+        settingsTitle: 'Ayarlar', settingsSub: 'Keşif yarıçapını, görünümü ve pil korumasını özelleştirin.',
+        lblRadius: 'Yakınımdakiler Yarıçapı', descRadius: 'Çekmecede listelenecek tarihi eserlerin maksimum uzaklığı.',
+        lblTheme: 'Açık Mod (Light Mode)', descTheme: 'Harita karolarını ve arayüzü gündüz görünümüne geçirir.',
+        lblBattery: 'Pil Sağlığı Modu', descBattery: 'GPS sıklığını optimize eder ve sürekli arka plan döngü animasyonlarını sadeleştirir.',
+        lblDemo: 'Demo / Sunum Güvenlik Modu', descDemo: 'Ağ yavaşlarsa önbellek verileriyle kesintisiz çalışır.',
+        lblLang: 'Uygulama Dili & Seslendirmen', descLang: 'Arayüz, AI metin üretimi ve sinirsel seslendirmen dilini seçin.',
+        aiTitle: 'NAVRE AI Rehber', aiSub: 'Tarih, mimari ve kültürel miras asistanı 2. Aşamada bu ekrana bağlanacak.',
+        aiReadyTitle: 'Altyapı Hazır', aiReadyDesc: 'Keşfet sekmesinde herhangi bir tarihi esere dokunduğunda mekân bağlamı bu asistana otomatik aktarılacak şekilde yapılandırıldı.',
+        loadingWiki: 'Tarihi kayıtlar ve görsel taranıyor...',
+        noWikiFallback: 'Bu yapı kayıtlı veride "{type}" kategorisinde yer alıyor.',
+        stage2Note: '2. Aşamada: İlk açılışta blurlu üretim animasyonu, 2 dakikalık AI belgesel anlatımı ve sinirsel ses oynatıcı buraya eklenecek.',
+        categories: {
+          mosque: 'Tarihi Cami', castle: 'Kale / Sur', monument: 'Anıt', memorial: 'Anıt / Kitabe',
+          ruins: 'Antik Kalıntı', museum: 'Müze', fountain: 'Tarihi Çeşme', palace: 'Saray / Kasır',
+          church: 'Tarihi Kilise', archaeological_site: 'Arkeolojik Alan', tower: 'Tarihi Kule', default: 'Tarihi Yapı'
+        }
+      },
+      en: {
+        navExplore: 'Explore', navAi: 'Assistant', navSettings: 'Settings',
+        nearbyTitle: 'Nearby Places', placesFound: '{n} found',
+        emptyNearby: 'No historic landmarks found within this radius. Expand the radius in Settings or pan the map.',
+        settingsTitle: 'Settings', settingsSub: 'Customize discovery radius, theme, and battery health.',
+        lblRadius: 'Nearby Radius', descRadius: 'Maximum distance for landmarks listed in the Nearby drawer.',
+        lblTheme: 'Light Mode', descTheme: 'Switches map tiles and interface to daylight styling.',
+        lblBattery: 'Battery Health Mode', descBattery: 'Optimizes GPS polling frequency and simplifies ambient animations.',
+        lblDemo: 'Demo Safety Mode', descDemo: 'Ensures uninterrupted presentation using fallback cache if network slows.',
+        lblLang: 'App Language & Narrator', descLang: 'Selects interface language, AI script generation, and neural voice.',
+        aiTitle: 'NAVRE AI Guide', aiSub: 'History, architecture, and cultural heritage assistant connects here in Stage 2.',
+        aiReadyTitle: 'Context Pipeline Ready', aiReadyDesc: 'Tapping any landmark in Explore automatically passes its historical context into this assistant.',
+        loadingWiki: 'Fetching historical archives and imagery...',
+        noWikiFallback: 'Recorded under "{type}" in loaded landmarks.',
+        stage2Note: 'Stage 2: Blurred generation overlay, 2-minute documentary narration, and neural TTS audio player will mount here.',
+        categories: {
+          mosque: 'Historic Mosque', castle: 'Castle / Fortress', monument: 'Monument', memorial: 'Memorial',
+          ruins: 'Ancient Ruins', museum: 'Museum', fountain: 'Historic Fountain', palace: 'Palace',
+          church: 'Historic Church', archaeological_site: 'Archaeological Site', tower: 'Historic Tower', default: 'Historic Landmark'
+        }
+      },
+      de: {
+        navExplore: 'Entdecken', navAi: 'Assistent', navSettings: 'Einstellungen',
+        nearbyTitle: 'In der Nähe', placesFound: '{n} Orte',
+        emptyNearby: 'Keine historischen Orte in diesem Radius gefunden. Erhöhen Sie den Radius oder verschieben Sie die Karte.',
+        settingsTitle: 'Einstellungen', settingsSub: 'Suchradius, Design und Batterieschonung anpassen.',
+        lblRadius: 'Suchradius', descRadius: 'Maximale Entfernung für Orte in der Liste.',
+        lblTheme: 'Heller Modus', descTheme: 'Wechselt Kartenkacheln und Oberfläche in das helle Design.',
+        lblBattery: 'Batterieschonmodus', descBattery: 'Optimiert GPS-Intervalle und reduziert Hintergrundanimationen.',
+        lblDemo: 'Demo-Sicherheitsmodus', descDemo: 'Garantiert unterbrechungsfreie Präsentation bei langsamer Verbindung.',
+        lblLang: 'Sprache & Sprecher', descLang: 'Wählt Sprache, KI-Textgenerierung und neuronale Stimme.',
+        aiTitle: 'NAVRE KI-Führer', aiSub: 'Geschichts- und Architekturassistent folgt in Phase 2.',
+        aiReadyTitle: 'Kontext bereit', aiReadyDesc: 'Jeder ausgewählte Ort wird automatisch an diesen Assistenten übergeben.',
+        loadingWiki: 'Historische Archive werden geladen...',
+        noWikiFallback: 'Als "{type}" in den geladenen Orten verzeichnet.',
+        stage2Note: 'Phase 2: Verschwommene Ladeanimation, 2-Minuten-Audioguide und neuronaler TTS-Player folgen hier.',
+        categories: {
+          mosque: 'Historische Moschee', castle: 'Burg / Festung', monument: 'Denkmal', memorial: 'Gedenkstätte',
+          ruins: 'Ruinen', museum: 'Museum', fountain: 'Historischer Brunnen', palace: 'Palast',
+          church: 'Historische Kirche', archaeological_site: 'Ausgrabungsstätte', tower: 'Historischer Turm', default: 'Historischer Ort'
+        }
+      },
+      fr: {
+        navExplore: 'Explorer', navAi: 'Assistant', navSettings: 'Paramètres',
+        nearbyTitle: 'À proximité', placesFound: '{n} lieux',
+        emptyNearby: 'Aucun monument trouvé dans ce rayon. Augmentez le rayon ou déplacez la carte.',
+        settingsTitle: 'Paramètres', settingsSub: 'Personnalisez le rayon, le thème et la batterie.',
+        lblRadius: 'Rayon de proximité', descRadius: 'Distance maximale affichée dans le tiroir À proximité.',
+        lblTheme: 'Mode Clair', descTheme: 'Passe la carte et l’interface en thème lumineux.',
+        lblBattery: 'Mode Santé Batterie', descBattery: 'Optimise le GPS et allège les animations continues.',
+        lblDemo: 'Mode Sécurité Démo', descDemo: 'Assure une présentation fluide même en cas de réseau lent.',
+        lblLang: 'Langue & Narrateur', descLang: 'Choisissez la langue de l’interface, de l’IA et de la voix.',
+        aiTitle: 'Guide IA NAVRE', aiSub: 'Assistant historique connecté à l’étape 2.',
+        aiReadyTitle: 'Pipeline prêt', aiReadyDesc: 'Chaque lieu sélectionné transmettra son contexte historique à cet assistant.',
+        loadingWiki: 'Recherche dans les archives...',
+        noWikiFallback: 'Répertorié sous "{type}" dans les lieux chargés.',
+        stage2Note: 'Étape 2 : Écran flouté de génération, récit de 2 minutes et lecteur vocal neuronal.',
+        categories: {
+          mosque: 'Mosquée historique', castle: 'Château / Forteresse', monument: 'Monument', memorial: 'Mémorial',
+          ruins: 'Ruines antiques', museum: 'Musée', fountain: 'Fontaine historique', palace: 'Palais',
+          church: 'Église historique', archaeological_site: 'Site archéologique', tower: 'Tour historique', default: 'Lieu historique'
+        }
+      },
+      es: {
+        navExplore: 'Explorar', navAi: 'Asistente', navSettings: 'Ajustes',
+        nearbyTitle: 'Cerca de mí', placesFound: '{n} lugares',
+        emptyNearby: 'No hay monumentos en este radio. Amplía el radio en Ajustes o mueve el mapa.',
+        settingsTitle: 'Ajustes', settingsSub: 'Personaliza el radio, el tema y el ahorro de batería.',
+        lblRadius: 'Radio de cercanía', descRadius: 'Distancia máxima para los lugares en el panel inferior.',
+        lblTheme: 'Modo Claro', descTheme: 'Cambia el mapa y la interfaz a estilo diurno.',
+        lblBattery: 'Modo Salud de Batería', descBattery: 'Optimiza el GPS y suaviza las animaciones continuas.',
+        lblDemo: 'Modo Seguro Demo', descDemo: 'Garantiza fluidez en presentaciones si la red es lenta.',
+        lblLang: 'Idioma y Narrador', descLang: 'Selecciona el idioma de la interfaz, la IA y la voz neuronal.',
+        aiTitle: 'Guía IA NAVRE', aiSub: 'Asistente histórico disponible en la Fase 2.',
+        aiReadyTitle: 'Contexto listo', aiReadyDesc: 'Al tocar cualquier monumento, su contexto se enviará automáticamente aquí.',
+        loadingWiki: 'Consultando archivos históricos...',
+        noWikiFallback: 'Registrado como "{type}" en los lugares cargados.',
+        stage2Note: 'Fase 2: Animación desenfocada de creación, narración de 2 minutos y reproductor neuronal.',
+        categories: {
+          mosque: 'Mezquita histórica', castle: 'Castillo / Fortaleza', monument: 'Monumento', memorial: 'Memorial',
+          ruins: 'Ruinas antiguas', museum: 'Museo', fountain: 'Fuente histórica', palace: 'Palacio',
+          church: 'Iglesia histórica', archaeological_site: 'Sitio arqueológico', tower: 'Torre histórica', default: 'Sitio histórico'
+        }
+      },
+      ar: {
+        navExplore: 'استكشف', navAi: 'المساعد', navSettings: 'الإعدادات',
+        nearbyTitle: 'بالقرب مني', placesFound: '{n} معلم',
+        emptyNearby: 'لا توجد معالم تاريخية ضمن هذا النطاق. يمكنك توسيع النطاق من الإعدادات أو تحريك الخريطة.',
+        settingsTitle: 'الإعدادات', settingsSub: 'تخصيص نطاق البحث والمظهر وحفظ البطارية.',
+        lblRadius: 'نطاق المعالم القريبة', descRadius: 'المسافة القصوى للمعالم المعروضة في القائمة.',
+        lblTheme: 'الوضع النهاري', descTheme: 'تغيير الخريطة والواجهة إلى المظهر الفاتح.',
+        lblBattery: 'وضع صحة البطارية', descBattery: 'تحسين تحديثات GPS وتبسيط الرسوم المتحركة.',
+        lblDemo: 'وضع أمان العرض التقديمي', descDemo: 'يضمن عمل التطبيق بسلاسة عبر الذاكرة المؤقتة.',
+        lblLang: 'اللغة والمعلق الصوتي', descLang: 'اختر لغة الواجهة والذكاء الاصطناعي والصوت العصبي.',
+        aiTitle: 'مرشد NAVRE الذكي', aiSub: 'مساعد التاريخ والعمارة في المرحلة الثانية.',
+        aiReadyTitle: 'البنية جاهزة', aiReadyDesc: 'عند النقر على أي معلم، سيتم نقل سياقه التاريخي تلقائياً إلى المساعد.',
+        loadingWiki: 'جارٍ جلب السجلات التاريخية...',
+        noWikiFallback: 'مسجل تحت فئة "{type}" في المعالم المحملة.',
+        stage2Note: 'المرحلة الثانية: شاشة التوليد الضبابية، السرد الوثائقي لمدة دقيقتين ومشغل الصوت العصبي.',
+        categories: {
+          mosque: 'مسجد تاريخي', castle: 'قلعة / حصن', monument: 'نصب تذكاري', memorial: 'معلم تذكاري',
+          ruins: 'أطلال أثرية', museum: 'متحف', fountain: 'سبيل تاريخي', palace: 'قصر تاريخي',
+          church: 'كنيسة تاريخية', archaeological_site: 'موقع أثري', tower: 'برج تاريخي', default: 'معلم تاريخي'
+        }
+      }
+    };
+
+    const RADIUS_OPTIONS = [0.5, 1, 2, 5, 10, 25];
+    const MAX_VISIBLE_PINS = 500;
+    const wikiCache = new Map();
+
+    const initialPlaces = Array.isArray(window.NAVRE_SEED_PLACES)
+      ? window.NAVRE_SEED_PLACES.filter(p => typeof p.lat === 'number' && typeof p.lon === 'number' && p.name)
+      : [];
+
+    const defaultCenter = initialPlaces[0]
+      ? { lat: initialPlaces[0].lat, lon: initialPlaces[0].lon }
+      : { lat: 41.0082, lon: 28.9784 };
+
+    const state = {
+      lang: 'tr',
+      radiusKm: 2,
+      lightMode: false,
+      batterySaver: false,
+      demoSafety: true,
+      userLocation: defaultCenter,
+      places: initialPlaces,
+      selectedPlaceId: null,
+      selectedPlace: null,
+      drawerSnap: 'half'
+    };
+
+    function haversineMeters(lat1, lon1, lat2, lon2) {
+      const R = 6371000;
+      const toRad = d => (d * Math.PI) / 180;
+      const dLat = toRad(lat2 - lat1);
+      const dLon = toRad(lon2 - lon1);
+      const a = Math.sin(dLat / 2) ** 2 +
+                Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    function formatDistance(meters) {
+      if (meters < 1000) return `${Math.round(meters)} m`;
+      return `${(meters / 1000).toFixed(1)} km`;
+    }
+
+    function t(key, vars = {}) {
+      let str = (I18N[state.lang] && I18N[state.lang][key]) || I18N.tr[key] || key;
+      Object.entries(vars).forEach(([k, v]) => {
+        str = str.replace(`{${k}}`, v);
+      });
+      return str;
+    }
+
+    function getCategoryLabel(cat) {
+      const map = (I18N[state.lang] && I18N[state.lang].categories) || I18N.tr.categories;
+      return map[cat] || map.default;
+    }
+
+    function getCategorySvg(cat, size = 16) {
+      if (cat === 'mosque' || cat === 'church') {
+        return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-3 3-5 5-5 8h10c0-3-2-5-5-8z"/><path d="M5 11v10h14V11"/><path d="M10 21v-5a2 2 0 0 1 4 0v5"/></svg>`;
+      }
+      if (cat === 'castle' || cat === 'tower' || cat === 'palace') {
+        return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V7l2-2h12l2 2v14"/><path d="M4 7h16"/><path d="M9 21v-6h6v6"/></svg>`;
+      }
+      if (cat === 'museum') {
+        return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 22 7 12 2"/><line x1="6" y1="7" x2="6" y2="18"/><line x1="12" y1="7" x2="12" y2="18"/><line x1="18" y1="7" x2="18" y2="18"/><line x1="2" y1="21" x2="22" y2="21"/></svg>`;
+      }
+      return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg>`;
+    }
+
+    const TILE_DARK = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}';
+    const TILE_LIGHT = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+
+    const map = L.map('map', {
+      center: [state.userLocation.lat, state.userLocation.lon],
+      zoom: 14,
+      zoomControl: false,
+      attributionControl: false
+    });
+
+    const tileLayer = L.tileLayer(TILE_DARK, { maxZoom: 19 }).addTo(map);
+
+    const userIcon = L.divIcon({
+      className: '',
+      html: `<div class="user-marker-wrap"><div class="user-pulse-ring"></div><div class="user-core-dot"></div></div>`,
+      iconSize: [36, 36],
+      iconAnchor: [18, 18]
+    });
+
+    const userMarker = L.marker([state.userLocation.lat, state.userLocation.lon], {
+      icon: userIcon,
+      zIndexOffset: 1000
+    }).addTo(map);
+
+    let radiusCircle = L.circle([state.userLocation.lat, state.userLocation.lon], {
+      radius: state.radiusKm * 1000,
+      color: '#E5A93C',
+      weight: 1.5,
+      opacity: 0.45,
+      fillColor: '#E5A93C',
+      fillOpacity: 0.06
+    }).addTo(map);
+
+    const markersLayer = L.layerGroup().addTo(map);
+
+    function syncZoomClass() {
+      document.body.classList.toggle('zoom-far', map.getZoom() <= 13);
+    }
+
+    function renderVisiblePins() {
+      markersLayer.clearLayers();
+      const bounds = map.getBounds().pad(0.15);
+      const visible = state.places
+        .filter(p => bounds.contains([p.lat, p.lon]))
+        .slice(0, MAX_VISIBLE_PINS);
+
+      visible.forEach(place => {
+        const isSelected = place.id === state.selectedPlaceId;
+        const icon = L.divIcon({
+          className: '',
+          html: `<div class="historic-pin ${isSelected ? 'selected' : ''}" data-pin-id="${place.id}">${getCategorySvg(place.category, 14)}</div>`,
+          iconSize: [32, 32],
+          iconAnchor: [16, 32]
+        });
+
+        const marker = L.marker([place.lat, place.lon], { icon }).addTo(markersLayer);
+        marker.on('click', () => openPlaceDetail(place));
+      });
+    }
+
+    map.on('moveend zoomend', () => {
+      syncZoomClass();
+      renderVisiblePins();
+    });
+
+    function renderNearbyList() {
+      const listEl = document.getElementById('nearby-list');
+      const maxMeters = state.radiusKm * 1000;
+
+      const nearby = state.places
+        .map(p => ({
+          ...p,
+          distance: haversineMeters(state.userLocation.lat, state.userLocation.lon, p.lat, p.lon)
+        }))
+        .filter(p => p.distance <= maxMeters)
+        .sort((a, b) => a.distance - b.distance);
+
+      document.getElementById('drawer-count-badge').textContent = t('placesFound', { n: nearby.length });
+
+      if (nearby.length === 0) {
+        listEl.innerHTML = `<div class="empty-state">${t('emptyNearby')}</div>`;
+        return;
+      }
+
+      listEl.innerHTML = nearby.slice(0, 150).map((place, index) => `
+        <div class="place-row" style="animation-delay:${state.batterySaver ? 0 : Math.min(index * 18, 220)}ms" data-place-id="${place.id}">
+          <div class="place-cat-icon">${getCategorySvg(place.category, 18)}</div>
+          <div class="place-info">
+            <div class="place-name">${place.name}</div>
+            <div class="place-sub">${getCategoryLabel(place.category)}</div>
+          </div>
+          <div class="place-distance">${formatDistance(place.distance)}</div>
+        </div>
+      `).join('');
+
+      listEl.querySelectorAll('.place-row').forEach(row => {
+        row.addEventListener('click', () => {
+          const id = row.getAttribute('data-place-id');
+          const found = nearby.find(p => String(p.id) === String(id));
+          if (found) openPlaceDetail(found);
+        });
+      });
+    }
+
+    const detailSheet = document.getElementById('place-detail-sheet');
+    const detailBackdrop = document.getElementById('detail-backdrop');
+
+    async function fetchWikiOnDemand(place) {
+      const title = (place.wikiTitle || place.name || '').trim();
+      if (!title) return null;
+      const cacheKey = `${state.lang}:${title.toLowerCase()}`;
+      if (wikiCache.has(cacheKey)) return wikiCache.get(cacheKey);
+
+      const langsToTry = state.lang === 'en' ? ['en'] : [state.lang, 'en'];
+      for (const lng of langsToTry) {
+        try {
+          const url = `https://${lng}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`;
+          const res = await fetch(url);
+          if (!res.ok) continue;
+          const data = await res.json();
+          if (data && data.extract) {
+            const payload = {
+              extract: data.extract,
+              thumb: data.thumbnail?.source || null
+            };
+            wikiCache.set(cacheKey, payload);
+            return payload;
+          }
+        } catch (e) {}
+      }
+      wikiCache.set(cacheKey, null);
+      return null;
+    }
+
+    async function refreshOpenDetailLanguage() {
+      if (!state.selectedPlace) return;
+      const place = state.selectedPlace;
+      const catLabel = getCategoryLabel(place.category);
+      const dist = haversineMeters(state.userLocation.lat, state.userLocation.lon, place.lat, place.lon);
+      const voiceMeta = VOICE_CONFIG[state.lang] || VOICE_CONFIG.tr;
+
+      document.getElementById('detail-cat-badge').textContent = catLabel;
+      document.getElementById('detail-dist-badge').textContent = formatDistance(dist);
+      document.getElementById('detail-voice-badge').textContent = voiceMeta.shortVoice;
+      document.getElementById('detail-fallback-label').textContent = catLabel;
+      document.getElementById('stage2-note').textContent = t('stage2Note');
+
+      const wikiData = await fetchWikiOnDemand(place);
+      if (state.selectedPlaceId !== place.id) return;
+      if (wikiData) {
+        document.getElementById('detail-summary').textContent = wikiData.extract;
+      } else {
+        document.getElementById('detail-summary').textContent = t('noWikiFallback', { type: catLabel });
+      }
+    }
+
+    async function openPlaceDetail(place) {
+      state.selectedPlaceId = place.id;
+      state.selectedPlace = place;
+      renderVisiblePins();
+
+      map.flyTo([place.lat - 0.0022, place.lon], Math.max(map.getZoom(), 16), {
+        duration: 0.45,
+        easeLinearity: 0.25
+      });
+
+      const dist = haversineMeters(state.userLocation.lat, state.userLocation.lon, place.lat, place.lon);
+      const catLabel = getCategoryLabel(place.category);
+      const voiceMeta = VOICE_CONFIG[state.lang] || VOICE_CONFIG.tr;
+
+      document.getElementById('detail-cat-badge').textContent = catLabel;
+      document.getElementById('detail-dist-badge').textContent = formatDistance(dist);
+      document.getElementById('detail-voice-badge').textContent = voiceMeta.shortVoice;
+      document.getElementById('detail-title').textContent = place.name;
+      document.getElementById('detail-summary').textContent = t('loadingWiki');
+      document.getElementById('stage2-note').textContent = t('stage2Note');
+
+      document.getElementById('detail-fallback-icon').innerHTML = getCategorySvg(place.category, 32);
+      document.getElementById('detail-fallback-label').textContent = catLabel;
+
+      const imgEl = document.getElementById('detail-img');
+      imgEl.classList.remove('loaded');
+      imgEl.removeAttribute('src');
+
+      detailBackdrop.classList.add('open');
+      detailSheet.classList.add('open');
+
+      const wikiData = await fetchWikiOnDemand(place);
+      if (state.selectedPlaceId !== place.id) return;
+
+      if (wikiData) {
+        document.getElementById('detail-summary').textContent = wikiData.extract;
+        if (wikiData.thumb) {
+          imgEl.onload = () => imgEl.classList.add('loaded');
+          imgEl.onerror = () => imgEl.classList.remove('loaded');
+          imgEl.src = wikiData.thumb;
+        }
+      } else {
+        document.getElementById('detail-summary').textContent = t('noWikiFallback', { type: catLabel });
+      }
+    }
+
+    function closePlaceDetail() {
+      detailSheet.classList.remove('open');
+      detailBackdrop.classList.remove('open');
+      state.selectedPlaceId = null;
+      state.selectedPlace = null;
+      renderVisiblePins();
+    }
+
+    document.getElementById('btn-close-detail').addEventListener('click', closePlaceDetail);
+    detailBackdrop.addEventListener('click', closePlaceDetail);
+
+    const drawer = document.getElementById('nearby-drawer');
+    const drawerHandle = document.getElementById('drawer-handle');
+    const SNAP_PERCENTS = { expanded: 8, half: 58, collapsed: 76 };
+    let startY = 0;
+    let currentTranslatePct = SNAP_PERCENTS.half;
+
+    function setDrawerSnap(snapName) {
+      state.drawerSnap = snapName;
+      currentTranslatePct = SNAP_PERCENTS[snapName];
+      drawer.style.transform = `translateY(${currentTranslatePct}%)`;
+    }
+    setDrawerSnap('half');
+
+    drawerHandle.addEventListener('pointerdown', (e) => {
+      startY = e.clientY;
+      drawer.classList.add('dragging');
+      drawerHandle.setPointerCapture(e.pointerId);
+    });
+
+    drawerHandle.addEventListener('pointermove', (e) => {
+      if (!drawer.classList.contains('dragging')) return;
+      const deltaPct = ((e.clientY - startY) / (drawer.offsetHeight || 500)) * 100;
+      drawer.style.transform = `translateY(${Math.min(Math.max(currentTranslatePct + deltaPct, 6), 78)}%)`;
+    });
+
+    drawerHandle.addEventListener('pointerup', (e) => {
+      if (!drawer.classList.contains('dragging')) return;
+      drawer.classList.remove('dragging');
+      const deltaY = e.clientY - startY;
+      if (Math.abs(deltaY) < 8) return setDrawerSnap(state.drawerSnap === 'expanded' ? 'half' : 'expanded');
+      if (deltaY < -45) return setDrawerSnap(state.drawerSnap === 'collapsed' ? 'half' : 'expanded');
+      if (deltaY > 45) return setDrawerSnap(state.drawerSnap === 'expanded' ? 'half' : 'collapsed');
+      setDrawerSnap(state.drawerSnap);
+    });
+
+    let geoWatchId = null;
+
+    function updateUserPosition(lat, lon, centerMap = false) {
+      state.userLocation = { lat, lon };
+      userMarker.setLatLng([lat, lon]);
+      radiusCircle.setLatLng([lat, lon]);
+      if (centerMap) {
+        map.flyTo([lat, lon], 14, { duration: 0.55 });
+      }
+      renderNearbyList();
+    }
+
+    function startLocationTracking() {
+      if (!('geolocation' in navigator)) return;
+      if (geoWatchId !== null) navigator.geolocation.clearWatch(geoWatchId);
+
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          updateUserPosition(pos.coords.latitude, pos.coords.longitude, false);
+        },
+        () => {},
+        { enableHighAccuracy: !state.batterySaver, timeout: 8000 }
+      );
+
+      geoWatchId = navigator.geolocation.watchPosition(
+        (pos) => {
+          const moved = haversineMeters(
+            state.userLocation.lat, state.userLocation.lon,
+            pos.coords.latitude, pos.coords.longitude
+          );
+          if (moved > (state.batterySaver ? 35 : 10)) {
+            updateUserPosition(pos.coords.latitude, pos.coords.longitude, false);
+          }
+        },
+        null,
+        {
+          enableHighAccuracy: !state.batterySaver,
+          maximumAge: state.batterySaver ? 20000 : 4000
+        }
+      );
+    }
+
+    document.getElementById('btn-locate-me').addEventListener('click', () => {
+      map.flyTo([state.userLocation.lat, state.userLocation.lon], 14, { duration: 0.5 });
+    });
+
+    function applyTranslations() {
+      document.getElementById('nav-explore').textContent = t('navExplore');
+      document.getElementById('nav-ai').textContent = t('navAi');
+      document.getElementById('nav-settings').textContent = t('navSettings');
+      document.getElementById('drawer-title-text').textContent = t('nearbyTitle');
+      document.getElementById('settings-page-title').textContent = t('settingsTitle');
+      document.getElementById('settings-page-sub').textContent = t('settingsSub');
+      document.getElementById('lbl-radius').textContent = t('lblRadius');
+      document.getElementById('desc-radius').textContent = t('descRadius');
+      document.getElementById('lbl-theme').textContent = t('lblTheme');
+      document.getElementById('desc-theme').textContent = t('descTheme');
+      document.getElementById('lbl-battery').textContent = t('lblBattery');
+      document.getElementById('desc-battery').textContent = t('descBattery');
+      document.getElementById('lbl-demo').textContent = t('lblDemo');
+      document.getElementById('desc-demo').textContent = t('descDemo');
+      document.getElementById('lbl-lang').textContent = t('lblLang');
+      document.getElementById('desc-lang').textContent = t('descLang');
+      document.getElementById('ai-page-title').textContent = t('aiTitle');
+      document.getElementById('ai-page-sub').textContent = t('aiSub');
+      document.getElementById('ai-ready-title').textContent = t('aiReadyTitle');
+      document.getElementById('ai-ready-desc').textContent = t('aiReadyDesc');
+      document.getElementById('stage2-note').textContent = t('stage2Note');
+    }
+
+    function renderSettingsChips() {
+      const radiusGrid = document.getElementById('radius-chips');
+      radiusGrid.innerHTML = RADIUS_OPTIONS.map(km => `
+        <button class="chip-btn ${state.radiusKm === km ? 'active' : ''}" data-km="${km}">${km} km</button>
+      `).join('');
+
+      radiusGrid.querySelectorAll('.chip-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.radiusKm = parseFloat(btn.getAttribute('data-km'));
+          document.getElementById('hud-radius-badge').textContent = `${state.radiusKm} km`;
+          radiusCircle.setRadius(state.radiusKm * 1000);
+          renderSettingsChips();
+          renderNearbyList();
+        });
+      });
+
+      const langGrid = document.getElementById('lang-chips');
+      langGrid.innerHTML = Object.entries(VOICE_CONFIG).map(([code, meta]) => `
+        <button class="chip-btn ${state.lang === code ? 'active' : ''}" data-lang="${code}">${meta.label}</button>
+      `).join('');
+
+      langGrid.querySelectorAll('.chip-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.lang = btn.getAttribute('data-lang');
+          document.documentElement.lang = state.lang;
+          document.documentElement.dir = state.lang === 'ar' ? 'rtl' : 'ltr';
+          applyTranslations();
+          renderSettingsChips();
+          renderNearbyList();
+          refreshOpenDetailLanguage();
+        });
+      });
+    }
+
+    const toggleTheme = document.getElementById('toggle-theme');
+    toggleTheme.addEventListener('click', () => {
+      state.lightMode = !state.lightMode;
+      toggleTheme.classList.toggle('on', state.lightMode);
+      toggleTheme.setAttribute('aria-checked', String(state.lightMode));
+      document.body.classList.toggle('light-mode', state.lightMode);
+      tileLayer.setUrl(state.lightMode ? TILE_LIGHT : TILE_DARK);
+      const accentColor = state.lightMode ? '#1E3A5F' : '#E5A93C';
+      radiusCircle.setStyle({ color: accentColor, fillColor: accentColor });
+    });
+
+    const toggleBattery = document.getElementById('toggle-battery');
+    const quickBatteryBtn = document.getElementById('btn-battery-quick');
+
+    function setBatterySaver(enabled) {
+      state.batterySaver = enabled;
+      toggleBattery.classList.toggle('on', enabled);
+      toggleBattery.setAttribute('aria-checked', String(enabled));
+      quickBatteryBtn.classList.toggle('battery-active', enabled);
+      document.body.classList.toggle('battery-saver', enabled);
+      startLocationTracking();
+    }
+
+    toggleBattery.addEventListener('click', () => setBatterySaver(!state.batterySaver));
+    quickBatteryBtn.addEventListener('click', () => setBatterySaver(!state.batterySaver));
+
+    const toggleDemo = document.getElementById('toggle-demo');
+    toggleDemo.addEventListener('click', () => {
+      state.demoSafety = !state.demoSafety;
+      toggleDemo.classList.toggle('on', state.demoSafety);
+      toggleDemo.setAttribute('aria-checked', String(state.demoSafety));
+    });
+
+    const navPill = document.getElementById('nav-pill');
+    const navItems = document.querySelectorAll('.nav-item');
+    const screens = document.querySelectorAll('.screen');
+
+    navItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const idx = Number(item.getAttribute('data-tab'));
+        const targetScreen = item.getAttribute('data-screen');
+        navItems.forEach(n => n.classList.remove('active'));
+        item.classList.add('active');
+        const dirSign = state.lang === 'ar' ? -1 : 1;
+        navPill.style.transform = `translateX(${dirSign * idx * 100}%)`;
+        screens.forEach(s => s.classList.toggle('active', s.id === targetScreen));
+        if (targetScreen === 'screen-explore') {
+          setTimeout(() => map.invalidateSize(), 60);
+        }
+      });
+    });
+
+    syncZoomClass();
+    renderSettingsChips();
+    applyTranslations();
+    renderVisiblePins();
+    renderNearbyList();
+    startLocationTracking();
+  </script>
+</body>
+</html>
