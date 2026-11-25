@@ -1,9 +1,9 @@
 name: NAVRE Global Places Curation
 
-"on":
-  schedule:
-    - cron: "0 */3 * * *"
+on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
         run: pip install requests
