@@ -1,1 +1,41 @@
+name: NAVRE Global Places Curation
 
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run curation script
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python build_gpt_oss_world.py --batch-size 25 --max-batches 25
+
+      - name: Commit and push updated places and cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add places.json places.js ai_cache_gpt_oss.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): update curated world places"
+            git push
+          else
+            echo "No changes to commit."
+          fi
