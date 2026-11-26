@@ -1680,7 +1680,8 @@ window.NAVRE_SEED_PLACES = [
     "wikiTitle": "Mortuary Temple of Seti I"
   },
   {
-    "id": "w-"Pyramid of Nubkheperre Intef",
+    "id": "w-en/84296072",
+    "name": "Pyramid of Nubkheperre Intef",
     "category": "archaeological_site",
     "lat": 25.737043,
     "lon": 32.624022,
@@ -2099,8 +2100,7 @@ window.NAVRE_SEED_PLACES = [
     "name": "Sentō Imperial Palace",
     "category": "palace",
     "lat": 35.023303,
-    "lon": 135.763292,
-    "wikiTitle": "Sentō Imperial Palace"
+"wikiTitle": "Sentō Imperial Palace"
   },
   {
     "id": "w-en/7107624",
