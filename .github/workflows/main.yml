@@ -3,7 +3,7 @@ name: NAVRE Global Places Curation
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 */3 * * *"
 
 permissions:
   contents: write
@@ -13,6 +13,7 @@ jobs:
   curate:
     runs-on: ubuntu-latest
     timeout-minutes: 350
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,28 +30,37 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
+          set -e
           END_TIME=$((SECONDS + 19800))
+
           while [ $SECONDS -lt $END_TIME ]; do
-            python build_gpt_oss_world.py --batch-size 50 || true
+            python build_gpt_oss_world.py --batch-size 50
+
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add places.json places.js ai_cache_gpt_oss.json
+
+            git add places.json places.js
+            if [ -f ai_cache_gpt_oss.json ]; then
+              git add ai_cache_gpt_oss.json
+            fi
+
             if ! git diff --staged --quiet; then
               git commit -m "chore(data): continuous world places update"
               git pull --rebase
               git push
             else
-              echo "Tüm dünya tamamlandı veya yeni değişiklik yok."
+              echo "Yeni değişiklik yok, döngü tamamlandı."
               break
             fi
+
             sleep 10
           done
 
-      - name: Re-trigger next run if still unfinished
+      - name: Re-trigger next run if time limit reached
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -n "$(git status --porcelain)" ] || [ $SECONDS -ge 19700 ]; then
+          if [ $SECONDS -ge 19700 ]; then
             gh workflow run main.yml
           fi
