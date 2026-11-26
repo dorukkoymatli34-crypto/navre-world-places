@@ -46,142 +46,143 @@ HARD_BLOCK_REGEX = re.compile(
 ICONIC_ANCHORS = [
     # Türkiye - İkonik & Tarihi Odaklar
     ("TR-Istanbul-Sultanahmet-Fatih", 41.0082, 28.9784, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Istanbul-Beyoglu-Besiktas-Uskudar", 41.0369, 28.9850, 10000, 400, "tr", "middle-east-anatolia"),
-    ("TR-Edirne", 41.6771, 26.5557, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Bursa", 40.1885, 29.0610, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Iznik", 40.4286, 29.7211, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Canakkale-Truva-Gelibolu", 39.9575, 26.2389, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Assos-Behramkale", 39.4906, 26.3367, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Bergama-Pergamon", 39.1325, 27.1842, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Selcuk-Efes", 37.9497, 27.3686, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Pamukkale-Hierapolis", 37.9250, 29.1264, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Afrodisias", 37.7089, 28.7236, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Bodrum-Halikarnas", 37.0344, 27.4305, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Fethiye-Xanthos-Patara", 36.3561, 29.3186, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Myra-Demre", 36.2592, 29.9853, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Antalya-Kaleici-Perge", 36.8841, 30.7056, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Aspendos-Side", 36.7667, 31.3889, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Konya", 37.8714, 32.4846, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Catalhoyuk", 37.6675, 32.8283, 10000, 150, "tr", "middle-east-anatolia"),
-    ("TR-Goreme-Kapadokya", 38.6431, 34.8289, 10000, 400, "tr", "middle-east-anatolia"),
-    ("TR-Hattusas-Bogazkale", 40.0194, 34.6156, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Safranbolu", 41.2508, 32.6942, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Amasya", 40.6499, 35.8353, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Divrigi", 39.3711, 38.1172, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Nemrut", 37.9806, 38.7408, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Gobeklitepe-Sanliurfa", 37.2231, 38.9225, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Harran", 36.8650, 39.0314, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Mardin-Dara", 37.3131, 40.7350, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Midyat-MorGabriel", 37.4167, 41.3667, 10000, 220, "tr", "middle-east-anatolia"),
-    ("TR-Hasankeyf", 37.7122, 41.4125, 10000, 200, "tr", "middle-east-anatolia"),
-    ("TR-Diyarbakir-Surlar", 37.9144, 40.2306, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Ani-Kars", 40.5067, 43.5722, 10000, 220, "tr", "middle-east-anatolia"),
-    ("TR-IshakPasa-Dogubayazit", 39.5206, 44.1292, 10000, 180, "tr", "middle-east-anatolia"),
-    ("TR-Van-Akdamar", 38.3408, 43.0369, 10000, 220, "tr", "middle-east-anatolia"),
-    ("TR-Sumela-Macka", 40.6903, 39.6583, 10000, 200, "tr", "middle-east-anatolia"),
+    ("TR-Istanbul-Beyoglu-Besiktas-Uskudar", 41.0369, 28.9850, 10000, 500, "tr", "middle-east-anatolia"),
+    ("TR-Edirne", 41.6771, 26.5557, 10000, 500, "tr", "middle-east-anatolia"),
+    ("TR-Bursa", 40.1885, 29.0610, 10000, 500, "tr", "middle-east-anatolia"),
+    ("TR-Iznik", 40.4286, 29.7211, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Canakkale-Truva-Gelibolu", 39.9575, 26.2389, 10000, 400, "tr", "middle-east-anatolia"),
+    ("TR-Assos-Behramkale", 39.4906, 26.3367, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-Bergama-Pergamon", 39.1325, 27.1842, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Selcuk-Efes", 37.9497, 27.3686, 10000, 500, "tr", "middle-east-anatolia"),
+    ("TR-Pamukkale-Hierapolis", 37.9250, 29.1264, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Afrodisias", 37.7089, 28.7236, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-Bodrum-Halikarnas", 37.0344, 27.4305, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Fethiye-Xanthos-Patara", 36.3561, 29.3186, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Myra-Demre", 36.2592, 29.9853, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-Antalya-Kaleici-Perge", 36.8841, 30.7056, 10000, 450, "tr", "middle-east-anatolia"),
+    ("TR-Aspendos-Side", 36.7667, 31.3889, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Konya", 37.8714, 32.4846, 10000, 500, "tr", "middle-east-anatolia"),
+    ("TR-Catalhoyuk", 37.6675, 32.8283, 10000, 250, "tr", "middle-east-anatolia"),
+    ("TR-Goreme-Kapadokya", 38.6431, 34.8289, 10000, 500, "tr", "middle-east-anatolia"),
+    ("TR-Hattusas-Bogazkale", 40.0194, 34.6156, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-Safranbolu", 41.2508, 32.6942, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Amasya", 40.6499, 35.8353, 10000, 350, "tr", "middle-east-anatolia"),
+    ("TR-Divrigi", 39.3711, 38.1172, 10000, 250, "tr", "middle-east-anatolia"),
+    ("TR-Nemrut", 37.9806, 38.7408, 10000, 250, "tr", "middle-east-anatolia"),
+    ("TR-Gobeklitepe-Sanliurfa", 37.2231, 38.9225, 10000, 400, "tr", "middle-east-anatolia"),
+    ("TR-Harran", 36.8650, 39.0314, 10000, 250, "tr", "middle-east-anatolia"),
+    ("TR-Mardin-Dara", 37.3131, 40.7350, 10000, 400, "tr", "middle-east-anatolia"),
+    ("TR-Midyat-MorGabriel", 37.4167, 41.3667, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-Hasankeyf", 37.7122, 41.4125, 10000, 250, "tr", "middle-east-anatolia"),
+    ("TR-Diyarbakir-Surlar", 37.9144, 40.2306, 10000, 400, "tr", "middle-east-anatolia"),
+    ("TR-Ani-Kars", 40.5067, 43.5722, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-IshakPasa-Dogubayazit", 39.5206, 44.1292, 10000, 250, "tr", "middle-east-anatolia"),
+    ("TR-Van-Akdamar", 38.3408, 43.0369, 10000, 300, "tr", "middle-east-anatolia"),
+    ("TR-Sumela-Macka", 40.6903, 39.6583, 10000, 250, "tr", "middle-east-anatolia"),
 
     # Dünya İkonları - Avrupa
     ("IT-Rome-Historic", 41.8902, 12.4922, 10000, 500, "en", "europe"),
-    ("IT-Vatican", 41.9022, 12.4539, 10000, 350, "en", "europe"),
-    ("IT-Florence", 43.7696, 11.2558, 10000, 450, "en", "europe"),
-    ("IT-Venice", 45.4340, 12.3388, 10000, 450, "en", "europe"),
-    ("IT-Pompeii-Herculaneum", 40.7509, 14.4869, 10000, 350, "en", "europe"),
-    ("IT-Naples", 40.8518, 14.2681, 10000, 350, "en", "europe"),
-    ("IT-Milan", 45.4642, 9.1900, 10000, 350, "en", "europe"),
-    ("IT-Pisa", 43.7228, 10.4017, 10000, 250, "en", "europe"),
-    ("IT-Siena", 43.3188, 11.3308, 10000, 280, "en", "europe"),
-    ("IT-Agrigento-ValleyOfTemples", 37.2906, 13.5856, 10000, 220, "en", "europe"),
+    ("IT-Vatican", 41.9022, 12.4539, 10000, 450, "en", "europe"),
+    ("IT-Florence", 43.7696, 11.2558, 10000, 500, "en", "europe"),
+    ("IT-Venice", 45.4340, 12.3388, 10000, 500, "en", "europe"),
+    ("IT-Pompeii-Herculaneum", 40.7509, 14.4869, 10000, 450, "en", "europe"),
+    ("IT-Naples", 40.8518, 14.2681, 10000, 450, "en", "europe"),
+    ("IT-Milan", 45.4642, 9.1900, 10000, 400, "en", "europe"),
+    ("IT-Pisa", 43.7228, 10.4017, 10000, 300, "en", "europe"),
+    ("IT-Siena", 43.3188, 11.3308, 10000, 350, "en", "europe"),
+    ("IT-Agrigento-ValleyOfTemples", 37.2906, 13.5856, 10000, 300, "en", "europe"),
     ("GR-Athens-Acropolis", 37.9715, 23.7257, 10000, 500, "en", "europe"),
-    ("GR-Delphi", 38.4824, 22.5010, 10000, 220, "en", "europe"),
-    ("GR-Olympia", 37.6383, 21.6300, 10000, 200, "en", "europe"),
-    ("GR-Mycenae-Epidaurus", 37.7308, 22.7561, 10000, 220, "en", "europe"),
-    ("GR-Meteora", 39.7217, 21.6306, 10000, 220, "en", "europe"),
-    ("GR-Knossos", 35.2979, 25.1632, 10000, 250, "en", "europe"),
+    ("GR-Delphi", 38.4824, 22.5010, 10000, 300, "en", "europe"),
+    ("GR-Olympia", 37.6383, 21.6300, 10000, 250, "en", "europe"),
+    ("GR-Mycenae-Epidaurus", 37.7308, 22.7561, 10000, 300, "en", "europe"),
+    ("GR-Meteora", 39.7217, 21.6306, 10000, 300, "en", "europe"),
+    ("GR-Knossos", 35.2979, 25.1632, 10000, 300, "en", "europe"),
     ("FR-Paris-Center", 48.8566, 2.3522, 10000, 500, "en", "europe"),
-    ("FR-Versailles", 48.8049, 2.1204, 10000, 250, "en", "europe"),
-    ("FR-MontSaintMichel", 48.6361, -1.5115, 10000, 200, "en", "europe"),
-    ("FR-Carcassonne", 43.2066, 2.3639, 10000, 220, "en", "europe"),
-    ("FR-Loire-Chambord", 47.6161, 1.5170, 10000, 220, "en", "europe"),
-    ("ES-Madrid", 40.4168, -3.7038, 10000, 450, "en", "europe"),
-    ("ES-Barcelona", 41.3874, 2.1686, 10000, 450, "en", "europe"),
-    ("ES-Granada-Alhambra", 37.1773, -3.5986, 10000, 400, "en", "europe"),
-    ("ES-Cordoba", 37.8882, -4.7794, 10000, 350, "en", "europe"),
-    ("ES-Seville", 37.3891, -5.9845, 10000, 380, "en", "europe"),
-    ("ES-Toledo", 39.8628, -4.0273, 10000, 320, "en", "europe"),
-    ("ES-Segovia", 40.9429, -4.1088, 10000, 250, "en", "europe"),
-    ("PT-Lisbon-Belem", 38.6979, -9.2064, 10000, 350, "en", "europe"),
-    ("PT-Sintra", 38.7875, -9.3906, 10000, 250, "en", "europe"),
+    ("FR-Versailles", 48.8049, 2.1204, 10000, 300, "en", "europe"),
+    ("FR-MontSaintMichel", 48.6361, -1.5115, 10000, 250, "en", "europe"),
+    ("FR-Carcassonne", 43.2066, 2.3639, 10000, 280, "en", "europe"),
+    ("FR-Loire-Chambord", 47.6161, 1.5170, 10000, 280, "en", "europe"),
+    ("ES-Madrid", 40.4168, -3.7038, 10000, 500, "en", "europe"),
+    ("ES-Barcelona", 41.3874, 2.1686, 10000, 500, "en", "europe"),
+    ("ES-Granada-Alhambra", 37.1773, -3.5986, 10000, 450, "en", "europe"),
+    ("ES-Cordoba", 37.8882, -4.7794, 10000, 400, "en", "europe"),
+    ("ES-Seville", 37.3891, -5.9845, 10000, 450, "en", "europe"),
+    ("ES-Toledo", 39.8628, -4.0273, 10000, 400, "en", "europe"),
+    ("ES-Segovia", 40.9429, -4.1088, 10000, 300, "en", "europe"),
+    ("PT-Lisbon-Belem", 38.6979, -9.2064, 10000, 400, "en", "europe"),
+    ("PT-Sintra", 38.7875, -9.3906, 10000, 300, "en", "europe"),
     ("UK-London", 51.5072, -0.1276, 10000, 500, "en", "europe"),
-    ("UK-Stonehenge-Salisbury", 51.1789, -1.8262, 10000, 220, "en", "europe"),
-    ("UK-Edinburgh", 55.9486, -3.1999, 10000, 350, "en", "europe"),
-    ("UK-Oxford", 51.7520, -1.2577, 10000, 300, "en", "europe"),
-    ("DE-Berlin", 52.5200, 13.4050, 10000, 400, "en", "europe"),
-    ("DE-Neuschwanstein-Fussen", 47.5576, 10.7498, 10000, 200, "en", "europe"),
-    ("DE-Cologne", 50.9413, 6.9583, 10000, 280, "en", "europe"),
-    ("AT-Vienna", 48.2082, 16.3738, 10000, 450, "en", "europe"),
-    ("CZ-Prague", 50.0909, 14.4005, 10000, 450, "en", "europe"),
-    ("HU-Budapest", 47.4979, 19.0402, 10000, 380, "en", "europe"),
-    ("PL-Krakow", 50.0647, 19.9450, 10000, 350, "en", "europe"),
-    ("HR-Dubrovnik", 42.6412, 18.1083, 10000, 300, "en", "europe"),
-    ("RO-Bran-Brasov", 45.5149, 25.3672, 10000, 250, "en", "europe"),
-    ("GE-Tbilisi-Mtskheta", 41.7151, 44.8271, 10000, 320, "en", "europe"),
-    ("AM-Geghard-Garni", 40.1406, 44.7986, 10000, 240, "en", "europe"),
+    ("UK-Stonehenge-Salisbury", 51.1789, -1.8262, 10000, 280, "en", "europe"),
+    ("UK-Edinburgh", 55.9486, -3.1999, 10000, 400, "en", "europe"),
+    ("UK-Oxford", 51.7520, -1.2577, 10000, 350, "en", "europe"),
+    ("DE-Berlin", 52.5200, 13.4050, 10000, 450, "en", "europe"),
+    ("DE-Neuschwanstein-Fussen", 47.5576, 10.7498, 10000, 250, "en", "europe"),
+    ("DE-Cologne", 50.9413, 6.9583, 10000, 350, "en", "europe"),
+    ("AT-Vienna", 48.2082, 16.3738, 10000, 500, "en", "europe"),
+    ("CZ-Prague", 50.0909, 14.4005, 10000, 500, "en", "europe"),
+    ("HU-Budapest", 47.4979, 19.0402, 10000, 450, "en", "europe"),
+    ("PL-Krakow", 50.0647, 19.9450, 10000, 400, "en", "europe"),
+    ("HR-Dubrovnik", 42.6412, 18.1083, 10000, 350, "en", "europe"),
+    ("RO-Bran-Brasov", 45.5149, 25.3672, 10000, 300, "en", "europe"),
+    ("GE-Tbilisi-Mtskheta", 41.7151, 44.8271, 10000, 400, "en", "europe"),
+    ("AM-Geghard-Garni", 40.1406, 44.7986, 10000, 300, "en", "europe"),
 
     # Dünya İkonları - Orta Doğu, Afrika, Asya, Amerika
-    ("EG-Giza-Pyramids", 29.9792, 31.1342, 10000, 450, "en", "middle-east-anatolia"),
+    ("EG-Giza-Pyramids", 29.9792, 31.1342, 10000, 500, "en", "middle-east-anatolia"),
     ("EG-Cairo-Islamic-Coptic", 30.0444, 31.2357, 10000, 500, "en", "middle-east-anatolia"),
-    ("EG-Luxor-Karnak-ValleyOfKings", 25.7188, 32.6573, 10000, 450, "en", "middle-east-anatolia"),
-    ("EG-AbuSimbel", 22.3372, 31.6258, 10000, 180, "en", "middle-east-anatolia"),
-    ("JO-Petra", 30.3285, 35.4444, 10000, 350, "en", "middle-east-anatolia"),
-    ("JO-Jerash", 32.2746, 35.8961, 10000, 250, "en", "middle-east-anatolia"),
-    ("LB-Baalbek", 34.0069, 36.2039, 10000, 220, "en", "middle-east-anatolia"),
-    ("IR-Persepolis", 29.9352, 52.8916, 10000, 300, "en", "middle-east-anatolia"),
-    ("IR-Isfahan", 32.6575, 51.6775, 10000, 350, "en", "middle-east-anatolia"),
-    ("UZ-Samarkand", 39.6542, 66.9597, 10000, 350, "en", "asia"),
-    ("UZ-Bukhara", 39.7747, 64.4286, 10000, 320, "en", "asia"),
-    ("MA-Marrakesh", 31.6295, -7.9811, 10000, 350, "en", "africa"),
-    ("MA-Fes", 34.0617, -4.9778, 10000, 350, "en", "africa"),
-    ("ET-Lalibela", 12.0319, 39.0475, 10000, 240, "en", "africa"),
-    ("TN-Carthage", 36.8531, 10.3233, 10000, 280, "en", "africa"),
-    ("IN-Agra-TajMahal", 27.1751, 78.0421, 10000, 380, "en", "asia"),
-    ("IN-Delhi", 28.6139, 77.2090, 10000, 420, "en", "asia"),
-    ("IN-Jaipur", 26.9124, 75.7873, 10000, 350, "en", "asia"),
-    ("IN-Hampi", 15.3350, 76.4600, 10000, 320, "en", "asia"),
-    ("IN-Ellora-Ajanta", 20.0268, 75.1771, 10000, 220, "en", "asia"),
-    ("KH-AngkorWat", 13.4125, 103.8670, 10000, 420, "en", "asia"),
-    ("ID-Borobudur-Prambanan", -7.6079, 110.2038, 10000, 260, "en", "asia"),
-    ("MM-Bagan", 21.1717, 94.8585, 10000, 280, "en", "asia"),
-    ("TH-Ayutthaya", 14.3692, 100.5877, 10000, 300, "en", "asia"),
+    ("EG-Luxor-Karnak-ValleyOfKings", 25.7188, 32.6573, 10000, 500, "en", "middle-east-anatolia"),
+    ("EG-AbuSimbel", 22.3372, 31.6258, 10000, 220, "en", "middle-east-anatolia"),
+    ("JO-Petra", 30.3285, 35.4444, 10000, 400, "en", "middle-east-anatolia"),
+    ("JO-Jerash", 32.2746, 35.8961, 10000, 300, "en", "middle-east-anatolia"),
+    ("LB-Baalbek", 34.0069, 36.2039, 10000, 280, "en", "middle-east-anatolia"),
+    ("IR-Persepolis", 29.9352, 52.8916, 10000, 350, "en", "middle-east-anatolia"),
+    ("IR-Isfahan", 32.6575, 51.6775, 10000, 400, "en", "middle-east-anatolia"),
+    ("UZ-Samarkand", 39.6542, 66.9597, 10000, 400, "en", "asia"),
+    ("UZ-Bukhara", 39.7747, 64.4286, 10000, 380, "en", "asia"),
+    ("MA-Marrakesh", 31.6295, -7.9811, 10000, 400, "en", "africa"),
+    ("MA-Fes", 34.0617, -4.9778, 10000, 400, "en", "africa"),
+    ("ET-Lalibela", 12.0319, 39.0475, 10000, 300, "en", "africa"),
+    ("TN-Carthage", 36.8531, 10.3233, 10000, 320, "en", "africa"),
+    ("IN-Agra-TajMahal", 27.1751, 78.0421, 10000, 450, "en", "asia"),
+    ("IN-Delhi", 28.6139, 77.2090, 10000, 500, "en", "asia"),
+    ("IN-Jaipur", 26.9124, 75.7873, 10000, 400, "en", "asia"),
+    ("IN-Hampi", 15.3350, 76.4600, 10000, 400, "en", "asia"),
+    ("IN-Ellora-Ajanta", 20.0268, 75.1771, 10000, 280, "en", "asia"),
+    ("KH-AngkorWat", 13.4125, 103.8670, 10000, 500, "en", "asia"),
+    ("ID-Borobudur-Prambanan", -7.6079, 110.2038, 10000, 320, "en", "asia"),
+    ("MM-Bagan", 21.1717, 94.8585, 10000, 350, "en", "asia"),
+    ("TH-Ayutthaya", 14.3692, 100.5877, 10000, 350, "en", "asia"),
     ("CN-Beijing-ForbiddenCity", 39.9163, 116.3972, 10000, 500, "en", "asia"),
-    ("CN-GreatWall-Badaling", 40.3598, 116.0200, 10000, 220, "en", "asia"),
-    ("CN-Xian-Terracotta", 34.3841, 109.2785, 10000, 350, "en", "asia"),
+    ("CN-GreatWall-Badaling", 40.3598, 116.0200, 10000, 280, "en", "asia"),
+    ("CN-Xian-Terracotta", 34.3841, 109.2785, 10000, 400, "en", "asia"),
     ("JP-Kyoto", 35.0116, 135.7681, 10000, 500, "en", "asia"),
-    ("JP-Nara", 34.6851, 135.8048, 10000, 380, "en", "asia"),
-    ("JP-Himeji", 34.8394, 134.6939, 10000, 240, "en", "asia"),
-    ("KR-Gyeongju", 35.8562, 129.2247, 10000, 300, "en", "asia"),
-    ("PE-MachuPicchu", -13.1631, -72.5450, 10000, 300, "en", "americas"),
-    ("PE-Cusco", -13.5319, -71.9675, 10000, 380, "en", "americas"),
-    ("MX-Teotihuacan", 19.6925, -98.8438, 10000, 280, "en", "americas"),
-    ("MX-ChichenItza", 20.6843, -88.5678, 10000, 220, "en", "americas"),
-    ("MX-MexicoCity", 19.4326, -99.1332, 10000, 450, "en", "americas"),
-    ("GT-Tikal", 17.2220, -89.6237, 10000, 260, "en", "americas"),
-    ("CL-EasterIsland", -27.1127, -109.3497, 10000, 200, "en", "americas"),
+    ("JP-Nara", 34.6851, 135.8048, 10000, 450, "en", "asia"),
+    ("JP-Himeji", 34.8394, 134.6939, 10000, 300, "en", "asia"),
+    ("KR-Gyeongju", 35.8562, 129.2247, 10000, 350, "en", "asia"),
+    ("PE-MachuPicchu", -13.1631, -72.5450, 10000, 350, "en", "americas"),
+    ("PE-Cusco", -13.5319, -71.9675, 10000, 450, "en", "americas"),
+    ("MX-Teotihuacan", 19.6925, -98.8438, 10000, 350, "en", "americas"),
+    ("MX-ChichenItza", 20.6843, -88.5678, 10000, 280, "en", "americas"),
+    ("MX-MexicoCity", 19.4326, -99.1332, 10000, 500, "en", "americas"),
+    ("GT-Tikal", 17.2220, -89.6237, 10000, 320, "en", "americas"),
+    ("CL-EasterIsland", -27.1127, -109.3497, 10000, 250, "en", "americas"),
 ]
 
-# KATMAN 2: Ücra ve keşfedilmemiş bölgeler dahil tüm dünyayı tarayan enlem-boylam grid'i
+# KATMAN 2: Ücra ve keşfedilmemiş yerler dahil çok sık küresel grid
+# (region_name, lang, lat_min, lat_max, lat_step, lon_min, lon_max, lon_step, radius_m, limit)
 GLOBAL_GRID_BANDS = [
-    # Türkiye ve çevresi (sık tarama)
-    ("middle-east-anatolia", "tr", 35.8, 42.2, 0.55, 25.8, 44.8, 0.65, 10000, 250),
-    # Avrupa
-    ("europe", "en", 35.0, 63.0, 1.25, -10.0, 45.0, 1.45, 10000, 220),
-    # Orta Doğu & Kuzey Afrika
-    ("middle-east-anatolia", "en", 20.0, 38.0, 1.4, -13.0, 62.0, 1.6, 10000, 200),
+    # Türkiye geneli - çok sık tarama
+    ("middle-east-anatolia", "tr", 35.8, 42.2, 0.30, 25.8, 44.8, 0.35, 10000, 300),
+    # Avrupa - çok sık tarama
+    ("europe", "en", 35.0, 64.0, 0.70, -10.0, 45.0, 0.85, 10000, 280),
+    # Orta Doğu & Kuzey Afrika - sık tarama
+    ("middle-east-anatolia", "en", 19.0, 38.0, 0.85, -13.0, 63.0, 1.00, 10000, 260),
     # Sahra altı Afrika
-    ("africa", "en", -35.0, 20.0, 2.2, -18.0, 51.0, 2.2, 10000, 160),
-    # Asya
-    ("asia", "en", -10.0, 54.0, 1.8, 50.0, 146.0, 2.0, 10000, 200),
-    # Amerika
-    ("americas", "en", -54.0, 50.0, 2.0, -125.0, -34.0, 2.2, 10000, 180),
+    ("africa", "en", -35.0, 19.0, 1.50, -18.0, 51.0, 1.50, 10000, 220),
+    # Asya (Orta Asya, Güney, Güneydoğu, Doğu)
+    ("asia", "en", -10.0, 55.0, 1.15, 50.0, 146.0, 1.30, 10000, 260),
+    # Amerika (Kuzey, Orta, Güney)
+    ("americas", "en", -54.0, 52.0, 1.35, -125.0, -34.0, 1.50, 10000, 240),
 ]
 
 
@@ -314,7 +315,7 @@ def fetch_geosearch(lang, lat, lon, radius, limit):
     resp = requests.get(
         url,
         params=params,
-        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.0 (https://navre.app)"},
+        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.1 (https://navre.app)"},
         timeout=20,
     )
     resp.raise_for_status()
@@ -338,7 +339,7 @@ def fetch_extracts(lang, titles):
         resp = requests.get(
             url,
             params=params,
-            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.0 (https://navre.app)"},
+            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.1 (https://navre.app)"},
             timeout=20,
         )
         resp.raise_for_status()
@@ -347,7 +348,7 @@ def fetch_extracts(lang, titles):
             t = (p.get("title") or "").strip().lower()
             if t:
                 out[t] = (p.get("extract") or "").strip()
-        time.sleep(0.12)
+        time.sleep(0.1)
     return out
 
 
@@ -468,7 +469,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--batch-size", type=int, default=40)
     parser.add_argument("--reset-places", action="store_true")
-    parser.add_argument("--max-new-per-run", type=int, default=3000)
+    parser.add_argument("--max-new-per-run", type=int, default=0)
     args = parser.parse_args()
 
     api_key = os.environ.get("GROQ_API_KEY", "").strip()
@@ -482,7 +483,7 @@ def main():
     candidates = []
     seen_cand = set()
 
-    print(f"Toplam tarama noktası (İkonik + Küresel Grid): {len(hubs)}")
+    print(f"Toplam tarama noktası (İkonik + Çok Sık Küresel Grid): {len(hubs)}")
     for idx_h, (hub_name, lat, lon, radius, limit, lang, region) in enumerate(hubs, 1):
         try:
             raw = fetch_geosearch(lang, lat, lon, radius, limit)
@@ -519,9 +520,9 @@ def main():
         except Exception as e:
             print(f"[Geosearch Uyarı] {hub_name}: {e}")
 
-        if idx_h % 100 == 0:
+        if idx_h % 250 == 0:
             print(f"  Hub ilerlemesi: {idx_h}/{len(hubs)} | Biriken benzersiz aday: {len(candidates)}")
-        time.sleep(0.1)
+        time.sleep(0.08)
 
     uncached = [c for c in candidates if c["ckey"] not in cache]
     if args.max_new_per_run > 0:
