@@ -34,12 +34,15 @@ jobs:
           END_TIME=$((SECONDS + 19800))
 
           while [ $SECONDS -lt $END_TIME ]; do
-            python build_gpt_oss_world.py --batch-size 50
+            python build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0
 
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
             git add places.json places.js
+            if [ -d chunks ]; then
+              git add chunks/
+            fi
             if [ -f ai_cache_gpt_oss.json ]; then
               git add ai_cache_gpt_oss.json
             fi
