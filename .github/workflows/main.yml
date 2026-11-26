@@ -34,7 +34,7 @@ jobs:
           END_TIME=$((SECONDS + 19800))
 
           while [ $SECONDS -lt $END_TIME ]; do
-            python build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0
+            python -u build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0
 
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
