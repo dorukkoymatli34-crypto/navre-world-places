@@ -1,4 +1,4 @@
-﻿import argparse
+import argparse
 import json
 import os
 import re
@@ -9,8 +9,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(BASE_DIR, "places.json")
 JS_PATH = os.path.join(BASE_DIR, "places.js")
 CACHE_PATH = os.path.join(BASE_DIR, "ai_cache_gpt_oss.json")
+CHUNKS_DIR = os.path.join(BASE_DIR, "chunks")
 
-DEFAULT_GROQ_KEY = "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"
 MODEL_NAME = "llama-3.3-70b-versatile"
 
 ALLOWED_CATEGORIES = [
@@ -35,55 +35,85 @@ ALLOWED_CATEGORIES = [
 HARD_BLOCK_REGEX = re.compile(
     r"\b(lisesi|anadolu lisesi|fen lisesi|meslek lisesi|koleji|okulu|ilkokulu|ortaokulu|"
     r"üniversitesi|universitesi|fakültesi|fakultesi|hastanesi|belediyesi|valiliği|"
-    r"havalimanı|stadyumu|stadyum|oteli|hotel|avm|alışveriş merkezi|shopping mall|"
+    r"havalimanı|stadyumu|stadyum|oteli|hotel|lodge|resort|avm|alışveriş merkezi|shopping mall|"
     r"istasyon|metro|marmaray|metrobüs|tramvay|durak|gar|terminal|iskele|otogar|"
-    r"parkı|parki|park|otopark|korusu|koru|high school|school|university|hospital|airport|stadium)\b",
+    r"parkı|parki|park|otopark|korusu|koru|high school|school|university|hospital|airport|stadium|"
+    r"siege of|massacre|attack)\b",
     re.IGNORECASE,
 )
 
-# Sadece en popüler başkentlerle sınırlı olmayan, dünya geneline yayılmış geniş hub listesi
-# (hub_adi, lat, lon, yaricap_m, limit, lang)
+# (hub_adi, lat, lon, yaricap_m, limit, lang, region)
 WORLD_HUBS = [
-    # Türkiye - farklı bölgeler
-    ("TR-Canakkale-Assos-Boğaz", 39.8500, 26.3500, 10000, 90, "tr"),
-    ("TR-Mardin-Midyat", 37.3131, 40.7350, 10000, 90, "tr"),
-    ("TR-Ani-Kars", 40.5067, 43.5722, 10000, 80, "tr"),
-    ("TR-Divrigi-Sivas", 39.3711, 38.1172, 10000, 80, "tr"),
-    ("TR-Nemrut-Adiyaman", 37.9806, 38.7408, 10000, 80, "tr"),
-    ("TR-Hattusas-Corum", 40.0194, 34.6156, 10000, 80, "tr"),
-    ("TR-Myra-Kekova-Antalya", 36.2450, 29.9850, 10000, 90, "tr"),
-    ("TR-Safranbolu-Karabuk", 41.2508, 32.6942, 10000, 80, "tr"),
+    # Türkiye - geniş tarihi akslar
+    ("TR-Istanbul-Historic", 41.0082, 28.9784, 15000, 200, "tr", "middle-east-anatolia"),
+    ("TR-Edirne", 41.6771, 26.5557, 12000, 120, "tr", "middle-east-anatolia"),
+    ("TR-Bursa-Iznik", 40.1885, 29.0610, 15000, 150, "tr", "middle-east-anatolia"),
+    ("TR-Izmir-Efes-Bergama", 37.9497, 27.3686, 20000, 180, "tr", "middle-east-anatolia"),
+    ("TR-Canakkale-Assos-Troy", 39.8500, 26.3500, 18000, 150, "tr", "middle-east-anatolia"),
+    ("TR-Konya", 37.8714, 32.4846, 15000, 140, "tr", "middle-east-anatolia"),
+    ("TR-Kapadokya-Nevsehir", 38.6431, 34.8289, 20000, 180, "tr", "middle-east-anatolia"),
+    ("TR-Mardin-Midyat", 37.3131, 40.7350, 15000, 140, "tr", "middle-east-anatolia"),
+    ("TR-Sanliurfa-Gobeklitepe", 37.1591, 38.7969, 20000, 150, "tr", "middle-east-anatolia"),
+    ("TR-Diyarbakir", 37.9144, 40.2306, 15000, 120, "tr", "middle-east-anatolia"),
+    ("TR-Ani-Kars", 40.5067, 43.5722, 15000, 120, "tr", "middle-east-anatolia"),
+    ("TR-Divrigi-Sivas", 39.3711, 38.1172, 12000, 100, "tr", "middle-east-anatolia"),
+    ("TR-Nemrut-Adiyaman", 37.9806, 38.7408, 15000, 100, "tr", "middle-east-anatolia"),
+    ("TR-Hattusas-Corum", 40.0194, 34.6156, 15000, 100, "tr", "middle-east-anatolia"),
+    ("TR-Myra-Kekova-Antalya", 36.2450, 29.9850, 20000, 160, "tr", "middle-east-anatolia"),
+    ("TR-Safranbolu-Karabuk", 41.2508, 32.6942, 12000, 100, "tr", "middle-east-anatolia"),
+    ("TR-Trabzon-Sumela", 41.0027, 39.7168, 18000, 130, "tr", "middle-east-anatolia"),
 
-    # Avrupa - klasiklerin yanı sıra Orta/Doğu/Kuzey/Güney Avrupa
-    ("PT-Evora-Sintra", 38.5714, -7.9077, 10000, 90, "en"),
-    ("HR-Dubrovnik-Split", 42.6507, 18.0944, 10000, 90, "en"),
-    ("GE-Mtskheta-Tbilisi", 41.8425, 44.7186, 10000, 90, "en"),
-    ("AM-Geghard-Etchmiadzin", 40.1406, 44.7986, 10000, 80, "en"),
-    ("RO-Sighisoara-Transylvania", 46.2197, 24.7964, 10000, 90, "en"),
-    ("PL-Krakow-Wieliczka", 50.0647, 19.9450, 10000, 90, "en"),
-    ("SE-Visby-Gotland", 57.6348, 18.2948, 10000, 80, "en"),
+    # Avrupa
+    ("IT-Rome", 41.8902, 12.4922, 15000, 200, "en", "europe"),
+    ("IT-Florence-Siena", 43.7696, 11.2558, 15000, 160, "en", "europe"),
+    ("IT-Venice-Pompeii", 45.4340, 12.3388, 15000, 160, "en", "europe"),
+    ("GR-Athens", 37.9715, 23.7257, 15000, 200, "en", "europe"),
+    ("FR-Paris", 48.8566, 2.3522, 15000, 200, "en", "europe"),
+    ("ES-Madrid-Toledo", 40.4168, -3.7038, 18000, 180, "en", "europe"),
+    ("ES-Granada-Cordoba-Seville", 37.1773, -3.5986, 20000, 180, "en", "europe"),
+    ("PT-Lisbon-Evora-Sintra", 38.7223, -9.1393, 20000, 160, "en", "europe"),
+    ("AT-Vienna", 48.2082, 16.3738, 15000, 180, "en", "europe"),
+    ("UK-London", 51.5072, -0.1276, 15000, 200, "en", "europe"),
+    ("UK-Edinburgh-Oxford", 55.9533, -3.1883, 15000, 150, "en", "europe"),
+    ("DE-Berlin-Munich", 52.5200, 13.4050, 15000, 160, "en", "europe"),
+    ("CZ-Prague", 50.0755, 14.4378, 15000, 160, "en", "europe"),
+    ("HU-Budapest", 47.4979, 19.0402, 15000, 150, "en", "europe"),
+    ("PL-Krakow", 50.0647, 19.9450, 15000, 150, "en", "europe"),
+    ("HR-Dubrovnik-Split", 42.6507, 18.0944, 15000, 140, "en", "europe"),
+    ("RO-Sighisoara-Brasov", 46.2197, 24.7964, 18000, 130, "en", "europe"),
+    ("GE-Mtskheta-Tbilisi", 41.8425, 44.7186, 18000, 140, "en", "europe"),
+    ("AM-Geghard-Etchmiadzin", 40.1406, 44.7986, 18000, 120, "en", "europe"),
+    ("SE-Stockholm-Visby", 59.3293, 18.0686, 15000, 130, "en", "europe"),
 
-    # Orta Doğu, Kafkasya & Orta Asya / İpek Yolu
-    ("UZ-Samarkand-Registan", 39.6542, 66.9597, 10000, 100, "en"),
-    ("UZ-Bukhara", 39.7747, 64.4286, 10000, 90, "en"),
-    ("JO-Petra", 30.3285, 35.4444, 10000, 90, "en"),
-    ("LB-Byblos-Baalbek", 34.1236, 35.6511, 10000, 80, "en"),
+    # Orta Doğu, Kafkasya & Orta Asya
+    ("EG-Cairo-Giza", 30.0444, 31.2357, 20000, 200, "en", "middle-east-anatolia"),
+    ("EG-Luxor-Karnak", 25.6872, 32.6396, 20000, 180, "en", "middle-east-anatolia"),
+    ("JO-Petra", 30.3285, 35.4444, 18000, 140, "en", "middle-east-anatolia"),
+    ("LB-Byblos-Baalbek", 34.1236, 35.6511, 20000, 130, "en", "middle-east-anatolia"),
+    ("IR-Persepolis-Shiraz-Isfahan", 29.9352, 52.8916, 20000, 160, "en", "middle-east-anatolia"),
+    ("UZ-Samarkand", 39.6542, 66.9597, 18000, 150, "en", "asia"),
+    ("UZ-Bukhara-Khiva", 39.7747, 64.4286, 18000, 140, "en", "asia"),
 
-    # Afrika - Kuzey, Doğu ve Güney
-    ("MA-Marrakesh-Fes", 31.6295, -7.9811, 10000, 100, "en"),
-    ("ET-Lalibela-Aksum", 12.0319, 39.0475, 10000, 80, "en"),
-    ("TZ-Kilwa-Zanzibar", -8.9500, 39.5167, 10000, 80, "en"),
+    # Afrika
+    ("MA-Marrakesh-Fes", 31.6295, -7.9811, 20000, 160, "en", "africa"),
+    ("ET-Lalibela-Aksum", 12.0319, 39.0475, 20000, 120, "en", "africa"),
+    ("TZ-Kilwa-Zanzibar", -8.9500, 39.5167, 20000, 120, "en", "africa"),
 
-    # Asya - Güney, Güneydoğu, Doğu
-    ("IN-Hampi-Rajasthan", 15.3350, 76.4600, 10000, 100, "en"),
-    ("KH-Angkor", 13.4125, 103.8670, 10000, 100, "en"),
-    ("VN-Hue-HoiAn", 16.4637, 107.5909, 10000, 90, "en"),
-    ("JP-Kamakura-Himeji", 34.8394, 134.6939, 10000, 90, "en"),
+    # Asya
+    ("IN-Agra-Delhi", 27.1751, 78.0421, 20000, 180, "en", "asia"),
+    ("IN-Hampi-Jaipur", 15.3350, 76.4600, 20000, 160, "en", "asia"),
+    ("KH-Angkor", 13.4125, 103.8670, 20000, 160, "en", "asia"),
+    ("VN-Hue-HoiAn", 16.4637, 107.5909, 20000, 140, "en", "asia"),
+    ("CN-Beijing", 39.9042, 116.4074, 20000, 200, "en", "asia"),
+    ("CN-Xian", 34.3416, 108.9398, 20000, 160, "en", "asia"),
+    ("JP-Kyoto-Nara", 35.0116, 135.7681, 20000, 200, "en", "asia"),
+    ("JP-Kamakura-Himeji", 34.8394, 134.6939, 18000, 150, "en", "asia"),
 
-    # Amerika - Andlar, Mezoamerika, Kuzey
-    ("PE-Cusco-SacredValley", -13.5319, -71.9675, 10000, 100, "en"),
-    ("GT-Tikal-Antigua", 17.2220, -89.6237, 10000, 90, "en"),
-    ("BO-Tiwanaku", -16.5547, -68.6736, 10000, 80, "en"),
+    # Amerika
+    ("PE-Cusco-MachuPicchu", -13.5319, -71.9675, 20000, 180, "en", "americas"),
+    ("MX-MexicoCity-Teotihuacan", 19.4326, -99.1332, 20000, 180, "en", "americas"),
+    ("GT-Tikal-Antigua", 17.2220, -89.6237, 20000, 140, "en", "americas"),
+    ("BO-Tiwanaku", -16.5547, -68.6736, 18000, 120, "en", "americas"),
 ]
 
 
@@ -117,17 +147,41 @@ def save_cache(cache):
 
 
 def save_places(places):
+    cleaned = []
+    for p in places:
+        if not isinstance(p, dict):
+            continue
+        lat = p.get("lat")
+        lon = p.get("lon")
+        if not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
+            continue
+        item = dict(p)
+        item["lat"] = round(float(lat), 6)
+        item["lon"] = round(float(lon), 6)
+        if not item.get("region"):
+            item["region"] = "global"
+        cleaned.append(item)
+
     with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(places, f, ensure_ascii=False, indent=2)
+        json.dump(cleaned, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
     with open(JS_PATH, "w", encoding="utf-8") as f:
-        json.dump(places, f, ensure_ascii=False, indent=2)
+        f.write("window.NAVRE_SEED_PLACES = ")
+        json.dump(cleaned, f, ensure_ascii=False, indent=2)
         f.write(";\n")
-        with open(JS_PATH, "r", encoding="utf-8") as rf:
-            content = rf.read()
-        if not content.startswith("window.NAVRE_SEED_PLACES = "):
-            with open(JS_PATH, "w", encoding="utf-8") as wf:
-                wf.write("window.NAVRE_SEED_PLACES = " + content)
+
+    os.makedirs(CHUNKS_DIR, exist_ok=True)
+    grouped = {}
+    for p in cleaned:
+        reg = re.sub(r"[^a-z0-9-]", "", str(p.get("region", "global")).lower()) or "global"
+        grouped.setdefault(reg, []).append(p)
+
+    for reg, items in grouped.items():
+        chunk_file = os.path.join(CHUNKS_DIR, f"{reg}.json")
+        with open(chunk_file, "w", encoding="utf-8") as cf:
+            json.dump(items, cf, ensure_ascii=False, indent=2)
+            cf.write("\n")
 
 
 def fetch_geosearch(lang, lat, lon, radius, limit):
@@ -136,14 +190,14 @@ def fetch_geosearch(lang, lat, lon, radius, limit):
         "action": "query",
         "list": "geosearch",
         "gscoord": f"{lat}|{lon}",
-        "gsradius": radius,
-        "gslimit": limit,
+        "gsradius": min(radius, 10000),
+        "gslimit": min(limit, 500),
         "format": "json",
     }
     resp = requests.get(
         url,
         params=params,
-        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/1.0 (https://navre.app)"},
+        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/1.1 (https://navre.app)"},
         timeout=20,
     )
     resp.raise_for_status()
@@ -167,7 +221,7 @@ def fetch_extracts(lang, titles):
         resp = requests.get(
             url,
             params=params,
-            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/1.0 (https://navre.app)"},
+            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/1.1 (https://navre.app)"},
             timeout=20,
         )
         resp.raise_for_status()
@@ -207,19 +261,19 @@ def parse_json_array_loose(raw_text: str):
     return []
 
 
-def ask_groq_gpt_oss(items_batch, api_key: str):
+def ask_groq_curate(items_batch, api_key: str):
     payload = [
         {"idx": i, "title": it["title"], "extract": it["extract"][:180]}
         for i, it in enumerate(items_batch)
     ]
 
     system_prompt = (
-        "You curate historical and cultural heritage places for a discovery map app. "
-        "When a user gets a notification and reads about a place, they should think: "
-        "'Oh, that's genuinely interesting and historically/culturally meaningful.' "
-        "Keep the list generous across diverse world regions, while filtering out modern schools, "
-        "universities, hospitals, municipalities, stations, airports, stadiums, shopping malls, "
-        "parks, neighborhoods, villages, rivers, mountains, or mundane/trivial entries. "
+        "You curate physical historical and cultural heritage places for a discovery map app. "
+        "Keep genuinely interesting historical or cultural landmarks, monuments, palaces, castles, "
+        "museums, temples, mosques, churches, synagogues, monasteries, ruins, archaeological sites, "
+        "cisterns, aqueducts, tombs, towers, and historic bridges. "
+        "Reject events/battles/attacks/sieges/massacres, hotels/lodges, modern schools, universities, "
+        "hospitals, stations, airports, stadiums, malls, parks, neighborhoods, villages, rivers, or mountains. "
         f"Allowed categories: {ALLOWED_CATEGORIES}. "
         "Reply ONLY with a valid JSON array of objects: "
         '[{"idx": 0, "keep": true, "category": "castle"}]'
@@ -260,19 +314,26 @@ def main():
     parser.add_argument("--reset-places", action="store_true")
     args = parser.parse_args()
 
-    api_key = (os.environ.get("GROQ_API_KEY") or DEFAULT_GROQ_KEY).strip()
+    api_key = os.environ.get("GROQ_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY ortam değişkeni tanımlı değil.")
+
     cache = load_cache()
     places = [] if args.reset_places else load_json_list(JSON_PATH)
 
-    seen_coords = {
-        (str(p.get("name", "")).strip().lower(), round(float(p.get("lat", 0)), 3), round(float(p.get("lon", 0)), 3))
-        for p in places
-    }
+    seen_coords = set()
+    for p in places:
+        if isinstance(p, dict) and isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lon"), (int, float)):
+            seen_coords.add((
+                str(p.get("name", "")).strip().lower(),
+                round(float(p["lat"]), 3),
+                round(float(p["lon"]), 3),
+            ))
 
     candidates = []
     seen_cand = set()
 
-    for hub_name, lat, lon, radius, limit, lang in WORLD_HUBS:
+    for hub_name, lat, lon, radius, limit, lang, region in WORLD_HUBS:
         try:
             raw = fetch_geosearch(lang, lat, lon, radius, limit)
             titles_to_fetch = []
@@ -298,6 +359,7 @@ def main():
                 candidates.append({
                     "ckey": ckey,
                     "lang": lang,
+                    "region": region,
                     "title": title,
                     "lat": round(plat, 6),
                     "lon": round(plon, 6),
@@ -309,12 +371,12 @@ def main():
         time.sleep(0.2)
 
     uncached = [c for c in candidates if c["ckey"] not in cache]
-    print(f"Aday: {len(candidates)} | Önbellekte: {len(candidates) - len(uncached)} | gpt-oss-120b'ye sorulacak: {len(uncached)}")
+    print(f"Aday: {len(candidates)} | Önbellekte: {len(candidates) - len(uncached)} | Sorulacak: {len(uncached)}")
 
     for i in range(0, len(uncached), args.batch_size):
         batch = uncached[i : i + args.batch_size]
         try:
-            decisions = ask_groq_gpt_oss(batch, api_key=api_key)
+            decisions = ask_groq_curate(batch, api_key=api_key)
             dec_map = {int(d.get("idx", -1)): d for d in decisions if isinstance(d, dict)}
             for idx_in_batch, item in enumerate(batch):
                 d = dec_map.get(idx_in_batch)
@@ -326,9 +388,9 @@ def main():
                     cat = "monument"
                 cache[item["ckey"]] = {"keep": keep, "category": cat if keep else None}
             save_cache(cache)
-            print(f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] gpt-oss-120b paket tamamlandı.")
+            print(f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] Paket tamamlandı.")
         except Exception as e:
-            print(f"[gpt-oss-120b Uyarı] {e} — 5 sn sonra devam...")
+            print(f"[AI Uyarı] {e} — 5 sn sonra devam...")
             time.sleep(5)
         time.sleep(1.5)
 
@@ -350,6 +412,7 @@ def main():
             "category": cat,
             "lat": c["lat"],
             "lon": c["lon"],
+            "region": c["region"],
             "wikiTitle": c["title"],
         })
 
@@ -360,4 +423,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
