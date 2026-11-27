@@ -7207,5 +7207,23 @@
     "lon": 34.712778,
     "wikiTitle": "Nevşehir Kalesi",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/70488",
+    "name": "Karatay Hanı",
+    "category": "archaeological_site",
+    "lat": 38.644,
+    "lon": 35.9352,
+    "wikiTitle": "Karatay Hanı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2285960",
+    "name": "Camandos",
+    "category": "castle",
+    "lat": 38.722,
+    "lon": 36.391,
+    "wikiTitle": "Camandos",
+    "region": "middle-east-anatolia"
   }
 ]
