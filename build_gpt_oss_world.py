@@ -1,4 +1,3 @@
-
 import argparse
 import json
 import os
@@ -13,7 +12,12 @@ CACHE_PATH = os.path.join(BASE_DIR, "ai_cache_gpt_oss.json")
 STATE_PATH = os.path.join(BASE_DIR, "progress_state.json")
 CHUNKS_DIR = os.path.join(BASE_DIR, "chunks")
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
+FALLBACK_MODELS = [
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    "llama-3.1-8b-instant",
+]
 
 ALLOWED_CATEGORIES = [
     "castle",
@@ -331,7 +335,7 @@ def fetch_geosearch(lang, lat, lon, radius, limit):
     resp = requests.get(
         url,
         params=params,
-        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.2 (https://navre.app)"},
+        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.3 (https://navre.app)"},
         timeout=20,
     )
     resp.raise_for_status()
@@ -355,7 +359,7 @@ def fetch_extracts(lang, titles):
         resp = requests.get(
             url,
             params=params,
-            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.2 (https://navre.app)"},
+            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.3 (https://navre.app)"},
             timeout=20,
         )
         resp.raise_for_status()
@@ -416,31 +420,37 @@ def ask_groq_curate(items_batch, api_key: str):
         '[{"idx": 0, "keep": true, "category": "castle"}]'
     )
 
-    for attempt in range(4):
-        resp = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": MODEL_NAME,
-                "temperature": 0.1,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
-                ],
-            },
-            timeout=60,
-        )
-        if resp.status_code == 429:
-            wait_s = 6 * (attempt + 1)
-            print(f"  [Rate limit 429] {wait_s} sn bekleniyor...")
-            time.sleep(wait_s)
-            continue
-        resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"].get("content", "")
-        return parse_json_array_loose(content)
+    models_to_try = [MODEL_NAME] + [m for m in FALLBACK_MODELS if m != MODEL_NAME]
+
+    for active_model in models_to_try:
+        for attempt in range(3):
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": active_model,
+                    "temperature": 0.1,
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
+                    ],
+                },
+                timeout=60,
+            )
+            if resp.status_code == 404:
+                print(f"  [Model 404] {active_model} bulunamadı, yedek modele geçiliyor...")
+                break
+            if resp.status_code == 429:
+                wait_s = 6 * (attempt + 1)
+                print(f"  [Rate limit 429 - {active_model}] {wait_s} sn bekleniyor...")
+                time.sleep(wait_s)
+                continue
+            resp.raise_for_status()
+            content = resp.json()["choices"][0]["message"].get("content", "")
+            return parse_json_array_loose(content)
 
     return []
 
@@ -486,8 +496,8 @@ def main():
     parser.add_argument("--batch-size", type=int, default=40)
     parser.add_argument("--reset-places", action="store_true")
     parser.add_argument("--max-new-per-run", type=int, default=0)
-    parser.add_argument("--max-hubs", type=int, default=400)
-    parser.add_argument("--max-seconds", type=int, default=900)
+    parser.add_argument("--max-hubs", type=int, default=300)
+    parser.add_argument("--max-seconds", type=int, default=720)
     args = parser.parse_args()
 
     api_key = os.environ.get("GROQ_API_KEY", "").strip()
@@ -506,7 +516,7 @@ def main():
 
     print(
         f"Toplam hub: {len(hubs)} | Başlangıç indeksi: {start_idx} | "
-        f"Max hub/tur: {args.max_hubs} | Max süre: {args.max_seconds} sn"
+        f"Max hub/tur: {args.max_hubs} | Max süre: {args.max_seconds} sn | Model: {MODEL_NAME}"
     )
 
     processed_hubs = 0
