@@ -4795,5 +4795,32 @@
     "lon": 30.97,
     "region": "middle-east-anatolia",
     "wikiTitle": "Mirgissa"
+  },
+  {
+    "id": "w-en/13519916",
+    "name": "Ohel Ya'akov Synagogue (Zikhron Ya'akov)",
+    "category": "synagogue",
+    "lat": 32.574067,
+    "lon": 34.954151,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ohel Ya'akov Synagogue (Zikhron Ya'akov)"
+  },
+  {
+    "id": "w-en/4344626",
+    "name": "Nahal Tut (archaeological site)",
+    "category": "archaeological_site",
+    "lat": 32.623328,
+    "lon": 35.059841,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Nahal Tut (archaeological site)"
+  },
+  {
+    "id": "w-en/15733369",
+    "name": "Cafarlet",
+    "category": "castle",
+    "lat": 32.637431,
+    "lon": 34.934653,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cafarlet"
   }
 ]

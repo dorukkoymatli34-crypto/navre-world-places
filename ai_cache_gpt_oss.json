@@ -16474,5 +16474,165 @@
   "en:marhouma": {
     "keep": false,
     "category": null
+  },
+  "en:msallata": {
+    "keep": false,
+    "category": null
+  },
+  "en:el uweilia": {
+    "keep": false,
+    "category": null
+  },
+  "en:umm al rizam": {
+    "keep": false,
+    "category": null
+  },
+  "en:hof hacarmel regional council": {
+    "keep": false,
+    "category": null
+  },
+  "en:bat shlomo": {
+    "keep": false,
+    "category": null
+  },
+  "en:haifa district": {
+    "keep": false,
+    "category": null
+  },
+  "en:jerusalem subdistrict, mandatory palestine": {
+    "keep": false,
+    "category": null
+  },
+  "en:acre subdistrict, mandatory palestine": {
+    "keep": false,
+    "category": null
+  },
+  "en:meir shfeya": {
+    "keep": false,
+    "category": null
+  },
+  "en:ofer": {
+    "keep": false,
+    "category": null
+  },
+  "en:sabbarin": {
+    "keep": false,
+    "category": null
+  },
+  "en:khirbat qumbaza": {
+    "keep": false,
+    "category": null
+  },
+  "en:amikam": {
+    "keep": false,
+    "category": null
+  },
+  "en:al-sindiyana": {
+    "keep": false,
+    "category": null
+  },
+  "en:fureidis": {
+    "keep": false,
+    "category": null
+  },
+  "en:ayn ghazal (village)": {
+    "keep": false,
+    "category": null
+  },
+  "en:khirbat al-sawamir": {
+    "keep": false,
+    "category": null
+  },
+  "en:ijzim": {
+    "keep": false,
+    "category": null
+  },
+  "en:operation shoter": {
+    "keep": false,
+    "category": null
+  },
+  "en:ohel ya'akov synagogue (zikhron ya'akov)": {
+    "keep": true,
+    "category": "synagogue"
+  },
+  "en:burayka": {
+    "keep": false,
+    "category": null
+  },
+  "en:ramot menashe": {
+    "keep": false,
+    "category": null
+  },
+  "en:kerem maharal": {
+    "keep": false,
+    "category": null
+  },
+  "en:zikhron ya'akov": {
+    "keep": false,
+    "category": null
+  },
+  "en:zikhron ya'akov natural region": {
+    "keep": false,
+    "category": null
+  },
+  "en:mivtachim sanitarium": {
+    "keep": false,
+    "category": null
+  },
+  "en:ein ayala": {
+    "keep": false,
+    "category": null
+  },
+  "en:khirbat al-manara": {
+    "keep": false,
+    "category": null
+  },
+  "en:nahal tut (archaeological site)": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:ma'ayan tzvi": {
+    "keep": false,
+    "category": null
+  },
+  "en:atatürk forest (israel)": {
+    "keep": false,
+    "category": null
+  },
+  "en:umm ash shauf": {
+    "keep": false,
+    "category": null
+  },
+  "en:jaba', haifa": {
+    "keep": false,
+    "category": null
+  },
+  "en:givat nili": {
+    "keep": false,
+    "category": null
+  },
+  "en:zikhron ya'aqov railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:eliakim": {
+    "keep": false,
+    "category": null
+  },
+  "en:daliyat al-rawha'": {
+    "keep": false,
+    "category": null
+  },
+  "en:dalia, israel": {
+    "keep": false,
+    "category": null
+  },
+  "en:dor, israel": {
+    "keep": false,
+    "category": null
+  },
+  "en:cafarlet": {
+    "keep": true,
+    "category": "castle"
   }
 }
