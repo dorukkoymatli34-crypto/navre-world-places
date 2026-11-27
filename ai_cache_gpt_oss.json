@@ -17554,5 +17554,61 @@
   "en:san vicente, camarines norte": {
     "keep": false,
     "category": null
+  },
+  "en:pranahita river": {
+    "keep": false,
+    "category": null
+  },
+  "en:mahadevpur": {
+    "keep": false,
+    "category": null
+  },
+  "en:bailadila range": {
+    "keep": false,
+    "category": null
+  },
+  "en:bade bacheli": {
+    "keep": false,
+    "category": null
+  },
+  "en:mettuguda": {
+    "keep": false,
+    "category": null
+  },
+  "en:seethampeta, parvathipuram manyam": {
+    "keep": false,
+    "category": null
+  },
+  "en:kotturu, srikakulam district": {
+    "keep": false,
+    "category": null
+  },
+  "en:pa miang": {
+    "keep": false,
+    "category": null
+  },
+  "en:bo suak": {
+    "keep": false,
+    "category": null
+  },
+  "en:northern thailand–laos moist deciduous forests": {
+    "keep": false,
+    "category": null
+  },
+  "en:mueang nan district": {
+    "keep": false,
+    "category": null
+  },
+  "en:wat phumin": {
+    "keep": true,
+    "category": "temple"
+  },
+  "en:nan province": {
+    "keep": false,
+    "category": null
+  },
+  "en:nan, thailand": {
+    "keep": false,
+    "category": null
   }
 }

@@ -6901,5 +6901,14 @@ window.NAVRE_SEED_PLACES = [
     "lon": 121.57286,
     "region": "asia",
     "wikiTitle": "Kamay ni Hesus Healing Church"
+  },
+  {
+    "id": "w-en/12112670",
+    "name": "Wat Phumin",
+    "category": "temple",
+    "lat": 18.774669,
+    "lon": 100.771592,
+    "region": "asia",
+    "wikiTitle": "Wat Phumin"
   }
 ];
