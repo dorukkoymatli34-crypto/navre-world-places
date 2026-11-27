@@ -3121,5 +3121,914 @@
     "lon": 38.483333,
     "region": "middle-east-anatolia",
     "wikiTitle": "Arapgir Katedrali"
+  },
+  {
+    "id": "w-tr/4540100",
+    "name": "Kolonai",
+    "category": "archaeological_site",
+    "lat": 39.689722,
+    "lon": 26.163333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kolonai"
+  },
+  {
+    "id": "w-tr/4545439",
+    "name": "Larisa (Troad)",
+    "category": "archaeological_site",
+    "lat": 39.615278,
+    "lon": 26.145278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Larisa (Troad)"
+  },
+  {
+    "id": "w-tr/4440081",
+    "name": "Kebrini",
+    "category": "archaeological_site",
+    "lat": 39.744167,
+    "lon": 26.566389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kebrini"
+  },
+  {
+    "id": "w-tr/262203",
+    "name": "Balıkesir Ulusal Fotoğraf Müzesi",
+    "category": "museum",
+    "lat": 39.668889,
+    "lon": 27.8825,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Balıkesir Ulusal Fotoğraf Müzesi"
+  },
+  {
+    "id": "w-tr/1386830",
+    "name": "Karesi Türbesi",
+    "category": "tomb",
+    "lat": 39.649722,
+    "lon": 27.879444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Karesi Türbesi"
+  },
+  {
+    "id": "w-tr/226348",
+    "name": "Zağnos Paşa Camii",
+    "category": "mosque",
+    "lat": 39.648611,
+    "lon": 27.879722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Zağnos Paşa Camii"
+  },
+  {
+    "id": "w-tr/2322441",
+    "name": "Yeşilli Cami (Balıkesir)",
+    "category": "mosque",
+    "lat": 39.647222,
+    "lon": 27.881944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yeşilli Cami (Balıkesir)"
+  },
+  {
+    "id": "w-tr/2322437",
+    "name": "Balıkesir Kuva-yi Milliye Müzesi",
+    "category": "museum",
+    "lat": 39.645833,
+    "lon": 27.879444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Balıkesir Kuva-yi Milliye Müzesi"
+  },
+  {
+    "id": "w-tr/1401142",
+    "name": "Balıkesir Saat Kulesi",
+    "category": "tower",
+    "lat": 39.645278,
+    "lon": 27.879167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Balıkesir Saat Kulesi"
+  },
+  {
+    "id": "w-tr/1541504",
+    "name": "Kanlıtaş Höyük",
+    "category": "archaeological_site",
+    "lat": 39.6973,
+    "lon": 30.083,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kanlıtaş Höyük"
+  },
+  {
+    "id": "w-tr/2464903",
+    "name": "Karacahisar Kalesi",
+    "category": "castle",
+    "lat": 39.732778,
+    "lon": 30.4475,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Karacahisar Kalesi"
+  },
+  {
+    "id": "w-tr/21667",
+    "name": "Alagöz Karargâh Müzesi",
+    "category": "museum",
+    "lat": 39.746667,
+    "lon": 32.478611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Alagöz Karargâh Müzesi"
+  },
+  {
+    "id": "w-tr/2018658",
+    "name": "Yerköy Saat Kulesi",
+    "category": "tower",
+    "lat": 39.638056,
+    "lon": 34.469722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yerköy Saat Kulesi"
+  },
+  {
+    "id": "w-tr/4719419",
+    "name": "Emirci Sultan Camii ve Türbesi",
+    "category": "mosque",
+    "lat": 39.625782,
+    "lon": 34.963821,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Emirci Sultan Camii ve Türbesi"
+  },
+  {
+    "id": "w-tr/2018295",
+    "name": "Bahadın Saat Kulesi",
+    "category": "tower",
+    "lat": 39.676111,
+    "lon": 35.304167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bahadın Saat Kulesi"
+  },
+  {
+    "id": "w-tr/1456477",
+    "name": "Çadır Höyük",
+    "category": "archaeological_site",
+    "lat": 39.67672,
+    "lon": 35.14335,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çadır Höyük"
+  },
+  {
+    "id": "w-tr/2885671",
+    "name": "Kesik Köprü",
+    "category": "bridge",
+    "lat": 39.722222,
+    "lon": 36.9625,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kesik Köprü"
+  },
+  {
+    "id": "w-tr/1958314",
+    "name": "Eğri Köprü",
+    "category": "bridge",
+    "lat": 39.726111,
+    "lon": 37.041389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Eğri Köprü"
+  },
+  {
+    "id": "w-tr/117809",
+    "name": "Gök Medrese (Sivas)",
+    "category": "monument",
+    "lat": 39.744167,
+    "lon": 37.016667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Gök Medrese (Sivas)"
+  },
+  {
+    "id": "w-tr/2018639",
+    "name": "Sivas Saat Kulesi",
+    "category": "tower",
+    "lat": 39.745556,
+    "lon": 37.015,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sivas Saat Kulesi"
+  },
+  {
+    "id": "w-tr/1352285",
+    "name": "Sivas Ulu Camii",
+    "category": "mosque",
+    "lat": 39.747222,
+    "lon": 37.0175,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sivas Ulu Camii"
+  },
+  {
+    "id": "w-tr/1355668",
+    "name": "Çifte Minareli Medrese (Sivas)",
+    "category": "monument",
+    "lat": 39.748333,
+    "lon": 37.014167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çifte Minareli Medrese (Sivas)"
+  },
+  {
+    "id": "w-tr/347054",
+    "name": "Şifaiye Medresesi",
+    "category": "monument",
+    "lat": 39.748333,
+    "lon": 37.015,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şifaiye Medresesi"
+  },
+  {
+    "id": "w-tr/78027",
+    "name": "Buruciye Medresesi",
+    "category": "monument",
+    "lat": 39.749167,
+    "lon": 37.015278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Buruciye Medresesi"
+  },
+  {
+    "id": "w-tr/90425",
+    "name": "Sivas Atatürk ve Kongre Müzesi",
+    "category": "museum",
+    "lat": 39.749722,
+    "lon": 37.013611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sivas Atatürk ve Kongre Müzesi"
+  },
+  {
+    "id": "w-tr/3535869",
+    "name": "Sivas Arkeoloji Müzesi",
+    "category": "museum",
+    "lat": 39.755278,
+    "lon": 37.011667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sivas Arkeoloji Müzesi"
+  },
+  {
+    "id": "w-tr/4440591",
+    "name": "Sivas Savaş Atları Müzesi",
+    "category": "museum",
+    "lat": 39.721667,
+    "lon": 36.929722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sivas Savaş Atları Müzesi"
+  },
+  {
+    "id": "w-tr/2912233",
+    "name": "Ahura Manastırı",
+    "category": "monastery",
+    "lat": 39.72,
+    "lon": 44.378611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ahura Manastırı"
+  },
+  {
+    "id": "w-tr/4429487",
+    "name": "Sigeion",
+    "category": "archaeological_site",
+    "lat": 39.99,
+    "lon": 26.180556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sigeion"
+  },
+  {
+    "id": "w-tr/4263457",
+    "name": "Cape Helles Anıtı",
+    "category": "monument",
+    "lat": 40.045833,
+    "lon": 26.179167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cape Helles Anıtı"
+  },
+  {
+    "id": "w-tr/122901",
+    "name": "Çanakkale Şehitleri Anıtı",
+    "category": "monument",
+    "lat": 40.050278,
+    "lon": 26.219167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çanakkale Şehitleri Anıtı"
+  },
+  {
+    "id": "w-tr/3539202",
+    "name": "Şehitler Abidesi Camisi",
+    "category": "mosque",
+    "lat": 40.050833,
+    "lon": 26.22,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şehitler Abidesi Camisi"
+  },
+  {
+    "id": "w-tr/2406969",
+    "name": "Troya Müzesi",
+    "category": "museum",
+    "lat": 39.955278,
+    "lon": 26.249167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Troya Müzesi"
+  },
+  {
+    "id": "w-tr/2310972",
+    "name": "Ankara Atatürk Evi Müzesi",
+    "category": "museum",
+    "lat": 39.936111,
+    "lon": 32.798056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Atatürk Evi Müzesi"
+  },
+  {
+    "id": "w-tr/2310412",
+    "name": "Veteriner Anatomi Müzesi",
+    "category": "museum",
+    "lat": 39.957778,
+    "lon": 32.862778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Veteriner Anatomi Müzesi"
+  },
+  {
+    "id": "w-tr/135188",
+    "name": "Ankara Oyuncak Müzesi",
+    "category": "museum",
+    "lat": 39.938611,
+    "lon": 32.828056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Oyuncak Müzesi"
+  },
+  {
+    "id": "w-tr/2311262",
+    "name": "Türk Telekom Telekomünikasyon Müzesi",
+    "category": "museum",
+    "lat": 39.958611,
+    "lon": 32.866389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Türk Telekom Telekomünikasyon Müzesi"
+  },
+  {
+    "id": "w-tr/2311088",
+    "name": "Atatürk Eğitim Müzesi",
+    "category": "museum",
+    "lat": 39.937222,
+    "lon": 32.825833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Atatürk Eğitim Müzesi"
+  },
+  {
+    "id": "w-tr/2356595",
+    "name": "Çankırıkapı Köprüsü",
+    "category": "bridge",
+    "lat": 39.945278,
+    "lon": 32.850278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çankırıkapı Köprüsü"
+  },
+  {
+    "id": "w-tr/2310933",
+    "name": "Profesör Doktor Ülker Muncuk Müzesi",
+    "category": "museum",
+    "lat": 39.935556,
+    "lon": 32.823611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Profesör Doktor Ülker Muncuk Müzesi"
+  },
+  {
+    "id": "w-tr/112675",
+    "name": "Ankara Roma Hamamı",
+    "category": "archaeological_site",
+    "lat": 39.946389,
+    "lon": 32.853056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Roma Hamamı"
+  },
+  {
+    "id": "w-tr/2349881",
+    "name": "MKE Sanayi ve Teknoloji Müzesi",
+    "category": "museum",
+    "lat": 39.938611,
+    "lon": 32.837778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "MKE Sanayi ve Teknoloji Müzesi"
+  },
+  {
+    "id": "w-tr/1725866",
+    "name": "Cumhurbaşkanlığı Sarayı (Türkiye)",
+    "category": "palace",
+    "lat": 39.931111,
+    "lon": 32.798889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cumhurbaşkanlığı Sarayı (Türkiye)"
+  },
+  {
+    "id": "w-tr/606439",
+    "name": "Kore'de Savaşan Türk Askerleri Anıtı",
+    "category": "monument",
+    "lat": 39.938889,
+    "lon": 32.841667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kore'de Savaşan Türk Askerleri Anıtı"
+  },
+  {
+    "id": "w-tr/2271095",
+    "name": "Cumhurbaşkanlığı Külliyesi",
+    "category": "palace",
+    "lat": 39.930833,
+    "lon": 32.798889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cumhurbaşkanlığı Külliyesi"
+  },
+  {
+    "id": "w-tr/2402366",
+    "name": "Türkiye İş Bankası İktisadi Bağımsızlık Müzesi",
+    "category": "museum",
+    "lat": 39.942778,
+    "lon": 32.854722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Türkiye İş Bankası İktisadi Bağımsızlık Müzesi"
+  },
+  {
+    "id": "w-tr/112677",
+    "name": "Cumhuriyet Müzesi",
+    "category": "museum",
+    "lat": 39.941111,
+    "lon": 32.851667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cumhuriyet Müzesi"
+  },
+  {
+    "id": "w-tr/238686",
+    "name": "Hacı Bayram Camii",
+    "category": "mosque",
+    "lat": 39.944444,
+    "lon": 32.857778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hacı Bayram Camii"
+  },
+  {
+    "id": "w-tr/1756385",
+    "name": "Anadolu/Anıtkabir",
+    "category": "tomb",
+    "lat": 39.934722,
+    "lon": 32.836944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Anadolu/Anıtkabir"
+  },
+  {
+    "id": "w-tr/112674",
+    "name": "Kurtuluş Savaşı Müzesi",
+    "category": "museum",
+    "lat": 39.941944,
+    "lon": 32.853889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kurtuluş Savaşı Müzesi"
+  },
+  {
+    "id": "w-tr/423252",
+    "name": "Julianus Sütunu",
+    "category": "monument",
+    "lat": 39.943333,
+    "lon": 32.856389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Julianus Sütunu"
+  },
+  {
+    "id": "w-tr/1355339",
+    "name": "Augustus Tapınağı",
+    "category": "temple",
+    "lat": 39.944444,
+    "lon": 32.858333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Augustus Tapınağı"
+  },
+  {
+    "id": "w-tr/626468",
+    "name": "Hacı Bayram-ı Veli Türbesi",
+    "category": "tomb",
+    "lat": 39.944167,
+    "lon": 32.858056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hacı Bayram-ı Veli Türbesi"
+  },
+  {
+    "id": "w-tr/1410857",
+    "name": "Ankara Palas",
+    "category": "palace",
+    "lat": 39.940556,
+    "lon": 32.852222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Palas"
+  },
+  {
+    "id": "w-tr/670917",
+    "name": "Zafer Anıtı (Ankara)",
+    "category": "monument",
+    "lat": 39.941667,
+    "lon": 32.854722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Zafer Anıtı (Ankara)"
+  },
+  {
+    "id": "w-tr/1448242",
+    "name": "Ankara Roma Yolu",
+    "category": "archaeological_site",
+    "lat": 39.942286,
+    "lon": 32.855964,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Roma Yolu"
+  },
+  {
+    "id": "w-tr/2356851",
+    "name": "Aynalı Köprü",
+    "category": "bridge",
+    "lat": 39.981944,
+    "lon": 32.891389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aynalı Köprü"
+  },
+  {
+    "id": "w-tr/2586063",
+    "name": "Zincirli Camii",
+    "category": "mosque",
+    "lat": 39.941944,
+    "lon": 32.856389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Zincirli Camii"
+  },
+  {
+    "id": "w-tr/2451595",
+    "name": "TCMB Para Müzesi",
+    "category": "museum",
+    "lat": 39.940278,
+    "lon": 32.853611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "TCMB Para Müzesi"
+  },
+  {
+    "id": "w-tr/3580804",
+    "name": "Beştepe Millet Camii",
+    "category": "mosque",
+    "lat": 39.9275,
+    "lon": 32.802222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Beştepe Millet Camii"
+  },
+  {
+    "id": "w-tr/2727209",
+    "name": "Atatürk Konutu ve Demiryolları Müzesi",
+    "category": "museum",
+    "lat": 39.935556,
+    "lon": 32.844444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Atatürk Konutu ve Demiryolları Müzesi"
+  },
+  {
+    "id": "w-tr/2311258",
+    "name": "TCDD Müzesi ve Sanat Galerisi",
+    "category": "museum",
+    "lat": 39.935556,
+    "lon": 32.844722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "TCDD Müzesi ve Sanat Galerisi"
+  },
+  {
+    "id": "w-tr/904853",
+    "name": "Ziraat Bankası Müzesi",
+    "category": "museum",
+    "lat": 39.939444,
+    "lon": 32.854167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ziraat Bankası Müzesi"
+  },
+  {
+    "id": "w-tr/2357118",
+    "name": "Hallaç Mahmut Cami",
+    "category": "mosque",
+    "lat": 39.940833,
+    "lon": 32.856944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hallaç Mahmut Cami"
+  },
+  {
+    "id": "w-tr/1550161",
+    "name": "Mithat Paşa Heykeli",
+    "category": "monument",
+    "lat": 39.938889,
+    "lon": 32.853889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mithat Paşa Heykeli"
+  },
+  {
+    "id": "w-tr/2585199",
+    "name": "Abdülkadir İsfahani Mescidi",
+    "category": "mosque",
+    "lat": 39.9425,
+    "lon": 32.860833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Abdülkadir İsfahani Mescidi"
+  },
+  {
+    "id": "w-tr/1766422",
+    "name": "Ankara Roma Tiyatrosu",
+    "category": "archaeological_site",
+    "lat": 39.941944,
+    "lon": 32.860278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Roma Tiyatrosu"
+  },
+  {
+    "id": "w-tr/2311189",
+    "name": "PTT Pul Müzesi",
+    "category": "museum",
+    "lat": 39.938333,
+    "lon": 32.854167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "PTT Pul Müzesi"
+  },
+  {
+    "id": "w-tr/1822858",
+    "name": "TCDD Açık Hava Buharlı Lokomotif Müzesi",
+    "category": "museum",
+    "lat": 39.932778,
+    "lon": 32.846389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "TCDD Açık Hava Buharlı Lokomotif Müzesi"
+  },
+  {
+    "id": "w-tr/1767084",
+    "name": "Aziz Klemens Kilisesi",
+    "category": "church",
+    "lat": 39.939167,
+    "lon": 32.86,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aziz Klemens Kilisesi"
+  },
+  {
+    "id": "w-tr/3525892",
+    "name": "Melike Hatun Camii",
+    "category": "mosque",
+    "lat": 39.936389,
+    "lon": 32.855556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Melike Hatun Camii"
+  },
+  {
+    "id": "w-tr/134048",
+    "name": "Ankara Kalesi",
+    "category": "castle",
+    "lat": 39.941667,
+    "lon": 32.865,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Kalesi"
+  },
+  {
+    "id": "w-tr/1060153",
+    "name": "Akkale",
+    "category": "castle",
+    "lat": 39.941667,
+    "lon": 32.865556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Akkale"
+  },
+  {
+    "id": "w-tr/2310963",
+    "name": "Ankara Vakıf Eserleri Müzesi",
+    "category": "museum",
+    "lat": 39.935556,
+    "lon": 32.855,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ankara Vakıf Eserleri Müzesi"
+  },
+  {
+    "id": "w-tr/2310664",
+    "name": "Hacettepe Sanat Müzesi",
+    "category": "museum",
+    "lat": 39.931944,
+    "lon": 32.862222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hacettepe Sanat Müzesi"
+  },
+  {
+    "id": "w-tr/2665457",
+    "name": "Cenabi Ahmed Paşa Camii",
+    "category": "mosque",
+    "lat": 39.936667,
+    "lon": 32.870556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cenabi Ahmed Paşa Camii"
+  },
+  {
+    "id": "w-tr/75240",
+    "name": "Ulucanlar Cezaevi Müzesi",
+    "category": "museum",
+    "lat": 39.938333,
+    "lon": 32.873056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ulucanlar Cezaevi Müzesi"
+  },
+  {
+    "id": "w-tr/80109",
+    "name": "Maltepe Camii",
+    "category": "mosque",
+    "lat": 39.924722,
+    "lon": 32.847222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Maltepe Camii"
+  },
+  {
+    "id": "w-tr/205106",
+    "name": "Mehmet Akif Ersoy Müze Evi",
+    "category": "museum",
+    "lat": 39.932778,
+    "lon": 32.864722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mehmet Akif Ersoy Müze Evi"
+  },
+  {
+    "id": "w-tr/4436638",
+    "name": "Taceddin Sultan Camii",
+    "category": "mosque",
+    "lat": 39.932778,
+    "lon": 32.865278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Taceddin Sultan Camii"
+  },
+  {
+    "id": "w-tr/4107161",
+    "name": "Anne Müzesi",
+    "category": "museum",
+    "lat": 39.936111,
+    "lon": 32.871389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Anne Müzesi"
+  },
+  {
+    "id": "w-tr/671496",
+    "name": "Hitit Güneş Kursu Anıtı",
+    "category": "monument",
+    "lat": 39.926667,
+    "lon": 32.855278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hitit Güneş Kursu Anıtı"
+  },
+  {
+    "id": "w-tr/1017435",
+    "name": "Karacabey Camii",
+    "category": "mosque",
+    "lat": 39.931389,
+    "lon": 32.865556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Karacabey Camii"
+  },
+  {
+    "id": "w-tr/4114744",
+    "name": "Mehmet Akif Ersoy Edebiyat Müze Kütüphanesi",
+    "category": "museum",
+    "lat": 39.931944,
+    "lon": 32.866944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mehmet Akif Ersoy Edebiyat Müze Kütüphanesi"
+  },
+  {
+    "id": "w-tr/2025725",
+    "name": "Mareşal Atatürk Anıtı",
+    "category": "monument",
+    "lat": 39.924722,
+    "lon": 32.854722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mareşal Atatürk Anıtı"
+  },
+  {
+    "id": "w-tr/671480",
+    "name": "Barış Heykeli (Ankara)",
+    "category": "monument",
+    "lat": 39.922925,
+    "lon": 32.854925,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Barış Heykeli (Ankara)"
+  },
+  {
+    "id": "w-tr/266279",
+    "name": "Türk Hava Kurumu Müzesi",
+    "category": "museum",
+    "lat": 39.9475,
+    "lon": 32.705278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Türk Hava Kurumu Müzesi"
+  },
+  {
+    "id": "w-tr/671449",
+    "name": "Güvenlik Anıtı",
+    "category": "monument",
+    "lat": 39.92,
+    "lon": 32.853333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Güvenlik Anıtı"
+  },
+  {
+    "id": "w-tr/2356661",
+    "name": "Kalecik Köprüsü",
+    "category": "bridge",
+    "lat": 40.041389,
+    "lon": 33.444167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kalecik Köprüsü"
+  },
+  {
+    "id": "w-tr/2153804",
+    "name": "Boğazköy Müzesi",
+    "category": "museum",
+    "lat": 40.025278,
+    "lon": 34.608056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Boğazköy Müzesi"
+  },
+  {
+    "id": "w-tr/3066435",
+    "name": "Kenan Yavuz Etnografya Müzesi",
+    "category": "museum",
+    "lat": 40.030833,
+    "lon": 39.855556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kenan Yavuz Etnografya Müzesi"
+  },
+  {
+    "id": "w-tr/2958301",
+    "name": "Surp Minas Kilisesi",
+    "category": "church",
+    "lat": 39.9225,
+    "lon": 41.1825,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Surp Minas Kilisesi"
+  },
+  {
+    "id": "w-tr/1256021",
+    "name": "Çobandede Köprüsü",
+    "category": "bridge",
+    "lat": 39.969722,
+    "lon": 41.888611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çobandede Köprüsü"
+  },
+  {
+    "id": "w-tr/843617",
+    "name": "Ermeniler Tarafından Katledilen Şehit Türkler Anıt ve Müzesi",
+    "category": "museum",
+    "lat": 39.936667,
+    "lon": 44.079444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ermeniler Tarafından Katledilen Şehit Türkler Anıt ve Müzesi"
+  },
+  {
+    "id": "w-tr/285036",
+    "name": "Sütlüce, Gelibolu",
+    "category": "bridge",
+    "lat": 40.3442,
+    "lon": 26.6008,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sütlüce, Gelibolu"
+  },
+  {
+    "id": "w-tr/1563343",
+    "name": "Güvercin Köprüsü",
+    "category": "bridge",
+    "lat": 40.2675,
+    "lon": 27.602222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Güvercin Köprüsü"
+  },
+  {
+    "id": "w-tr/2268951",
+    "name": "Edincik Ulu Camii",
+    "category": "mosque",
+    "lat": 40.346944,
+    "lon": 27.855833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Edincik Ulu Camii"
+  },
+  {
+    "id": "w-tr/2795133",
+    "name": "Son Kurşun Anıtı",
+    "category": "monument",
+    "lat": 40.358333,
+    "lon": 27.910278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Son Kurşun Anıtı"
+  },
+  {
+    "id": "w-tr/4543889",
+    "name": "Celal Karakaş Camii",
+    "category": "mosque",
+    "lat": 40.257222,
+    "lon": 28.984722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Celal Karakaş Camii"
+  },
+  {
+    "id": "w-tr/4566430",
+    "name": "Özlüce Aya Yorgi Kilisesi",
+    "category": "church",
+    "lat": 40.238056,
+    "lon": 28.9075,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Özlüce Aya Yorgi Kilisesi"
+  },
+  {
+    "id": "w-tr/4432669",
+    "name": "Bursa Oyuncak Müzesi",
+    "category": "museum",
+    "lat": 40.218333,
+    "lon": 28.933333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bursa Oyuncak Müzesi"
   }
 ]
