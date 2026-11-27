@@ -2176,5 +2176,950 @@
     "lon": 41.538611,
     "region": "middle-east-anatolia",
     "wikiTitle": "Mor Gabriel Manastırı"
+  },
+  {
+    "id": "w-tr/3513754",
+    "name": "Alman Köprüsü",
+    "category": "bridge",
+    "lat": 37.845,
+    "lon": 37.671111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Alman Köprüsü"
+  },
+  {
+    "id": "w-tr/141512",
+    "name": "Nemrut Dağı",
+    "category": "archaeological_site",
+    "lat": 37.980833,
+    "lon": 38.740833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Nemrut Dağı"
+  },
+  {
+    "id": "w-tr/1940568",
+    "name": "Diyarbakır Kalesi",
+    "category": "castle",
+    "lat": 37.910833,
+    "lon": 40.227222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Diyarbakır Kalesi"
+  },
+  {
+    "id": "w-tr/2554882",
+    "name": "Erdebil Köşkü",
+    "category": "palace",
+    "lat": 37.889722,
+    "lon": 40.227778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Erdebil Köşkü"
+  },
+  {
+    "id": "w-tr/2548693",
+    "name": "Gazi Köşkü",
+    "category": "palace",
+    "lat": 37.895556,
+    "lon": 40.229167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Gazi Köşkü"
+  },
+  {
+    "id": "w-tr/1533319",
+    "name": "Dicle Köprüsü",
+    "category": "bridge",
+    "lat": 37.887222,
+    "lon": 40.228889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Dicle Köprüsü"
+  },
+  {
+    "id": "w-tr/2563265",
+    "name": "Hadım Ali Paşa Camii",
+    "category": "mosque",
+    "lat": 37.905833,
+    "lon": 40.230556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hadım Ali Paşa Camii"
+  },
+  {
+    "id": "w-tr/2566642",
+    "name": "Meryem Ana Kilisesi (Diyarbakır)",
+    "category": "church",
+    "lat": 37.908889,
+    "lon": 40.230556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Meryem Ana Kilisesi (Diyarbakır)"
+  },
+  {
+    "id": "w-tr/2563177",
+    "name": "Melek Ahmed Paşa Camii",
+    "category": "mosque",
+    "lat": 37.910833,
+    "lon": 40.230278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Melek Ahmed Paşa Camii"
+  },
+  {
+    "id": "w-tr/3532957",
+    "name": "Selahaddin Eyyubi Camii",
+    "category": "mosque",
+    "lat": 37.919444,
+    "lon": 40.228056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Selahaddin Eyyubi Camii"
+  },
+  {
+    "id": "w-tr/2566798",
+    "name": "Surp Sarkis Ermeni Ortodoks Kilisesi",
+    "category": "church",
+    "lat": 37.9075,
+    "lon": 40.2325,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Surp Sarkis Ermeni Ortodoks Kilisesi"
+  },
+  {
+    "id": "w-tr/2562746",
+    "name": "Safa Camii",
+    "category": "mosque",
+    "lat": 37.911667,
+    "lon": 40.232222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Safa Camii"
+  },
+  {
+    "id": "w-tr/2552999",
+    "name": "Cemil Paşa Konağı",
+    "category": "palace",
+    "lat": 37.908333,
+    "lon": 40.233611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cemil Paşa Konağı"
+  },
+  {
+    "id": "w-tr/2534469",
+    "name": "Ayn Minare Camii",
+    "category": "mosque",
+    "lat": 37.908056,
+    "lon": 40.233889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ayn Minare Camii"
+  },
+  {
+    "id": "w-tr/822171",
+    "name": "Behram Paşa Camii",
+    "category": "mosque",
+    "lat": 37.909444,
+    "lon": 40.234167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Behram Paşa Camii"
+  },
+  {
+    "id": "w-tr/2561867",
+    "name": "İskender Paşa Camii (Diyarbakır)",
+    "category": "mosque",
+    "lat": 37.913611,
+    "lon": 40.233333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "İskender Paşa Camii (Diyarbakır)"
+  },
+  {
+    "id": "w-tr/204066",
+    "name": "Ziya Gökalp Müzesi",
+    "category": "museum",
+    "lat": 37.911389,
+    "lon": 40.234167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ziya Gökalp Müzesi"
+  },
+  {
+    "id": "w-tr/2572836",
+    "name": "Ömer Şeddat Camii",
+    "category": "mosque",
+    "lat": 37.906389,
+    "lon": 40.235556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ömer Şeddat Camii"
+  },
+  {
+    "id": "w-tr/2572821",
+    "name": "Sinoğlu Camii",
+    "category": "mosque",
+    "lat": 37.911111,
+    "lon": 40.235,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sinoğlu Camii"
+  },
+  {
+    "id": "w-tr/2567676",
+    "name": "Ahmet Arif Edebiyat Müzesi",
+    "category": "museum",
+    "lat": 37.912778,
+    "lon": 40.235556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ahmet Arif Edebiyat Müzesi"
+  },
+  {
+    "id": "w-tr/2343892",
+    "name": "Cahit Sıtkı Tarancı Müzesi",
+    "category": "museum",
+    "lat": 37.913056,
+    "lon": 40.235556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cahit Sıtkı Tarancı Müzesi"
+  },
+  {
+    "id": "w-tr/156685",
+    "name": "Diyarbakır Ulu Camii",
+    "category": "mosque",
+    "lat": 37.912222,
+    "lon": 40.235833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Diyarbakır Ulu Camii"
+  },
+  {
+    "id": "w-tr/2563298",
+    "name": "Hüsrev Paşa Camii",
+    "category": "mosque",
+    "lat": 37.907222,
+    "lon": 40.237222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hüsrev Paşa Camii"
+  },
+  {
+    "id": "w-tr/2559814",
+    "name": "Nebî Camii",
+    "category": "mosque",
+    "lat": 37.915278,
+    "lon": 40.236389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Nebî Camii"
+  },
+  {
+    "id": "w-tr/2046636",
+    "name": "Şeyh Mutahhar Camii",
+    "category": "mosque",
+    "lat": 37.910833,
+    "lon": 40.2375,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şeyh Mutahhar Camii"
+  },
+  {
+    "id": "w-tr/2726772",
+    "name": "Beğendik Köprüsü",
+    "category": "bridge",
+    "lat": 37.964722,
+    "lon": 42.649167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Beğendik Köprüsü"
+  },
+  {
+    "id": "w-tr/1395489",
+    "name": "Sığacık Kalesi",
+    "category": "castle",
+    "lat": 38.194444,
+    "lon": 26.784444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sığacık Kalesi"
+  },
+  {
+    "id": "w-tr/2078172",
+    "name": "Bayındır Ermeni Kilisesi",
+    "category": "church",
+    "lat": 38.223056,
+    "lon": 27.650278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bayındır Ermeni Kilisesi"
+  },
+  {
+    "id": "w-tr/2630000",
+    "name": "Ödemiş Yıldız Kent Arşivi ve Müzesi",
+    "category": "museum",
+    "lat": 38.227222,
+    "lon": 27.969722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ödemiş Yıldız Kent Arşivi ve Müzesi"
+  },
+  {
+    "id": "w-tr/2739530",
+    "name": "Ödemiş Ulu Camii",
+    "category": "mosque",
+    "lat": 38.228056,
+    "lon": 27.969722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ödemiş Ulu Camii"
+  },
+  {
+    "id": "w-tr/4527149",
+    "name": "Hypaipa",
+    "category": "archaeological_site",
+    "lat": 38.231111,
+    "lon": 27.971944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hypaipa"
+  },
+  {
+    "id": "w-tr/4113713",
+    "name": "Ödemiş Müzesi",
+    "category": "museum",
+    "lat": 38.228056,
+    "lon": 27.989167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ödemiş Müzesi"
+  },
+  {
+    "id": "w-tr/2740597",
+    "name": "Doğanhisar Ulu Camii",
+    "category": "mosque",
+    "lat": 38.143611,
+    "lon": 31.674722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Doğanhisar Ulu Camii"
+  },
+  {
+    "id": "w-tr/4237292",
+    "name": "Laodicea Combusta",
+    "category": "archaeological_site",
+    "lat": 38.191,
+    "lon": 32.3745,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Laodicea Combusta"
+  },
+  {
+    "id": "w-tr/156694",
+    "name": "Sultan Han (Aksaray)",
+    "category": "monument",
+    "lat": 38.247778,
+    "lon": 33.546667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sultan Han (Aksaray)"
+  },
+  {
+    "id": "w-tr/2268768",
+    "name": "Eşmekaya Ulu Camii",
+    "category": "mosque",
+    "lat": 38.265,
+    "lon": 33.441111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Eşmekaya Ulu Camii"
+  },
+  {
+    "id": "w-tr/2739602",
+    "name": "Afşin Ulu Camii",
+    "category": "mosque",
+    "lat": 38.246111,
+    "lon": 36.915,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Afşin Ulu Camii"
+  },
+  {
+    "id": "w-tr/2612554",
+    "name": "Sinek Köprüsü",
+    "category": "bridge",
+    "lat": 38.173333,
+    "lon": 39.455,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sinek Köprüsü"
+  },
+  {
+    "id": "w-tr/2274722",
+    "name": "Çermik Ulu Camii",
+    "category": "mosque",
+    "lat": 38.135278,
+    "lon": 39.446111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çermik Ulu Camii"
+  },
+  {
+    "id": "w-tr/18308",
+    "name": "Çayönü",
+    "category": "archaeological_site",
+    "lat": 38.216389,
+    "lon": 39.726389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çayönü"
+  },
+  {
+    "id": "w-tr/2288215",
+    "name": "Eğil Tacıyan Camii",
+    "category": "mosque",
+    "lat": 38.254444,
+    "lon": 40.093333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Eğil Tacıyan Camii"
+  },
+  {
+    "id": "w-tr/2611965",
+    "name": "Ambar Çayı Köprüsü",
+    "category": "bridge",
+    "lat": 38.264722,
+    "lon": 40.46,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ambar Çayı Köprüsü"
+  },
+  {
+    "id": "w-tr/2288216",
+    "name": "Hazro Ulu Camii",
+    "category": "mosque",
+    "lat": 38.253333,
+    "lon": 40.781944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hazro Ulu Camii"
+  },
+  {
+    "id": "w-tr/1410528",
+    "name": "Hallan Çemi Höyüğü",
+    "category": "archaeological_site",
+    "lat": 38.224167,
+    "lon": 41.241667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hallan Çemi Höyüğü"
+  },
+  {
+    "id": "w-tr/64191",
+    "name": "Malabadi Köprüsü",
+    "category": "bridge",
+    "lat": 38.153611,
+    "lon": 41.203611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Malabadi Köprüsü"
+  },
+  {
+    "id": "w-tr/2998265",
+    "name": "Bornova Aşık Veysel Heykeli",
+    "category": "monument",
+    "lat": 38.465556,
+    "lon": 27.2075,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bornova Aşık Veysel Heykeli"
+  },
+  {
+    "id": "w-tr/3555837",
+    "name": "Hüseyin İsa Bey Camii",
+    "category": "mosque",
+    "lat": 38.4675,
+    "lon": 27.218889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hüseyin İsa Bey Camii"
+  },
+  {
+    "id": "w-tr/3556108",
+    "name": "Yıkık Minare Camii",
+    "category": "mosque",
+    "lat": 38.469167,
+    "lon": 27.223333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yıkık Minare Camii"
+  },
+  {
+    "id": "w-tr/2213586",
+    "name": "Paterson Köşkü",
+    "category": "palace",
+    "lat": 38.464444,
+    "lon": 27.213333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Paterson Köşkü"
+  },
+  {
+    "id": "w-tr/3556305",
+    "name": "Bornova Küçük Cami",
+    "category": "mosque",
+    "lat": 38.466389,
+    "lon": 27.220556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bornova Küçük Cami"
+  },
+  {
+    "id": "w-tr/2891542",
+    "name": "Santa Maria Katolik Kilisesi (Bornova)",
+    "category": "church",
+    "lat": 38.465833,
+    "lon": 27.22,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Santa Maria Katolik Kilisesi (Bornova)"
+  },
+  {
+    "id": "w-tr/2998046",
+    "name": "Bornova Amazon Heykeli",
+    "category": "monument",
+    "lat": 38.465278,
+    "lon": 27.219167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bornova Amazon Heykeli"
+  },
+  {
+    "id": "w-tr/2998054",
+    "name": "Meçhul Kadın Anıtı",
+    "category": "monument",
+    "lat": 38.464444,
+    "lon": 27.218333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Meçhul Kadın Anıtı"
+  },
+  {
+    "id": "w-tr/3550809",
+    "name": "Arkas Deniz Tarihi Merkezi",
+    "category": "museum",
+    "lat": 38.463611,
+    "lon": 27.22,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Arkas Deniz Tarihi Merkezi"
+  },
+  {
+    "id": "w-tr/3518195",
+    "name": "Saint Mary Magdalene Anglikan Kilisesi",
+    "category": "church",
+    "lat": 38.462222,
+    "lon": 27.223889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Saint Mary Magdalene Anglikan Kilisesi"
+  },
+  {
+    "id": "w-tr/1575990",
+    "name": "Dünya Barış Anıtı",
+    "category": "monument",
+    "lat": 38.494167,
+    "lon": 27.146389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Dünya Barış Anıtı"
+  },
+  {
+    "id": "w-tr/3591329",
+    "name": "Bornova Sarı Köşk Atatürk Büstü",
+    "category": "monument",
+    "lat": 38.458333,
+    "lon": 27.215,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bornova Sarı Köşk Atatürk Büstü"
+  },
+  {
+    "id": "w-tr/2461062",
+    "name": "St. Antuan Katolik Kilisesi (İzmir)",
+    "category": "church",
+    "lat": 38.465833,
+    "lon": 27.164167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "St. Antuan Katolik Kilisesi (İzmir)"
+  },
+  {
+    "id": "w-tr/3556483",
+    "name": "Bilal Saygılı Camii",
+    "category": "mosque",
+    "lat": 38.460556,
+    "lon": 27.229722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bilal Saygılı Camii"
+  },
+  {
+    "id": "w-tr/67168",
+    "name": "Yeşilova Höyüğü",
+    "category": "archaeological_site",
+    "lat": 38.4414,
+    "lon": 27.2139,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yeşilova Höyüğü"
+  },
+  {
+    "id": "w-tr/2652875",
+    "name": "Nevvar Salih İşgören Ulu Camii",
+    "category": "mosque",
+    "lat": 38.443333,
+    "lon": 27.176389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Nevvar Salih İşgören Ulu Camii"
+  },
+  {
+    "id": "w-tr/2361900",
+    "name": "St. Helen Kilisesi",
+    "category": "church",
+    "lat": 38.454722,
+    "lon": 27.114444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "St. Helen Kilisesi"
+  },
+  {
+    "id": "w-tr/2464048",
+    "name": "Arkas Sanat Merkezi",
+    "category": "museum",
+    "lat": 38.431944,
+    "lon": 27.136944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Arkas Sanat Merkezi"
+  },
+  {
+    "id": "w-tr/2358280",
+    "name": "İzmir Paraşüt Kulesi",
+    "category": "tower",
+    "lat": 38.4275,
+    "lon": 27.144167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "İzmir Paraşüt Kulesi"
+  },
+  {
+    "id": "w-tr/1447844",
+    "name": "İzmir Tarih ve Sanat Müzesi",
+    "category": "museum",
+    "lat": 38.4275,
+    "lon": 27.142778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "İzmir Tarih ve Sanat Müzesi"
+  },
+  {
+    "id": "w-tr/2037095",
+    "name": "Aziz Yuhanna Katedrali",
+    "category": "church",
+    "lat": 38.428611,
+    "lon": 27.139722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aziz Yuhanna Katedrali"
+  },
+  {
+    "id": "w-tr/2617332",
+    "name": "İnsan Hakları Anıtı (İzmir)",
+    "category": "monument",
+    "lat": 38.449444,
+    "lon": 27.110833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "İnsan Hakları Anıtı (İzmir)"
+  },
+  {
+    "id": "w-tr/2381424",
+    "name": "Kervan Köprüsü",
+    "category": "bridge",
+    "lat": 38.421944,
+    "lon": 27.151944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kervan Köprüsü"
+  },
+  {
+    "id": "w-tr/1475374",
+    "name": "İzmir Atatürk Anıtı",
+    "category": "monument",
+    "lat": 38.428889,
+    "lon": 27.134444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "İzmir Atatürk Anıtı"
+  },
+  {
+    "id": "w-tr/2333372",
+    "name": "Aziz Vukolos Kilisesi",
+    "category": "church",
+    "lat": 38.421389,
+    "lon": 27.147778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aziz Vukolos Kilisesi"
+  },
+  {
+    "id": "w-tr/2117867",
+    "name": "Santa Maria Katolik Kilisesi (Konak)",
+    "category": "church",
+    "lat": 38.426667,
+    "lon": 27.135,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Santa Maria Katolik Kilisesi (Konak)"
+  },
+  {
+    "id": "w-tr/2358658",
+    "name": "Ahmet Piriştina Kent Arşivi ve Müzesi",
+    "category": "museum",
+    "lat": 38.425,
+    "lon": 27.138056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ahmet Piriştina Kent Arşivi ve Müzesi"
+  },
+  {
+    "id": "w-tr/2075935",
+    "name": "Aziz Stepanos Kilisesi",
+    "category": "church",
+    "lat": 38.424444,
+    "lon": 27.139167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aziz Stepanos Kilisesi"
+  },
+  {
+    "id": "w-tr/2100349",
+    "name": "Çorakkapı Camii",
+    "category": "mosque",
+    "lat": 38.421944,
+    "lon": 27.143889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Çorakkapı Camii"
+  },
+  {
+    "id": "w-tr/2268757",
+    "name": "Sandıklı Ulu Camii",
+    "category": "mosque",
+    "lat": 38.466667,
+    "lon": 30.273889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sandıklı Ulu Camii"
+  },
+  {
+    "id": "w-tr/4622373",
+    "name": "Aziz Nikolaos Manastırı (Mustafapaşa)",
+    "category": "monastery",
+    "lat": 38.576944,
+    "lon": 34.895278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aziz Nikolaos Manastırı (Mustafapaşa)"
+  },
+  {
+    "id": "w-tr/4632542",
+    "name": "Konstantinos ve Eleni Kilisesi (Mustafapaşa)",
+    "category": "church",
+    "lat": 38.583611,
+    "lon": 34.897222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Konstantinos ve Eleni Kilisesi (Mustafapaşa)"
+  },
+  {
+    "id": "w-tr/194460",
+    "name": "Dumlupınar Şehitliği",
+    "category": "monument",
+    "lat": 38.843056,
+    "lon": 29.958611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Dumlupınar Şehitliği"
+  },
+  {
+    "id": "w-tr/2179010",
+    "name": "Büyük Taarruz Şehitliği",
+    "category": "monument",
+    "lat": 38.790833,
+    "lon": 30.385833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Büyük Taarruz Şehitliği"
+  },
+  {
+    "id": "w-tr/406993",
+    "name": "Bolvadin Müzesi",
+    "category": "museum",
+    "lat": 38.718889,
+    "lon": 31.04,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bolvadin Müzesi"
+  },
+  {
+    "id": "w-tr/1492761",
+    "name": "Abbassos",
+    "category": "archaeological_site",
+    "lat": 38.716667,
+    "lon": 31.05,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Abbassos"
+  },
+  {
+    "id": "w-tr/4087651",
+    "name": "Karşı Kilise",
+    "category": "church",
+    "lat": 38.740833,
+    "lon": 34.634722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Karşı Kilise"
+  },
+  {
+    "id": "w-tr/189120",
+    "name": "Sarıhan Kervansarayı",
+    "category": "monument",
+    "lat": 38.711667,
+    "lon": 34.908889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sarıhan Kervansarayı"
+  },
+  {
+    "id": "w-tr/2739974",
+    "name": "Bünyan Ulu Camii",
+    "category": "mosque",
+    "lat": 38.8425,
+    "lon": 35.858611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bünyan Ulu Camii"
+  },
+  {
+    "id": "w-tr/2954971",
+    "name": "Murat Köprüsü",
+    "category": "bridge",
+    "lat": 38.862778,
+    "lon": 41.512778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Murat Köprüsü"
+  },
+  {
+    "id": "w-tr/2754990",
+    "name": "Alaeddin Bey Camii",
+    "category": "mosque",
+    "lat": 38.730833,
+    "lon": 41.49,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Alaeddin Bey Camii"
+  },
+  {
+    "id": "w-tr/2740765",
+    "name": "Muş Ulu Camii",
+    "category": "mosque",
+    "lat": 38.73,
+    "lon": 41.488056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Muş Ulu Camii"
+  },
+  {
+    "id": "w-tr/2152073",
+    "name": "Surp Marine Kilisesi",
+    "category": "church",
+    "lat": 38.728611,
+    "lon": 41.4875,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Surp Marine Kilisesi"
+  },
+  {
+    "id": "w-tr/1136440",
+    "name": "Adır Adası",
+    "category": "monastery",
+    "lat": 38.866667,
+    "lon": 43.35,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Adır Adası"
+  },
+  {
+    "id": "w-tr/2969134",
+    "name": "Valide Camii (Midilli)",
+    "category": "mosque",
+    "lat": 39.111944,
+    "lon": 26.554167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Valide Camii (Midilli)"
+  },
+  {
+    "id": "w-tr/2927609",
+    "name": "Yeni Cami (Midilli)",
+    "category": "mosque",
+    "lat": 39.110556,
+    "lon": 26.557778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yeni Cami (Midilli)"
+  },
+  {
+    "id": "w-tr/1295298",
+    "name": "Bergama Müzesi (İzmir)",
+    "category": "museum",
+    "lat": 39.116667,
+    "lon": 27.175833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bergama Müzesi (İzmir)"
+  },
+  {
+    "id": "w-tr/1168417",
+    "name": "Bodrum Köprüsü",
+    "category": "bridge",
+    "lat": 39.121667,
+    "lon": 27.182778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bodrum Köprüsü"
+  },
+  {
+    "id": "w-tr/2334394",
+    "name": "Kızıl Avlu",
+    "category": "temple",
+    "lat": 39.121944,
+    "lon": 27.183333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kızıl Avlu"
+  },
+  {
+    "id": "w-tr/2092218",
+    "name": "Bergama Kurşunlu Cami",
+    "category": "mosque",
+    "lat": 39.118333,
+    "lon": 27.176667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bergama Kurşunlu Cami"
+  },
+  {
+    "id": "w-tr/2092223",
+    "name": "Bergama Ulu Camii",
+    "category": "mosque",
+    "lat": 39.125,
+    "lon": 27.179444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bergama Ulu Camii"
+  },
+  {
+    "id": "w-tr/1202553",
+    "name": "Bergama Zeus Sunağı",
+    "category": "archaeological_site",
+    "lat": 39.131051,
+    "lon": 27.183931,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bergama Zeus Sunağı"
+  },
+  {
+    "id": "w-tr/4109404",
+    "name": "Bergama Kütüphanesi",
+    "category": "archaeological_site",
+    "lat": 39.132222,
+    "lon": 27.184167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bergama Kütüphanesi"
+  },
+  {
+    "id": "w-tr/2740682",
+    "name": "Simav Ulu Camii",
+    "category": "mosque",
+    "lat": 39.085556,
+    "lon": 28.976944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Simav Ulu Camii"
+  },
+  {
+    "id": "w-tr/2740579",
+    "name": "Alaaddin Camii (Kırşehir)",
+    "category": "mosque",
+    "lat": 39.145833,
+    "lon": 34.158611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Alaaddin Camii (Kırşehir)"
+  },
+  {
+    "id": "w-tr/404514",
+    "name": "Ahi Evran Camii ve Türbesi",
+    "category": "mosque",
+    "lat": 39.148333,
+    "lon": 34.159167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ahi Evran Camii ve Türbesi"
+  },
+  {
+    "id": "w-tr/4114326",
+    "name": "Kırşehir Müzesi",
+    "category": "museum",
+    "lat": 39.148611,
+    "lon": 34.158611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kırşehir Müzesi"
+  },
+  {
+    "id": "w-tr/2475502",
+    "name": "Şahruh Köprüsü",
+    "category": "bridge",
+    "lat": 39.183889,
+    "lon": 35.9375,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şahruh Köprüsü"
+  },
+  {
+    "id": "w-tr/2740751",
+    "name": "Arapgir Ulu Camii",
+    "category": "mosque",
+    "lat": 39.061389,
+    "lon": 38.476111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Arapgir Ulu Camii"
+  },
+  {
+    "id": "w-tr/1443235",
+    "name": "Arapgir Katedrali",
+    "category": "church",
+    "lat": 39.043333,
+    "lon": 38.483333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Arapgir Katedrali"
   }
 ]

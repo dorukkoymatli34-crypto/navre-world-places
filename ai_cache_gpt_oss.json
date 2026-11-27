@@ -1870,5 +1870,5181 @@
   "tr:kayaköy, cizre": {
     "keep": false,
     "category": null
+  },
+  "tr:yeşilköy, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:burhaniye, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:delialiuşağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çavdaruşağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cıvıklı, saimbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aksaağaç, saimbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2009 medair bell 206 kazası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:direkli mağarası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muhsin dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kahramanmaraş (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hamzalar, gölbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karabahşılı, gölbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kumlu tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:meydan, gölbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aktoprak, gölbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alman köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:kapıdere tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uzunköy, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çamyurdu, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:damdırmaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaağaç, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yazıbaşı, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaşköy, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kozan, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:derinsu, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kömür, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yedioluk, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınaryayla, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çamlıca, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuyucak, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:girik, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağaçkonak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilova, çelikhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bölükyayla, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşiltepe, çelikhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kemerkaya, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esence, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:olgunlar, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:toptepe, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşgedik, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:düzce, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şemikan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boğazkaya, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ormaniçi, adıyaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bağbaşı, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aydınpınar, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:narince, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akdoğan, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sutepe, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karadut, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tütenocak, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erikli, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sırakaya, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayadibi, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sıraca, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökçe, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavaklı, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akkavak, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koçtepe, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ekinci, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:damlacık, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gölgeli, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nemrut dağı": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:işıktepe, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozpınar, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esendere, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyükbağ, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yapraklı, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dumlu, kâhta": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beybostan, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:köklüce, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beşgöze, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:korulu, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yağmurlu, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oymaklı, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:diyarbakır şehirlerarası otobüs terminali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bağlar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:diyarbakır cezaevi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayapınar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:diyarbakır garı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:amida kuşatması": {
+    "keep": false,
+    "category": null
+  },
+  "tr:diyarbakır kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:erdebil köşkü": {
+    "keep": true,
+    "category": "palace"
+  },
+  "tr:gazi köşkü": {
+    "keep": true,
+    "category": "palace"
+  },
+  "tr:dicle köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:ali paşa medresesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hadım ali paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:meryem ana kilisesi (diyarbakır)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:melek ahmed paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:selahaddin eyyubi camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:surp sarkis ermeni ortodoks kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:safa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:kadı hamamı (diyarbakır)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cemil paşa konağı": {
+    "keep": true,
+    "category": "palace"
+  },
+  "tr:ayn minare camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:melek ahmed paşa hamamı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:behram paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:i̇skender paşa camii (diyarbakır)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:ziya gökalp müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:ömer şeddat camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:sinoğlu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:zinciriye medresesi (diyarbakır)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:deliller hanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:deva hamamı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahmet arif edebiyat müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:keçi burcu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cahit sıtkı tarancı müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:diyarbakır ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:mesudiye medresesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hüsrev paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:2008 diyarbakır saldırısı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:diyarbakır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sur, diyarbakır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:vahap ağa hamamı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nebî camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:yenişehir, diyarbakır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeyh mutahhar camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:hasan paşa hanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sülüklü han": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dağ kapı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yaylacı, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akmeşe, eruh": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pirinçli, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıbalcılar, pervari": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pervari": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıdam, pervari": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güleçler, pervari": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beğendik köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:urla yarımadası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seferihisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seferihisar barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavakdere barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sığacık kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:condor flugdienst'in 3782 sefer sayılı uçuşu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tekeli tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:develi tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pancar tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cumaovası tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:menderes, i̇zmir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşçuburun tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karpuzlu tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elifli tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:furunlu tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arıkbaşı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayındır tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayındır, i̇zmir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayındır ermeni kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:taşkesik tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beytiköy tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇lkkurşun tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ödemiş tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ödemiş yıldız kent arşivi ve müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:ödemiş ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:ödemiş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hypaipa": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:kayaköy, ödemiş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ödemiş şehir tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doyranlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ödemiş müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:rahmanlar barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1653 doğu i̇zmir depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kiraz, i̇zmir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:afşar barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıgöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kandemirler": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adıgüzel barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dumanköy, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilhüyük tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sütlaç tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cerityaylası, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akpınarlı, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:okçular, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alparslan, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ergenli, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karataş, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayüstü, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cumhuriyet, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bağcılar, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çürüklü, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kadılar, dinar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gençali, senirkent": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçaşar, yalvaç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bağıllı, gelendost": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gelendost": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bahtiyar, yalvaç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çarıksaraylar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doğanhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doğanhisar ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:laodicea combusta": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:konar tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarayönü tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:peçene tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarayönü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:meydan tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızören gölü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kökez, eskil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sultan han (aksaray)": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:sultanhanı, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eşmekaya gölü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eşmekaya, eskil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eşmekaya ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:armutlu, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:helvadere, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenipınar, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yuva, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaören, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hasandağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gözlükuyu, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çınarlı, çiftlik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:murtaza barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göllü dağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiftlik, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:divarlı, çiftlik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozköy, çiftlik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacıabdullah, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kömürcü, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hüyük tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:konaklı, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:edikli, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaatlı, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çarıklı, niğde": {
+    "keep": false,
+    "category": null
+  },
+  "tr:senirköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilova, yeşilhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çadırkaya, yeşilhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:musahacılı, yeşilhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çubuklu, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ovaçiftlikköy, yeşilhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇lyaslı, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kovalı, yeşilhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenihayat, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yuları, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yerköy, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kovalı barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayşepınar, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:süleymanfakılı, yahyalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kozluca, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hoşça, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gümüşören, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:denizovası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenice, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çukuryurt, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:epçe, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çadıryeri, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saraycık, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dereşimli, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıkaya, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:derebaşı, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:köseler, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eşelik, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çataloluk, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tufanbeyli termik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dibek dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tufanbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:afşin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:afşin ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:harunuşağı, akçadağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:suçatı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dedeköy, akçadağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kömekavak, akçadağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sahilköy, akçadağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karapınar, akçadağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aksu, sincik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karakaya barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cevizpınar, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gölyurt, gerger": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sinek köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:çermik ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:çermik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ergani tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayönü": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:ergani": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dicle barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eğil tacıyan camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:eğil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ambar çayı köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:kocaköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hazro ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:hazro": {
+    "keep": false,
+    "category": null
+  },
+  "tr:batman barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:batman çayı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hallan çemi höyüğü": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:malabadi köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:karpuzlu, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:konaklı, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayhan, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇nişli, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tosunpınar, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayönü, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçakışla, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:derince, kozluk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağaçpınar, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayrancılar, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:narlıdere, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yarımca, baykan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tanrıyar, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alaniçi, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilsırt, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayalıbağ, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karbastı, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kasımlı, baykan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:konalga, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarpkaya, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıkonak, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:derince, baykan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esenburun, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayadağ, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ormanbağı, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozpınar, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cevizlik, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayır, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yelkıran, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavuşşahap dağları": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oya, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayahisar, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yamaçlı, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karbastı, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elmadalı, şirvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:başmaklı, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akbıyık, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavakdibi, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yuvacık, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yolalan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıbalcılar, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıbalcılar, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üçevler, bitlis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçevre, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:keçeli, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ürünveren, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çatakdeğirmen, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:örgülü, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ballıca, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayadeler, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıdal, tatvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yığınkaya, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yumrukaya, tatvan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esenler, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kalkanlı, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:derince, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akça, hizan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tazeşehr": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salmas şehristanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salmas": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koyun adası (ege denizi)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karareis barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gediz deltası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hekim adası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:westpark outlet": {
+    "keep": false,
+    "category": null
+  },
+  "tr:homeros vadisi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşık veysel rekreasyon alanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:buz sporları salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova aşık veysel heykeli": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:hüseyin i̇sa bey camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:yıkık minare camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:yamanlar dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:paterson köşkü": {
+    "keep": true,
+    "category": "palace"
+  },
+  "tr:bornova kültür ve sanat merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova küçük cami": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:santa maria katolik kilisesi (bornova)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:bornova amazon heykeli": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:meçhul kadın anıtı": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:arkas deniz tarihi merkezi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:doğançay mezarlığı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mattheys köşkü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:murat köşkü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova futbolcu heykeli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:evka 3 (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:la fontaine köşkü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saint mary magdalene anglikan kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:dünya barış anıtı": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:pasquali köşkü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bornova sarı köşk atatürk büstü": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:yeşil köşk": {
+    "keep": false,
+    "category": null
+  },
+  "tr:st. antuan katolik kilisesi (i̇zmir)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:bölge (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayraklı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bilal saygılı camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:bayraklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇zmir hava i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:folkart towers": {
+    "keep": false,
+    "category": null
+  },
+  "tr:forum bornova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:turan tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sanayi (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2017 i̇zmir saldırısı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salhane tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mistral ofis kulesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ege perla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilova höyüğü": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:nevvar salih i̇şgören ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:çınarlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çamdibi, bornova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alaybey tersanesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:naldöken tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:halkapınar spor salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çamdibi (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:havagazı (i̇zmir tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇zmir limanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:işıkkent": {
+    "keep": false,
+    "category": null
+  },
+  "tr:altındağ, bornova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karşıyaka": {
+    "keep": false,
+    "category": null
+  },
+  "tr:st. helen kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:hilal (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hilal tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pakistan pavyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:lozan meydanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arkas sanat merkezi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:kültürpark": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇zmir paraşüt kulesi": {
+    "keep": true,
+    "category": "tower"
+  },
+  "tr:nergiz tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇zmir tarih ve sanat müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:kemer tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:durmuş yaşar köşkü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aziz yuhanna katedrali": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:maarif vekâleti kültür pavyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacılarkırı mezarlığı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:celal atik spor salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇nsan hakları anıtı (i̇zmir)": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:nikâh sarayı (i̇zmir tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kervan köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:demirköprü tren i̇stasyonu (i̇zmir)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇zmir atatürk anıtı": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:cumhuriyet meydanı (i̇zmir)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:swissôtel büyük efes": {
+    "keep": false,
+    "category": null
+  },
+  "tr:basmane (i̇zmir metrosu)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pasaport vapur i̇skelesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aziz vukolos kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:basmane garı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hilton i̇zmir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:santa maria katolik kilisesi (konak)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:ahmet piriştina kent arşivi ve müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:aziz stepanos kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:çorakkapı camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:yunuslar (i̇zmir tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şemikler tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çobanisa tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahmetli tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:urganlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yaraşlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilkavak tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kabazlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:köseali tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gümüşçayı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salihli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1969 alaşehir depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kula": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kula tepeleri": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dereköy, eşme": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozlar, eşme": {
+    "keep": false,
+    "category": null
+  },
+  "tr:takmak, eşme": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uluyayla, eşme": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kolankaya, eşme": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uşak (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ovaköy tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çamdere, ulubey": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ulubey, uşak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kışla, ulubey": {
+    "keep": false,
+    "category": null
+  },
+  "tr:selçikler": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sivaslı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eldeniz, sivaslı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeyhyahşi, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saltık, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çevrepınar, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nasuhoğlu, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yavaşlar, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yanıkören, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yumruca, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arızlar, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hırka, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alagöz, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:odaköy, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alacami, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güre, hocalar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kocagöl, hocalar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:örencik, hocalar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:örtülü, hocalar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:emirhisar, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kumalar dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:başören, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karacaören, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızık, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dutağacı, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bekteş, sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sandıklı ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:sandıklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tekke, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sandıklı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozan, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇salı, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:paşacık, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karahallı, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:selevir barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇nli, çay": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılıçyaka, çay": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hallaç, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:anayurt, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yarışlı, şuhut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çakırçal, yalvaç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gölçayır tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavaklı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağabeyli, cihanbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:acıpınar, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:baymış": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sapmaz, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çimeliyeniköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aksaray (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bağlıkaya, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:topakkaya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşiltepe, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yalnızceviz, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göksugüzel": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saratlı, gülağaç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karakuyu, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağzıkara han": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınarbaşı, gülağaç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kalebalta, aksaray": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karapınar, acıgöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kırıkkale alt bölgesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:acıgöl, nevşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:acıgöl-nevşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doğala, derinkuyu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tepeköy, acıgöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayvalı, ürgüp": {
+    "keep": false,
+    "category": null
+  },
+  "tr:damsa barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aziz nikolaos manastırı (mustafapaşa)": {
+    "keep": true,
+    "category": "monastery"
+  },
+  "tr:yeşilöz, ürgüp": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mehmet şakir paşa medresesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeyh ali camii (nevşehir)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:konstantinos ve eleni kilisesi (mustafapaşa)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:mustafapaşa, ürgüp": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mustafapaşa cami-i kebir": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:şeyhşaban, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:subaşı, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kulpak, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:başköy tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayırözü, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çömlekçi, talas": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akdere, tomarza": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kabaklı, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cebir, talas": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çomaklı, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇ncesu, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cücün, tomarza": {
+    "keep": false,
+    "category": null
+  },
+  "tr:örencik, talas": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaylıca, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mustafa asım köksal, develi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:avşarsöğütlü, tomarza": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akmezar, tomarza": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bostanlık, tomarza": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaybaşı, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hasırcı, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızılören, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:artmak, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükkabaktepe, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:değirmentaş, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gültepe, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alagazili, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kadılı, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elmalı, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:serinyurt, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyükkabaktepe": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arslanbeyli, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kırkısrak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçüksöbeçimen, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dallıkavak, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyükörtülü, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükörtülü, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akoluk, sarız": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenifoça": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇zdemir termik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelhisar barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saruhanlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacırahmanlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saruhanlı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇shakçelebi tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gölmarmara": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenikent, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükoturak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilyurt, banaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muratlı, banaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükler barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elvanpaşa, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çalışlar, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dumlupınar tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dumlupınar şehitliği": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:dumlupınar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güney, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:paşacık, banaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyükoturak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tazlar, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karacaören, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oturak tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:balmahmut tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:balmahmut, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saraycık, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:garipçe, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyük taarruz şehitliği": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:bulca, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akören, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükhüyük, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boyalı, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇ğdeli, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tınaztepe tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılıçarslan, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gezler, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tınaztepe, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahmetpaşa, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayvalı, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayadibi, sinanpaşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gebeceler, afyonkarahisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seyitler barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:susuz, afyonkarahisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇scehisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bahçecik, i̇scehisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dişli, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nusratlı, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kutlu, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşağıl, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşlıdere, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özburun, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yürükkaracaören, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güney, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karayokuş, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dipevler, bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bolvadin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bolvadin müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:abbassos": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:leylekli, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yunak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılıçlı, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacıahmetlidavutlu, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıağıl, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sofular, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaşıçalıklar, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenice, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hüsrevköy, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göllü, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacıismailli, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demircili, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yağmurhüyüğü, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kırımini, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kurtini, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göynük, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:abdiuşağı, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:abalı, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:avşar, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çatalçeşme, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahırlı, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kederli, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelöz, ağaçören": {
+    "keep": false,
+    "category": null
+  },
+  "tr:reşadiye, ortaköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kültepe barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıkaraman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:satansarı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozkır, ortaköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:durhasanlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:değirmenkaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ceceli, ortaköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salarıalaca": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gümüşkent": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yüksekli, gülşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eskiyaylacık, gülşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alkan, gülşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gülşehir tuz madeni": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gülşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dadağı, gülşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karşı kilise": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:özkonak, avanos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayramhacı, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıhan kervansarayı": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:süksün cumhuriyet, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:süksün zafer, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:süksün hürriyet, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beydeğirmeni, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boğazköprü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beydeğirmeni tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saraycık, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saraycık tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boğazköprü tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mahzemin, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yemliha, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hamurcu, i̇ncesu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilyurt, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇ldem cumhuriyet, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gesi fatih, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyazşehir, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kocasinan, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cırgalan, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçatepe, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demokrasi, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahi evran, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:buğdaylı, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gömeç tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karahöyük, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:vekse, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:argıncık, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şirintepe, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayabağ, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökkent, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:talatpaşa, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salur, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelköy, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elagöz, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:fevzioğlu, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayabaşı, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yıldızevler, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:turan, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:camikebir, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hasanarpa, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akin, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:saraybosna, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uğurevler, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gömeç, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yazır, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tavlusun, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızık, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yıldırım beyazıt, melikgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boztepe, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alsancak, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hazarşah, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:asmakaya, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçatı, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağcalı, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenisüksün, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:emirören, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yakutiye, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yavuz selim, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sümer, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:camiikebir, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bünyan ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:dervişağa, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sağlık, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayramlı, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:camiicedit, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇brahimbey, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenice, bünyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇nliören, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cinliören, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tersakan, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:fakıekinciliği, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:avşarpotuklu, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükpotuklu, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yusuflar, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:söğütlü, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demirciören, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yağlıpınar, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aygörmez, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşçular, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyükpotuklu, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayaaltı, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eskiyassıpınar, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıkızılçevlik, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:olukkaya, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıkızılçevlik, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaynarca, gürün": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaşköy, gürün": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yuva, gürün": {
+    "keep": false,
+    "category": null
+  },
+  "tr:külahlı, gürün": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karadoruk, gürün": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökçeyazı, gürün": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuluncak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sipahiuşağı, arapgir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:konducak, arapgir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çakırsu, arapgir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:keban barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çalık, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büklümlü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nimri": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kurşunkaya, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sağdıçlar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:denizli, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çevrekaya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayındır, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşkesen, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dürümlü, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşçu, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bahçeli, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bademli, keban": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılıçlı, arapgir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:altınkuşak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alatarla, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çatalharman, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esenkent, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:körpe, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alaca, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaplıkaya, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koruköy, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aydıncık, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:avcılı, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dambüyük": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çöteli, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salkaya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kolankaya, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çataksu, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıyakabaşı, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıbük, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:konurat, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koçpınar, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beydalı, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mercimek, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınarlar, pertek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beşoluk, elazığ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uyandık, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karabük, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökçedal, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bağgülü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karsan, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:değirmentaşı, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşağacı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:payamlı, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiftlik, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gözecik, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bilalköy, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nişankaya, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sürekli, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:soğukpınar, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenidam, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ekinözü, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tatar, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çelebi, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akyokuş, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇sabey, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karıncaköy, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:obuzbaşı, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşçanak, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gedikyurt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayacı, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:köklüce, palu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yoncalıbayır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇saağamezrası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pembelik barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2010 elazığ depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıdemirci, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarımirahmet": {
+    "keep": false,
+    "category": null
+  },
+  "tr:okçular, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıkanatlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yılbaşı, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kırkbulak, palu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karasungur, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyhan tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göçmezler": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tabanözü, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıkanatlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyhan, palu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağımirahmet": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökdere, palu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıdemirli, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arındık, palu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:durmuşlar, kovancılar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:burgudere": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bölükelma": {
+    "keep": false,
+    "category": null
+  },
+  "tr:düzyayla, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ardıçtepe, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılçadır, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erentepe, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ormanardı, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiçekyayla, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çayağzı, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilköy, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:olukpınar, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akdurmuş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:altınışık, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güveçli, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:garip, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1971 bingöl depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:haziran, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçüktekören, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıakpınar, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıakpınar, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:genç tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:genç, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyüktekören, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:az, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tarlabaşı, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çeltiksuyu, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökdere, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sürekli, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kumgeçit, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayırlı, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koçsırtı, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doğanevler, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kepçeli, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:binekli, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenisu, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yağızca, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınaraltı, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dilektaşı, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozkanat, solhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uyanık tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozkanat tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gelintepe, solhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sülünkaş, solhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşburnu, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elmagünü, genç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ulukaya tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeniköşk tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yamaç, muş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kurt tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gölköy, muş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yamanlar tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇nandık, solhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:asmakaya, solhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üçdere, muş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muş garı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kumluca, muş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:murat köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:muş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alaeddin bey camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:muş ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:surp marine kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:karakale, korkut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gültepe, korkut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇çboğaz, korkut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:burcukaya, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dilburnu, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alakır, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelsu, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ovakışla, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nazik, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:soğanlı, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bahçedere, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşhane, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇pekçayır, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gölüstü, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uludere, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cemalettinköy, ahlat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karşıyaka, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esenkıyı, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göldüzü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağısüphan, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erikbağı, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarısüphan, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavuştuk, adilcevaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adır adası": {
+    "keep": true,
+    "category": "monastery"
+  },
+  "tr:sarımehmet barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mahmur, i̇ran": {
+    "keep": false,
+    "category": null
+  },
+  "tr:midilli (şehir)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:valide camii (midilli)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:çarşı hamamı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeni cami (midilli)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:özgürlük heykeli (midilli)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dikili": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dikili körfezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arginusae muharebesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bergama": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bergama müzesi (i̇zmir)": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:bodrum köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:kızıl avlu": {
+    "keep": true,
+    "category": "temple"
+  },
+  "tr:bergama eski hükûmet konağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bergama kurşunlu cami": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:akropolis teleferik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bergama ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:kestel barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bergama zeus sunağı": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:bergama kütüphanesi": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:soma faciası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2014 mecidiyeköy asansör kazası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeniköy, simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demirci, manisa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:simav ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:naşa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gümüşsu, simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kapıkaya, simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:samat, simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahlatlıçeşme": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güney, simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayaköy, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:soğuksu, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çatak, hisarcık": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçaalan, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yumrutaş, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kestel, simav": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayvacık, şaphane": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeyhler, hisarcık": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akkaya, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızılçukur, hisarcık": {
+    "keep": false,
+    "category": null
+  },
+  "tr:samralar, gediz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:barağı, çavdarhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarısusuz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şanlıyurt, altıntaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üçhüyük, altıntaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçaköy, altıntaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gecek, altıntaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınarcık, altıntaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üçlerkayası, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:döğer, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muratlar, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacıbeyli, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yiğitpınarı, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:orhanlı, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kadımürsel, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:döğer tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:döğer kervansarayı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oğulbeyli, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilbayır, kütahya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kıyır, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mallıca, bayat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eskieymir, i̇hsaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılıçlı kavlaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yarımca, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyköy, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sığracık, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gedikevi, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gömü, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alibeyce, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:emirinköyü, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eskigömü, bayat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güneyköy, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tepeköy, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muratkoru, bayat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:burunarkaç, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:veysel, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:salihler, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiftlikköy, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılıçlar, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karayatak, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenikapı, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeniköy, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eskiakören, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:daydalı, emirdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çeltik, konya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kulu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:uzunaliuşağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilli, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sıdıklıküçükoba, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaduraklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sıdıklıortaoba, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sıdıklıbüyükoba, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sıdıklıküçükboğaz, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sıddıklı barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:evren, ankara": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çadırlıhacıyusuf": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇naç, mucur": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alaaddin camii (kırşehir)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:ahi evran camii ve türbesi": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:kırşehir müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:tepesidelik, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçaağıl, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:geycek, mucur": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeniyapan, hacıbektaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzyurdu, mucur": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hasanlar, hacıbektaş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuruağıl, kozaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dörtyol, kozaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yazıçepni": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oğulcuk, boğazlıyan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayapınar cumhuriyet, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayapınar fatih sultan mehmet, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyler, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenimahalle, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kale, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cumhuriyet, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:silahtar, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tuğlaşah, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaşeyh, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cumhuriyet, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kepiç, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:darılı, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıboğaziçi, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alparslan, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güney, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kale, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:amarat, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıboğaziçi, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenimahalle, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇sabey, felahiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bahçelievler, özvatan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşcağız, kocasinan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelyazı, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıoğlan tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şenyurt, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bakarcak, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yahyalı, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:burunören, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaleköy, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tatılı, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaözü tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üzerlik, sarıoğlan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şahruh köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:küçüktuzhisar, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaerkek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ortaköy, akkışla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seydinali, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeniköy, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cesurlar, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilöz, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:durgunsu, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:malakköy, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiçekoğlu, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kartalkaya, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gömürgen yeni, akkışla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hayriye, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kocaoğlu, gemerek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pazarsu, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:methiye, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kapaklıpınar, şarkışla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kazancık, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşlıgeçit, pınarbaşı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızıldikme, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıhüyük, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıhüyük, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sutaşı, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşkayası, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tilkihüyük, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akdere, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yarhisar, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyyurdu, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kırkpınar, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kangal termik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:deligazili, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şekerpınar, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hamal, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızıleniş, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karagücük": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arpalı, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:turnalı, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçamağara tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sipahi, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçamağara, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akgedik tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dışlık, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:düzce, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demiriz tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçaşehir, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karacaören, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eğricek, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alacahan yeniköy, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşlı, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mursal barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiğnir, arapgir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arapgir ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:arapgir katedrali": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:erkalkan, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çakırtaş, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:topkapı, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gedikler, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gülbahçe, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıdemirbük, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçalı, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alakuş, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adak, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doğanalan, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boylu, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cebe, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavuktepe, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaçavuş, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kalecik, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boydaş, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:türktaner, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kardelen, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tekeli, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çağlarca, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozağaç, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koruköy, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaytaşı, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ulukale, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:toratlı, çemişgezek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çalkıran, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:babaocağı, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:buğulu, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cılga, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınar, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:altınyüzük, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demirkapı, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:okurlar, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doluküp, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dilek, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karşılar, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tahtköy, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çığırlı, hozat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:suvat, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dedeağaç, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:düzpelit, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:geyiksuyu, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çemçeli, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılköy, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ataçınarı, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bostanlı, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çevrecik, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:günlüce, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alhan, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gürbüzler, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dayılar, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yazgeldi, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sapköy, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dallıbel, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dallıbahçe, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güleç, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pamuklu, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇bimahmut, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çukur, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:öreniçi, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıkoç, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:haceri, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:otlukaya, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kapıbaşı, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:meşeyolu, tunceli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelpınar, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koyunuşağı, mazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıdoluca, nazımiye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çıtak, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilbelen": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıbaşak, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bazlama, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavalcık, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hamurkesen, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:keklikköy, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akpınar, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pilavtepe, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alabal, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özlüce, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dumluyazı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:korudibi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demirtaş, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özlüce barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:doğanoğlu, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yücekonak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gümüşakar, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaçan, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:günlük, yayladere": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karakoçan, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çan, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çalıkaya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beydere, karakoçan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çikan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:korlu, yayladere": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kocadayı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çavuşyolu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşbayırı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yaylabağ, yayladere": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boyalı, adaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oğuldere, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kozlu, adaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sudüğünü, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erler, adaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kurtuluş, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çamlıca, adaklı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sancak, bingöl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacılar, karlıova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sudurağı, karlıova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:halifan, karlıova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göynük, karlıova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kalencik, karlıova": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mutluca, solhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şerafettin dağları": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yayla, varto": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuşluk, varto": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özenç, varto": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alpaslan-2 barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1966 varto depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göztepe dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alpaslan-1 barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bulanık": {
+    "keep": false,
+    "category": null
+  },
+  "tr:rüstemgedik, bulanık": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üçtepe, bulanık": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gülkoru, malazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:selekutlu, malazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:malazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:malazgirt meydan muharebesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yaramış, malazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mezraaköy, malazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıdavut, malazgirt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ürküt, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kazanbey, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:keçelbaba, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kürekli, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:esenbel, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mollafadıl": {
+    "keep": false,
+    "category": null
+  },
+  "tr:konakbeyi, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aktepe, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hasandolu, patnos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koçköprü barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erciş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:morgedik barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1976 çaldıran depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaldıran": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaldıran muharebesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaldıran şehristanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:siyahçeşme": {
+    "keep": false,
+    "category": null
   }
 }
