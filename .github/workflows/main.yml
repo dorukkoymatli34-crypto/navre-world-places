@@ -29,6 +29,7 @@ jobs:
       - name: Run curation loop continuously (up to 5.5 hours)
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           set -e
           END_TIME=$((SECONDS + 19800))
@@ -39,15 +40,17 @@ jobs:
           while [ $SECONDS -lt $END_TIME ]; do
             python -u build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0 --max-hubs 300 --max-seconds 720
 
-            for f in places.json places.js ai_cache_gpt_oss.json progress_state.json; do
+            for f in places.json places.js ai_cache_gpt_oss.json progress_state.json data/places.json data/places.js data/ai_cache_gpt_oss.json data/progress_state.json data/index.json; do
               if [ -f "$f" ]; then
                 git add "$f"
               fi
             done
 
-            if [ -d chunks ]; then
-              git add chunks/
-            fi
+            for d in chunks data/chunks; do
+              if [ -d "$d" ]; then
+                git add "$d"
+              fi
+            done
 
             if ! git diff --staged --quiet; then
               git commit -m "chore(data): continuous world places update"
