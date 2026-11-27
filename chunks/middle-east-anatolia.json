@@ -4030,5 +4030,599 @@
     "lon": 28.933333,
     "region": "middle-east-anatolia",
     "wikiTitle": "Bursa Oyuncak Müzesi"
+  },
+  {
+    "id": "w-tr/2839412",
+    "name": "Kâhin Tepe",
+    "category": "archaeological_site",
+    "lat": 41.2301,
+    "lon": 33.3919,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kâhin Tepe"
+  },
+  {
+    "id": "w-tr/1712660",
+    "name": "Aya Triada Rum Ortodoks Kilisesi (Samsun)",
+    "category": "church",
+    "lat": 41.2775,
+    "lon": 36.33,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aya Triada Rum Ortodoks Kilisesi (Samsun)"
+  },
+  {
+    "id": "w-tr/1173432",
+    "name": "Mater Dolorosa Katolik Kilisesi",
+    "category": "church",
+    "lat": 41.283333,
+    "lon": 36.316667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mater Dolorosa Katolik Kilisesi"
+  },
+  {
+    "id": "w-tr/2440499",
+    "name": "Cerrahi Aletler ve Sağlık Müzesi",
+    "category": "museum",
+    "lat": 41.280556,
+    "lon": 36.349444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cerrahi Aletler ve Sağlık Müzesi"
+  },
+  {
+    "id": "w-tr/1748216",
+    "name": "Göğceli Camii",
+    "category": "mosque",
+    "lat": 41.198056,
+    "lon": 36.743056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Göğceli Camii"
+  },
+  {
+    "id": "w-tr/3500233",
+    "name": "Kilise Tepe Rum Kilisesi",
+    "category": "church",
+    "lat": 41.136389,
+    "lon": 37.289167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kilise Tepe Rum Kilisesi"
+  },
+  {
+    "id": "w-tr/3496527",
+    "name": "Yalı Kilisesi",
+    "category": "church",
+    "lat": 41.135278,
+    "lon": 37.287778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yalı Kilisesi"
+  },
+  {
+    "id": "w-tr/3502355",
+    "name": "Süleyman Paşa Sarayı",
+    "category": "palace",
+    "lat": 41.131944,
+    "lon": 37.285833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Süleyman Paşa Sarayı"
+  },
+  {
+    "id": "w-tr/3501144",
+    "name": "Saray Camii",
+    "category": "mosque",
+    "lat": 41.131389,
+    "lon": 37.285556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Saray Camii"
+  },
+  {
+    "id": "w-tr/3497520",
+    "name": "Yason Kilisesi",
+    "category": "church",
+    "lat": 41.133889,
+    "lon": 37.6825,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yason Kilisesi"
+  },
+  {
+    "id": "w-tr/2357743",
+    "name": "Kız Kalesi (Rize)",
+    "category": "castle",
+    "lat": 41.182778,
+    "lon": 40.874167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kız Kalesi (Rize)"
+  },
+  {
+    "id": "w-tr/4534515",
+    "name": "Artvin Köprüsü",
+    "category": "bridge",
+    "lat": 41.181667,
+    "lon": 41.836111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Artvin Köprüsü"
+  },
+  {
+    "id": "w-tr/281741",
+    "name": "Şehitlik, Artvin",
+    "category": "monument",
+    "lat": 41.1753,
+    "lon": 41.84,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şehitlik, Artvin"
+  },
+  {
+    "id": "w-tr/2313170",
+    "name": "Doliskana Manastırı",
+    "category": "monastery",
+    "lat": 41.165833,
+    "lon": 41.952222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Doliskana Manastırı"
+  },
+  {
+    "id": "w-tr/2512827",
+    "name": "Cmerki Manastırı",
+    "category": "monastery",
+    "lat": 41.193333,
+    "lon": 41.969722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cmerki Manastırı"
+  },
+  {
+    "id": "w-tr/3597679",
+    "name": "Kardzveli Kilisesi",
+    "category": "church",
+    "lat": 41.183056,
+    "lon": 41.8325,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kardzveli Kilisesi"
+  },
+  {
+    "id": "w-tr/3241956",
+    "name": "Artvin Kalesi",
+    "category": "castle",
+    "lat": 41.188333,
+    "lon": 41.826389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Artvin Kalesi"
+  },
+  {
+    "id": "w-tr/2515269",
+    "name": "Artvin Atatürk Heykeli",
+    "category": "monument",
+    "lat": 41.170833,
+    "lon": 41.829167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Artvin Atatürk Heykeli"
+  },
+  {
+    "id": "w-tr/2511579",
+    "name": "Daba Manastırı",
+    "category": "monastery",
+    "lat": 41.1975,
+    "lon": 41.983333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Daba Manastırı"
+  },
+  {
+    "id": "w-tr/2720869",
+    "name": "Berta Köprüsü",
+    "category": "bridge",
+    "lat": 41.166111,
+    "lon": 41.971389,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Berta Köprüsü"
+  },
+  {
+    "id": "w-tr/4007050",
+    "name": "Kvartshana Kalesi",
+    "category": "castle",
+    "lat": 41.235278,
+    "lon": 41.806111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kvartshana Kalesi"
+  },
+  {
+    "id": "w-tr/2441841",
+    "name": "Berta Manastırı",
+    "category": "monastery",
+    "lat": 41.248889,
+    "lon": 41.983333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Berta Manastırı"
+  },
+  {
+    "id": "w-tr/3520530",
+    "name": "Ortaköy Kilise Camii",
+    "category": "church",
+    "lat": 41.249167,
+    "lon": 41.983056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ortaköy Kilise Camii"
+  },
+  {
+    "id": "w-tr/3073867",
+    "name": "Suagara Kalesi",
+    "category": "castle",
+    "lat": 41.160278,
+    "lon": 41.991667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Suagara Kalesi"
+  },
+  {
+    "id": "w-tr/2450009",
+    "name": "Parehi Manastırı",
+    "category": "monastery",
+    "lat": 41.251944,
+    "lon": 41.99,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Parehi Manastırı"
+  },
+  {
+    "id": "w-tr/3566052",
+    "name": "Suagara Kilisesi",
+    "category": "church",
+    "lat": 41.1675,
+    "lon": 42.005833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Suagara Kilisesi"
+  },
+  {
+    "id": "w-tr/3574212",
+    "name": "Sataplia Daranı",
+    "category": "archaeological_site",
+    "lat": 41.211944,
+    "lon": 42.262778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sataplia Daranı"
+  },
+  {
+    "id": "w-tr/3580904",
+    "name": "Karsnia Kilisesi",
+    "category": "church",
+    "lat": 41.178889,
+    "lon": 42.2275,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Karsnia Kilisesi"
+  },
+  {
+    "id": "w-tr/3882828",
+    "name": "Goraşeti Kilisesi",
+    "category": "church",
+    "lat": 41.198611,
+    "lon": 42.206944,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Goraşeti Kilisesi"
+  },
+  {
+    "id": "w-tr/3582247",
+    "name": "Goraşeti Kalesi",
+    "category": "castle",
+    "lat": 41.217222,
+    "lon": 42.200833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Goraşeti Kalesi"
+  },
+  {
+    "id": "w-tr/3581170",
+    "name": "Samtzkaro Kilisesi (Yukarı)",
+    "category": "church",
+    "lat": 41.200556,
+    "lon": 42.185,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Samtzkaro Kilisesi (Yukarı)"
+  },
+  {
+    "id": "w-tr/3161382",
+    "name": "Samtzkaro Kilisesi (Aşağı)",
+    "category": "church",
+    "lat": 41.180278,
+    "lon": 42.181667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Samtzkaro Kilisesi (Aşağı)"
+  },
+  {
+    "id": "w-tr/3559126",
+    "name": "Gunatle Manastırı",
+    "category": "monastery",
+    "lat": 41.245,
+    "lon": 42.298611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Gunatle Manastırı"
+  },
+  {
+    "id": "w-tr/3566755",
+    "name": "Kvatetrisi Kalesi",
+    "category": "castle",
+    "lat": 41.204444,
+    "lon": 42.328889,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kvatetrisi Kalesi"
+  },
+  {
+    "id": "w-tr/3566564",
+    "name": "Şindoba Kilisesi",
+    "category": "church",
+    "lat": 41.261667,
+    "lon": 42.286667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şindoba Kilisesi"
+  },
+  {
+    "id": "w-tr/3297804",
+    "name": "Satleli Kalesi",
+    "category": "castle",
+    "lat": 41.259167,
+    "lon": 42.327222,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Satleli Kalesi"
+  },
+  {
+    "id": "w-tr/2467733",
+    "name": "Satle Kilisesi",
+    "category": "church",
+    "lat": 41.259167,
+    "lon": 42.331111,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Satle Kilisesi"
+  },
+  {
+    "id": "w-tr/3758697",
+    "name": "Hozabiri Kilisesi",
+    "category": "church",
+    "lat": 41.254722,
+    "lon": 42.155556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hozabiri Kilisesi"
+  },
+  {
+    "id": "w-tr/4433578",
+    "name": "Sartzebi Kilisesi",
+    "category": "church",
+    "lat": 41.164722,
+    "lon": 42.624167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sartzebi Kilisesi"
+  },
+  {
+    "id": "w-tr/4540645",
+    "name": "Evgenik Kilisesi",
+    "category": "church",
+    "lat": 41.176111,
+    "lon": 42.700278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Evgenik Kilisesi"
+  },
+  {
+    "id": "w-tr/3609316",
+    "name": "Bebereki Kilisesi",
+    "category": "church",
+    "lat": 41.14,
+    "lon": 42.522778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bebereki Kilisesi"
+  },
+  {
+    "id": "w-tr/3566169",
+    "name": "Gasadinari Manastırı",
+    "category": "monastery",
+    "lat": 41.251667,
+    "lon": 42.509444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Gasadinari Manastırı"
+  },
+  {
+    "id": "w-tr/3624080",
+    "name": "Bergi Kilisesi",
+    "category": "church",
+    "lat": 41.203333,
+    "lon": 42.9675,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Bergi Kilisesi"
+  },
+  {
+    "id": "w-tr/3616600",
+    "name": "Hoşureti Kilisesi",
+    "category": "church",
+    "lat": 41.185833,
+    "lon": 42.945556,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Hoşureti Kilisesi"
+  },
+  {
+    "id": "w-tr/3612490",
+    "name": "Veli Kalesi Kilisesi",
+    "category": "church",
+    "lat": 41.155833,
+    "lon": 42.978333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Veli Kalesi Kilisesi"
+  },
+  {
+    "id": "w-tr/2526616",
+    "name": "Veli Kalesi",
+    "category": "castle",
+    "lat": 41.156111,
+    "lon": 42.979167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Veli Kalesi"
+  },
+  {
+    "id": "w-tr/2808093",
+    "name": "Goguba Kilisesi",
+    "category": "church",
+    "lat": 41.201667,
+    "lon": 43.019722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Goguba Kilisesi"
+  },
+  {
+    "id": "w-tr/3106155",
+    "name": "Eruşeti Kilisesi",
+    "category": "church",
+    "lat": 41.256667,
+    "lon": 42.964444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Eruşeti Kilisesi"
+  },
+  {
+    "id": "w-tr/4556161",
+    "name": "Mariami Kilisesi",
+    "category": "church",
+    "lat": 41.149722,
+    "lon": 42.995833,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mariami Kilisesi"
+  },
+  {
+    "id": "w-tr/3621218",
+    "name": "Kalacuk Kilisesi",
+    "category": "church",
+    "lat": 41.141944,
+    "lon": 42.915278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kalacuk Kilisesi"
+  },
+  {
+    "id": "w-tr/3814919",
+    "name": "Uri Kalesi",
+    "category": "castle",
+    "lat": 41.160556,
+    "lon": 42.881667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Uri Kalesi"
+  },
+  {
+    "id": "w-tr/3801589",
+    "name": "Uri Kilisesi",
+    "category": "church",
+    "lat": 41.161389,
+    "lon": 42.873056,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Uri Kilisesi"
+  },
+  {
+    "id": "w-tr/4255473",
+    "name": "Begrahatuni Kilisesi",
+    "category": "church",
+    "lat": 41.1225,
+    "lon": 42.954444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Begrahatuni Kilisesi"
+  },
+  {
+    "id": "w-tr/4051247",
+    "name": "Skarebi Kilisesi",
+    "category": "church",
+    "lat": 41.160556,
+    "lon": 43.039167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Skarebi Kilisesi"
+  },
+  {
+    "id": "w-tr/3607523",
+    "name": "Mglivani Kalesi",
+    "category": "castle",
+    "lat": 41.2,
+    "lon": 42.839722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mglivani Kalesi"
+  },
+  {
+    "id": "w-tr/3607503",
+    "name": "Mglivani Kilisesi",
+    "category": "church",
+    "lat": 41.205833,
+    "lon": 42.835,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mglivani Kilisesi"
+  },
+  {
+    "id": "w-tr/4570828",
+    "name": "Sakora Kalesi",
+    "category": "castle",
+    "lat": 41.151667,
+    "lon": 42.854167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Sakora Kalesi"
+  },
+  {
+    "id": "w-tr/3603945",
+    "name": "Ahalşeni Kilisesi",
+    "category": "church",
+    "lat": 41.288611,
+    "lon": 42.953333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ahalşeni Kilisesi"
+  },
+  {
+    "id": "w-tr/1396496",
+    "name": "Villa Armira",
+    "category": "archaeological_site",
+    "lat": 41.499069,
+    "lon": 26.106264,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Villa Armira"
+  },
+  {
+    "id": "w-tr/4725610",
+    "name": "Kurtdere Köprüsü (Havsa)",
+    "category": "bridge",
+    "lat": 41.538333,
+    "lon": 26.844722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kurtdere Köprüsü (Havsa)"
+  },
+  {
+    "id": "w-tr/4426456",
+    "name": "Ağayeri Köyü Camii",
+    "category": "mosque",
+    "lat": 41.460556,
+    "lon": 26.925278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ağayeri Köyü Camii"
+  },
+  {
+    "id": "w-tr/4729323",
+    "name": "Nalbur Köprüsü",
+    "category": "bridge",
+    "lat": 41.575,
+    "lon": 26.784167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Nalbur Köprüsü"
+  },
+  {
+    "id": "w-tr/4444207",
+    "name": "Taşağıl Köyü Camii",
+    "category": "mosque",
+    "lat": 41.522778,
+    "lon": 27.123611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Taşağıl Köyü Camii"
+  },
+  {
+    "id": "w-tr/4445395",
+    "name": "Tozaklı Köyiçi Camii",
+    "category": "mosque",
+    "lat": 41.585278,
+    "lon": 27.569444,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Tozaklı Köyiçi Camii"
+  },
+  {
+    "id": "w-tr/3518555",
+    "name": "Maden Müzesi",
+    "category": "museum",
+    "lat": 41.4475,
+    "lon": 31.814722,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Maden Müzesi"
+  },
+  {
+    "id": "w-tr/1202559",
+    "name": "Tieion",
+    "category": "archaeological_site",
+    "lat": 41.570833,
+    "lon": 32.032778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Tieion"
   }
 ]
