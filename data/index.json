@@ -1,5 +1,5 @@
 {
-  "total": 790,
+  "total": 797,
   "chunkSize": 250,
   "chunks": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "file": "places-004.json",
-      "count": 40
+      "count": 47
     }
   ]
 }

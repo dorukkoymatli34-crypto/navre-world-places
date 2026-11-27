@@ -358,5 +358,68 @@
     "lon": 40.241111,
     "wikiTitle": "Hamidiye Saatli Çeşmesi (Diyarbakır)",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1298351",
+    "name": "Kianeai",
+    "category": "archaeological_site",
+    "lat": 36.250833,
+    "lon": 29.805556,
+    "wikiTitle": "Kianeai",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2164443",
+    "name": "Musul Ulu Camii",
+    "category": "mosque",
+    "lat": 36.343056,
+    "lon": 43.126944,
+    "wikiTitle": "Musul Ulu Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2986612",
+    "name": "Musul Büyük Camii",
+    "category": "mosque",
+    "lat": 36.3575,
+    "lon": 43.141667,
+    "wikiTitle": "Musul Büyük Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1933351",
+    "name": "Şanidar Mağarası",
+    "category": "archaeological_site",
+    "lat": 36.8006,
+    "lon": 44.2433,
+    "wikiTitle": "Şanidar Mağarası",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/43642",
+    "name": "Stratonikeia (Muğla)",
+    "category": "archaeological_site",
+    "lat": 37.314722,
+    "lon": 28.065833,
+    "wikiTitle": "Stratonikeia (Muğla)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1121957",
+    "name": "Tınaztepe Mağarası",
+    "category": "archaeological_site",
+    "lat": 37.264722,
+    "lon": 31.926667,
+    "wikiTitle": "Tınaztepe Mağarası",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4434976",
+    "name": "İrenopolis (Kilikya)",
+    "category": "archaeological_site",
+    "lat": 37.243056,
+    "lon": 36.456667,
+    "wikiTitle": "İrenopolis (Kilikya)",
+    "region": "middle-east-anatolia"
   }
 ]

@@ -23970,5 +23970,481 @@
   "en:8734270": {
     "keep": false,
     "category": "monument"
+  },
+  "tr:2044982": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2884022": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1460241": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3576737": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:571779": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:23097": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:843751": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2924286": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3618094": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2057880": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2350786": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4445519": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4445520": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4256140": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2345291": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1298351": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:2038286": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:23168": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:5782": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4369046": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1455175": {
+    "keep": false,
+    "category": "archaeological_site"
+  },
+  "tr:47728": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2213642": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1210347": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:703869": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2164443": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:2986612": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:3490346": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:320596": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1663604": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:274143": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:23979": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4216458": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:25327": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:24283": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:382298": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2975725": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:21738": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3097447": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:47726": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:142427": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3609840": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3412553": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1952577": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1476204": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3427985": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1476227": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3445769": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1345995": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4237761": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464636": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464642": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464656": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464659": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:474269": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464634": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464643": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:565428": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1464658": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1914256": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4246088": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:47605": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:47600": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:361515": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:361521": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1714912": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:361516": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:172957": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328944": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328942": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1933351": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:2851564": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:38956": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:43642": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:335312": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:362935": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:362933": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:362929": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:362630": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:362926": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:471159": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1121957": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:294526": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:294538": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:294550": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:294590": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:294543": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:323072": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:294585": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:294523": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4700146": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:467451": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1684507": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1815350": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1815358": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1818131": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:2797097": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1815346": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:47900": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:4434976": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:328947": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328906": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3357418": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328903": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1818679": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328946": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:3300076": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328918": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328936": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328916": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1818674": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328909": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:277058": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1818683": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1818686": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328912": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:1818716": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328904": {
+    "keep": false,
+    "category": "monument"
+  },
+  "tr:328914": {
+    "keep": false,
+    "category": "monument"
   }
 }
