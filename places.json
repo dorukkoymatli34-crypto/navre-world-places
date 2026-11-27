@@ -7252,5 +7252,23 @@
     "lon": 43.131389,
     "wikiTitle": "Şeytan Kalesi",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2024391",
+    "name": "Pompeiopolis",
+    "category": "archaeological_site",
+    "lat": 41.517,
+    "lon": 34.213,
+    "wikiTitle": "Pompeiopolis",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/499810",
+    "name": "Taşköprü (Taşköprü)",
+    "category": "bridge",
+    "lat": 41.513611,
+    "lon": 34.211389,
+    "wikiTitle": "Taşköprü (Taşköprü)",
+    "region": "middle-east-anatolia"
   }
 ]
