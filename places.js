@@ -6766,5 +6766,23 @@ window.NAVRE_SEED_PLACES = [
     "lon": 32.993056,
     "region": "africa",
     "wikiTitle": "Barlonyo Memorial Site"
+  },
+  {
+    "id": "w-en/46653702",
+    "name": "Sadurengas Museum",
+    "category": "museum",
+    "lat": -1.948079,
+    "lon": 116.210646,
+    "region": "asia",
+    "wikiTitle": "Sadurengas Museum"
+  },
+  {
+    "id": "w-en/20353033",
+    "name": "Bada Valley",
+    "category": "archaeological_site",
+    "lat": -1.88,
+    "lon": 120.25,
+    "region": "asia",
+    "wikiTitle": "Bada Valley"
   }
 ];

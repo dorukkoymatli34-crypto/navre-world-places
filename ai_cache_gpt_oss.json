@@ -17062,5 +17062,121 @@
   "en:south yemen": {
     "keep": false,
     "category": null
+  },
+  "en:chenapian language": {
+    "keep": false,
+    "category": null
+  },
+  "en:leonard schultze river": {
+    "keep": false,
+    "category": null
+  },
+  "en:yawar, papua new guinea": {
+    "keep": false,
+    "category": null
+  },
+  "en:ruboni range": {
+    "keep": false,
+    "category": null
+  },
+  "en:bogia district": {
+    "keep": false,
+    "category": null
+  },
+  "en:yawar rural llg": {
+    "keep": false,
+    "category": null
+  },
+  "en:bomberai peninsula": {
+    "keep": false,
+    "category": null
+  },
+  "en:aitape river": {
+    "keep": false,
+    "category": null
+  },
+  "en:aitape": {
+    "keep": false,
+    "category": null
+  },
+  "en:operation locust": {
+    "keep": false,
+    "category": null
+  },
+  "en:east aitape rural llg": {
+    "keep": false,
+    "category": null
+  },
+  "en:aitape-lumi district": {
+    "keep": false,
+    "category": null
+  },
+  "en:diocese of aitape": {
+    "keep": false,
+    "category": null
+  },
+  "en:pinangtinggi": {
+    "keep": false,
+    "category": null
+  },
+  "en:batanghari regency": {
+    "keep": false,
+    "category": null
+  },
+  "en:betung": {
+    "keep": false,
+    "category": null
+  },
+  "en:bangka regency": {
+    "keep": false,
+    "category": null
+  },
+  "en:sadurengas museum": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:sulawesi montane rain forests": {
+    "keep": false,
+    "category": null
+  },
+  "en:bada valley": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:laa river": {
+    "keep": false,
+    "category": null
+  },
+  "en:sula islands regency": {
+    "keep": false,
+    "category": null
+  },
+  "en:mogoi baru": {
+    "keep": false,
+    "category": null
+  },
+  "en:waropen regency": {
+    "keep": false,
+    "category": null
+  },
+  "en:tanjung harapan, solok": {
+    "keep": false,
+    "category": null
+  },
+  "en:batanta": {
+    "keep": false,
+    "category": null
+  },
+  "en:gan (huvadhu atoll)": {
+    "keep": false,
+    "category": null
+  },
+  "en:gadhdhoo": {
+    "keep": false,
+    "category": null
+  },
+  "en:landak regency": {
+    "keep": false,
+    "category": null
   }
 }
