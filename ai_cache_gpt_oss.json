@@ -13766,5 +13766,485 @@
   "en:pirili, çukurova": {
     "keep": false,
     "category": null
+  },
+  "en:nuxis": {
+    "keep": false,
+    "category": null
+  },
+  "en:necropolis of montessu": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:perdaxius": {
+    "keep": false,
+    "category": null
+  },
+  "en:sulcis-iglesiente": {
+    "keep": false,
+    "category": null
+  },
+  "en:castiadas": {
+    "keep": false,
+    "category": null
+  },
+  "en:costa rei": {
+    "keep": false,
+    "category": null
+  },
+  "en:mangone": {
+    "keep": false,
+    "category": null
+  },
+  "en:cellara": {
+    "keep": false,
+    "category": null
+  },
+  "en:santo stefano di rogliano": {
+    "keep": false,
+    "category": null
+  },
+  "en:rogliano": {
+    "keep": false,
+    "category": null
+  },
+  "en:san pietro, rogliano": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:figline vegliaturo": {
+    "keep": false,
+    "category": null
+  },
+  "en:marzi, calabria": {
+    "keep": false,
+    "category": null
+  },
+  "en:parenti, calabria": {
+    "keep": false,
+    "category": null
+  },
+  "en:carpanzano": {
+    "keep": false,
+    "category": null
+  },
+  "en:pietrafitta": {
+    "keep": false,
+    "category": null
+  },
+  "en:pedace": {
+    "keep": false,
+    "category": null
+  },
+  "en:paterno calabro": {
+    "keep": false,
+    "category": null
+  },
+  "en:scigliano": {
+    "keep": false,
+    "category": null
+  },
+  "en:spezzano piccolo": {
+    "keep": false,
+    "category": null
+  },
+  "en:serra pedace": {
+    "keep": false,
+    "category": null
+  },
+  "en:casole bruzio": {
+    "keep": false,
+    "category": null
+  },
+  "en:dipignano": {
+    "keep": false,
+    "category": null
+  },
+  "en:trenta, calabria": {
+    "keep": false,
+    "category": null
+  },
+  "en:casali del manco": {
+    "keep": false,
+    "category": null
+  },
+  "en:sant' angelo roman bridge": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "en:neto (river)": {
+    "keep": false,
+    "category": null
+  },
+  "en:kanallaki": {
+    "keep": false,
+    "category": null
+  },
+  "en:fanari, preveza": {
+    "keep": false,
+    "category": null
+  },
+  "en:narkissos": {
+    "keep": false,
+    "category": null
+  },
+  "en:kastri, preveza": {
+    "keep": false,
+    "category": null
+  },
+  "en:necromanteion of acheron": {
+    "keep": true,
+    "category": "temple"
+  },
+  "en:cichyrus": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:themelo": {
+    "keep": false,
+    "category": null
+  },
+  "en:cassope": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:dance of zalongo": {
+    "keep": false,
+    "category": null
+  },
+  "en:monument of zalongo": {
+    "keep": true,
+    "category": "monument"
+  },
+  "en:kamarina, greece": {
+    "keep": false,
+    "category": null
+  },
+  "en:zalongo": {
+    "keep": false,
+    "category": null
+  },
+  "en:mount zalongo": {
+    "keep": false,
+    "category": null
+  },
+  "en:acheloos (municipality)": {
+    "keep": false,
+    "category": null
+  },
+  "en:aspropotamos, evrytania": {
+    "keep": false,
+    "category": null
+  },
+  "en:stefaniada": {
+    "keep": false,
+    "category": null
+  },
+  "en:domokos railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:thessaliotida": {
+    "keep": false,
+    "category": null
+  },
+  "en:neo monastiri, phthiotis": {
+    "keep": false,
+    "category": null
+  },
+  "en:proerna": {
+    "keep": false,
+    "category": null
+  },
+  "en:domokos": {
+    "keep": false,
+    "category": null
+  },
+  "en:thaumaci": {
+    "keep": false,
+    "category": null
+  },
+  "en:pereia": {
+    "keep": false,
+    "category": null
+  },
+  "en:chorto": {
+    "keep": false,
+    "category": null
+  },
+  "en:spalathra": {
+    "keep": false,
+    "category": null
+  },
+  "en:lefokastro": {
+    "keep": false,
+    "category": null
+  },
+  "en:argalasti": {
+    "keep": false,
+    "category": null
+  },
+  "en:south pelion": {
+    "keep": false,
+    "category": null
+  },
+  "en:paleo trikeri": {
+    "keep": false,
+    "category": null
+  },
+  "en:olizon": {
+    "keep": false,
+    "category": null
+  },
+  "en:sipiada": {
+    "keep": false,
+    "category": null
+  },
+  "en:afetes": {
+    "keep": false,
+    "category": null
+  },
+  "en:peristera": {
+    "keep": false,
+    "category": null
+  },
+  "en:steni vala": {
+    "keep": false,
+    "category": null
+  },
+  "en:adelfoi islets": {
+    "keep": false,
+    "category": null
+  },
+  "en:mytilini strait": {
+    "keep": false,
+    "category": null
+  },
+  "en:therma (lesbos)": {
+    "keep": false,
+    "category": null
+  },
+  "en:loutropoli thermis": {
+    "keep": false,
+    "category": null
+  },
+  "en:panagiouda": {
+    "keep": false,
+    "category": null
+  },
+  "en:malea (lesbos)": {
+    "keep": false,
+    "category": null
+  },
+  "en:kara tepe refugee camp": {
+    "keep": false,
+    "category": null
+  },
+  "en:valide mosque, mytilene": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "en:castle of mytilene": {
+    "keep": true,
+    "category": "castle"
+  },
+  "en:yeni mosque, mytilene": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "en:ottoman conquest of lesbos": {
+    "keep": false,
+    "category": null
+  },
+  "en:fikiotripa": {
+    "keep": false,
+    "category": null
+  },
+  "en:charshi hamam, mytilene": {
+    "keep": false,
+    "category": null
+  },
+  "en:göçbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "en:bölcek, i̇zmir": {
+    "keep": false,
+    "category": null
+  },
+  "en:parthenium (mysia)": {
+    "keep": false,
+    "category": null
+  },
+  "en:ayaskent, i̇zmir": {
+    "keep": false,
+    "category": null
+  },
+  "en:yortanlı dam": {
+    "keep": false,
+    "category": null
+  },
+  "en:apollonia (mysia)": {
+    "keep": false,
+    "category": null
+  },
+  "en:büyükkışla, şereflikoçhisar": {
+    "keep": false,
+    "category": null
+  },
+  "en:şanlıkışla, şereflikoçhisar": {
+    "keep": false,
+    "category": null
+  },
+  "en:özbağ": {
+    "keep": false,
+    "category": null
+  },
+  "en:aşık pasha mausoleum": {
+    "keep": true,
+    "category": "tomb"
+  },
+  "en:kırşehir district": {
+    "keep": false,
+    "category": null
+  },
+  "en:kırşehir museum": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:cacabey medrese": {
+    "keep": true,
+    "category": "monument"
+  },
+  "en:kırşehir (electoral district)": {
+    "keep": false,
+    "category": null
+  },
+  "en:kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "en:aquae saravenae": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:boztepe district": {
+    "keep": false,
+    "category": null
+  },
+  "en:boztepe, kırşehir": {
+    "keep": false,
+    "category": null
+  },
+  "en:yenifakılı": {
+    "keep": false,
+    "category": null
+  },
+  "en:yenifakılı district": {
+    "keep": false,
+    "category": null
+  },
+  "en:karaözü": {
+    "keep": false,
+    "category": null
+  },
+  "en:şahruh bridge": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "en:ulaş district": {
+    "keep": false,
+    "category": null
+  },
+  "en:altınyayla district, sivas": {
+    "keep": false,
+    "category": null
+  },
+  "en:ulaş": {
+    "keep": false,
+    "category": null
+  },
+  "en:altınyayla, sivas": {
+    "keep": false,
+    "category": null
+  },
+  "en:çetinkaya railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:çetinkaya, kangal": {
+    "keep": false,
+    "category": null
+  },
+  "en:sırakonak, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:apçağa, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:keklikpınarı, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:gözaydın, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:ergü, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:yuva, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:toybelen, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:ali demirsoy natural history museum": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:ağıl, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:lake kadı": {
+    "keep": false,
+    "category": null
+  },
+  "en:kemaliye district": {
+    "keep": false,
+    "category": null
+  },
+  "en:dilli, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:kuşak, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:karanlık canyon": {
+    "keep": false,
+    "category": null
+  },
+  "en:yeşilyurt, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:sandık, kemaliye": {
+    "keep": false,
+    "category": null
+  },
+  "en:kozlupınar, kemaliye": {
+    "keep": false,
+    "category": null
   }
 }

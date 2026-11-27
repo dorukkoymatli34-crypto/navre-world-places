@@ -6109,5 +6109,149 @@
     "lon": 31.633333,
     "region": "middle-east-anatolia",
     "wikiTitle": "Cotenna"
+  },
+  {
+    "id": "w-en/47251630",
+    "name": "Necropolis of Montessu",
+    "category": "archaeological_site",
+    "lat": 39.1333,
+    "lon": 8.6686,
+    "region": "europe",
+    "wikiTitle": "Necropolis of Montessu"
+  },
+  {
+    "id": "w-en/56730786",
+    "name": "San Pietro, Rogliano",
+    "category": "church",
+    "lat": 39.176692,
+    "lon": 16.319772,
+    "region": "europe",
+    "wikiTitle": "San Pietro, Rogliano"
+  },
+  {
+    "id": "w-en/76448840",
+    "name": "Sant' Angelo Roman bridge",
+    "category": "bridge",
+    "lat": 39.1329,
+    "lon": 16.27454,
+    "region": "europe",
+    "wikiTitle": "Sant' Angelo Roman bridge"
+  },
+  {
+    "id": "w-en/3221217",
+    "name": "Necromanteion of Acheron",
+    "category": "temple",
+    "lat": 39.2362,
+    "lon": 20.5345,
+    "region": "europe",
+    "wikiTitle": "Necromanteion of Acheron"
+  },
+  {
+    "id": "w-en/4333973",
+    "name": "Cichyrus",
+    "category": "archaeological_site",
+    "lat": 39.242391,
+    "lon": 20.53143,
+    "region": "europe",
+    "wikiTitle": "Cichyrus"
+  },
+  {
+    "id": "w-en/7200075",
+    "name": "Cassope",
+    "category": "archaeological_site",
+    "lat": 39.145278,
+    "lon": 20.675556,
+    "region": "europe",
+    "wikiTitle": "Cassope"
+  },
+  {
+    "id": "w-en/43832197",
+    "name": "Monument of Zalongo",
+    "category": "monument",
+    "lat": 39.1485,
+    "lon": 20.6843,
+    "region": "europe",
+    "wikiTitle": "Monument of Zalongo"
+  },
+  {
+    "id": "w-en/59222275",
+    "name": "Valide Mosque, Mytilene",
+    "category": "mosque",
+    "lat": 39.111944,
+    "lon": 26.554167,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Valide Mosque, Mytilene"
+  },
+  {
+    "id": "w-en/43301789",
+    "name": "Castle of Mytilene",
+    "category": "castle",
+    "lat": 39.112,
+    "lon": 26.562,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Castle of Mytilene"
+  },
+  {
+    "id": "w-en/43243786",
+    "name": "Yeni Mosque, Mytilene",
+    "category": "mosque",
+    "lat": 39.11111,
+    "lon": 26.55306,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Yeni Mosque, Mytilene"
+  },
+  {
+    "id": "w-en/63825390",
+    "name": "Aşık Pasha Mausoleum",
+    "category": "tomb",
+    "lat": 39.15129,
+    "lon": 34.16945,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aşık Pasha Mausoleum"
+  },
+  {
+    "id": "w-en/52343033",
+    "name": "Kırşehir Museum",
+    "category": "museum",
+    "lat": 39.148611,
+    "lon": 34.158611,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kırşehir Museum"
+  },
+  {
+    "id": "w-en/79985303",
+    "name": "Cacabey Medrese",
+    "category": "monument",
+    "lat": 39.1467,
+    "lon": 34.1606,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cacabey Medrese"
+  },
+  {
+    "id": "w-en/61403869",
+    "name": "Aquae Saravenae",
+    "category": "archaeological_site",
+    "lat": 39.14591,
+    "lon": 34.15803,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Aquae Saravenae"
+  },
+  {
+    "id": "w-en/52489950",
+    "name": "Şahruh Bridge",
+    "category": "bridge",
+    "lat": 39.184167,
+    "lon": 35.9375,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Şahruh Bridge"
+  },
+  {
+    "id": "w-en/52321854",
+    "name": "Ali Demirsoy Natural History Museum",
+    "category": "museum",
+    "lat": 39.260833,
+    "lon": 38.4975,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Ali Demirsoy Natural History Museum"
   }
 ]

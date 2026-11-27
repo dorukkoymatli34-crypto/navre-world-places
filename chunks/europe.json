@@ -907,5 +907,68 @@
     "lon": -8.386183,
     "region": "europe",
     "wikiTitle": "Fort of Nossa Senhora da Rocha (Porches)"
+  },
+  {
+    "id": "w-en/47251630",
+    "name": "Necropolis of Montessu",
+    "category": "archaeological_site",
+    "lat": 39.1333,
+    "lon": 8.6686,
+    "region": "europe",
+    "wikiTitle": "Necropolis of Montessu"
+  },
+  {
+    "id": "w-en/56730786",
+    "name": "San Pietro, Rogliano",
+    "category": "church",
+    "lat": 39.176692,
+    "lon": 16.319772,
+    "region": "europe",
+    "wikiTitle": "San Pietro, Rogliano"
+  },
+  {
+    "id": "w-en/76448840",
+    "name": "Sant' Angelo Roman bridge",
+    "category": "bridge",
+    "lat": 39.1329,
+    "lon": 16.27454,
+    "region": "europe",
+    "wikiTitle": "Sant' Angelo Roman bridge"
+  },
+  {
+    "id": "w-en/3221217",
+    "name": "Necromanteion of Acheron",
+    "category": "temple",
+    "lat": 39.2362,
+    "lon": 20.5345,
+    "region": "europe",
+    "wikiTitle": "Necromanteion of Acheron"
+  },
+  {
+    "id": "w-en/4333973",
+    "name": "Cichyrus",
+    "category": "archaeological_site",
+    "lat": 39.242391,
+    "lon": 20.53143,
+    "region": "europe",
+    "wikiTitle": "Cichyrus"
+  },
+  {
+    "id": "w-en/7200075",
+    "name": "Cassope",
+    "category": "archaeological_site",
+    "lat": 39.145278,
+    "lon": 20.675556,
+    "region": "europe",
+    "wikiTitle": "Cassope"
+  },
+  {
+    "id": "w-en/43832197",
+    "name": "Monument of Zalongo",
+    "category": "monument",
+    "lat": 39.1485,
+    "lon": 20.6843,
+    "region": "europe",
+    "wikiTitle": "Monument of Zalongo"
   }
 ]
