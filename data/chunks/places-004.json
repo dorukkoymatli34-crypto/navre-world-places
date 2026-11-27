@@ -484,5 +484,23 @@
     "lon": 25.757222,
     "wikiTitle": "İskinit Kalesi",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/677759",
+    "name": "Ardahan Kalesi",
+    "category": "castle",
+    "lat": 41.118333,
+    "lon": 42.703056,
+    "wikiTitle": "Ardahan Kalesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2288998",
+    "name": "Şeytan Kalesi",
+    "category": "castle",
+    "lat": 41.154167,
+    "lon": 43.131389,
+    "wikiTitle": "Şeytan Kalesi",
+    "region": "middle-east-anatolia"
   }
 ]
