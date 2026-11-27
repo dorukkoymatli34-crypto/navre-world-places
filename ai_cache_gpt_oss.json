@@ -1,0 +1,1874 @@
+{
+  "tr:kamiros": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:fanes": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koskinu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:rodos orta çağ şehri": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:aziz franciscus assisi katedrali": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:kahal şalom sinagogu": {
+    "keep": true,
+    "category": "synagogue"
+  },
+  "tr:recep paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:i̇brahim paşa camii (rodos)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:aya spiridon kilisesi (rodos)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:rodos tahkimatları": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:mustafa paşa camii (rodos)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:mehmet ağa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:hamza bey camii (rodos)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:rodos arkeoloji müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:hafız ahmed ağa kütüphanesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:panaya tu kastru": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:süleymaniye camii (rodos)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:kutsal teslis kilisesi (rodos)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:rodos akropolü": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:rodos heykeli": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:murat reis camii (yunanistan)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:rodos akvaryumu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:faliraki": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yalisos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kalityes": {
+    "keep": false,
+    "category": null
+  },
+  "tr:payava anıtı": {
+    "keep": true,
+    "category": "tomb"
+  },
+  "tr:ksanthos": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:alacadağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kumluca": {
+    "keep": false,
+    "category": null
+  },
+  "tr:rhodiapolis": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:ulupınar, kemer": {
+    "keep": false,
+    "category": null
+  },
+  "tr:peynirlikönü mağarası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akdeniz bölgesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:friedrich barbarossa anıtı": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:çadırlı, silifke": {
+    "keep": false,
+    "category": null
+  },
+  "tr:silifke kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:tekir ambarı": {
+    "keep": true,
+    "category": "cistern"
+  },
+  "tr:alâeddin camii (silifke)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:taşköprü (silifke)": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:gazi mustafa kemal anıtı": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:silifke": {
+    "keep": false,
+    "category": null
+  },
+  "tr:silifke atatürk evi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:jüpiter tapınağı (silifke)": {
+    "keep": true,
+    "category": "temple"
+  },
+  "tr:aya tekla yeraltı kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:silifke müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:hacı paşa saat kulesi": {
+    "keep": true,
+    "category": "tower"
+  },
+  "tr:arslan eyce özel amphora müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:taşucu atatürk evi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:kız kalesi (mersin)": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:kızkalesi, erdemli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:narlıkuyu mozaik müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:berdan (nehir)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:arsuz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bakras kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:amik ovası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1872 amik depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gindarus dağı muharebesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cinderes": {
+    "keep": false,
+    "category": null
+  },
+  "tr:barad": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:baruze": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayn i̇sa bölgesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayn i̇sa": {
+    "keep": false,
+    "category": null
+  },
+  "tr:el-hol": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sincar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sincar (ilçe)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:baduş": {
+    "keep": false,
+    "category": null
+  },
+  "tr:başika": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeklave (ilçe)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeklave": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sakarcılar adası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:datça yarımadası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nimöz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tersane adası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızılada feneri": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:kemer köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:seydikemer": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elmalı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ömer paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:side müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:manavgat": {
+    "keep": false,
+    "category": null
+  },
+  "tr:avsallar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alara çayı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:civandere, sarıveliler": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıçağlar, ermenek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güneyyurt": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıçağlar, ermenek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:katranlı, ermenek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tepebaşı, ermenek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pamuklu, ermenek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elmayurdu, ermenek": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozyaka, başyayla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kravga köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:mut": {
+    "keep": false,
+    "category": null
+  },
+  "tr:laal paşa camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:taşhan (mut)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mut kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:mersin (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ayaştürkmenli, silifke": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hüsametli, erdemli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayacı, erdemli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karahıdırlı, erdemli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mezitli çayı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mezitli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cnr yenişehir fuar merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mersin marina": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tece kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:mersin cimnastik salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2022 mersin saldırısı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nevin yanıt atletizm kompleksi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:servet tazegül spor salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenişehir, mersin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yumurtalık lagünü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:damlataş mağarası (hatay)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çalan kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:nur dağları": {
+    "keep": false,
+    "category": null
+  },
+  "tr:atlas enerji i̇skenderun termik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıseki tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:payas": {
+    "keep": false,
+    "category": null
+  },
+  "tr:raco, afrin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nebî hurî camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:akçabağlar, kilis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:burseya dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muarin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güvendik, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yağızköy, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dölek, kilis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beşiriye, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erikliyayla, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşlıbakar, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:havuzluçam, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kalbursait, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yavuzlu, kilis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çıldıroba, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ceritler, kilis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alahan, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:günece, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çörten, kilis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılcan, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sağlıcak, elbeyli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kubbetü't-türkümân": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sipahiler, suriye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gavureli, suriye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçakoyunlu tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:balaban, suriye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:zenginova tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:goçar tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gökçayır tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şeyhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:koçbaba": {
+    "keep": false,
+    "category": null
+  },
+  "tr:telendos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çatalada": {
+    "keep": false,
+    "category": null
+  },
+  "tr:turgutreis": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kardak krizi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kardak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:keçi adası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:alazeytin kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:orak adası (muğla)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaada, muğla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2017 ege denizi depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kemerköy termik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:marmaris barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:1941 muğla depremi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muğla": {
+    "keep": false,
+    "category": null
+  },
+  "tr:muğla (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:köyceğiz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşildere, gölhisar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çameli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kozağacı barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ambarcık, çavdır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:altınyayla, burdur": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızıllar, çavdır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yazır, çavdır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:varsak, kepez": {
+    "keep": false,
+    "category": null
+  },
+  "tr:düden şelalesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:atilla vehbi konuk tesisleri": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kepez": {
+    "keep": false,
+    "category": null
+  },
+  "tr:atatürk maskı (antalya)": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:döşemealtı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:antalya şehirlerarası otobüs terminali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:batıgar (antalya tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:anadolu oyuncak müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:antalya (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sillyon": {
+    "keep": true,
+    "category": "ruins"
+  },
+  "tr:zeytintaşı mağarası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:serik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akseki": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kaplanlı, hadim": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hadim": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşkent, konya": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akçaalan, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yerköprü şelalesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aybastı, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erenkavak, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:cerit, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özdemir, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaman (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:boyalı, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ağaçyurdu, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bademli, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seyithasan, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tavşanlı, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:morcalı, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:değirmenbaşı, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:elmadağı, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güldere, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çimenkuyu, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akpınar, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güçler, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gözne, toroslar": {
+    "keep": false,
+    "category": null
+  },
+  "tr:belenkeşlik kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:berdan barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tarsus şelalesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tarsus": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tarsus tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:baç köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:tarsus eski cami": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:tarsus müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:tarsus saat kulesi": {
+    "keep": true,
+    "category": "tower"
+  },
+  "tr:tarsus ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:şehitlik tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana yeşiloba hipodromu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şakirpaşa tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:orhan kemal kültür merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana arkeoloji müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:çukurova, adana": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana garı (1886)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana garı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yaşar kemal kültür merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:atatürk yüzme havuzları kompleksi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aya nikola kilisesi (kuruköprü)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:adana kuruköprü anıt müzesi ve geleneksel adana evi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:adana yeni camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:bebekli kilise": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:kemeraltı camii (adana)": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:adana darüleytamı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇stiklal, seyhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana bedesteni": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:azize meryem ana kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:yağ camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:akkapı mezarlığı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hasan kethüda camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:menderes spor salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşil mescit": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:adana sinema müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:bülent ecevit müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:sabancı kültür merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kabasakal mezarlığı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:büyük saat": {
+    "keep": true,
+    "category": "tower"
+  },
+  "tr:adana ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:adana atatürk evi müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:ramazanoğlu konağı": {
+    "keep": true,
+    "category": "palace"
+  },
+  "tr:antik luvi kültür merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇lter uzel tıp ve diş hekimliği müzesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sabancı merkez camii": {
+    "keep": false,
+    "category": null
+  },
+  "tr:irmak hamamı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seyhan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demirköprü (köprü)": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:adana kültür ve sanat merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:taşköprü (adana)": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:yüreğir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ramazanoğlu kültür merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:15 temmuz şehitler köprüsü (adana)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yüreğir kültür merkezi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana ask": {
+    "keep": false,
+    "category": null
+  },
+  "tr:seyhan barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kanara binası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çatalan köprüsü": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adana asri mezarlığı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yüreğir serinevler spor salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:serinevler atletizm pisti": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yakapınar tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:misis mozaik müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:misis köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:adana (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:günyazı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karacalar, osmaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dereobası, osmaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:osmaniye saat kulesi": {
+    "keep": true,
+    "category": "tower"
+  },
+  "tr:osmaniye kent müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:osmaniye": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep hayvanat bahçesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aziz bedros kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:şahinbey": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kadı değirmeni (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kurtuluş camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:harikalar diyarı (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:atatürk anı müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:sanko okulları (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep sinagogu": {
+    "keep": true,
+    "category": "synagogue"
+  },
+  "tr:boyacı camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:hamam müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:emine göğüş mutfak müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:15 temmuz demokrasi meydanı (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep panorama 25 aralık müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:hışva han": {
+    "keep": true,
+    "category": "monument"
+  },
+  "tr:kamil ocak millet bahçesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şirvan camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:olimpik havuz (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kamil ocak spor salonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gazi muhtar paşa (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:gaziantep arkeoloji müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:forum gaziantep": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ali i̇hsan göğüş (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mücahitler tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:topraklık tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep garı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇brahimli merkez (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:zeugma mozaik müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:2012 gaziantep saldırısı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gaziantep (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şehitkamil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adliye (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:duisburg (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göllüce tren i̇stasyonu (gaziantep)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:adliye tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kolej vakfı (gaziantep tramvayı)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:türkyurdu tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:fevkani kilisesi": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:nizip tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nizip": {
+    "keep": false,
+    "category": null
+  },
+  "tr:birecik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:birecik kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:birecik ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:birecik köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:elifoğlu tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşildağ tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:barak ovası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:2015 suruç saldırısı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:suruç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:suruç ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:akdoğan tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kamışlı havaalanı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kamışlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nisibis muharebesi (217)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mor yakup kilisesi (nusaybin)": {
+    "keep": true,
+    "category": "church"
+  },
+  "tr:zeynel abidin camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:nusaybin tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:nusaybin": {
+    "keep": false,
+    "category": null
+  },
+  "tr:barzan, irak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:anadağ, derecik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ege merkezi olmayan i̇daresi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:apokalipsis mağarası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aziz yuhanna manastırı": {
+    "keep": true,
+    "category": "monastery"
+  },
+  "tr:batnaz": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇lipsi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇asos": {
+    "keep": false,
+    "category": null
+  },
+  "tr:akgedik barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:geyik barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayır barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:menteşe dağları": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyağaç": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozdağ": {
+    "keep": false,
+    "category": null
+  },
+  "tr:belkaya, tefenni": {
+    "keep": false,
+    "category": null
+  },
+  "tr:belkaya barajı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:küçükalan, çavdır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:beyköy, tefenni": {
+    "keep": false,
+    "category": null
+  },
+  "tr:belenli, kemer": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yakalar, kemer": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılavuzlar, karamanlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayalıköy": {
+    "keep": false,
+    "category": null
+  },
+  "tr:manca, karamanlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ürkütlü, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yüreğil, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızılkaya, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızılcaağaç, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayı, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kocaaliler, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kavacık, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karaseki, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kızılseki, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kuyubaşı, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karacaören-2 barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kargı, bucak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gembos ovası": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yalıhüyük": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ahırlı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güneysınır": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özyurt, kazımkarabekir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yuvatepe, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kılbasan": {
+    "keep": false,
+    "category": null
+  },
+  "tr:eminler, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:göztepe, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çiğdemli, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hamidiye, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mesudiye, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karalgazi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:demiryurt, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "tr:belemedik": {
+    "keep": false,
+    "category": null
+  },
+  "tr:belemedik tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hacıkırı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:varda köprüsü": {
+    "keep": true,
+    "category": "bridge"
+  },
+  "tr:gülek boğazı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gülek boğazı muharebesi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇mamoğlu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aşağıçiyanlı, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:erdoğdu, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kiremitli, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kerimli, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çukurköprü, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tozlu, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:anavarza": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:anavarza kalesi": {
+    "keep": true,
+    "category": "castle"
+  },
+  "tr:çınar, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tekeli, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:hardallık, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yalnızdut, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:narlıkışla, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karabacak, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kesikkeli, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mecidiye, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kümbet, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çaygeçit, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pirsultanlı, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çerçioğlu, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:gümüş, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:aslantaş barajı ve hidroelektrik santrali": {
+    "keep": false,
+    "category": null
+  },
+  "tr:domuztepe höyüğü (osmaniye)": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "tr:oluklu, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karatepe-aslantaş açık hava müzesi": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:böcekli, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:atalan, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bahadırlı, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karatepe, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bayındırlı, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:güzelyurt, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:farsak, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilköy, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yazlamazlı, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bekereci, kadirli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:karagedik, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bostanlar, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇nderesi, bahçe": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yenifarsak, düziçi": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yaylalık, bahçe": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yukarıkaradere, bahçe": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bekdemir, bahçe": {
+    "keep": false,
+    "category": null
+  },
+  "tr:köprüağzı tren i̇stasyonu": {
+    "keep": false,
+    "category": null
+  },
+  "tr:şanlıurfa (il)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:viranşehir": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yeşilli": {
+    "keep": false,
+    "category": null
+  },
+  "tr:deyrüzzaferân manastırı": {
+    "keep": true,
+    "category": "monastery"
+  },
+  "tr:yeşilli saat kulesi": {
+    "keep": true,
+    "category": "tower"
+  },
+  "tr:yaşayan müze mardin": {
+    "keep": true,
+    "category": "museum"
+  },
+  "tr:zinciriye medresesi (mardin)": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mardin ulu camii": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "tr:i̇zla dağı": {
+    "keep": false,
+    "category": null
+  },
+  "tr:mor gabriel manastırı": {
+    "keep": true,
+    "category": "monastery"
+  },
+  "tr:mağaraköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:haberli, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:sarıköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yayalar, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:çınarlı, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:bozkır, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:üçok, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:i̇dil, şırnak": {
+    "keep": false,
+    "category": null
+  },
+  "tr:yüksekköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:oymak, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:dirsekli, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tepeköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:tekeköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:özen, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:duruköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ulak, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:ortaköy, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:pınarbaşı, i̇dil": {
+    "keep": false,
+    "category": null
+  },
+  "tr:kayaköy, cizre": {
+    "keep": false,
+    "category": null
+  }
+}
