@@ -475,5 +475,14 @@
     "lon": 36.391,
     "wikiTitle": "Camandos",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4698873",
+    "name": "İskinit Kalesi",
+    "category": "castle",
+    "lat": 40.135833,
+    "lon": 25.757222,
+    "wikiTitle": "İskinit Kalesi",
+    "region": "middle-east-anatolia"
   }
 ]
