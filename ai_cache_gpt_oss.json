@@ -17178,5 +17178,165 @@
   "en:landak regency": {
     "keep": false,
     "category": null
+  },
+  "en:gua musang district": {
+    "keep": false,
+    "category": null
+  },
+  "en:masjid jamek razaleigh": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "en:gua musang railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:gong balai": {
+    "keep": false,
+    "category": null
+  },
+  "en:merchang": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong sungai besar": {
+    "keep": false,
+    "category": null
+  },
+  "en:mukim mentiri": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong sungai tilong": {
+    "keep": false,
+    "category": null
+  },
+  "en:gurkha reserve unit": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong sungai hanching": {
+    "keep": false,
+    "category": null
+  },
+  "en:panchor national housing scheme": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong mentiri": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong sungai orok": {
+    "keep": false,
+    "category": null
+  },
+  "en:brunei river": {
+    "keep": false,
+    "category": null
+  },
+  "en:chermin island": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong salambigar": {
+    "keep": false,
+    "category": null
+  },
+  "en:mentiri national housing area 'b'": {
+    "keep": false,
+    "category": null
+  },
+  "en:hassanal bolkiah mosque, mentiri": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "en:kampong sungai akar": {
+    "keep": false,
+    "category": null
+  },
+  "en:rpn kampong mentiri": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong manggis": {
+    "keep": false,
+    "category": null
+  },
+  "en:mentiri national housing area 'a'": {
+    "keep": false,
+    "category": null
+  },
+  "en:tanjong kindana royal mausoleum": {
+    "keep": true,
+    "category": "tomb"
+  },
+  "en:kampong sungai belukut": {
+    "keep": false,
+    "category": null
+  },
+  "en:lambak kanan": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong belimbing": {
+    "keep": false,
+    "category": null
+  },
+  "en:lambak kanan library": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong orang kaya besar imas": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong tanah jambu": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong pengiran siraja muda delima satu": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong sungai buloh": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong batu marang": {
+    "keep": false,
+    "category": null
+  },
+  "en:diplomatic enclave, brunei": {
+    "keep": false,
+    "category": null
+  },
+  "en:ibte sultan saiful rijal campus": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong serdang": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong madang": {
+    "keep": false,
+    "category": null
+  },
+  "en:ministry of culture, youth and sports (brunei)": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong pulaie": {
+    "keep": false,
+    "category": null
+  },
+  "en:paduka seri begawan sultan science college": {
+    "keep": false,
+    "category": null
+  },
+  "en:embassy of indonesia, bandar seri begawan": {
+    "keep": false,
+    "category": null
   }
 }

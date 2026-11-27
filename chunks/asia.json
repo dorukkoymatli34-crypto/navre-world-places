@@ -367,5 +367,32 @@
     "lon": 120.25,
     "region": "asia",
     "wikiTitle": "Bada Valley"
+  },
+  {
+    "id": "w-en/82924215",
+    "name": "Masjid Jamek Razaleigh",
+    "category": "mosque",
+    "lat": 4.881357,
+    "lon": 101.965784,
+    "region": "asia",
+    "wikiTitle": "Masjid Jamek Razaleigh"
+  },
+  {
+    "id": "w-en/56593177",
+    "name": "Hassanal Bolkiah Mosque, Mentiri",
+    "category": "mosque",
+    "lat": 4.966667,
+    "lon": 115.03,
+    "region": "asia",
+    "wikiTitle": "Hassanal Bolkiah Mosque, Mentiri"
+  },
+  {
+    "id": "w-en/65692990",
+    "name": "Tanjong Kindana Royal Mausoleum",
+    "category": "tomb",
+    "lat": 4.914746,
+    "lon": 115.014907,
+    "region": "asia",
+    "wikiTitle": "Tanjong Kindana Royal Mausoleum"
   }
 ]
