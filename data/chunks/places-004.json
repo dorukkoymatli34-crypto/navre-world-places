@@ -520,5 +520,32 @@
     "lon": 34.211389,
     "wikiTitle": "Taşköprü (Taşköprü)",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2441752",
+    "name": "Pitareti Manastırı",
+    "category": "monastery",
+    "lat": 41.478889,
+    "lon": 44.319722,
+    "wikiTitle": "Pitareti Manastırı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2456295",
+    "name": "Vani Sit Alanı",
+    "category": "archaeological_site",
+    "lat": 42.085,
+    "lon": 42.503889,
+    "wikiTitle": "Vani Sit Alanı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2456005",
+    "name": "Ubisi",
+    "category": "monastery",
+    "lat": 42.0997,
+    "lon": 43.2282,
+    "wikiTitle": "Ubisi",
+    "region": "middle-east-anatolia"
   }
 ]
