@@ -1,0 +1,362 @@
+[
+  {
+    "id": "w-en/46653702",
+    "name": "Sadurengas Museum",
+    "category": "museum",
+    "lat": -1.948079,
+    "lon": 116.210646,
+    "wikiTitle": "Sadurengas Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/20353033",
+    "name": "Bada Valley",
+    "category": "archaeological_site",
+    "lat": -1.88,
+    "lon": 120.25,
+    "wikiTitle": "Bada Valley",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/82924215",
+    "name": "Masjid Jamek Razaleigh",
+    "category": "mosque",
+    "lat": 4.881357,
+    "lon": 101.965784,
+    "wikiTitle": "Masjid Jamek Razaleigh",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/56593177",
+    "name": "Hassanal Bolkiah Mosque, Mentiri",
+    "category": "mosque",
+    "lat": 4.966667,
+    "lon": 115.03,
+    "wikiTitle": "Hassanal Bolkiah Mosque, Mentiri",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/65692990",
+    "name": "Tanjong Kindana Royal Mausoleum",
+    "category": "tomb",
+    "lat": 4.914746,
+    "lon": 115.014907,
+    "wikiTitle": "Tanjong Kindana Royal Mausoleum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/71382288",
+    "name": "Chaturmukha Basadi, Gerusoppa",
+    "category": "temple",
+    "lat": 14.228722,
+    "lon": 74.664722,
+    "wikiTitle": "Chaturmukha Basadi, Gerusoppa",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/17305519",
+    "name": "Supreme Artist Hall",
+    "category": "museum",
+    "lat": 14.072081,
+    "lon": 100.704617,
+    "wikiTitle": "Supreme Artist Hall",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/17305396",
+    "name": "Golden Jubilee Museum of Agriculture",
+    "category": "museum",
+    "lat": 14.118935,
+    "lon": 100.619348,
+    "wikiTitle": "Golden Jubilee Museum of Agriculture",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/43102309",
+    "name": "Saint Gregory the Great Parish Church (Majayjay)",
+    "category": "church",
+    "lat": 14.144564,
+    "lon": 121.472313,
+    "wikiTitle": "Saint Gregory the Great Parish Church (Majayjay)",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/44503871",
+    "name": "Lucban Church",
+    "category": "church",
+    "lat": 14.114846,
+    "lon": 121.553686,
+    "wikiTitle": "Lucban Church",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/43151117",
+    "name": "Saint John the Baptist Parish Church (Liliw)",
+    "category": "church",
+    "lat": 14.12982,
+    "lon": 121.43581,
+    "wikiTitle": "Saint John the Baptist Parish Church (Liliw)",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/43529760",
+    "name": "Nagcarlan Church",
+    "category": "church",
+    "lat": 14.13629,
+    "lon": 121.4174,
+    "wikiTitle": "Nagcarlan Church",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/44535260",
+    "name": "Magdalena, Laguna Church",
+    "category": "church",
+    "lat": 14.198907,
+    "lon": 121.429145,
+    "wikiTitle": "Magdalena, Laguna Church",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/43110093",
+    "name": "Nagcarlan Underground Cemetery",
+    "category": "museum",
+    "lat": 14.13135,
+    "lon": 121.41482,
+    "wikiTitle": "Nagcarlan Underground Cemetery",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/74014368",
+    "name": "Kamay ni Hesus Healing Church",
+    "category": "church",
+    "lat": 14.10127,
+    "lon": 121.57286,
+    "wikiTitle": "Kamay ni Hesus Healing Church",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/12112670",
+    "name": "Wat Phumin",
+    "category": "temple",
+    "lat": 18.774669,
+    "lon": 100.771592,
+    "wikiTitle": "Wat Phumin",
+    "region": "asia"
+  },
+  {
+    "id": "w-tr/3023187",
+    "name": "Mardin Müzesi",
+    "category": "museum",
+    "lat": 37.313611,
+    "lon": 40.734722,
+    "wikiTitle": "Mardin Müzesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4377420",
+    "name": "Zinciriye Medresesi (Mardin)",
+    "category": "monastery",
+    "lat": 37.314167,
+    "lon": 40.739722,
+    "wikiTitle": "Zinciriye Medresesi (Mardin)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1401249",
+    "name": "Mardin Kalesi",
+    "category": "castle",
+    "lat": 37.315556,
+    "lon": 40.738333,
+    "wikiTitle": "Mardin Kalesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1950014",
+    "name": "Burç Manastırı",
+    "category": "monastery",
+    "lat": 37.307778,
+    "lon": 40.733333,
+    "wikiTitle": "Burç Manastırı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1915732",
+    "name": "Mar Petyun Keldani Kilisesi",
+    "category": "church",
+    "lat": 37.910833,
+    "lon": 40.238056,
+    "wikiTitle": "Mar Petyun Keldani Kilisesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2403509",
+    "name": "Sülüklü Han",
+    "category": "monument",
+    "lat": 37.911667,
+    "lon": 40.2375,
+    "wikiTitle": "Sülüklü Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1894820",
+    "name": "Surp Giragos Ermeni Kilisesi",
+    "category": "church",
+    "lat": 37.910833,
+    "lon": 40.238889,
+    "wikiTitle": "Surp Giragos Ermeni Kilisesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2566783",
+    "name": "Ermeni Katolik Kilisesi (Diyarbakır)",
+    "category": "church",
+    "lat": 37.908611,
+    "lon": 40.238611,
+    "wikiTitle": "Ermeni Katolik Kilisesi (Diyarbakır)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2567559",
+    "name": "Zinciriye Medresesi (Diyarbakır)",
+    "category": "monastery",
+    "lat": 37.912222,
+    "lon": 40.235,
+    "wikiTitle": "Zinciriye Medresesi (Diyarbakır)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2567548",
+    "name": "Mesudiye Medresesi",
+    "category": "monastery",
+    "lat": 37.912778,
+    "lon": 40.236111,
+    "wikiTitle": "Mesudiye Medresesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/798725",
+    "name": "Hasan Paşa Hanı",
+    "category": "monument",
+    "lat": 37.912778,
+    "lon": 40.237222,
+    "wikiTitle": "Hasan Paşa Hanı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2590842",
+    "name": "Kadı Camii (Diyarbakır)",
+    "category": "mosque",
+    "lat": 37.9125,
+    "lon": 40.238611,
+    "wikiTitle": "Kadı Camii (Diyarbakır)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2551977",
+    "name": "Deliller Hanı",
+    "category": "monument",
+    "lat": 37.906944,
+    "lon": 40.236111,
+    "wikiTitle": "Deliller Hanı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2567110",
+    "name": "Latifiye Medresesi",
+    "category": "monastery",
+    "lat": 37.911667,
+    "lon": 40.241389,
+    "wikiTitle": "Latifiye Medresesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2051117",
+    "name": "Fatih Paşa Camii",
+    "category": "mosque",
+    "lat": 37.911667,
+    "lon": 40.241389,
+    "wikiTitle": "Fatih Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2578367",
+    "name": "Hacı Büzrük Camii",
+    "category": "mosque",
+    "lat": 37.914167,
+    "lon": 40.237778,
+    "wikiTitle": "Hacı Büzrük Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2569046",
+    "name": "Keçi Burcu",
+    "category": "tower",
+    "lat": 37.905554,
+    "lon": 40.236838,
+    "wikiTitle": "Keçi Burcu",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2564920",
+    "name": "Nasuh Paşa Camii",
+    "category": "mosque",
+    "lat": 37.913333,
+    "lon": 40.241667,
+    "wikiTitle": "Nasuh Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2569108",
+    "name": "Dağ Kapı",
+    "category": "monument",
+    "lat": 37.916215,
+    "lon": 40.23671,
+    "wikiTitle": "Dağ Kapı",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2567096",
+    "name": "Ali Paşa Medresesi",
+    "category": "monastery",
+    "lat": 37.905833,
+    "lon": 40.230278,
+    "wikiTitle": "Ali Paşa Medresesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2563592",
+    "name": "Hazreti Süleyman Camii",
+    "category": "mosque",
+    "lat": 37.915,
+    "lon": 40.241944,
+    "wikiTitle": "Hazreti Süleyman Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2403577",
+    "name": "Diyarbakır Arkeoloji Müzesi",
+    "category": "museum",
+    "lat": 37.915556,
+    "lon": 40.2425,
+    "wikiTitle": "Diyarbakır Arkeoloji Müzesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2554102",
+    "name": "Saint George Kilisesi",
+    "category": "church",
+    "lat": 37.916111,
+    "lon": 40.2425,
+    "wikiTitle": "Saint George Kilisesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2018610",
+    "name": "Hamidiye Saatli Çeşmesi (Diyarbakır)",
+    "category": "monument",
+    "lat": 37.917222,
+    "lon": 40.241111,
+    "wikiTitle": "Hamidiye Saatli Çeşmesi (Diyarbakır)",
+    "region": "middle-east-anatolia"
+  }
+]

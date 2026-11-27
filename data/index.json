@@ -1,0 +1,22 @@
+{
+  "total": 790,
+  "chunkSize": 250,
+  "chunks": [
+    {
+      "file": "places-001.json",
+      "count": 250
+    },
+    {
+      "file": "places-002.json",
+      "count": 250
+    },
+    {
+      "file": "places-003.json",
+      "count": 250
+    },
+    {
+      "file": "places-004.json",
+      "count": 40
+    }
+  ]
+}
