@@ -1,6 +1,6 @@
+import argparse
 import hashlib
 import json
-import math
 import os
 import re
 import time
@@ -12,14 +12,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 CHUNKS_DIR = DATA_DIR / "chunks"
+ROOT_CHUNKS_DIR = ROOT / "chunks"
 
 PLACES_JSON = DATA_DIR / "places.json"
 PLACES_JS = DATA_DIR / "places.js"
 STATE_JSON = DATA_DIR / "progress_state.json"
 CACHE_JSON = DATA_DIR / "ai_cache_gpt_oss.json"
 
+ROOT_PLACES_JSON = ROOT / "places.json"
+ROOT_PLACES_JS = ROOT / "places.js"
+ROOT_STATE_JSON = ROOT / "progress_state.json"
+ROOT_CACHE_JSON = ROOT / "ai_cache_gpt_oss.json"
+
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+
+GEMINI_MODELS = [
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
+]
 
 GROQ_MODELS = [
     "openai/gpt-oss-120b",
@@ -57,17 +69,15 @@ HARD_BLOCK_REGEX = re.compile(
     r"shopping mall|supermarket|hypermarket|department store|outlet|retail park|"
     r"stadium|arena|golf course|ski resort|theme park|amusement park|water park|"
     r"hospital|clinic|university|college|high school|elementary school|campus|"
-    r"power plant|dam|reservoir|wind farm|solar farm|factory| refinery|industrial|"
+    r"power plant|dam|reservoir|wind farm|solar farm|factory|refinery|industrial|"
     r"election|referendum|earthquake|flood|hurricane|typhoon|massacre|battle of|"
     r"municipality|district of|province of|county of|prefecture|commune of|"
-    r"belediyesi|ilçesi|ili|bucak|mahallesi|köyü"
+    r"belediyesi|ilçesi|ili|bucak|mahallesi|köyü|list of"
     r")\b",
     re.IGNORECASE,
 )
 
-# Dengeli kuresel grid: Turkiye'ye yigilmayi azaltip tum kitalari dengeli tarar
 GLOBAL_GRID_BANDS = [
-    # (name, region, lat_min, lat_max, lon_min, lon_max, lat_step, lon_step, radius_m, wiki_lang)
     ("turkiye_anatolia", "middle-east-anatolia", 35.8, 42.2, 25.8, 44.8, 0.48, 0.56, 10000, "tr"),
     ("levant_mesopotamia_persia", "middle-east-anatolia", 29.0, 39.5, 34.5, 61.0, 0.65, 0.75, 10000, "en"),
     ("egypt_north_africa", "africa", 22.0, 37.2, -10.5, 35.0, 0.75, 0.85, 10000, "en"),
@@ -82,7 +92,6 @@ GLOBAL_GRID_BANDS = [
 ]
 
 ICONIC_ANCHORS = [
-    # Turkiye & Dogu Akdeniz
     ("Sultanahmet / Fatih, Istanbul", "middle-east-anatolia", 41.0086, 28.9802, 7500, "tr"),
     ("Beyoglu / Karakoy, Istanbul", "middle-east-anatolia", 41.0285, 28.9765, 7500, "tr"),
     ("Uskudar / Kadikoy, Istanbul", "middle-east-anatolia", 41.0120, 29.0250, 8500, "tr"),
@@ -96,8 +105,6 @@ ICONIC_ANCHORS = [
     ("Diyarbakir Sur", "middle-east-anatolia", 37.9100, 40.2366, 8500, "tr"),
     ("Sanliurfa / Gobeklitepe", "middle-east-anatolia", 37.1850, 38.8500, 10000, "tr"),
     ("Ani, Kars", "middle-east-anatolia", 40.5069, 43.5722, 9000, "tr"),
-
-    # Avrupa
     ("Centro Storico / Colosseum, Rome", "europe", 41.8925, 12.4853, 7500, "en"),
     ("Vatican / Castel Sant'Angelo, Rome", "europe", 41.9029, 12.4534, 7000, "en"),
     ("Acropolis / Plaka, Athens", "europe", 37.9715, 23.7257, 7500, "en"),
@@ -109,8 +116,6 @@ ICONIC_ANCHORS = [
     ("Hradcany / Lesser Town, Prague", "europe", 50.0909, 14.4006, 7500, "en"),
     ("Buda Castle / Pest, Budapest", "europe", 47.4979, 19.0402, 8500, "en"),
     ("Dubrovnik Old Town", "europe", 42.6414, 18.1086, 7500, "en"),
-
-    # Orta Dogu & Afrika
     ("Giza Necropolis, Cairo", "middle-east-anatolia", 29.9792, 31.1342, 9500, "en"),
     ("Islamic / Coptic Cairo", "middle-east-anatolia", 30.0250, 31.2450, 9000, "en"),
     ("Luxor / Karnak", "middle-east-anatolia", 25.7188, 32.6573, 10000, "en"),
@@ -121,8 +126,6 @@ ICONIC_ANCHORS = [
     ("Marrakech Medina", "africa", 31.6295, -7.9811, 8500, "en"),
     ("Lalibela, Ethiopia", "africa", 12.0319, 39.0476, 9000, "en"),
     ("Great Zimbabwe", "africa", -20.2742, 30.9336, 9500, "en"),
-
-    # Asya
     ("Forbidden City, Beijing", "asia", 39.9163, 116.3972, 9000, "en"),
     ("Higashiyama / Central Kyoto", "asia", 35.0116, 135.7681, 8500, "en"),
     ("Angkor Archaeological Park", "asia", 13.4125, 103.8670, 10000, "en"),
@@ -131,8 +134,6 @@ ICONIC_ANCHORS = [
     ("Samarkand Registan", "asia", 39.6542, 66.9756, 9000, "en"),
     ("Bukhara Historic Center", "asia", 39.7747, 64.4286, 9000, "en"),
     ("Gyeongju Historic Areas", "asia", 35.8562, 129.2247, 9500, "en"),
-
-    # Amerika & Okyanusya
     ("Zocalo / Historic Center, Mexico City", "americas", 19.4326, -99.1332, 8500, "en"),
     ("Cusco / Machu Picchu Axis", "americas", -13.5319, -71.9675, 9500, "en"),
     ("Teotihuacan", "americas", 19.6925, -98.8435, 9500, "en"),
@@ -142,6 +143,16 @@ ICONIC_ANCHORS = [
 ]
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument("--batch-size", type=int, default=20)
+    parser.add_argument("--max-new-per-run", type=int, default=0)
+    parser.add_argument("--max-hubs", type=int, default=300)
+    parser.add_argument("--max-seconds", type=int, default=720)
+    args, _ = parser.parse_known_args()
+    return args
+
+
 def load_json(path: Path, default):
     if not path.exists():
         return default
@@ -149,6 +160,15 @@ def load_json(path: Path, default):
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return default
+
+
+def load_first_existing(paths: list[Path], default):
+    for p in paths:
+        if p.exists():
+            val = load_json(p, None)
+            if val is not None:
+                return val
+    return default
 
 
 def save_json(path: Path, payload) -> None:
@@ -205,7 +225,7 @@ def http_get_json(url: str, timeout: int = 20):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "NAVRE-World-Curator/2.1 (contact@navre.app)",
+            "User-Agent": "NAVRE-World-Curator/2.4 (contact@navre.app)",
             "Accept": "application/json",
         },
     )
@@ -213,24 +233,20 @@ def http_get_json(url: str, timeout: int = 20):
         return json.loads(resp.read().decode("utf-8"))
 
 
-def wiki_get_with_retry(url: str, max_retries: int = 5):
+def wiki_get_with_retry(url: str, max_retries: int = 3):
     for attempt in range(max_retries):
         try:
             return http_get_json(url, timeout=20)
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                retry_after = e.headers.get("Retry-After") if e.headers else None
-                wait_s = float(retry_after) if retry_after and retry_after.isdigit() else (4.0 * (attempt + 1))
-                wait_s = min(wait_s, 25.0)
-                print(f"  [Wiki 429] {wait_s:.1f} sn bekleniyor...", flush=True)
-                time.sleep(wait_s)
+                time.sleep(2.0 * (attempt + 1))
                 continue
             if e.code in (500, 502, 503, 504):
-                time.sleep(2.0 * (attempt + 1))
+                time.sleep(1.5 * (attempt + 1))
                 continue
             raise
         except Exception:
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(1.0 * (attempt + 1))
     return None
 
 
@@ -262,7 +278,7 @@ def fetch_extracts(pageids: list[int], lang: str) -> dict[str, str]:
                 "prop": "extracts",
                 "exintro": "1",
                 "explaintext": "1",
-                "exchars": "280",
+                "exchars": "260",
                 "pageids": "|".join(str(pid) for pid in batch),
                 "format": "json",
             }
@@ -292,14 +308,25 @@ def parse_json_array_response(content: str) -> list[dict] | None:
     match = re.search(r"\[[\s\S]*\]", text)
     if not match:
         return None
+    raw_json = match.group(0)
     try:
-        parsed = json.loads(match.group(0))
+        parsed = json.loads(raw_json)
         return parsed if isinstance(parsed, list) else None
     except Exception:
+        # Kesilmis veya son virgul hatali JSON dizilerini kurtarmayi dene
+        cleaned = re.sub(r",\s*([\]}])", r"\1", raw_json)
+        last_brace = cleaned.rfind("}")
+        if last_brace != -1:
+            candidate = cleaned[: last_brace + 1].rstrip(",") + "]"
+            try:
+                parsed = json.loads(candidate)
+                return parsed if isinstance(parsed, list) else None
+            except Exception:
+                return None
         return None
 
 
-def call_chat_completion(endpoint: str, api_key: str, model: str, messages: list[dict], extra_headers: dict | None = None):
+def call_openai_compatible(endpoint: str, api_key: str, model: str, messages: list[dict], extra_headers: dict | None = None):
     payload = {
         "model": model,
         "messages": messages,
@@ -309,7 +336,7 @@ def call_chat_completion(endpoint: str, api_key: str, model: str, messages: list
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}",
-        "User-Agent": "NAVRE-World-Curator/2.1",
+        "User-Agent": "NAVRE-World-Curator/2.4",
     }
     if extra_headers:
         headers.update(extra_headers)
@@ -320,13 +347,34 @@ def call_chat_completion(endpoint: str, api_key: str, model: str, messages: list
         headers=headers,
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=35) as resp:
+    with urllib.request.urlopen(req, timeout=30) as resp:
         body = json.loads(resp.read().decode("utf-8"))
     return body["choices"][0]["message"]["content"]
 
 
+def call_gemini(api_key: str, model: str, system_prompt: str, user_prompt: str):
+    url = f"{GEMINI_API_BASE}/{model}:generateContent?key={urllib.parse.quote(api_key)}"
+    payload = {
+        "systemInstruction": {"parts": [{"text": system_prompt}]},
+        "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
+        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+    }
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json", "User-Agent": "NAVRE-World-Curator/2.4"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        body = json.loads(resp.read().decode("utf-8"))
+    cands = body.get("candidates") or []
+    parts = ((cands[0].get("content") or {}).get("parts") or []) if cands else []
+    return "".join(str(p.get("text") or "") for p in parts)
+
+
 def curate_batch_with_ai(
     candidates: list[dict],
+    gemini_key: str,
     groq_key: str,
     openrouter_key: str,
     cache: dict,
@@ -345,16 +393,15 @@ def curate_batch_with_ai(
         return results
 
     system_prompt = (
-        "You are a strict historical and cultural heritage curator for NAVRE (a global map of notable historical sites).\n"
-        "Evaluate each candidate fairly across ALL world regions without bias toward or against any country.\n"
-        "KEEP (keep: true) ONLY tangible historical/cultural heritage landmarks, monuments, archaeological sites, ruins, "
-        "ancient temples/churches/mosques/synagogues/monasteries, historic palaces/castles/towers/bridges/cisterns/aqueducts/tombs, "
-        "or notable museums.\n"
-        "REJECT (keep: false) cities, towns, villages, neighborhoods, districts, provinces, countries, rivers, mountains, lakes, "
-        "modern infrastructure, transport stops, schools, hospitals, malls, sports venues, events, battles, or generic/trivial items.\n"
+        "You are a high-bar historical & cultural heritage curator for NAVRE.\n"
+        "Select ONLY genuinely notable, historically or architecturally significant heritage landmarks, "
+        "monuments, archaeological sites, ruins, historic palaces/castles/towers/bridges/cisterns/aqueducts/tombs, "
+        "ancient temples/churches/mosques/synagogues/monasteries, or notable museums.\n"
+        "Reject minor/obscure/trivial entries, modern buildings, administrative units, settlements, nature/geography, "
+        "schools, hospitals, malls, sports venues, or events.\n"
         "Allowed categories: castle, palace, mosque, church, synagogue, monastery, temple, archaeological_site, "
         "ruins, museum, cistern, aqueduct, tomb, tower, bridge, monument.\n"
-        "Return ONLY a JSON array of objects: [{\"idx\": 0, \"keep\": true/false, \"category\": \"...\"}]."
+        "Return ONLY a JSON array: [{\"idx\": 0, \"keep\": true/false, \"score\": 1-10, \"category\": \"...\"}]."
     )
 
     compact_list = [
@@ -362,46 +409,56 @@ def curate_batch_with_ai(
             "idx": i,
             "title": c["title"],
             "lang": c["lang"],
-            "summary": (c.get("extract") or "")[:220],
+            "summary": (c.get("extract") or "")[:200],
         }
         for i, c in enumerate(uncached)
     ]
-
     user_prompt = json.dumps(compact_list, ensure_ascii=False)
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
     ]
 
-    providers: list[tuple[str, str, str, dict | None]] = []
-    if groq_key:
-        for m in GROQ_MODELS:
-            providers.append(("Groq", GROQ_API_URL, groq_key, m, None))
-    if openrouter_key:
-        or_headers = {
-            "HTTP-Referer": "[https://navre.app](https://navre.app)",
-            "X-Title": "NAVRE World Curator",
-        }
-        for m in OPENROUTER_FREE_MODELS:
-            providers.append(("OpenRouter", OPENROUTER_API_URL, openrouter_key, m, or_headers))
-
     parsed_arr = None
-    for prov_name, endpoint, key, model_name, extra_hdrs in providers:
-        try:
-            raw_content = call_chat_completion(endpoint, key, model_name, messages, extra_hdrs)
-            arr = parse_json_array_response(raw_content)
-            if arr is not None:
-                parsed_arr = arr
-                break
-        except urllib.error.HTTPError as e:
-            if e.code in (400, 404, 429, 500, 502, 503):
+
+    if gemini_key:
+        for m in GEMINI_MODELS:
+            try:
+                raw = call_gemini(gemini_key, m, system_prompt, user_prompt)
+                arr = parse_json_array_response(raw)
+                if arr is not None:
+                    parsed_arr = arr
+                    break
+            except urllib.error.HTTPError as e:
+                print(f"  [Gemini {e.code}] {m} gecildi.", flush=True)
+                if e.code == 429:
+                    time.sleep(1.0)
+            except Exception as exc:
+                print(f"  [Gemini Err] {m}: {str(exc)[:70]}", flush=True)
+
+    if parsed_arr is None:
+        providers = []
+        if groq_key:
+            for m in GROQ_MODELS:
+                providers.append(("Groq", GROQ_API_URL, groq_key, m, None))
+        if openrouter_key:
+            or_headers = {"HTTP-Referer": "[https://navre.app](https://navre.app)", "X-Title": "NAVRE World Curator"}
+            for m in OPENROUTER_FREE_MODELS:
+                providers.append(("OpenRouter", OPENROUTER_API_URL, openrouter_key, m, or_headers))
+
+        for prov_name, endpoint, key, model_name, extra_hdrs in providers:
+            try:
+                raw = call_openai_compatible(endpoint, key, model_name, messages, extra_hdrs)
+                arr = parse_json_array_response(raw)
+                if arr is not None:
+                    parsed_arr = arr
+                    break
+            except urllib.error.HTTPError as e:
                 print(f"  [{prov_name} {e.code}] {model_name} gecildi.", flush=True)
-                continue
-            print(f"  [{prov_name} HTTP {e.code}] {model_name} hata.", flush=True)
-            continue
-        except Exception as exc:
-            print(f"  [{prov_name} Err] {model_name}: {str(exc)[:80]}", flush=True)
-            continue
+                if e.code == 429:
+                    time.sleep(1.0)
+            except Exception as exc:
+                print(f"  [{prov_name} Err] {model_name}: {str(exc)[:70]}", flush=True)
 
     if parsed_arr is None:
         return results
@@ -409,17 +466,23 @@ def curate_batch_with_ai(
     decision_by_idx: dict[int, dict] = {}
     for entry in parsed_arr:
         if isinstance(entry, dict) and isinstance(entry.get("idx"), int):
-            keep = bool(entry.get("keep"))
+            score = entry.get("score", 6.5)
+            try:
+                score_num = float(score)
+            except Exception:
+                score_num = 6.5
+            keep = bool(entry.get("keep")) and (score_num >= 6.5)
             cat = (entry.get("category") or "monument").strip().lower()
             if cat not in ALLOWED_CATEGORIES:
                 cat = "monument"
             decision_by_idx[entry["idx"]] = {"keep": keep, "category": cat}
 
     for idx, item in enumerate(uncached):
-        dec = decision_by_idx.get(idx, {"keep": False, "category": "monument"})
-        c_key = f"{item['lang']}:{item['pageid']}"
-        cache[c_key] = dec
-        results[c_key] = dec
+        if idx in decision_by_idx:
+            dec = decision_by_idx[idx]
+            c_key = f"{item['lang']}:{item['pageid']}"
+            cache[c_key] = dec
+            results[c_key] = dec
 
     return results
 
@@ -428,6 +491,7 @@ def dedupe_and_clean_places(raw_places: list[dict]) -> list[dict]:
     cleaned: list[dict] = []
     seen_ids: set[str] = set()
     seen_coord_name: set[tuple[float, float, str]] = set()
+    seen_nearby_name: set[tuple[float, float, str]] = set()
 
     for p in raw_places:
         if not isinstance(p, dict):
@@ -451,13 +515,17 @@ def dedupe_and_clean_places(raw_places: list[dict]) -> list[dict]:
         if is_hard_blocked(name, ""):
             continue
 
-        coord_key = (round(lat, 4), round(lon, 4), name.lower())
-        if (pid and pid in seen_ids) or coord_key in seen_coord_name:
+        norm_name = re.sub(r"\s+", " ", name.lower()).strip()
+        coord_key = (round(lat, 4), round(lon, 4), norm_name)
+        nearby_key = (round(lat, 2), round(lon, 2), norm_name)
+
+        if (pid and pid in seen_ids) or coord_key in seen_coord_name or nearby_key in seen_nearby_name:
             continue
 
         if pid:
             seen_ids.add(pid)
         seen_coord_name.add(coord_key)
+        seen_nearby_name.add(nearby_key)
 
         cleaned.append(
             {
@@ -474,64 +542,75 @@ def dedupe_and_clean_places(raw_places: list[dict]) -> list[dict]:
     return cleaned
 
 
-def rebuild_and_save(places: list[dict]) -> list[dict]:
+def rebuild_and_save(places: list[dict], sync_chunks: bool = True) -> list[dict]:
     cleaned = dedupe_and_clean_places(places)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
 
     save_json(PLACES_JSON, cleaned)
-    js_body = "window.NAVRE_SEED_PLACES = " + json.dumps(cleaned, ensure_ascii=False, indent=2) + ";\n"
+    save_json(ROOT_PLACES_JSON, cleaned)
+
+    js_body = "window.NAVRE_SEED_PLACES = " + json.dumps(cleaned, ensure_ascii=False) + ";\n"
     PLACES_JS.write_text(js_body, encoding="utf-8")
+    ROOT_PLACES_JS.write_text(js_body, encoding="utf-8")
 
-    chunk_size = 250
-    index_manifest = []
-    for idx in range(0, len(cleaned), chunk_size):
-        part = cleaned[idx : idx + chunk_size]
-        part_num = (idx // chunk_size) + 1
-        fname = f"places-{part_num:03d}.json"
-        save_json(CHUNKS_DIR / fname, part)
-        index_manifest.append({"file": fname, "count": len(part)})
+    if sync_chunks or not CHUNKS_DIR.exists():
+        CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
+        ROOT_CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
+        chunk_size = 250
+        index_manifest = []
+        for idx in range(0, len(cleaned), chunk_size):
+            part = cleaned[idx : idx + chunk_size]
+            part_num = (idx // chunk_size) + 1
+            fname = f"places-{part_num:03d}.json"
+            save_json(CHUNKS_DIR / fname, part)
+            save_json(ROOT_CHUNKS_DIR / fname, part)
+            index_manifest.append({"file": fname, "count": len(part)})
 
-    save_json(
-        DATA_DIR / "index.json",
-        {
-            "total": len(cleaned),
-            "chunkSize": chunk_size,
-            "chunks": index_manifest,
-        },
-    )
+        save_json(
+            DATA_DIR / "index.json",
+            {
+                "total": len(cleaned),
+                "chunkSize": chunk_size,
+                "chunks": index_manifest,
+            },
+        )
     return cleaned
 
 
 def main():
+    args = parse_args()
     start_time = time.monotonic()
-    max_hubs = int(os.environ.get("MAX_HUBS_PER_RUN", "300"))
-    max_seconds = int(os.environ.get("MAX_SECONDS_PER_RUN", "720"))
-    reset_hub_index = os.environ.get("RESET_HUB_INDEX", "0").strip() in ("1", "true", "yes")
+    batch_size = max(10, int(os.environ.get("BATCH_SIZE", str(args.batch_size))))
+    max_new_per_run = int(os.environ.get("MAX_NEW_PER_RUN", str(args.max_new_per_run)))
+    max_hubs = int(os.environ.get("MAX_HUBS_PER_RUN", str(args.max_hubs)))
+    max_seconds = int(os.environ.get("MAX_SECONDS_PER_RUN", str(args.max_seconds)))
 
+    gemini_key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     groq_key = (os.environ.get("GROQ_API_KEY") or "").strip()
     openrouter_key = (os.environ.get("OPENROUTER_API_KEY") or "").strip()
 
     hubs = build_hubs()
     total_hubs = len(hubs)
 
-    existing_places = load_json(PLACES_JSON, [])
-    if isinstance(existing_places, dict) and isinstance(existing_places.get("places"), list):
-        existing_places = existing_places["places"]
-    if not isinstance(existing_places, list):
-        existing_places = []
+    p1 = load_json(ROOT_PLACES_JSON, [])
+    p2 = load_json(PLACES_JSON, [])
+    if isinstance(p1, dict) and isinstance(p1.get("places"), list):
+        p1 = p1["places"]
+    if isinstance(p2, dict) and isinstance(p2.get("places"), list):
+        p2 = p2["places"]
+    combined_existing = (p1 if isinstance(p1, list) else []) + (p2 if isinstance(p2, list) else [])
+    places = dedupe_and_clean_places(combined_existing)
 
-    places = dedupe_and_clean_places(existing_places)
-    cache = load_json(CACHE_JSON, {})
+    cache = load_first_existing([ROOT_CACHE_JSON, CACHE_JSON], {})
     if not isinstance(cache, dict):
         cache = {}
 
-    state = load_json(STATE_JSON, {})
+    state = load_first_existing([ROOT_STATE_JSON, STATE_JSON], {})
     if not isinstance(state, dict):
         state = {}
 
     grid_signature = hashlib.md5(f"{total_hubs}:{len(GLOBAL_GRID_BANDS)}:{len(ICONIC_ANCHORS)}".encode()).hexdigest()[:10]
-    if reset_hub_index or state.get("grid_signature") != grid_signature:
+    if state.get("grid_signature") != grid_signature:
         current_idx = 0
     else:
         current_idx = int(state.get("hub_index", 0)) % max(total_hubs, 1)
@@ -544,20 +623,32 @@ def main():
     candidates_buffer: list[dict] = []
     candidate_meta_map: dict[str, dict] = {}
     new_added_count = 0
+    dirty_since_save = False
 
+    active_sources = [
+        name
+        for name, enabled in [
+            ("Gemini", bool(gemini_key)),
+            ("Groq", bool(groq_key)),
+            ("OpenRouter", bool(openrouter_key)),
+        ]
+        if enabled
+    ]
     print(
         f"Toplam hub: {total_hubs} | Baslangic indeksi: {current_idx} | "
-        f"Mevcut kayit: {len(places)} | OpenRouter: {'AKTIF' if openrouter_key else 'YOK'}",
+        f"Mevcut kayit: {len(places)} | Saglayicilar: {', '.join(active_sources) or 'YOK'}",
         flush=True,
     )
 
     def flush_candidates():
-        nonlocal places, new_added_count
+        nonlocal places, new_added_count, dirty_since_save
         if not candidates_buffer:
             return
-        decisions = curate_batch_with_ai(candidates_buffer, groq_key, openrouter_key, cache)
+        decisions = curate_batch_with_ai(candidates_buffer, gemini_key, groq_key, openrouter_key, cache)
         for c_key, dec in decisions.items():
             if dec.get("keep") and c_key in candidate_meta_map:
+                if max_new_per_run > 0 and new_added_count >= max_new_per_run:
+                    break
                 meta = candidate_meta_map[c_key]
                 if meta["id"] not in seen_page_keys:
                     seen_page_keys.add(meta["id"])
@@ -573,10 +664,30 @@ def main():
                         }
                     )
                     new_added_count += 1
+                    dirty_since_save = True
         candidates_buffer.clear()
         candidate_meta_map.clear()
 
+    def save_all_state(force_chunks: bool = False):
+        nonlocal places, dirty_since_save
+        places = rebuild_and_save(places, sync_chunks=(force_chunks or dirty_since_save))
+        save_json(ROOT_CACHE_JSON, cache)
+        save_json(CACHE_JSON, cache)
+        st = {
+            "grid_signature": grid_signature,
+            "hub_index": current_idx,
+            "completed_cycles": completed_cycles,
+            "total_places": len(places),
+            "total_hubs": total_hubs,
+        }
+        save_json(ROOT_STATE_JSON, st)
+        save_json(STATE_JSON, st)
+        dirty_since_save = False
+
     while processed_in_run < max_hubs and (time.monotonic() - start_time) < max_seconds:
+        if max_new_per_run > 0 and new_added_count >= max_new_per_run:
+            break
+
         hub = hubs[current_idx]
         lang = hub["lang"]
         geo_items = fetch_geosearch(hub["lat"], hub["lon"], hub["radius"], lang, limit=500)
@@ -621,7 +732,7 @@ def main():
                 candidates_buffer.append(item)
                 candidate_meta_map[c_key] = item
 
-        if len(candidates_buffer) >= 40:
+        if len(candidates_buffer) >= batch_size:
             flush_candidates()
 
         processed_in_run += 1
@@ -633,18 +744,7 @@ def main():
 
         if processed_in_run % 100 == 0:
             flush_candidates()
-            places = rebuild_and_save(places)
-            save_json(CACHE_JSON, cache)
-            save_json(
-                STATE_JSON,
-                {
-                    "grid_signature": grid_signature,
-                    "hub_index": current_idx,
-                    "completed_cycles": completed_cycles,
-                    "total_places": len(places),
-                    "total_hubs": total_hubs,
-                },
-            )
+            save_all_state(force_chunks=False)
             print(
                 f"  Tur ici hub: {processed_in_run}/{max_hubs} | Sonraki indeks: {current_idx}/{total_hubs} | "
                 f"Toplam nitelikli yer: {len(places)}",
@@ -652,18 +752,7 @@ def main():
             )
 
     flush_candidates()
-    places = rebuild_and_save(places)
-    save_json(CACHE_JSON, cache)
-    save_json(
-        STATE_JSON,
-        {
-            "grid_signature": grid_signature,
-            "hub_index": current_idx,
-            "completed_cycles": completed_cycles,
-            "total_places": len(places),
-            "total_hubs": total_hubs,
-        },
-    )
+    save_all_state(force_chunks=True)
 
     print(
         f"Tur bitti! Baslangic: {start_idx} -> Sonraki indeks: {current_idx}/{total_hubs} | "
