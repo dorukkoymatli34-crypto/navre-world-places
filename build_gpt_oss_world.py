@@ -1,3 +1,4 @@
+
 import argparse
 import json
 import os
@@ -9,6 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(BASE_DIR, "places.json")
 JS_PATH = os.path.join(BASE_DIR, "places.js")
 CACHE_PATH = os.path.join(BASE_DIR, "ai_cache_gpt_oss.json")
+STATE_PATH = os.path.join(BASE_DIR, "progress_state.json")
 CHUNKS_DIR = os.path.join(BASE_DIR, "chunks")
 
 MODEL_NAME = "llama-3.3-70b-versatile"
@@ -42,9 +44,8 @@ HARD_BLOCK_REGEX = re.compile(
     re.IGNORECASE,
 )
 
-# KATMAN 1: Dünyanın ve Türkiye'nin en ikonik tarihi merkezleri (tek bir ikon bile kaçmasın diye önce taranır)
+# KATMAN 1: Dünyanın ve Türkiye'nin en ikonik tarihi merkezleri
 ICONIC_ANCHORS = [
-    # Türkiye - İkonik & Tarihi Odaklar
     ("TR-Istanbul-Sultanahmet-Fatih", 41.0082, 28.9784, 10000, 500, "tr", "middle-east-anatolia"),
     ("TR-Istanbul-Beyoglu-Besiktas-Uskudar", 41.0369, 28.9850, 10000, 500, "tr", "middle-east-anatolia"),
     ("TR-Edirne", 41.6771, 26.5557, 10000, 500, "tr", "middle-east-anatolia"),
@@ -80,7 +81,6 @@ ICONIC_ANCHORS = [
     ("TR-Van-Akdamar", 38.3408, 43.0369, 10000, 300, "tr", "middle-east-anatolia"),
     ("TR-Sumela-Macka", 40.6903, 39.6583, 10000, 250, "tr", "middle-east-anatolia"),
 
-    # Dünya İkonları - Avrupa
     ("IT-Rome-Historic", 41.8902, 12.4922, 10000, 500, "en", "europe"),
     ("IT-Vatican", 41.9022, 12.4539, 10000, 450, "en", "europe"),
     ("IT-Florence", 43.7696, 11.2558, 10000, 500, "en", "europe"),
@@ -127,7 +127,6 @@ ICONIC_ANCHORS = [
     ("GE-Tbilisi-Mtskheta", 41.7151, 44.8271, 10000, 400, "en", "europe"),
     ("AM-Geghard-Garni", 40.1406, 44.7986, 10000, 300, "en", "europe"),
 
-    # Dünya İkonları - Orta Doğu, Afrika, Asya, Amerika
     ("EG-Giza-Pyramids", 29.9792, 31.1342, 10000, 500, "en", "middle-east-anatolia"),
     ("EG-Cairo-Islamic-Coptic", 30.0444, 31.2357, 10000, 500, "en", "middle-east-anatolia"),
     ("EG-Luxor-Karnak-ValleyOfKings", 25.7188, 32.6573, 10000, 500, "en", "middle-east-anatolia"),
@@ -168,20 +167,13 @@ ICONIC_ANCHORS = [
     ("CL-EasterIsland", -27.1127, -109.3497, 10000, 250, "en", "americas"),
 ]
 
-# KATMAN 2: Ücra ve keşfedilmemiş yerler dahil çok sık küresel grid
-# (region_name, lang, lat_min, lat_max, lat_step, lon_min, lon_max, lon_step, radius_m, limit)
+# KATMAN 2: Küresel grid
 GLOBAL_GRID_BANDS = [
-    # Türkiye geneli - çok sık tarama
     ("middle-east-anatolia", "tr", 35.8, 42.2, 0.30, 25.8, 44.8, 0.35, 10000, 300),
-    # Avrupa - çok sık tarama
     ("europe", "en", 35.0, 64.0, 0.70, -10.0, 45.0, 0.85, 10000, 280),
-    # Orta Doğu & Kuzey Afrika - sık tarama
     ("middle-east-anatolia", "en", 19.0, 38.0, 0.85, -13.0, 63.0, 1.00, 10000, 260),
-    # Sahra altı Afrika
     ("africa", "en", -35.0, 19.0, 1.50, -18.0, 51.0, 1.50, 10000, 220),
-    # Asya (Orta Asya, Güney, Güneydoğu, Doğu)
     ("asia", "en", -10.0, 55.0, 1.15, 50.0, 146.0, 1.30, 10000, 260),
-    # Amerika (Kuzey, Orta, Güney)
     ("americas", "en", -54.0, 52.0, 1.35, -125.0, -34.0, 1.50, 10000, 240),
 ]
 
@@ -254,6 +246,30 @@ def save_cache(cache):
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
+def load_state(total_hubs: int):
+    default_state = {"hub_index": 0, "completed_cycles": 0}
+    if os.path.exists(STATE_PATH):
+        try:
+            with open(STATE_PATH, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, dict):
+                    idx = int(data.get("hub_index", 0))
+                    if idx < 0 or idx >= total_hubs:
+                        idx = 0
+                    return {
+                        "hub_index": idx,
+                        "completed_cycles": int(data.get("completed_cycles", 0)),
+                    }
+        except Exception:
+            pass
+    return default_state
+
+
+def save_state(state):
+    with open(STATE_PATH, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+
 def save_places(places):
     cleaned = []
     seen_ids = set()
@@ -315,7 +331,7 @@ def fetch_geosearch(lang, lat, lon, radius, limit):
     resp = requests.get(
         url,
         params=params,
-        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.1 (https://navre.app)"},
+        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.2 (https://navre.app)"},
         timeout=20,
     )
     resp.raise_for_status()
@@ -339,7 +355,7 @@ def fetch_extracts(lang, titles):
         resp = requests.get(
             url,
             params=params,
-            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.1 (https://navre.app)"},
+            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.2 (https://navre.app)"},
             timeout=20,
         )
         resp.raise_for_status()
@@ -470,21 +486,38 @@ def main():
     parser.add_argument("--batch-size", type=int, default=40)
     parser.add_argument("--reset-places", action="store_true")
     parser.add_argument("--max-new-per-run", type=int, default=0)
+    parser.add_argument("--max-hubs", type=int, default=400)
+    parser.add_argument("--max-seconds", type=int, default=900)
     args = parser.parse_args()
 
     api_key = os.environ.get("GROQ_API_KEY", "").strip()
     if not api_key:
         raise RuntimeError("GROQ_API_KEY ortam değişkeni tanımlı değil.")
 
+    start_time = time.monotonic()
     cache = load_cache()
     places = [] if args.reset_places else load_json_list(JSON_PATH)
     hubs = build_all_hubs()
+    state = load_state(len(hubs))
 
+    start_idx = 0 if args.reset_places else state["hub_index"]
     candidates = []
     seen_cand = set()
 
-    print(f"Toplam tarama noktası (İkonik + Çok Sık Küresel Grid): {len(hubs)}")
-    for idx_h, (hub_name, lat, lon, radius, limit, lang, region) in enumerate(hubs, 1):
+    print(
+        f"Toplam hub: {len(hubs)} | Başlangıç indeksi: {start_idx} | "
+        f"Max hub/tur: {args.max_hubs} | Max süre: {args.max_seconds} sn"
+    )
+
+    processed_hubs = 0
+    current_idx = start_idx
+
+    while processed_hubs < args.max_hubs:
+        if (time.monotonic() - start_time) >= args.max_seconds:
+            print("Zaman sınırına ulaşıldı, hub taraması durduruluyor ve kayıt aşamasına geçiliyor.")
+            break
+
+        hub_name, lat, lon, radius, limit, lang, region = hubs[current_idx]
         try:
             raw = fetch_geosearch(lang, lat, lon, radius, limit)
             titles_to_fetch = []
@@ -520,17 +553,36 @@ def main():
         except Exception as e:
             print(f"[Geosearch Uyarı] {hub_name}: {e}")
 
-        if idx_h % 250 == 0:
-            print(f"  Hub ilerlemesi: {idx_h}/{len(hubs)} | Biriken benzersiz aday: {len(candidates)}")
+        processed_hubs += 1
+        current_idx += 1
+        if current_idx >= len(hubs):
+            current_idx = 0
+            state["completed_cycles"] += 1
+
+        if processed_hubs % 100 == 0:
+            print(
+                f"  Tur içi hub: {processed_hubs}/{args.max_hubs} | "
+                f"Sonraki indeks: {current_idx}/{len(hubs)} | Aday: {len(candidates)}"
+            )
         time.sleep(0.08)
+
+    state["hub_index"] = current_idx
+    save_state(state)
 
     uncached = [c for c in candidates if c["ckey"] not in cache]
     if args.max_new_per_run > 0:
         uncached = uncached[: args.max_new_per_run]
 
-    print(f"Aday: {len(candidates)} | Önbellekte: {len(candidates) - len(uncached)} | Bu turda AI'a sorulacak: {len(uncached)}")
+    print(
+        f"Aday: {len(candidates)} | Önbellekte: {len(candidates) - len(uncached)} | "
+        f"Bu turda AI'a sorulacak: {len(uncached)}"
+    )
 
     for i in range(0, len(uncached), args.batch_size):
+        if (time.monotonic() - start_time) >= args.max_seconds:
+            print("AI aşamasında zaman sınırına ulaşıldı, mevcut ilerleme kaydediliyor.")
+            break
+
         batch = uncached[i : i + args.batch_size]
         try:
             decisions = ask_groq_curate(batch, api_key=api_key)
@@ -546,9 +598,12 @@ def main():
                 cache[item["ckey"]] = {"keep": keep, "category": cat if keep else None}
             save_cache(cache)
 
-            if (i // args.batch_size + 1) % 5 == 0:
-                merged_mid = rebuild_and_save(places, candidates, cache, reset_places=args.reset_places)
-                print(f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] Ara kayıt yapıldı -> Toplam nitelikli yer: {len(merged_mid)}")
+            if (i // args.batch_size + 1) % 3 == 0:
+                places = rebuild_and_save(places, candidates, cache, reset_places=args.reset_places)
+                print(
+                    f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] "
+                    f"Ara kayıt yapıldı -> Toplam nitelikli yer: {len(places)}"
+                )
             else:
                 print(f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] Paket tamamlandı.")
         except Exception as e:
@@ -557,7 +612,11 @@ def main():
         time.sleep(1.2)
 
     merged = rebuild_and_save(places, candidates, cache, reset_places=args.reset_places)
-    print(f"Bitti! Toplam nitelikli kayıt: {len(merged)} | Önbellekteki toplam karar: {len(cache)}")
+    save_state(state)
+    print(
+        f"Tur bitti! Toplam nitelikli kayıt: {len(merged)} | "
+        f"Önbellekteki karar: {len(cache)} | Sonraki hub indeksi: {state['hub_index']}"
+    )
 
 
 if __name__ == "__main__":
