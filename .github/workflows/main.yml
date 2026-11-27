@@ -33,30 +33,31 @@ jobs:
           set -e
           END_TIME=$((SECONDS + 19800))
 
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           while [ $SECONDS -lt $END_TIME ]; do
-            python -u build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0
+            python -u build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0 --max-hubs 300 --max-seconds 720
 
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            for f in places.json places.js ai_cache_gpt_oss.json progress_state.json; do
+              if [ -f "$f" ]; then
+                git add "$f"
+              fi
+            done
 
-            git add places.json places.js
             if [ -d chunks ]; then
               git add chunks/
-            fi
-            if [ -f ai_cache_gpt_oss.json ]; then
-              git add ai_cache_gpt_oss.json
             fi
 
             if ! git diff --staged --quiet; then
               git commit -m "chore(data): continuous world places update"
-              git pull --rebase
+              git pull --rebase || true
               git push
             else
-              echo "Yeni değişiklik yok, döngü tamamlandı."
-              break
+              echo "Bu turda yeni değişiklik oluşmadı, bir sonraki tura geçiliyor."
             fi
 
-            sleep 10
+            sleep 5
           done
 
       - name: Re-trigger next run if time limit reached
