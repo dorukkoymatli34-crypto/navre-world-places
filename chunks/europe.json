@@ -970,5 +970,392 @@
     "lon": 20.6843,
     "region": "europe",
     "wikiTitle": "Monument of Zalongo"
+  },
+  {
+    "id": "w-en/76740383",
+    "name": "Friedrichstein Palace",
+    "category": "palace",
+    "lat": 54.644852,
+    "lon": 20.733327,
+    "region": "europe",
+    "wikiTitle": "Friedrichstein Palace"
+  },
+  {
+    "id": "w-en/51478604",
+    "name": "Vilkaviškis Cathedral",
+    "category": "church",
+    "lat": 54.648,
+    "lon": 23.0371,
+    "region": "europe",
+    "wikiTitle": "Vilkaviškis Cathedral"
+  },
+  {
+    "id": "w-en/38649346",
+    "name": "Basilica of the Visitation of the Blessed Virgin Mary, Trakai",
+    "category": "church",
+    "lat": 54.642861,
+    "lon": 24.934444,
+    "region": "europe",
+    "wikiTitle": "Basilica of the Visitation of the Blessed Virgin Mary, Trakai"
+  },
+  {
+    "id": "w-en/40576189",
+    "name": "Trakai Kenesa",
+    "category": "synagogue",
+    "lat": 54.647778,
+    "lon": 24.932778,
+    "region": "europe",
+    "wikiTitle": "Trakai Kenesa"
+  },
+  {
+    "id": "w-en/6278576",
+    "name": "Trakai Peninsula Castle",
+    "category": "castle",
+    "lat": 54.646,
+    "lon": 24.937,
+    "region": "europe",
+    "wikiTitle": "Trakai Peninsula Castle"
+  },
+  {
+    "id": "w-en/6278604",
+    "name": "Trakai Island Castle",
+    "category": "castle",
+    "lat": 54.6525,
+    "lon": 24.933056,
+    "region": "europe",
+    "wikiTitle": "Trakai Island Castle"
+  },
+  {
+    "id": "w-en/6278625",
+    "name": "Senieji Trakai Castle",
+    "category": "castle",
+    "lat": 54.605,
+    "lon": 24.984167,
+    "region": "europe",
+    "wikiTitle": "Senieji Trakai Castle"
+  },
+  {
+    "id": "w-en/31122472",
+    "name": "Carrickabraghy Castle",
+    "category": "castle",
+    "lat": 55.316329,
+    "lon": -7.372674,
+    "region": "europe",
+    "wikiTitle": "Carrickabraghy Castle"
+  },
+  {
+    "id": "w-en/3412021",
+    "name": "Dunluce Castle",
+    "category": "castle",
+    "lat": 55.211389,
+    "lon": -6.579167,
+    "region": "europe",
+    "wikiTitle": "Dunluce Castle"
+  },
+  {
+    "id": "w-en/33599120",
+    "name": "St Columba's Chapel, Southend",
+    "category": "church",
+    "lat": 55.3084,
+    "lon": -5.6675,
+    "region": "europe",
+    "wikiTitle": "St Columba's Chapel, Southend"
+  },
+  {
+    "id": "w-en/6553965",
+    "name": "Dunaverty Castle",
+    "category": "castle",
+    "lat": 55.3075,
+    "lon": -5.6447,
+    "region": "europe",
+    "wikiTitle": "Dunaverty Castle"
+  },
+  {
+    "id": "w-en/13450073",
+    "name": "Turnberry Castle",
+    "category": "castle",
+    "lat": 55.3261,
+    "lon": -4.8441,
+    "region": "europe",
+    "wikiTitle": "Turnberry Castle"
+  },
+  {
+    "id": "w-en/12347278",
+    "name": "Girvan Steeple",
+    "category": "tower",
+    "lat": 55.2432,
+    "lon": -4.856,
+    "region": "europe",
+    "wikiTitle": "Girvan Steeple"
+  },
+  {
+    "id": "w-en/51356763",
+    "name": "Killochan Castle",
+    "category": "castle",
+    "lat": 55.2651,
+    "lon": -4.7916,
+    "region": "europe",
+    "wikiTitle": "Killochan Castle"
+  },
+  {
+    "id": "w-en/9225911",
+    "name": "Kirkoswald Parish Church",
+    "category": "church",
+    "lat": 55.3288,
+    "lon": -4.7765,
+    "region": "europe",
+    "wikiTitle": "Kirkoswald Parish Church"
+  },
+  {
+    "id": "w-en/831987",
+    "name": "Culzean Castle",
+    "category": "castle",
+    "lat": 55.3544,
+    "lon": -4.7895,
+    "region": "europe",
+    "wikiTitle": "Culzean Castle"
+  },
+  {
+    "id": "w-en/8886530",
+    "name": "Penkill Castle",
+    "category": "castle",
+    "lat": 55.2492,
+    "lon": -4.7837,
+    "region": "europe",
+    "wikiTitle": "Penkill Castle"
+  },
+  {
+    "id": "w-en/5326291",
+    "name": "Thomaston Castle",
+    "category": "castle",
+    "lat": 55.3482,
+    "lon": -4.7774,
+    "region": "europe",
+    "wikiTitle": "Thomaston Castle"
+  },
+  {
+    "id": "w-en/72261863",
+    "name": "Ardmillan Castle",
+    "category": "castle",
+    "lat": 55.21095,
+    "lon": -4.87851,
+    "region": "europe",
+    "wikiTitle": "Ardmillan Castle"
+  },
+  {
+    "id": "w-en/871983",
+    "name": "Kagyu Samye Ling Monastery and Tibetan Centre",
+    "category": "monastery",
+    "lat": 55.2875,
+    "lon": -3.186389,
+    "region": "europe",
+    "wikiTitle": "Kagyu Samye Ling Monastery and Tibetan Centre"
+  },
+  {
+    "id": "w-en/45003028",
+    "name": "Loupin Stanes",
+    "category": "archaeological_site",
+    "lat": 55.258263,
+    "lon": -3.170489,
+    "region": "europe",
+    "wikiTitle": "Loupin Stanes"
+  },
+  {
+    "id": "w-en/45103864",
+    "name": "Girdle Stanes",
+    "category": "archaeological_site",
+    "lat": 55.253879,
+    "lon": -3.17593,
+    "region": "europe",
+    "wikiTitle": "Girdle Stanes"
+  },
+  {
+    "id": "w-en/3153817",
+    "name": "Bremenium",
+    "category": "archaeological_site",
+    "lat": 55.281,
+    "lon": -2.264,
+    "region": "europe",
+    "wikiTitle": "Bremenium"
+  },
+  {
+    "id": "w-en/70120253",
+    "name": "Featherwood Roman Camps",
+    "category": "archaeological_site",
+    "lat": 55.345,
+    "lon": -2.290556,
+    "region": "europe",
+    "wikiTitle": "Featherwood Roman Camps"
+  },
+  {
+    "id": "w-en/19248305",
+    "name": "Chew Green",
+    "category": "archaeological_site",
+    "lat": 55.371,
+    "lon": -2.337,
+    "region": "europe",
+    "wikiTitle": "Chew Green"
+  },
+  {
+    "id": "w-en/80482780",
+    "name": "Boghead (bastle)",
+    "category": "castle",
+    "lat": 55.2126,
+    "lon": -2.3763,
+    "region": "europe",
+    "wikiTitle": "Boghead (bastle)"
+  },
+  {
+    "id": "w-en/28785192",
+    "name": "Chibburn Preceptory",
+    "category": "ruins",
+    "lat": 55.2623,
+    "lon": -1.5831,
+    "region": "europe",
+    "wikiTitle": "Chibburn Preceptory"
+  },
+  {
+    "id": "w-en/8534896",
+    "name": "Cresswell Pele Tower",
+    "category": "tower",
+    "lat": 55.233,
+    "lon": -1.5408,
+    "region": "europe",
+    "wikiTitle": "Cresswell Pele Tower"
+  },
+  {
+    "id": "w-en/11358614",
+    "name": "Widdrington Castle",
+    "category": "castle",
+    "lat": 55.254,
+    "lon": -1.599,
+    "region": "europe",
+    "wikiTitle": "Widdrington Castle"
+  },
+  {
+    "id": "w-en/30322770",
+    "name": "Warkworth Castle",
+    "category": "castle",
+    "lat": 55.3447,
+    "lon": -1.6105,
+    "region": "europe",
+    "wikiTitle": "Warkworth Castle"
+  },
+  {
+    "id": "w-en/37062174",
+    "name": "Church of St Lawrence, Warkworth",
+    "category": "church",
+    "lat": 55.349127,
+    "lon": -1.612138,
+    "region": "europe",
+    "wikiTitle": "Church of St Lawrence, Warkworth"
+  },
+  {
+    "id": "w-en/1191114",
+    "name": "Warkworth Hermitage",
+    "category": "monastery",
+    "lat": 55.347,
+    "lon": -1.621,
+    "region": "europe",
+    "wikiTitle": "Warkworth Hermitage"
+  },
+  {
+    "id": "w-en/23799437",
+    "name": "Dankirke",
+    "category": "archaeological_site",
+    "lat": 55.283333,
+    "lon": 8.705556,
+    "region": "europe",
+    "wikiTitle": "Dankirke"
+  },
+  {
+    "id": "w-en/64175776",
+    "name": "Wadden Sea Centre",
+    "category": "museum",
+    "lat": 55.2957,
+    "lon": 8.6692,
+    "region": "europe",
+    "wikiTitle": "Wadden Sea Centre"
+  },
+  {
+    "id": "w-en/77863589",
+    "name": "Riberhus",
+    "category": "castle",
+    "lat": 55.330556,
+    "lon": 8.756944,
+    "region": "europe",
+    "wikiTitle": "Riberhus"
+  },
+  {
+    "id": "w-en/16804883",
+    "name": "Ribe Cathedral",
+    "category": "church",
+    "lat": 55.3281,
+    "lon": 8.7613,
+    "region": "europe",
+    "wikiTitle": "Ribe Cathedral"
+  },
+  {
+    "id": "w-en/20789370",
+    "name": "St. Catherine's Priory, Ribe",
+    "category": "monastery",
+    "lat": 55.327222,
+    "lon": 8.765,
+    "region": "europe",
+    "wikiTitle": "St. Catherine's Priory, Ribe"
+  },
+  {
+    "id": "w-en/11853994",
+    "name": "Ribe Kunstmuseum",
+    "category": "museum",
+    "lat": 55.329218,
+    "lon": 8.767522,
+    "region": "europe",
+    "wikiTitle": "Ribe Kunstmuseum"
+  },
+  {
+    "id": "w-en/6070514",
+    "name": "Haderslevhus",
+    "category": "castle",
+    "lat": 55.249722,
+    "lon": 9.491944,
+    "region": "europe",
+    "wikiTitle": "Haderslevhus"
+  },
+  {
+    "id": "w-en/54800518",
+    "name": "Haderslev Cathedral",
+    "category": "church",
+    "lat": 55.24975,
+    "lon": 9.487111,
+    "region": "europe",
+    "wikiTitle": "Haderslev Cathedral"
+  },
+  {
+    "id": "w-en/33594472",
+    "name": "Borreby",
+    "category": "castle",
+    "lat": 55.2326,
+    "lon": 11.2909,
+    "region": "europe",
+    "wikiTitle": "Borreby"
+  },
+  {
+    "id": "w-en/78211038",
+    "name": "Tauragė Castle",
+    "category": "castle",
+    "lat": 55.2526,
+    "lon": 22.2842,
+    "region": "europe",
+    "wikiTitle": "Tauragė Castle"
+  },
+  {
+    "id": "w-en/26271187",
+    "name": "Holy Transfiguration Church, Kėdainiai",
+    "category": "church",
+    "lat": 55.288611,
+    "lon": 23.974167,
+    "region": "europe",
+    "wikiTitle": "Holy Transfiguration Church, Kėdainiai"
   }
 ]
