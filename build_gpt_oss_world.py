@@ -322,6 +322,25 @@ def save_places(places):
     return cleaned
 
 
+def wiki_get_with_retry(url, params):
+    for attempt in range(4):
+        resp = requests.get(
+            url,
+            params=params,
+            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.4 (https://navre.app; doruk@navre.app)"},
+            timeout=20,
+        )
+        if resp.status_code == 429:
+            retry_after = resp.headers.get("Retry-After")
+            wait_s = int(retry_after) if (retry_after and retry_after.isdigit()) else (2 * (attempt + 1))
+            wait_s = min(wait_s, 15)
+            time.sleep(wait_s)
+            continue
+        resp.raise_for_status()
+        return resp.json()
+    raise RuntimeError("Wikipedia 429 tekrar deneme limiti aşıldı")
+
+
 def fetch_geosearch(lang, lat, lon, radius, limit):
     url = f"https://{lang}.wikipedia.org/w/api.php"
     params = {
@@ -332,14 +351,8 @@ def fetch_geosearch(lang, lat, lon, radius, limit):
         "gslimit": min(limit, 500),
         "format": "json",
     }
-    resp = requests.get(
-        url,
-        params=params,
-        headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.3 (https://navre.app)"},
-        timeout=20,
-    )
-    resp.raise_for_status()
-    return resp.json().get("query", {}).get("geosearch", [])
+    data = wiki_get_with_retry(url, params)
+    return data.get("query", {}).get("geosearch", [])
 
 
 def fetch_extracts(lang, titles):
@@ -356,19 +369,13 @@ def fetch_extracts(lang, titles):
             "titles": "|".join(chunk),
             "format": "json",
         }
-        resp = requests.get(
-            url,
-            params=params,
-            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.3 (https://navre.app)"},
-            timeout=20,
-        )
-        resp.raise_for_status()
-        pages = resp.json().get("query", {}).get("pages", {})
+        data = wiki_get_with_retry(url, params)
+        pages = data.get("query", {}).get("pages", {})
         for p in pages.values():
             t = (p.get("title") or "").strip().lower()
             if t:
                 out[t] = (p.get("extract") or "").strip()
-        time.sleep(0.1)
+        time.sleep(0.25)
     return out
 
 
@@ -574,7 +581,7 @@ def main():
                 f"  Tur içi hub: {processed_hubs}/{args.max_hubs} | "
                 f"Sonraki indeks: {current_idx}/{len(hubs)} | Aday: {len(candidates)}"
             )
-        time.sleep(0.08)
+        time.sleep(0.25)
 
     state["hub_index"] = current_idx
     save_state(state)
