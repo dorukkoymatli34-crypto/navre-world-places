@@ -430,5 +430,32 @@
     "lon": 28.065278,
     "wikiTitle": "Çakırağa Konağı",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/3512371",
+    "name": "Ersele Yeraltı Şehri",
+    "category": "archaeological_site",
+    "lat": 38.678056,
+    "lon": 34.215556,
+    "wikiTitle": "Ersele Yeraltı Şehri",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4114343",
+    "name": "Nevşehir Müzesi",
+    "category": "museum",
+    "lat": 38.628056,
+    "lon": 34.725,
+    "wikiTitle": "Nevşehir Müzesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2958367",
+    "name": "Nevşehir Kalesi",
+    "category": "castle",
+    "lat": 38.619722,
+    "lon": 34.712778,
+    "wikiTitle": "Nevşehir Kalesi",
+    "region": "middle-east-anatolia"
   }
 ]
