@@ -1,0 +1,875 @@
+[
+  {
+    "id": "w-en/4657098",
+    "name": "Flavian Palace",
+    "category": "palace",
+    "lat": 41.89,
+    "lon": 12.49,
+    "wikiTitle": "Flavian Palace",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/2744441",
+    "name": "Temple of Venus and Roma",
+    "category": "temple",
+    "lat": 41.890833,
+    "lon": 12.489722,
+    "wikiTitle": "Temple of Venus and Roma",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/46971066",
+    "name": "Temple of Claudius",
+    "category": "temple",
+    "lat": 41.887594,
+    "lon": 12.493367,
+    "wikiTitle": "Temple of Claudius",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/5530749",
+    "name": "Basilica of Maxentius",
+    "category": "church",
+    "lat": 41.8919,
+    "lon": 12.4883,
+    "wikiTitle": "Basilica of Maxentius",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/65670848",
+    "name": "Palatine Museum",
+    "category": "museum",
+    "lat": 41.888889,
+    "lon": 12.4875,
+    "wikiTitle": "Palatine Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/31386912",
+    "name": "Tomb of Pope Julius II",
+    "category": "tomb",
+    "lat": 41.8939,
+    "lon": 12.4934,
+    "wikiTitle": "Tomb of Pope Julius II",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/8269670",
+    "name": "Temple of Jupiter Stator (3rd century BC)",
+    "category": "temple",
+    "lat": 41.892,
+    "lon": 12.4874,
+    "wikiTitle": "Temple of Jupiter Stator (3rd century BC)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/7622300",
+    "name": "Temple of Peace, Rome",
+    "category": "temple",
+    "lat": 41.89262,
+    "lon": 12.48761,
+    "wikiTitle": "Temple of Peace, Rome",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/4637832",
+    "name": "Temple of Antoninus and Faustina",
+    "category": "temple",
+    "lat": 41.892139,
+    "lon": 12.486689,
+    "wikiTitle": "Temple of Antoninus and Faustina",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/48577871",
+    "name": "Palace of Domitian",
+    "category": "palace",
+    "lat": 41.88876,
+    "lon": 12.48641,
+    "wikiTitle": "Palace of Domitian",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/1714741",
+    "name": "Temple of Caesar",
+    "category": "temple",
+    "lat": 41.891943,
+    "lon": 12.486246,
+    "wikiTitle": "Temple of Caesar",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/1969054",
+    "name": "Temple of Vesta",
+    "category": "temple",
+    "lat": 41.891667,
+    "lon": 12.486111,
+    "wikiTitle": "Temple of Vesta",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/1726947",
+    "name": "Basilica Aemilia",
+    "category": "church",
+    "lat": 41.892554,
+    "lon": 12.48623,
+    "wikiTitle": "Basilica Aemilia",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/8823431",
+    "name": "Temple of Apollo Palatinus",
+    "category": "temple",
+    "lat": 41.8888,
+    "lon": 12.4857,
+    "wikiTitle": "Temple of Apollo Palatinus",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/9508059",
+    "name": "Basilica Fulvia",
+    "category": "church",
+    "lat": 41.89261,
+    "lon": 12.48611,
+    "wikiTitle": "Basilica Fulvia",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/2068718",
+    "name": "Temple of Castor and Pollux",
+    "category": "temple",
+    "lat": 41.891667,
+    "lon": 12.485556,
+    "wikiTitle": "Temple of Castor and Pollux",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/8871878",
+    "name": "Temple of Victory",
+    "category": "temple",
+    "lat": 41.889444,
+    "lon": 12.485111,
+    "wikiTitle": "Temple of Victory",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/4139084",
+    "name": "Temple of Mars Ultor",
+    "category": "temple",
+    "lat": 41.893889,
+    "lon": 12.486944,
+    "wikiTitle": "Temple of Mars Ultor",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/8872012",
+    "name": "Temple of Cybele (Palatine)",
+    "category": "temple",
+    "lat": 41.889444,
+    "lon": 12.485,
+    "wikiTitle": "Temple of Cybele (Palatine)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/4307791",
+    "name": "Temple of Janus (Roman Forum)",
+    "category": "temple",
+    "lat": 41.892981,
+    "lon": 12.485722,
+    "wikiTitle": "Temple of Janus (Roman Forum)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/48713140",
+    "name": "Temple of Juno Sospita (Palatine)",
+    "category": "temple",
+    "lat": 41.8896,
+    "lon": 12.4846,
+    "wikiTitle": "Temple of Juno Sospita (Palatine)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/1502079",
+    "name": "Basilica Julia",
+    "category": "church",
+    "lat": 41.89195,
+    "lon": 12.48478,
+    "wikiTitle": "Basilica Julia",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/12609717",
+    "name": "Temple of Divus Augustus",
+    "category": "temple",
+    "lat": 41.891616,
+    "lon": 12.484471,
+    "wikiTitle": "Temple of Divus Augustus",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/57154857",
+    "name": "Five-Columns Monument",
+    "category": "monument",
+    "lat": 41.892639,
+    "lon": 12.484611,
+    "wikiTitle": "Five-Columns Monument",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/70401939",
+    "name": "Church of Panagia Atheniotissa",
+    "category": "church",
+    "lat": 37.9714,
+    "lon": 23.7263,
+    "wikiTitle": "Church of Panagia Atheniotissa",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/43095349",
+    "name": "Frankish Tower (Acropolis of Athens)",
+    "category": "tower",
+    "lat": 37.97156,
+    "lon": 23.72508,
+    "wikiTitle": "Frankish Tower (Acropolis of Athens)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/488414",
+    "name": "Temple of Athena Nike",
+    "category": "temple",
+    "lat": 37.9715,
+    "lon": 23.7249,
+    "wikiTitle": "Temple of Athena Nike",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/10109465",
+    "name": "Old Temple of Athena",
+    "category": "temple",
+    "lat": 37.9715,
+    "lon": 23.7267,
+    "wikiTitle": "Old Temple of Athena",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/22991633",
+    "name": "Sanctuary of Zeus Polieus",
+    "category": "temple",
+    "lat": 37.9718,
+    "lon": 23.7273,
+    "wikiTitle": "Sanctuary of Zeus Polieus",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811674",
+    "name": "Museum of Pavlos and Alexandra Kanellopoulou",
+    "category": "museum",
+    "lat": 37.972861,
+    "lon": 23.725889,
+    "wikiTitle": "Museum of Pavlos and Alexandra Kanellopoulou",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/62076342",
+    "name": "Choragic Monument of Thrasyllos",
+    "category": "monument",
+    "lat": 37.971111,
+    "lon": 23.7275,
+    "wikiTitle": "Choragic Monument of Thrasyllos",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/62096361",
+    "name": "Choragic Monument of Nikias",
+    "category": "monument",
+    "lat": 37.970278,
+    "lon": 23.726944,
+    "wikiTitle": "Choragic Monument of Nikias",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/22991679",
+    "name": "Sanctuary of Pandion",
+    "category": "temple",
+    "lat": 37.9714,
+    "lon": 23.728,
+    "wikiTitle": "Sanctuary of Pandion",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/7972275",
+    "name": "Old Acropolis Museum",
+    "category": "museum",
+    "lat": 37.971,
+    "lon": 23.728,
+    "wikiTitle": "Old Acropolis Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811588",
+    "name": "Ilias Lalaounis Jewelry Museum",
+    "category": "museum",
+    "lat": 37.969139,
+    "lon": 23.7267,
+    "wikiTitle": "Ilias Lalaounis Jewelry Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/21459344",
+    "name": "Church of the Holy Apostles, Athens",
+    "category": "church",
+    "lat": 37.9741,
+    "lon": 23.72396,
+    "wikiTitle": "Church of the Holy Apostles, Athens",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/300007",
+    "name": "Tower of the Winds",
+    "category": "tower",
+    "lat": 37.974256,
+    "lon": 23.72707,
+    "wikiTitle": "Tower of the Winds",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/31453079",
+    "name": "Fethiye Mosque (Athens)",
+    "category": "mosque",
+    "lat": 37.974444,
+    "lon": 23.726944,
+    "wikiTitle": "Fethiye Mosque (Athens)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/10944017",
+    "name": "Acropolis Museum",
+    "category": "museum",
+    "lat": 37.969108,
+    "lon": 23.728299,
+    "wikiTitle": "Acropolis Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811875",
+    "name": "Museum of Greek Folk Musical Instruments",
+    "category": "museum",
+    "lat": 37.974389,
+    "lon": 23.727444,
+    "wikiTitle": "Museum of Greek Folk Musical Instruments",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/1716924",
+    "name": "Choragic Monument of Lysicrates",
+    "category": "monument",
+    "lat": 37.970833,
+    "lon": 23.73,
+    "wikiTitle": "Choragic Monument of Lysicrates",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811689",
+    "name": "Museum of the Center for the Acropolis Studies",
+    "category": "museum",
+    "lat": 37.968894,
+    "lon": 23.728881,
+    "wikiTitle": "Museum of the Center for the Acropolis Studies",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/22103023",
+    "name": "Synagogue in the Agora of Athens",
+    "category": "synagogue",
+    "lat": 37.9747,
+    "lon": 23.7222,
+    "wikiTitle": "Synagogue in the Agora of Athens",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/17717384",
+    "name": "Monument of the Eponymous Heroes",
+    "category": "monument",
+    "lat": 37.975056,
+    "lon": 23.722361,
+    "wikiTitle": "Monument of the Eponymous Heroes",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811818",
+    "name": "Tzistarakis Mosque",
+    "category": "mosque",
+    "lat": 37.97597,
+    "lon": 23.72602,
+    "wikiTitle": "Tzistarakis Mosque",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/9819471",
+    "name": "Temple of Ares",
+    "category": "temple",
+    "lat": 37.9755,
+    "lon": 23.7228,
+    "wikiTitle": "Temple of Ares",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/75130584",
+    "name": "Southwest Temple",
+    "category": "temple",
+    "lat": 37.9755,
+    "lon": 23.7228,
+    "wikiTitle": "Southwest Temple",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/75177128",
+    "name": "Southeast Temple",
+    "category": "temple",
+    "lat": 37.9755,
+    "lon": 23.7228,
+    "wikiTitle": "Southeast Temple",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811887",
+    "name": "Hellenic Children's Museum",
+    "category": "museum",
+    "lat": 37.972222,
+    "lon": 23.731667,
+    "wikiTitle": "Hellenic Children's Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/17755791",
+    "name": "Temple of Apollo Patroos",
+    "category": "temple",
+    "lat": 37.975542,
+    "lon": 23.722099,
+    "wikiTitle": "Temple of Apollo Patroos",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/36173552",
+    "name": "Church of the Pantanassa, Athens",
+    "category": "church",
+    "lat": 37.9765,
+    "lon": 23.7261,
+    "wikiTitle": "Church of the Pantanassa, Athens",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/9372378",
+    "name": "Metropolitan Cathedral of Athens",
+    "category": "church",
+    "lat": 37.975253,
+    "lon": 23.730158,
+    "wikiTitle": "Metropolitan Cathedral of Athens",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811580",
+    "name": "Frissiras Museum",
+    "category": "museum",
+    "lat": 37.972278,
+    "lon": 23.732194,
+    "wikiTitle": "Frissiras Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/16811869",
+    "name": "Museum of Greek Folk Art",
+    "category": "museum",
+    "lat": 37.972533,
+    "lon": 23.732308,
+    "wikiTitle": "Museum of Greek Folk Art",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/10499343",
+    "name": "Church of Panagia Kapnikarea",
+    "category": "church",
+    "lat": 37.9763,
+    "lon": 23.7286,
+    "wikiTitle": "Church of Panagia Kapnikarea",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/19751525",
+    "name": "Philopappos Monument",
+    "category": "monument",
+    "lat": 37.967427,
+    "lon": 23.721183,
+    "wikiTitle": "Philopappos Monument",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/79661080",
+    "name": "Church of Saint-Pierre-aux-Bœufs, Paris",
+    "category": "church",
+    "lat": 48.853889,
+    "lon": 2.348889,
+    "wikiTitle": "Church of Saint-Pierre-aux-Bœufs, Paris",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/67691325",
+    "name": "Church of Saint-Jean-le-Rond, Paris",
+    "category": "church",
+    "lat": 48.8535,
+    "lon": 2.349,
+    "wikiTitle": "Church of Saint-Jean-le-Rond, Paris",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/67654380",
+    "name": "Cathedral of Saint Étienne, Paris",
+    "category": "church",
+    "lat": 48.8534,
+    "lon": 2.3488,
+    "wikiTitle": "Cathedral of Saint Étienne, Paris",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/66426232",
+    "name": "Archbishop's Palace of Paris",
+    "category": "palace",
+    "lat": 48.852572,
+    "lon": 2.349591,
+    "wikiTitle": "Archbishop's Palace of Paris",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/32742186",
+    "name": "Church of el Carmen (Madrid)",
+    "category": "church",
+    "lat": 40.418244,
+    "lon": -3.704045,
+    "wikiTitle": "Church of el Carmen (Madrid)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/23213031",
+    "name": "Santa Cruz Palace, Madrid",
+    "category": "palace",
+    "lat": 40.4146,
+    "lon": -3.706,
+    "wikiTitle": "Santa Cruz Palace, Madrid",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/64658823",
+    "name": "Monument to Federico García Lorca",
+    "category": "monument",
+    "lat": 40.414756,
+    "lon": -3.700511,
+    "wikiTitle": "Monument to Federico García Lorca",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/32707312",
+    "name": "Palace of marqués de Miraflores",
+    "category": "palace",
+    "lat": 40.416635,
+    "lon": -3.699134,
+    "wikiTitle": "Palace of marqués de Miraflores",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/23291827",
+    "name": "St Sebastian's Church, Madrid",
+    "category": "church",
+    "lat": 40.4137,
+    "lon": -3.7014,
+    "wikiTitle": "St Sebastian's Church, Madrid",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/32707244",
+    "name": "Church of las Calatravas (Madrid)",
+    "category": "church",
+    "lat": 40.418236,
+    "lon": -3.69908,
+    "wikiTitle": "Church of las Calatravas (Madrid)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/64650327",
+    "name": "Monument to Mendizábal (Madrid)",
+    "category": "monument",
+    "lat": 40.412368,
+    "lon": -3.704239,
+    "wikiTitle": "Monument to Mendizábal (Madrid)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/32714757",
+    "name": "Monastery of Corpus Christi las Carboneras",
+    "category": "monastery",
+    "lat": 40.414798,
+    "lon": -3.709825,
+    "wikiTitle": "Monastery of Corpus Christi las Carboneras",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/32705494",
+    "name": "House-Museum of Lope de Vega",
+    "category": "museum",
+    "lat": 40.414338,
+    "lon": -3.697664,
+    "wikiTitle": "House-Museum of Lope de Vega",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/64689880",
+    "name": "Monument to Álvaro de Bazán (Madrid)",
+    "category": "monument",
+    "lat": 40.41512,
+    "lon": -3.710399,
+    "wikiTitle": "Monument to Álvaro de Bazán (Madrid)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/64708027",
+    "name": "Monument to Isabella the Catholic (Granada)",
+    "category": "monument",
+    "lat": 37.175649,
+    "lon": -3.597444,
+    "wikiTitle": "Monument to Isabella the Catholic (Granada)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/6722777",
+    "name": "Granada Cathedral",
+    "category": "church",
+    "lat": 37.176,
+    "lon": -3.599,
+    "wikiTitle": "Granada Cathedral",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/68008375",
+    "name": "Sephardic Museum (Granada)",
+    "category": "museum",
+    "lat": 37.1752,
+    "lon": -3.5949,
+    "wikiTitle": "Sephardic Museum (Granada)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/68009735",
+    "name": "Palace of the Forgotten",
+    "category": "palace",
+    "lat": 37.1785,
+    "lon": -3.5938,
+    "wikiTitle": "Palace of the Forgotten",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/8216163",
+    "name": "Archaeological Museum of Granada",
+    "category": "archaeological_site",
+    "lat": 37.178611,
+    "lon": -3.591667,
+    "wikiTitle": "Archaeological Museum of Granada",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/77158900",
+    "name": "Church of San Miguel Bajo",
+    "category": "church",
+    "lat": 37.181656,
+    "lon": -3.595314,
+    "wikiTitle": "Church of San Miguel Bajo",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/6795416",
+    "name": "Palace of Charles V",
+    "category": "palace",
+    "lat": 37.176944,
+    "lon": -3.589444,
+    "wikiTitle": "Palace of Charles V",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/67828963",
+    "name": "Granada Mosque",
+    "category": "mosque",
+    "lat": 37.181417,
+    "lon": -3.592,
+    "wikiTitle": "Granada Mosque",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/63293296",
+    "name": "Partal Palace",
+    "category": "palace",
+    "lat": 37.17737,
+    "lon": -3.58855,
+    "wikiTitle": "Partal Palace",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/73844592",
+    "name": "Church of San Salvador (Granada)",
+    "category": "church",
+    "lat": 37.182278,
+    "lon": -3.591306,
+    "wikiTitle": "Church of San Salvador (Granada)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/71492811",
+    "name": "Palace of the Convent of San Francisco",
+    "category": "palace",
+    "lat": 37.175833,
+    "lon": -3.587139,
+    "wikiTitle": "Palace of the Convent of San Francisco",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/79912936",
+    "name": "Church of Saint Peter and Saint Paul (Granada)",
+    "category": "church",
+    "lat": 37.178611,
+    "lon": -3.586111,
+    "wikiTitle": "Church of Saint Peter and Saint Paul (Granada)",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/214393",
+    "name": "St. Stephen's Cathedral, Vienna",
+    "category": "church",
+    "lat": 48.2085,
+    "lon": 16.373,
+    "wikiTitle": "St. Stephen's Cathedral, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/6518322",
+    "name": "Church of the Teutonic Order, Vienna",
+    "category": "church",
+    "lat": 48.2075,
+    "lon": 16.372778,
+    "wikiTitle": "Church of the Teutonic Order, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/49558009",
+    "name": "Episcopal Palace, Vienna",
+    "category": "palace",
+    "lat": 48.2092,
+    "lon": 16.3731,
+    "wikiTitle": "Episcopal Palace, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/15131166",
+    "name": "Franciscan Church, Vienna",
+    "category": "church",
+    "lat": 48.2061,
+    "lon": 16.3744,
+    "wikiTitle": "Franciscan Church, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/40786125",
+    "name": "Winter Palace of Prince Eugene",
+    "category": "palace",
+    "lat": 48.205556,
+    "lon": 16.372778,
+    "wikiTitle": "Winter Palace of Prince Eugene",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/22359436",
+    "name": "Jewish Museum Vienna",
+    "category": "museum",
+    "lat": 48.207229,
+    "lon": 16.369017,
+    "wikiTitle": "Jewish Museum Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/5978301",
+    "name": "Dominican Church, Vienna",
+    "category": "church",
+    "lat": 48.2088,
+    "lon": 16.3788,
+    "wikiTitle": "Dominican Church, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/78019076",
+    "name": "Reformed City Church of Vienna",
+    "category": "church",
+    "lat": 48.20694,
+    "lon": 16.36873,
+    "wikiTitle": "Reformed City Church of Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/19246987",
+    "name": "Maltese Church, Vienna",
+    "category": "church",
+    "lat": 48.205,
+    "lon": 16.371111,
+    "wikiTitle": "Maltese Church, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/2738909",
+    "name": "St. Rupert's Church, Vienna",
+    "category": "church",
+    "lat": 48.211944,
+    "lon": 16.374444,
+    "wikiTitle": "St. Rupert's Church, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/3378098",
+    "name": "Capuchin Church, Vienna",
+    "category": "church",
+    "lat": 48.20555,
+    "lon": 16.36972,
+    "wikiTitle": "Capuchin Church, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/28724858",
+    "name": "Lutheran City Church",
+    "category": "church",
+    "lat": 48.206533,
+    "lon": 16.36848,
+    "wikiTitle": "Lutheran City Church",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/13772397",
+    "name": "St. Anne's Church, Vienna",
+    "category": "church",
+    "lat": 48.2044,
+    "lon": 16.3716,
+    "wikiTitle": "St. Anne's Church, Vienna",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/22362449",
+    "name": "Austrian Theatre Museum",
+    "category": "museum",
+    "lat": 48.205556,
+    "lon": 16.368333,
+    "wikiTitle": "Austrian Theatre Museum",
+    "region": "europe"
+  },
+  {
+    "id": "w-en/6392473",
+    "name": "Church of Saint Michael, Vienna",
+    "category": "church",
+    "lat": 48.208056,
+    "lon": 16.366944,
+    "wikiTitle": "Church of Saint Michael, Vienna",
+    "region": "europe"
+  }
+]

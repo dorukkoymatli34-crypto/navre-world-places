@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "w-tr/1822581",
+    "name": "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi",
+    "category": "museum",
+    "lat": 41.011111,
+    "lon": 28.978333,
+    "wikiTitle": "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4542858",
+    "name": "Karaki Hüseyin Çelebi Camii",
+    "category": "mosque",
+    "lat": 41.013056,
+    "lon": 28.977778,
+    "wikiTitle": "Karaki Hüseyin Çelebi Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4432639",
+    "name": "Balıkesir Han",
+    "category": "monument",
+    "lat": 41.010278,
+    "lon": 28.976667,
+    "wikiTitle": "Balıkesir Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/78811",
+    "name": "Zeynep Sultan Camii",
+    "category": "mosque",
+    "lat": 41.01,
+    "lon": 28.978333,
+    "wikiTitle": "Zeynep Sultan Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/719382",
+    "name": "Çinili Köşk",
+    "category": "palace",
+    "lat": 41.011944,
+    "lon": 28.981111,
+    "wikiTitle": "Çinili Köşk",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4542816",
+    "name": "Vezir Camii",
+    "category": "mosque",
+    "lat": 41.014722,
+    "lon": 28.976667,
+    "wikiTitle": "Vezir Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/407731",
+    "name": "Firuz Ağa Camii",
+    "category": "mosque",
+    "lat": 41.007778,
+    "lon": 28.976389,
+    "wikiTitle": "Firuz Ağa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4723076",
+    "name": "Ağalar Camii",
+    "category": "mosque",
+    "lat": 41.013056,
+    "lon": 28.984167,
+    "wikiTitle": "Ağalar Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/190878",
+    "name": "Mahmud Paşa Camii",
+    "category": "mosque",
+    "lat": 41.011111,
+    "lon": 28.971389,
+    "wikiTitle": "Mahmud Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2470596",
+    "name": "Germanya Han",
+    "category": "monument",
+    "lat": 41.015278,
+    "lon": 28.9725,
+    "wikiTitle": "Germanya Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1697054",
+    "name": "Hidayet Camii",
+    "category": "mosque",
+    "lat": 41.016667,
+    "lon": 28.973889,
+    "wikiTitle": "Hidayet Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/383755",
+    "name": "Büyük Saray",
+    "category": "palace",
+    "lat": 41.006389,
+    "lon": 28.977778,
+    "wikiTitle": "Büyük Saray",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4470944",
+    "name": "Köprülü Mehmed Paşa Camii (İstanbul)",
+    "category": "mosque",
+    "lat": 41.008333,
+    "lon": 28.971667,
+    "wikiTitle": "Köprülü Mehmed Paşa Camii (İstanbul)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/124770",
+    "name": "Nuruosmaniye Camii",
+    "category": "mosque",
+    "lat": 41.010278,
+    "lon": 28.970278,
+    "wikiTitle": "Nuruosmaniye Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/718184",
+    "name": "Dikilitaş (Sultanahmet)",
+    "category": "monument",
+    "lat": 41.006111,
+    "lon": 28.975278,
+    "wikiTitle": "Dikilitaş (Sultanahmet)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4468146",
+    "name": "İshak Paşa Camii (İstanbul)",
+    "category": "mosque",
+    "lat": 41.006389,
+    "lon": 28.981667,
+    "wikiTitle": "İshak Paşa Camii (İstanbul)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4084375",
+    "name": "Fuad Paşa Camii",
+    "category": "mosque",
+    "lat": 41.006667,
+    "lon": 28.973056,
+    "wikiTitle": "Fuad Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1124413",
+    "name": "Kal Kadoş Çorapçı Han Sinagogu",
+    "category": "monument",
+    "lat": 41.014444,
+    "lon": 28.97,
+    "wikiTitle": "Kal Kadoş Çorapçı Han Sinagogu",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/128162",
+    "name": "Gazi Atik Ali Paşa Camii",
+    "category": "mosque",
+    "lat": 41.008611,
+    "lon": 28.970556,
+    "wikiTitle": "Gazi Atik Ali Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/143292",
+    "name": "Yeni Cami",
+    "category": "mosque",
+    "lat": 41.016944,
+    "lon": 28.972222,
+    "wikiTitle": "Yeni Cami",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2944214",
+    "name": "Zincirli Han",
+    "category": "monument",
+    "lat": 41.011389,
+    "lon": 28.969167,
+    "wikiTitle": "Zincirli Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/9303",
+    "name": "Sultanahmet Camii",
+    "category": "mosque",
+    "lat": 41.005278,
+    "lon": 28.976944,
+    "wikiTitle": "Sultanahmet Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/679072",
+    "name": "Eski Cami",
+    "category": "mosque",
+    "lat": 41.676667,
+    "lon": 26.555833,
+    "wikiTitle": "Eski Cami",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4619117",
+    "name": "Edirne Eski Cami Minare Çeşmesi",
+    "category": "mosque",
+    "lat": 41.676667,
+    "lon": 26.555556,
+    "wikiTitle": "Edirne Eski Cami Minare Çeşmesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/394758",
+    "name": "Üç Şerefeli Cami",
+    "category": "mosque",
+    "lat": 41.678056,
+    "lon": 26.553611,
+    "wikiTitle": "Üç Şerefeli Cami",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/16124",
+    "name": "Selimiye Camii",
+    "category": "mosque",
+    "lat": 41.678056,
+    "lon": 26.559444,
+    "wikiTitle": "Selimiye Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4421223",
+    "name": "Selçuk Hatun Camii",
+    "category": "mosque",
+    "lat": 41.675278,
+    "lon": 26.558889,
+    "wikiTitle": "Selçuk Hatun Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4421352",
+    "name": "Şehabeddin Paşa Camii",
+    "category": "mosque",
+    "lat": 41.679444,
+    "lon": 26.558333,
+    "wikiTitle": "Şehabeddin Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4420761",
+    "name": "Kuşçu Doğan Camii",
+    "category": "mosque",
+    "lat": 41.68,
+    "lon": 26.554167,
+    "wikiTitle": "Kuşçu Doğan Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4420848",
+    "name": "Lari Camii",
+    "category": "mosque",
+    "lat": 41.673611,
+    "lon": 26.554167,
+    "wikiTitle": "Lari Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4424958",
+    "name": "Tamburacılar Camii",
+    "category": "mosque",
+    "lat": 41.673889,
+    "lon": 26.553056,
+    "wikiTitle": "Tamburacılar Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4416663",
+    "name": "Hıdır Ağa Camii",
+    "category": "mosque",
+    "lat": 41.677222,
+    "lon": 26.560833,
+    "wikiTitle": "Hıdır Ağa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4431289",
+    "name": "Zehr-i Mar Camii",
+    "category": "mosque",
+    "lat": 41.678056,
+    "lon": 26.560833,
+    "wikiTitle": "Zehr-i Mar Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4653351",
+    "name": "Küpeli Minare Çeşmesi",
+    "category": "tower",
+    "lat": 41.678056,
+    "lon": 26.550556,
+    "wikiTitle": "Küpeli Minare Çeşmesi",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4411397",
+    "name": "Arif Ağa Camii",
+    "category": "mosque",
+    "lat": 41.680833,
+    "lon": 26.553611,
+    "wikiTitle": "Arif Ağa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4422356",
+    "name": "Sarıca Paşa Camii",
+    "category": "mosque",
+    "lat": 41.675,
+    "lon": 26.560833,
+    "wikiTitle": "Sarıca Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4414781",
+    "name": "Atik Ali Paşa Camii (Edirne)",
+    "category": "mosque",
+    "lat": 41.679444,
+    "lon": 26.561111,
+    "wikiTitle": "Atik Ali Paşa Camii (Edirne)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4419855",
+    "name": "Sitti Şah Sultan Camii",
+    "category": "mosque",
+    "lat": 41.673333,
+    "lon": 26.559444,
+    "wikiTitle": "Sitti Şah Sultan Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4416653",
+    "name": "Gazi Hoca Camii",
+    "category": "mosque",
+    "lat": 41.678611,
+    "lon": 26.548889,
+    "wikiTitle": "Gazi Hoca Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4416609",
+    "name": "Beylerbeyi Camii (Edirne)",
+    "category": "mosque",
+    "lat": 41.682778,
+    "lon": 26.555,
+    "wikiTitle": "Beylerbeyi Camii (Edirne)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4422491",
+    "name": "Yahya Bey Camii",
+    "category": "mosque",
+    "lat": 41.676389,
+    "lon": 26.563333,
+    "wikiTitle": "Yahya Bey Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4415633",
+    "name": "Defterdar Mustafa Paşa Camii",
+    "category": "mosque",
+    "lat": 41.672778,
+    "lon": 26.561667,
+    "wikiTitle": "Defterdar Mustafa Paşa Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2445200",
+    "name": "Orhan Gazi Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.183889,
+    "lon": 29.064167,
+    "wikiTitle": "Orhan Gazi Camii (Bursa)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/130172",
+    "name": "Koza Han",
+    "category": "monument",
+    "lat": 40.184444,
+    "lon": 29.063611,
+    "wikiTitle": "Koza Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4416786",
+    "name": "Şeker Hoca Camii",
+    "category": "mosque",
+    "lat": 40.182778,
+    "lon": 29.061944,
+    "wikiTitle": "Şeker Hoca Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2350884",
+    "name": "Yeşil Külliye",
+    "category": "mosque",
+    "lat": 40.183889,
+    "lon": 29.061944,
+    "wikiTitle": "Yeşil Külliye",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/127564",
+    "name": "Bursa Ulu Camii",
+    "category": "mosque",
+    "lat": 40.183889,
+    "lon": 29.061944,
+    "wikiTitle": "Bursa Ulu Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2303657",
+    "name": "İpek Han",
+    "category": "monument",
+    "lat": 40.185278,
+    "lon": 29.060833,
+    "wikiTitle": "İpek Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/3514552",
+    "name": "Umurbey Camii",
+    "category": "mosque",
+    "lat": 40.177778,
+    "lon": 29.071389,
+    "wikiTitle": "Umurbey Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4466863",
+    "name": "Sittî Hatun Camii",
+    "category": "mosque",
+    "lat": 40.185833,
+    "lon": 29.073333,
+    "wikiTitle": "Sittî Hatun Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1340189",
+    "name": "Yeşil Cami (Bursa)",
+    "category": "mosque",
+    "lat": 40.182222,
+    "lon": 29.074722,
+    "wikiTitle": "Yeşil Cami (Bursa)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2303503",
+    "name": "Balibey Han",
+    "category": "monument",
+    "lat": 40.185,
+    "lon": 29.058611,
+    "wikiTitle": "Balibey Han",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4419979",
+    "name": "Şehreküstü Camii",
+    "category": "mosque",
+    "lat": 40.1875,
+    "lon": 29.060833,
+    "wikiTitle": "Şehreküstü Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4419995",
+    "name": "Timurtaş Paşa Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.188333,
+    "lon": 29.071667,
+    "wikiTitle": "Timurtaş Paşa Camii (Bursa)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4467057",
+    "name": "Hatice İsfendiyar Camii",
+    "category": "mosque",
+    "lat": 40.185556,
+    "lon": 29.075,
+    "wikiTitle": "Hatice İsfendiyar Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4468193",
+    "name": "Somuncu Baba Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.177778,
+    "lon": 29.058889,
+    "wikiTitle": "Somuncu Baba Camii (Bursa)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2054768",
+    "name": "Veled-i Yaniç Camii",
+    "category": "mosque",
+    "lat": 40.185,
+    "lon": 29.056389,
+    "wikiTitle": "Veled-i Yaniç Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4618488",
+    "name": "Sülüklü Camii",
+    "category": "mosque",
+    "lat": 40.189722,
+    "lon": 29.061111,
+    "wikiTitle": "Sülüklü Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4436267",
+    "name": "Namazgâh Camii (Bursa)",
+    "category": "mosque",
+    "lat": 40.177778,
+    "lon": 29.075556,
+    "wikiTitle": "Namazgâh Camii (Bursa)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/237756",
+    "name": "Şehadet Camii",
+    "category": "mosque",
+    "lat": 40.186389,
+    "lon": 29.056111,
+    "wikiTitle": "Şehadet Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/1589176",
+    "name": "Hacı Özbek Camii",
+    "category": "mosque",
+    "lat": 40.181111,
+    "lon": 29.080833,
+    "wikiTitle": "Hacı Özbek Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/237732",
+    "name": "Emir Sultan Camii",
+    "category": "mosque",
+    "lat": 40.181111,
+    "lon": 29.081111,
+    "wikiTitle": "Emir Sultan Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/117807",
+    "name": "İsa Bey Camii",
+    "category": "mosque",
+    "lat": 37.952222,
+    "lon": 27.365833,
+    "wikiTitle": "İsa Bey Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4629348",
+    "name": "Sarıca Kilise",
+    "category": "church",
+    "lat": 38.609722,
+    "lon": 34.896389,
+    "wikiTitle": "Sarıca Kilise",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2740772",
+    "name": "Karamanoğlu Camii",
+    "category": "mosque",
+    "lat": 38.632778,
+    "lon": 34.910278,
+    "wikiTitle": "Karamanoğlu Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4096718",
+    "name": "Güray Müze",
+    "category": "museum",
+    "lat": 38.710556,
+    "lon": 34.835,
+    "wikiTitle": "Güray Müze",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2740768",
+    "name": "Avanos Ulu Camii",
+    "category": "mosque",
+    "lat": 38.719167,
+    "lon": 34.847222,
+    "wikiTitle": "Avanos Ulu Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4623608",
+    "name": "Şeyh Ali Camii (Nevşehir)",
+    "category": "mosque",
+    "lat": 38.583333,
+    "lon": 34.894167,
+    "wikiTitle": "Şeyh Ali Camii (Nevşehir)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/4623854",
+    "name": "Mustafapaşa Cami-i Kebir",
+    "category": "mosque",
+    "lat": 38.584444,
+    "lon": 34.898056,
+    "wikiTitle": "Mustafapaşa Cami-i Kebir",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-tr/2740793",
+    "name": "Şanlıurfa Ulu Camii",
+    "category": "mosque",
+    "lat": 37.151389,
+    "lon": 38.79,
+    "wikiTitle": "Şanlıurfa Ulu Camii",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/12224",
+    "name": "Great Pyramid of Giza",
+    "category": "archaeological_site",
+    "lat": 29.979167,
+    "lon": 31.134167,
+    "wikiTitle": "Great Pyramid of Giza",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/38040282",
+    "name": "Giza Solar boat museum",
+    "category": "museum",
+    "lat": 29.978056,
+    "lon": 31.134444,
+    "wikiTitle": "Giza Solar boat museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/36474009",
+    "name": "Pyramid G1-d",
+    "category": "archaeological_site",
+    "lat": 29.978056,
+    "lon": 31.135806,
+    "wikiTitle": "Pyramid G1-d",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/33863310",
+    "name": "Pyramid G1-a",
+    "category": "archaeological_site",
+    "lat": 29.978836,
+    "lon": 31.136261,
+    "wikiTitle": "Pyramid G1-a",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/33863699",
+    "name": "Pyramid G1-b",
+    "category": "archaeological_site",
+    "lat": 29.978333,
+    "lon": 31.136111,
+    "wikiTitle": "Pyramid G1-b",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/33894464",
+    "name": "Pyramid G1-c",
+    "category": "archaeological_site",
+    "lat": 29.97785,
+    "lon": 31.136256,
+    "wikiTitle": "Pyramid G1-c",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1979299",
+    "name": "Giza pyramid complex",
+    "category": "archaeological_site",
+    "lat": 29.976111,
+    "lon": 31.132778,
+    "wikiTitle": "Giza pyramid complex",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1942584",
+    "name": "Pyramid of Khafre",
+    "category": "archaeological_site",
+    "lat": 29.976111,
+    "lon": 31.130833,
+    "wikiTitle": "Pyramid of Khafre",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/66858001",
+    "name": "Pyramid G2-a",
+    "category": "archaeological_site",
+    "lat": 29.97474,
+    "lon": 31.13099,
+    "wikiTitle": "Pyramid G2-a",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/61847009",
+    "name": "Pyramid of Khentkaus I",
+    "category": "archaeological_site",
+    "lat": 29.973306,
+    "lon": 31.135361,
+    "wikiTitle": "Pyramid of Khentkaus I",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1970544",
+    "name": "Pyramid of Menkaure",
+    "category": "archaeological_site",
+    "lat": 29.9725,
+    "lon": 31.128333,
+    "wikiTitle": "Pyramid of Menkaure",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/66856904",
+    "name": "Pyramid G3-a",
+    "category": "archaeological_site",
+    "lat": 29.971667,
+    "lon": 31.128333,
+    "wikiTitle": "Pyramid G3-a",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/66856965",
+    "name": "Pyramid G3-b",
+    "category": "archaeological_site",
+    "lat": 29.971667,
+    "lon": 31.127778,
+    "wikiTitle": "Pyramid G3-b",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/57286419",
+    "name": "Pyramid G3-c",
+    "category": "archaeological_site",
+    "lat": 29.9716,
+    "lon": 31.1273,
+    "wikiTitle": "Pyramid G3-c",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/84482078",
+    "name": "Heit el-Ghurab (City of the Pyramid Builders)",
+    "category": "archaeological_site",
+    "lat": 29.971111,
+    "lon": 31.140556,
+    "wikiTitle": "Heit el-Ghurab (City of the Pyramid Builders)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/5359115",
+    "name": "Grand Egyptian Museum",
+    "category": "museum",
+    "lat": 29.995,
+    "lon": 31.1193,
+    "wikiTitle": "Grand Egyptian Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/41873307",
+    "name": "Unfinished Northern Pyramid of Zawyet El Aryan",
+    "category": "archaeological_site",
+    "lat": 29.940122,
+    "lon": 31.151556,
+    "wikiTitle": "Unfinished Northern Pyramid of Zawyet El Aryan",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/16810361",
+    "name": "Taha Hussein Museum",
+    "category": "museum",
+    "lat": 30.0049,
+    "lon": 31.1851,
+    "wikiTitle": "Taha Hussein Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/2898810",
+    "name": "Layer Pyramid",
+    "category": "archaeological_site",
+    "lat": 29.932778,
+    "lon": 31.161111,
+    "wikiTitle": "Layer Pyramid",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/60645629",
+    "name": "Lepsius I Pyramid",
+    "category": "archaeological_site",
+    "lat": 30.040833,
+    "lon": 31.094444,
+    "wikiTitle": "Lepsius I Pyramid",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/3246046",
+    "name": "Pyramid of Djedefre",
+    "category": "archaeological_site",
+    "lat": 30.032222,
+    "lon": 31.074722,
+    "wikiTitle": "Pyramid of Djedefre",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/63664945",
+    "name": "Manasterly Palace",
+    "category": "palace",
+    "lat": 30.007,
+    "lon": 31.2247,
+    "wikiTitle": "Manasterly Palace",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/16810251",
+    "name": "Egyptian Geological Museum",
+    "category": "museum",
+    "lat": 29.9963,
+    "lon": 31.2286,
+    "wikiTitle": "Egyptian Geological Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/16810204",
+    "name": "Ahmed Shawki Museum",
+    "category": "museum",
+    "lat": 30.021389,
+    "lon": 31.2175,
+    "wikiTitle": "Ahmed Shawki Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/16810303",
+    "name": "Umm Kulthum Museum",
+    "category": "museum",
+    "lat": 30.007222,
+    "lon": 31.225278,
+    "wikiTitle": "Umm Kulthum Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/13065978",
+    "name": "Church of the Holy Virgin (Babylon El-Darag)",
+    "category": "church",
+    "lat": 30.0018,
+    "lon": 31.2308,
+    "wikiTitle": "Church of the Holy Virgin (Babylon El-Darag)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/12835988",
+    "name": "Babylon Fortress",
+    "category": "castle",
+    "lat": 30.006111,
+    "lon": 31.229722,
+    "wikiTitle": "Babylon Fortress",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/12835443",
+    "name": "Hanging Church",
+    "category": "church",
+    "lat": 30.0054,
+    "lon": 31.2301,
+    "wikiTitle": "Hanging Church",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/21305754",
+    "name": "Church of St. George (Cairo)",
+    "category": "church",
+    "lat": 30.0064,
+    "lon": 31.23006,
+    "wikiTitle": "Church of St. George (Cairo)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/12674700",
+    "name": "Coptic Museum",
+    "category": "museum",
+    "lat": 30.00563,
+    "lon": 31.23055,
+    "wikiTitle": "Coptic Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/11440371",
+    "name": "Ben Ezra Synagogue",
+    "category": "synagogue",
+    "lat": 30.00581,
+    "lon": 31.23097,
+    "wikiTitle": "Ben Ezra Synagogue",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/19030942",
+    "name": "Saint Barbara Church in Coptic Cairo",
+    "category": "church",
+    "lat": 30.0057,
+    "lon": 31.2311,
+    "wikiTitle": "Saint Barbara Church in Coptic Cairo",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/18974245",
+    "name": "Church of Saint Menas (Cairo)",
+    "category": "church",
+    "lat": 30.006389,
+    "lon": 31.231667,
+    "wikiTitle": "Church of Saint Menas (Cairo)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/4341677",
+    "name": "Karnak Open Air Museum",
+    "category": "museum",
+    "lat": 25.7195,
+    "lon": 32.6574,
+    "wikiTitle": "Karnak Open Air Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/2052707",
+    "name": "Temple of Amenhotep IV",
+    "category": "temple",
+    "lat": 25.7182,
+    "lon": 32.6582,
+    "wikiTitle": "Temple of Amenhotep IV",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/8191269",
+    "name": "Temple of Ptah (Karnak)",
+    "category": "temple",
+    "lat": 25.7196,
+    "lon": 32.6597,
+    "wikiTitle": "Temple of Ptah (Karnak)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/8191337",
+    "name": "Temple of Khonsu",
+    "category": "temple",
+    "lat": 25.716667,
+    "lon": 32.655833,
+    "wikiTitle": "Temple of Khonsu",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1776608",
+    "name": "Luxor Museum",
+    "category": "museum",
+    "lat": 25.7075,
+    "lon": 32.644722,
+    "wikiTitle": "Luxor Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/918219",
+    "name": "Mummification Museum",
+    "category": "museum",
+    "lat": 25.702222,
+    "lon": 32.639722,
+    "wikiTitle": "Mummification Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/2957308",
+    "name": "Abu Haggag Mosque",
+    "category": "mosque",
+    "lat": 25.7,
+    "lon": 32.639444,
+    "wikiTitle": "Abu Haggag Mosque",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/9527123",
+    "name": "Mortuary Temple of Seti I",
+    "category": "temple",
+    "lat": 25.732778,
+    "lon": 32.628056,
+    "wikiTitle": "Mortuary Temple of Seti I",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/84296072",
+    "name": "Pyramid of Nubkheperre Intef",
+    "category": "archaeological_site",
+    "lat": 25.737043,
+    "lon": 32.624022,
+    "wikiTitle": "Pyramid of Nubkheperre Intef",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/83172007",
+    "name": "Mortuary temple of Thutmose I",
+    "category": "temple",
+    "lat": 25.730278,
+    "lon": 32.615278,
+    "wikiTitle": "Mortuary temple of Thutmose I",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/3255630",
+    "name": "Mortuary Temple of Amenhotep III",
+    "category": "temple",
+    "lat": 25.721,
+    "lon": 32.61,
+    "wikiTitle": "Mortuary Temple of Amenhotep III",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/15496978",
+    "name": "TT33 (tomb)",
+    "category": "tomb",
+    "lat": 25.7346,
+    "lon": 32.6122,
+    "wikiTitle": "TT33 (tomb)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/83110974",
+    "name": "Mortuary Temple of Merneptah",
+    "category": "temple",
+    "lat": 25.725002,
+    "lon": 32.606572,
+    "wikiTitle": "Mortuary Temple of Merneptah",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/16429736",
+    "name": "Monastery of Saint Epiphanius",
+    "category": "monastery",
+    "lat": 25.734167,
+    "lon": 32.608333,
+    "wikiTitle": "Monastery of Saint Epiphanius",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/12936708",
+    "name": "Mortuary temple of Hatshepsut",
+    "category": "temple",
+    "lat": 25.738278,
+    "lon": 32.606583,
+    "wikiTitle": "Mortuary temple of Hatshepsut",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/33862680",
+    "name": "Temple of Montu (Medamud)",
+    "category": "temple",
+    "lat": 25.734239,
+    "lon": 32.710172,
+    "wikiTitle": "Temple of Montu (Medamud)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/83158790",
+    "name": "Mortuary Temple of Ay and Horemheb",
+    "category": "temple",
+    "lat": 25.721796,
+    "lon": 32.601201,
+    "wikiTitle": "Mortuary Temple of Ay and Horemheb",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/79227863",
+    "name": "Tomb of Wah",
+    "category": "tomb",
+    "lat": 25.735311,
+    "lon": 32.60404,
+    "wikiTitle": "Tomb of Wah",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/17377615",
+    "name": "Tomb of Kha and Merit",
+    "category": "tomb",
+    "lat": 25.729039,
+    "lon": 32.600639,
+    "wikiTitle": "Tomb of Kha and Merit",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/83256894",
+    "name": "Mortuary Temple of Mentuhotep III",
+    "category": "temple",
+    "lat": 25.73375,
+    "lon": 32.601639,
+    "wikiTitle": "Mortuary Temple of Mentuhotep III",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/60762579",
+    "name": "Great Temple (Petra)",
+    "category": "temple",
+    "lat": 30.3288,
+    "lon": 35.4423,
+    "wikiTitle": "Great Temple (Petra)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/60756571",
+    "name": "Temple of the Winged Lions",
+    "category": "temple",
+    "lat": 30.33036,
+    "lon": 35.44254,
+    "wikiTitle": "Temple of the Winged Lions",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/64267482",
+    "name": "Wu'ayra Castle",
+    "category": "castle",
+    "lat": 30.333056,
+    "lon": 35.465833,
+    "wikiTitle": "Wu'ayra Castle",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/66506675",
+    "name": "Old Petra Museum",
+    "category": "museum",
+    "lat": 30.3246,
+    "lon": 35.46797,
+    "wikiTitle": "Old Petra Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/18411283",
+    "name": "Tomb of Aaron (Jordan)",
+    "category": "tomb",
+    "lat": 30.31697,
+    "lon": 35.40636,
+    "wikiTitle": "Tomb of Aaron (Jordan)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/31296552",
+    "name": "Beidha (archaeological site)",
+    "category": "archaeological_site",
+    "lat": 30.37078,
+    "lon": 35.447756,
+    "wikiTitle": "Beidha (archaeological site)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/34787313",
+    "name": "Tomb of Darius the Great",
+    "category": "tomb",
+    "lat": 29.988889,
+    "lon": 52.874722,
+    "wikiTitle": "Tomb of Darius the Great",
+    "region": "middle-east-anatolia"
+  }
+]

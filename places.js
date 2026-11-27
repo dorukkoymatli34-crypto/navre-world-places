@@ -5,7 +5,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 41.011111,
     "lon": 28.978333,
-    "wikiTitle": "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi"
+    "wikiTitle": "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4542858",
@@ -13,7 +14,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.013056,
     "lon": 28.977778,
-    "wikiTitle": "Karaki Hüseyin Çelebi Camii"
+    "wikiTitle": "Karaki Hüseyin Çelebi Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4432639",
@@ -21,7 +23,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 41.010278,
     "lon": 28.976667,
-    "wikiTitle": "Balıkesir Han"
+    "wikiTitle": "Balıkesir Han",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/78811",
@@ -29,7 +32,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.01,
     "lon": 28.978333,
-    "wikiTitle": "Zeynep Sultan Camii"
+    "wikiTitle": "Zeynep Sultan Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/719382",
@@ -37,7 +41,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 41.011944,
     "lon": 28.981111,
-    "wikiTitle": "Çinili Köşk"
+    "wikiTitle": "Çinili Köşk",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4542816",
@@ -45,7 +50,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.014722,
     "lon": 28.976667,
-    "wikiTitle": "Vezir Camii"
+    "wikiTitle": "Vezir Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/407731",
@@ -53,7 +59,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.007778,
     "lon": 28.976389,
-    "wikiTitle": "Firuz Ağa Camii"
+    "wikiTitle": "Firuz Ağa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4723076",
@@ -61,7 +68,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.013056,
     "lon": 28.984167,
-    "wikiTitle": "Ağalar Camii"
+    "wikiTitle": "Ağalar Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/190878",
@@ -69,7 +77,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.011111,
     "lon": 28.971389,
-    "wikiTitle": "Mahmud Paşa Camii"
+    "wikiTitle": "Mahmud Paşa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2470596",
@@ -77,7 +86,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 41.015278,
     "lon": 28.9725,
-    "wikiTitle": "Germanya Han"
+    "wikiTitle": "Germanya Han",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/1697054",
@@ -85,7 +95,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.016667,
     "lon": 28.973889,
-    "wikiTitle": "Hidayet Camii"
+    "wikiTitle": "Hidayet Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/383755",
@@ -93,7 +104,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 41.006389,
     "lon": 28.977778,
-    "wikiTitle": "Büyük Saray"
+    "wikiTitle": "Büyük Saray",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4470944",
@@ -101,7 +113,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.008333,
     "lon": 28.971667,
-    "wikiTitle": "Köprülü Mehmed Paşa Camii (İstanbul)"
+    "wikiTitle": "Köprülü Mehmed Paşa Camii (İstanbul)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/124770",
@@ -109,7 +122,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.010278,
     "lon": 28.970278,
-    "wikiTitle": "Nuruosmaniye Camii"
+    "wikiTitle": "Nuruosmaniye Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/718184",
@@ -117,7 +131,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 41.006111,
     "lon": 28.975278,
-    "wikiTitle": "Dikilitaş (Sultanahmet)"
+    "wikiTitle": "Dikilitaş (Sultanahmet)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4468146",
@@ -125,7 +140,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.006389,
     "lon": 28.981667,
-    "wikiTitle": "İshak Paşa Camii (İstanbul)"
+    "wikiTitle": "İshak Paşa Camii (İstanbul)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4084375",
@@ -133,7 +149,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.006667,
     "lon": 28.973056,
-    "wikiTitle": "Fuad Paşa Camii"
+    "wikiTitle": "Fuad Paşa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/1124413",
@@ -141,7 +158,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 41.014444,
     "lon": 28.97,
-    "wikiTitle": "Kal Kadoş Çorapçı Han Sinagogu"
+    "wikiTitle": "Kal Kadoş Çorapçı Han Sinagogu",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/128162",
@@ -149,7 +167,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.008611,
     "lon": 28.970556,
-    "wikiTitle": "Gazi Atik Ali Paşa Camii"
+    "wikiTitle": "Gazi Atik Ali Paşa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/143292",
@@ -157,7 +176,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.016944,
     "lon": 28.972222,
-    "wikiTitle": "Yeni Cami"
+    "wikiTitle": "Yeni Cami",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2944214",
@@ -165,7 +185,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 41.011389,
     "lon": 28.969167,
-    "wikiTitle": "Zincirli Han"
+    "wikiTitle": "Zincirli Han",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/9303",
@@ -173,7 +194,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.005278,
     "lon": 28.976944,
-    "wikiTitle": "Sultanahmet Camii"
+    "wikiTitle": "Sultanahmet Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/679072",
@@ -181,7 +203,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.676667,
     "lon": 26.555833,
-    "wikiTitle": "Eski Cami"
+    "wikiTitle": "Eski Cami",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4619117",
@@ -189,7 +212,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.676667,
     "lon": 26.555556,
-    "wikiTitle": "Edirne Eski Cami Minare Çeşmesi"
+    "wikiTitle": "Edirne Eski Cami Minare Çeşmesi",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/394758",
@@ -197,7 +221,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.678056,
     "lon": 26.553611,
-    "wikiTitle": "Üç Şerefeli Cami"
+    "wikiTitle": "Üç Şerefeli Cami",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/16124",
@@ -205,7 +230,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.678056,
     "lon": 26.559444,
-    "wikiTitle": "Selimiye Camii"
+    "wikiTitle": "Selimiye Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4421223",
@@ -213,7 +239,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.675278,
     "lon": 26.558889,
-    "wikiTitle": "Selçuk Hatun Camii"
+    "wikiTitle": "Selçuk Hatun Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4421352",
@@ -221,7 +248,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.679444,
     "lon": 26.558333,
-    "wikiTitle": "Şehabeddin Paşa Camii"
+    "wikiTitle": "Şehabeddin Paşa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4420761",
@@ -229,7 +257,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.68,
     "lon": 26.554167,
-    "wikiTitle": "Kuşçu Doğan Camii"
+    "wikiTitle": "Kuşçu Doğan Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4420848",
@@ -237,7 +266,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.673611,
     "lon": 26.554167,
-    "wikiTitle": "Lari Camii"
+    "wikiTitle": "Lari Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4424958",
@@ -245,7 +275,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.673889,
     "lon": 26.553056,
-    "wikiTitle": "Tamburacılar Camii"
+    "wikiTitle": "Tamburacılar Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4416663",
@@ -253,7 +284,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.677222,
     "lon": 26.560833,
-    "wikiTitle": "Hıdır Ağa Camii"
+    "wikiTitle": "Hıdır Ağa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4431289",
@@ -261,7 +293,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.678056,
     "lon": 26.560833,
-    "wikiTitle": "Zehr-i Mar Camii"
+    "wikiTitle": "Zehr-i Mar Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4653351",
@@ -269,7 +302,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tower",
     "lat": 41.678056,
     "lon": 26.550556,
-    "wikiTitle": "Küpeli Minare Çeşmesi"
+    "wikiTitle": "Küpeli Minare Çeşmesi",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4411397",
@@ -277,7 +311,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.680833,
     "lon": 26.553611,
-    "wikiTitle": "Arif Ağa Camii"
+    "wikiTitle": "Arif Ağa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4422356",
@@ -285,7 +320,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.675,
     "lon": 26.560833,
-    "wikiTitle": "Sarıca Paşa Camii"
+    "wikiTitle": "Sarıca Paşa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4414781",
@@ -293,7 +329,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.679444,
     "lon": 26.561111,
-    "wikiTitle": "Atik Ali Paşa Camii (Edirne)"
+    "wikiTitle": "Atik Ali Paşa Camii (Edirne)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4419855",
@@ -301,7 +338,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.673333,
     "lon": 26.559444,
-    "wikiTitle": "Sitti Şah Sultan Camii"
+    "wikiTitle": "Sitti Şah Sultan Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4416653",
@@ -309,7 +347,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.678611,
     "lon": 26.548889,
-    "wikiTitle": "Gazi Hoca Camii"
+    "wikiTitle": "Gazi Hoca Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4416609",
@@ -317,7 +356,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.682778,
     "lon": 26.555,
-    "wikiTitle": "Beylerbeyi Camii (Edirne)"
+    "wikiTitle": "Beylerbeyi Camii (Edirne)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4422491",
@@ -325,7 +365,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.676389,
     "lon": 26.563333,
-    "wikiTitle": "Yahya Bey Camii"
+    "wikiTitle": "Yahya Bey Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4415633",
@@ -333,7 +374,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 41.672778,
     "lon": 26.561667,
-    "wikiTitle": "Defterdar Mustafa Paşa Camii"
+    "wikiTitle": "Defterdar Mustafa Paşa Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2445200",
@@ -341,7 +383,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.183889,
     "lon": 29.064167,
-    "wikiTitle": "Orhan Gazi Camii (Bursa)"
+    "wikiTitle": "Orhan Gazi Camii (Bursa)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/130172",
@@ -349,7 +392,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 40.184444,
     "lon": 29.063611,
-    "wikiTitle": "Koza Han"
+    "wikiTitle": "Koza Han",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4416786",
@@ -357,7 +401,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.182778,
     "lon": 29.061944,
-    "wikiTitle": "Şeker Hoca Camii"
+    "wikiTitle": "Şeker Hoca Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2350884",
@@ -365,7 +410,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.183889,
     "lon": 29.061944,
-    "wikiTitle": "Yeşil Külliye"
+    "wikiTitle": "Yeşil Külliye",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/127564",
@@ -373,7 +419,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.183889,
     "lon": 29.061944,
-    "wikiTitle": "Bursa Ulu Camii"
+    "wikiTitle": "Bursa Ulu Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2303657",
@@ -381,7 +428,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 40.185278,
     "lon": 29.060833,
-    "wikiTitle": "İpek Han"
+    "wikiTitle": "İpek Han",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/3514552",
@@ -389,7 +437,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.177778,
     "lon": 29.071389,
-    "wikiTitle": "Umurbey Camii"
+    "wikiTitle": "Umurbey Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4466863",
@@ -397,7 +446,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.185833,
     "lon": 29.073333,
-    "wikiTitle": "Sittî Hatun Camii"
+    "wikiTitle": "Sittî Hatun Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/1340189",
@@ -405,7 +455,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.182222,
     "lon": 29.074722,
-    "wikiTitle": "Yeşil Cami (Bursa)"
+    "wikiTitle": "Yeşil Cami (Bursa)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2303503",
@@ -413,7 +464,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 40.185,
     "lon": 29.058611,
-    "wikiTitle": "Balibey Han"
+    "wikiTitle": "Balibey Han",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4419979",
@@ -421,7 +473,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.1875,
     "lon": 29.060833,
-    "wikiTitle": "Şehreküstü Camii"
+    "wikiTitle": "Şehreküstü Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4419995",
@@ -429,7 +482,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.188333,
     "lon": 29.071667,
-    "wikiTitle": "Timurtaş Paşa Camii (Bursa)"
+    "wikiTitle": "Timurtaş Paşa Camii (Bursa)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4467057",
@@ -437,7 +491,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.185556,
     "lon": 29.075,
-    "wikiTitle": "Hatice İsfendiyar Camii"
+    "wikiTitle": "Hatice İsfendiyar Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4468193",
@@ -445,7 +500,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.177778,
     "lon": 29.058889,
-    "wikiTitle": "Somuncu Baba Camii (Bursa)"
+    "wikiTitle": "Somuncu Baba Camii (Bursa)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2054768",
@@ -453,7 +509,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.185,
     "lon": 29.056389,
-    "wikiTitle": "Veled-i Yaniç Camii"
+    "wikiTitle": "Veled-i Yaniç Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4618488",
@@ -461,7 +518,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.189722,
     "lon": 29.061111,
-    "wikiTitle": "Sülüklü Camii"
+    "wikiTitle": "Sülüklü Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4436267",
@@ -469,7 +527,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.177778,
     "lon": 29.075556,
-    "wikiTitle": "Namazgâh Camii (Bursa)"
+    "wikiTitle": "Namazgâh Camii (Bursa)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/237756",
@@ -477,7 +536,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.186389,
     "lon": 29.056111,
-    "wikiTitle": "Şehadet Camii"
+    "wikiTitle": "Şehadet Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/1589176",
@@ -485,7 +545,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.181111,
     "lon": 29.080833,
-    "wikiTitle": "Hacı Özbek Camii"
+    "wikiTitle": "Hacı Özbek Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/237732",
@@ -493,7 +554,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 40.181111,
     "lon": 29.081111,
-    "wikiTitle": "Emir Sultan Camii"
+    "wikiTitle": "Emir Sultan Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/117807",
@@ -501,7 +563,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 37.952222,
     "lon": 27.365833,
-    "wikiTitle": "İsa Bey Camii"
+    "wikiTitle": "İsa Bey Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4629348",
@@ -509,7 +572,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 38.609722,
     "lon": 34.896389,
-    "wikiTitle": "Sarıca Kilise"
+    "wikiTitle": "Sarıca Kilise",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2740772",
@@ -517,7 +581,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 38.632778,
     "lon": 34.910278,
-    "wikiTitle": "Karamanoğlu Camii"
+    "wikiTitle": "Karamanoğlu Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4096718",
@@ -525,7 +590,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 38.710556,
     "lon": 34.835,
-    "wikiTitle": "Güray Müze"
+    "wikiTitle": "Güray Müze",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2740768",
@@ -533,7 +599,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 38.719167,
     "lon": 34.847222,
-    "wikiTitle": "Avanos Ulu Camii"
+    "wikiTitle": "Avanos Ulu Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4623608",
@@ -541,7 +608,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 38.583333,
     "lon": 34.894167,
-    "wikiTitle": "Şeyh Ali Camii (Nevşehir)"
+    "wikiTitle": "Şeyh Ali Camii (Nevşehir)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/4623854",
@@ -549,7 +617,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 38.584444,
     "lon": 34.898056,
-    "wikiTitle": "Mustafapaşa Cami-i Kebir"
+    "wikiTitle": "Mustafapaşa Cami-i Kebir",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-tr/2740793",
@@ -557,7 +626,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 37.151389,
     "lon": 38.79,
-    "wikiTitle": "Şanlıurfa Ulu Camii"
+    "wikiTitle": "Şanlıurfa Ulu Camii",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/4657098",
@@ -565,7 +635,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 41.89,
     "lon": 12.49,
-    "wikiTitle": "Flavian Palace"
+    "wikiTitle": "Flavian Palace",
+    "region": "europe"
   },
   {
     "id": "w-en/2744441",
@@ -573,7 +644,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.890833,
     "lon": 12.489722,
-    "wikiTitle": "Temple of Venus and Roma"
+    "wikiTitle": "Temple of Venus and Roma",
+    "region": "europe"
   },
   {
     "id": "w-en/46971066",
@@ -581,7 +653,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.887594,
     "lon": 12.493367,
-    "wikiTitle": "Temple of Claudius"
+    "wikiTitle": "Temple of Claudius",
+    "region": "europe"
   },
   {
     "id": "w-en/5530749",
@@ -589,7 +662,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 41.8919,
     "lon": 12.4883,
-    "wikiTitle": "Basilica of Maxentius"
+    "wikiTitle": "Basilica of Maxentius",
+    "region": "europe"
   },
   {
     "id": "w-en/65670848",
@@ -597,7 +671,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 41.888889,
     "lon": 12.4875,
-    "wikiTitle": "Palatine Museum"
+    "wikiTitle": "Palatine Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/31386912",
@@ -605,7 +680,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 41.8939,
     "lon": 12.4934,
-    "wikiTitle": "Tomb of Pope Julius II"
+    "wikiTitle": "Tomb of Pope Julius II",
+    "region": "europe"
   },
   {
     "id": "w-en/8269670",
@@ -613,7 +689,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.892,
     "lon": 12.4874,
-    "wikiTitle": "Temple of Jupiter Stator (3rd century BC)"
+    "wikiTitle": "Temple of Jupiter Stator (3rd century BC)",
+    "region": "europe"
   },
   {
     "id": "w-en/7622300",
@@ -621,7 +698,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.89262,
     "lon": 12.48761,
-    "wikiTitle": "Temple of Peace, Rome"
+    "wikiTitle": "Temple of Peace, Rome",
+    "region": "europe"
   },
   {
     "id": "w-en/4637832",
@@ -629,7 +707,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.892139,
     "lon": 12.486689,
-    "wikiTitle": "Temple of Antoninus and Faustina"
+    "wikiTitle": "Temple of Antoninus and Faustina",
+    "region": "europe"
   },
   {
     "id": "w-en/48577871",
@@ -637,7 +716,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 41.88876,
     "lon": 12.48641,
-    "wikiTitle": "Palace of Domitian"
+    "wikiTitle": "Palace of Domitian",
+    "region": "europe"
   },
   {
     "id": "w-en/1714741",
@@ -645,7 +725,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.891943,
     "lon": 12.486246,
-    "wikiTitle": "Temple of Caesar"
+    "wikiTitle": "Temple of Caesar",
+    "region": "europe"
   },
   {
     "id": "w-en/1969054",
@@ -653,7 +734,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.891667,
     "lon": 12.486111,
-    "wikiTitle": "Temple of Vesta"
+    "wikiTitle": "Temple of Vesta",
+    "region": "europe"
   },
   {
     "id": "w-en/1726947",
@@ -661,7 +743,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 41.892554,
     "lon": 12.48623,
-    "wikiTitle": "Basilica Aemilia"
+    "wikiTitle": "Basilica Aemilia",
+    "region": "europe"
   },
   {
     "id": "w-en/8823431",
@@ -669,7 +752,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.8888,
     "lon": 12.4857,
-    "wikiTitle": "Temple of Apollo Palatinus"
+    "wikiTitle": "Temple of Apollo Palatinus",
+    "region": "europe"
   },
   {
     "id": "w-en/9508059",
@@ -677,7 +761,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 41.89261,
     "lon": 12.48611,
-    "wikiTitle": "Basilica Fulvia"
+    "wikiTitle": "Basilica Fulvia",
+    "region": "europe"
   },
   {
     "id": "w-en/2068718",
@@ -685,7 +770,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.891667,
     "lon": 12.485556,
-    "wikiTitle": "Temple of Castor and Pollux"
+    "wikiTitle": "Temple of Castor and Pollux",
+    "region": "europe"
   },
   {
     "id": "w-en/8871878",
@@ -693,7 +779,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.889444,
     "lon": 12.485111,
-    "wikiTitle": "Temple of Victory"
+    "wikiTitle": "Temple of Victory",
+    "region": "europe"
   },
   {
     "id": "w-en/4139084",
@@ -701,7 +788,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.893889,
     "lon": 12.486944,
-    "wikiTitle": "Temple of Mars Ultor"
+    "wikiTitle": "Temple of Mars Ultor",
+    "region": "europe"
   },
   {
     "id": "w-en/8872012",
@@ -709,7 +797,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.889444,
     "lon": 12.485,
-    "wikiTitle": "Temple of Cybele (Palatine)"
+    "wikiTitle": "Temple of Cybele (Palatine)",
+    "region": "europe"
   },
   {
     "id": "w-en/4307791",
@@ -717,7 +806,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.892981,
     "lon": 12.485722,
-    "wikiTitle": "Temple of Janus (Roman Forum)"
+    "wikiTitle": "Temple of Janus (Roman Forum)",
+    "region": "europe"
   },
   {
     "id": "w-en/48713140",
@@ -725,7 +815,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.8896,
     "lon": 12.4846,
-    "wikiTitle": "Temple of Juno Sospita (Palatine)"
+    "wikiTitle": "Temple of Juno Sospita (Palatine)",
+    "region": "europe"
   },
   {
     "id": "w-en/1502079",
@@ -733,7 +824,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 41.89195,
     "lon": 12.48478,
-    "wikiTitle": "Basilica Julia"
+    "wikiTitle": "Basilica Julia",
+    "region": "europe"
   },
   {
     "id": "w-en/12609717",
@@ -741,7 +833,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 41.891616,
     "lon": 12.484471,
-    "wikiTitle": "Temple of Divus Augustus"
+    "wikiTitle": "Temple of Divus Augustus",
+    "region": "europe"
   },
   {
     "id": "w-en/57154857",
@@ -749,7 +842,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 41.892639,
     "lon": 12.484611,
-    "wikiTitle": "Five-Columns Monument"
+    "wikiTitle": "Five-Columns Monument",
+    "region": "europe"
   },
   {
     "id": "w-en/70401939",
@@ -757,7 +851,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.9714,
     "lon": 23.7263,
-    "wikiTitle": "Church of Panagia Atheniotissa"
+    "wikiTitle": "Church of Panagia Atheniotissa",
+    "region": "europe"
   },
   {
     "id": "w-en/43095349",
@@ -765,7 +860,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tower",
     "lat": 37.97156,
     "lon": 23.72508,
-    "wikiTitle": "Frankish Tower (Acropolis of Athens)"
+    "wikiTitle": "Frankish Tower (Acropolis of Athens)",
+    "region": "europe"
   },
   {
     "id": "w-en/488414",
@@ -773,7 +869,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9715,
     "lon": 23.7249,
-    "wikiTitle": "Temple of Athena Nike"
+    "wikiTitle": "Temple of Athena Nike",
+    "region": "europe"
   },
   {
     "id": "w-en/10109465",
@@ -781,7 +878,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9715,
     "lon": 23.7267,
-    "wikiTitle": "Old Temple of Athena"
+    "wikiTitle": "Old Temple of Athena",
+    "region": "europe"
   },
   {
     "id": "w-en/22991633",
@@ -789,7 +887,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9718,
     "lon": 23.7273,
-    "wikiTitle": "Sanctuary of Zeus Polieus"
+    "wikiTitle": "Sanctuary of Zeus Polieus",
+    "region": "europe"
   },
   {
     "id": "w-en/16811674",
@@ -797,7 +896,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.972861,
     "lon": 23.725889,
-    "wikiTitle": "Museum of Pavlos and Alexandra Kanellopoulou"
+    "wikiTitle": "Museum of Pavlos and Alexandra Kanellopoulou",
+    "region": "europe"
   },
   {
     "id": "w-en/62076342",
@@ -805,7 +905,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 37.971111,
     "lon": 23.7275,
-    "wikiTitle": "Choragic Monument of Thrasyllos"
+    "wikiTitle": "Choragic Monument of Thrasyllos",
+    "region": "europe"
   },
   {
     "id": "w-en/62096361",
@@ -813,7 +914,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 37.970278,
     "lon": 23.726944,
-    "wikiTitle": "Choragic Monument of Nikias"
+    "wikiTitle": "Choragic Monument of Nikias",
+    "region": "europe"
   },
   {
     "id": "w-en/22991679",
@@ -821,7 +923,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9714,
     "lon": 23.728,
-    "wikiTitle": "Sanctuary of Pandion"
+    "wikiTitle": "Sanctuary of Pandion",
+    "region": "europe"
   },
   {
     "id": "w-en/7972275",
@@ -829,7 +932,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.971,
     "lon": 23.728,
-    "wikiTitle": "Old Acropolis Museum"
+    "wikiTitle": "Old Acropolis Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/16811588",
@@ -837,7 +941,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.969139,
     "lon": 23.7267,
-    "wikiTitle": "Ilias Lalaounis Jewelry Museum"
+    "wikiTitle": "Ilias Lalaounis Jewelry Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/21459344",
@@ -845,7 +950,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.9741,
     "lon": 23.72396,
-    "wikiTitle": "Church of the Holy Apostles, Athens"
+    "wikiTitle": "Church of the Holy Apostles, Athens",
+    "region": "europe"
   },
   {
     "id": "w-en/300007",
@@ -853,7 +959,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tower",
     "lat": 37.974256,
     "lon": 23.72707,
-    "wikiTitle": "Tower of the Winds"
+    "wikiTitle": "Tower of the Winds",
+    "region": "europe"
   },
   {
     "id": "w-en/31453079",
@@ -861,7 +968,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 37.974444,
     "lon": 23.726944,
-    "wikiTitle": "Fethiye Mosque (Athens)"
+    "wikiTitle": "Fethiye Mosque (Athens)",
+    "region": "europe"
   },
   {
     "id": "w-en/10944017",
@@ -869,7 +977,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.969108,
     "lon": 23.728299,
-    "wikiTitle": "Acropolis Museum"
+    "wikiTitle": "Acropolis Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/16811875",
@@ -877,7 +986,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.974389,
     "lon": 23.727444,
-    "wikiTitle": "Museum of Greek Folk Musical Instruments"
+    "wikiTitle": "Museum of Greek Folk Musical Instruments",
+    "region": "europe"
   },
   {
     "id": "w-en/1716924",
@@ -885,7 +995,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 37.970833,
     "lon": 23.73,
-    "wikiTitle": "Choragic Monument of Lysicrates"
+    "wikiTitle": "Choragic Monument of Lysicrates",
+    "region": "europe"
   },
   {
     "id": "w-en/16811689",
@@ -893,7 +1004,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.968894,
     "lon": 23.728881,
-    "wikiTitle": "Museum of the Center for the Acropolis Studies"
+    "wikiTitle": "Museum of the Center for the Acropolis Studies",
+    "region": "europe"
   },
   {
     "id": "w-en/22103023",
@@ -901,7 +1013,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "synagogue",
     "lat": 37.9747,
     "lon": 23.7222,
-    "wikiTitle": "Synagogue in the Agora of Athens"
+    "wikiTitle": "Synagogue in the Agora of Athens",
+    "region": "europe"
   },
   {
     "id": "w-en/17717384",
@@ -909,7 +1022,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 37.975056,
     "lon": 23.722361,
-    "wikiTitle": "Monument of the Eponymous Heroes"
+    "wikiTitle": "Monument of the Eponymous Heroes",
+    "region": "europe"
   },
   {
     "id": "w-en/16811818",
@@ -917,7 +1031,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 37.97597,
     "lon": 23.72602,
-    "wikiTitle": "Tzistarakis Mosque"
+    "wikiTitle": "Tzistarakis Mosque",
+    "region": "europe"
   },
   {
     "id": "w-en/9819471",
@@ -925,7 +1040,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9755,
     "lon": 23.7228,
-    "wikiTitle": "Temple of Ares"
+    "wikiTitle": "Temple of Ares",
+    "region": "europe"
   },
   {
     "id": "w-en/75130584",
@@ -933,7 +1049,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9755,
     "lon": 23.7228,
-    "wikiTitle": "Southwest Temple"
+    "wikiTitle": "Southwest Temple",
+    "region": "europe"
   },
   {
     "id": "w-en/75177128",
@@ -941,7 +1058,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.9755,
     "lon": 23.7228,
-    "wikiTitle": "Southeast Temple"
+    "wikiTitle": "Southeast Temple",
+    "region": "europe"
   },
   {
     "id": "w-en/16811887",
@@ -949,7 +1067,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.972222,
     "lon": 23.731667,
-    "wikiTitle": "Hellenic Children's Museum"
+    "wikiTitle": "Hellenic Children's Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/17755791",
@@ -957,7 +1076,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 37.975542,
     "lon": 23.722099,
-    "wikiTitle": "Temple of Apollo Patroos"
+    "wikiTitle": "Temple of Apollo Patroos",
+    "region": "europe"
   },
   {
     "id": "w-en/36173552",
@@ -965,7 +1085,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.9765,
     "lon": 23.7261,
-    "wikiTitle": "Church of the Pantanassa, Athens"
+    "wikiTitle": "Church of the Pantanassa, Athens",
+    "region": "europe"
   },
   {
     "id": "w-en/9372378",
@@ -973,7 +1094,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.975253,
     "lon": 23.730158,
-    "wikiTitle": "Metropolitan Cathedral of Athens"
+    "wikiTitle": "Metropolitan Cathedral of Athens",
+    "region": "europe"
   },
   {
     "id": "w-en/16811580",
@@ -981,7 +1103,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.972278,
     "lon": 23.732194,
-    "wikiTitle": "Frissiras Museum"
+    "wikiTitle": "Frissiras Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/16811869",
@@ -989,7 +1112,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.972533,
     "lon": 23.732308,
-    "wikiTitle": "Museum of Greek Folk Art"
+    "wikiTitle": "Museum of Greek Folk Art",
+    "region": "europe"
   },
   {
     "id": "w-en/10499343",
@@ -997,7 +1121,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.9763,
     "lon": 23.7286,
-    "wikiTitle": "Church of Panagia Kapnikarea"
+    "wikiTitle": "Church of Panagia Kapnikarea",
+    "region": "europe"
   },
   {
     "id": "w-en/19751525",
@@ -1005,7 +1130,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 37.967427,
     "lon": 23.721183,
-    "wikiTitle": "Philopappos Monument"
+    "wikiTitle": "Philopappos Monument",
+    "region": "europe"
   },
   {
     "id": "w-en/79661080",
@@ -1013,7 +1139,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.853889,
     "lon": 2.348889,
-    "wikiTitle": "Church of Saint-Pierre-aux-Bœufs, Paris"
+    "wikiTitle": "Church of Saint-Pierre-aux-Bœufs, Paris",
+    "region": "europe"
   },
   {
     "id": "w-en/67691325",
@@ -1021,7 +1148,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.8535,
     "lon": 2.349,
-    "wikiTitle": "Church of Saint-Jean-le-Rond, Paris"
+    "wikiTitle": "Church of Saint-Jean-le-Rond, Paris",
+    "region": "europe"
   },
   {
     "id": "w-en/67654380",
@@ -1029,7 +1157,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.8534,
     "lon": 2.3488,
-    "wikiTitle": "Cathedral of Saint Étienne, Paris"
+    "wikiTitle": "Cathedral of Saint Étienne, Paris",
+    "region": "europe"
   },
   {
     "id": "w-en/66426232",
@@ -1037,7 +1166,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 48.852572,
     "lon": 2.349591,
-    "wikiTitle": "Archbishop's Palace of Paris"
+    "wikiTitle": "Archbishop's Palace of Paris",
+    "region": "europe"
   },
   {
     "id": "w-en/32742186",
@@ -1045,7 +1175,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 40.418244,
     "lon": -3.704045,
-    "wikiTitle": "Church of el Carmen (Madrid)"
+    "wikiTitle": "Church of el Carmen (Madrid)",
+    "region": "europe"
   },
   {
     "id": "w-en/23213031",
@@ -1053,7 +1184,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 40.4146,
     "lon": -3.706,
-    "wikiTitle": "Santa Cruz Palace, Madrid"
+    "wikiTitle": "Santa Cruz Palace, Madrid",
+    "region": "europe"
   },
   {
     "id": "w-en/64658823",
@@ -1061,7 +1193,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 40.414756,
     "lon": -3.700511,
-    "wikiTitle": "Monument to Federico García Lorca"
+    "wikiTitle": "Monument to Federico García Lorca",
+    "region": "europe"
   },
   {
     "id": "w-en/32707312",
@@ -1069,7 +1202,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 40.416635,
     "lon": -3.699134,
-    "wikiTitle": "Palace of marqués de Miraflores"
+    "wikiTitle": "Palace of marqués de Miraflores",
+    "region": "europe"
   },
   {
     "id": "w-en/23291827",
@@ -1077,7 +1211,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 40.4137,
     "lon": -3.7014,
-    "wikiTitle": "St Sebastian's Church, Madrid"
+    "wikiTitle": "St Sebastian's Church, Madrid",
+    "region": "europe"
   },
   {
     "id": "w-en/32707244",
@@ -1085,7 +1220,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 40.418236,
     "lon": -3.69908,
-    "wikiTitle": "Church of las Calatravas (Madrid)"
+    "wikiTitle": "Church of las Calatravas (Madrid)",
+    "region": "europe"
   },
   {
     "id": "w-en/64650327",
@@ -1093,7 +1229,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 40.412368,
     "lon": -3.704239,
-    "wikiTitle": "Monument to Mendizábal (Madrid)"
+    "wikiTitle": "Monument to Mendizábal (Madrid)",
+    "region": "europe"
   },
   {
     "id": "w-en/32714757",
@@ -1101,7 +1238,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monastery",
     "lat": 40.414798,
     "lon": -3.709825,
-    "wikiTitle": "Monastery of Corpus Christi las Carboneras"
+    "wikiTitle": "Monastery of Corpus Christi las Carboneras",
+    "region": "europe"
   },
   {
     "id": "w-en/32705494",
@@ -1109,7 +1247,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 40.414338,
     "lon": -3.697664,
-    "wikiTitle": "House-Museum of Lope de Vega"
+    "wikiTitle": "House-Museum of Lope de Vega",
+    "region": "europe"
   },
   {
     "id": "w-en/64689880",
@@ -1117,7 +1256,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 40.41512,
     "lon": -3.710399,
-    "wikiTitle": "Monument to Álvaro de Bazán (Madrid)"
+    "wikiTitle": "Monument to Álvaro de Bazán (Madrid)",
+    "region": "europe"
   },
   {
     "id": "w-en/64708027",
@@ -1125,7 +1265,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 37.175649,
     "lon": -3.597444,
-    "wikiTitle": "Monument to Isabella the Catholic (Granada)"
+    "wikiTitle": "Monument to Isabella the Catholic (Granada)",
+    "region": "europe"
   },
   {
     "id": "w-en/6722777",
@@ -1133,7 +1274,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.176,
     "lon": -3.599,
-    "wikiTitle": "Granada Cathedral"
+    "wikiTitle": "Granada Cathedral",
+    "region": "europe"
   },
   {
     "id": "w-en/68008375",
@@ -1141,7 +1283,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 37.1752,
     "lon": -3.5949,
-    "wikiTitle": "Sephardic Museum (Granada)"
+    "wikiTitle": "Sephardic Museum (Granada)",
+    "region": "europe"
   },
   {
     "id": "w-en/68009735",
@@ -1149,7 +1292,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 37.1785,
     "lon": -3.5938,
-    "wikiTitle": "Palace of the Forgotten"
+    "wikiTitle": "Palace of the Forgotten",
+    "region": "europe"
   },
   {
     "id": "w-en/8216163",
@@ -1157,7 +1301,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 37.178611,
     "lon": -3.591667,
-    "wikiTitle": "Archaeological Museum of Granada"
+    "wikiTitle": "Archaeological Museum of Granada",
+    "region": "europe"
   },
   {
     "id": "w-en/77158900",
@@ -1165,7 +1310,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.181656,
     "lon": -3.595314,
-    "wikiTitle": "Church of San Miguel Bajo"
+    "wikiTitle": "Church of San Miguel Bajo",
+    "region": "europe"
   },
   {
     "id": "w-en/6795416",
@@ -1173,7 +1319,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 37.176944,
     "lon": -3.589444,
-    "wikiTitle": "Palace of Charles V"
+    "wikiTitle": "Palace of Charles V",
+    "region": "europe"
   },
   {
     "id": "w-en/67828963",
@@ -1181,7 +1328,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 37.181417,
     "lon": -3.592,
-    "wikiTitle": "Granada Mosque"
+    "wikiTitle": "Granada Mosque",
+    "region": "europe"
   },
   {
     "id": "w-en/63293296",
@@ -1189,7 +1337,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 37.17737,
     "lon": -3.58855,
-    "wikiTitle": "Partal Palace"
+    "wikiTitle": "Partal Palace",
+    "region": "europe"
   },
   {
     "id": "w-en/73844592",
@@ -1197,7 +1346,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.182278,
     "lon": -3.591306,
-    "wikiTitle": "Church of San Salvador (Granada)"
+    "wikiTitle": "Church of San Salvador (Granada)",
+    "region": "europe"
   },
   {
     "id": "w-en/71492811",
@@ -1205,7 +1355,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 37.175833,
     "lon": -3.587139,
-    "wikiTitle": "Palace of the Convent of San Francisco"
+    "wikiTitle": "Palace of the Convent of San Francisco",
+    "region": "europe"
   },
   {
     "id": "w-en/79912936",
@@ -1213,7 +1364,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 37.178611,
     "lon": -3.586111,
-    "wikiTitle": "Church of Saint Peter and Saint Paul (Granada)"
+    "wikiTitle": "Church of Saint Peter and Saint Paul (Granada)",
+    "region": "europe"
   },
   {
     "id": "w-en/214393",
@@ -1221,7 +1373,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.2085,
     "lon": 16.373,
-    "wikiTitle": "St. Stephen's Cathedral, Vienna"
+    "wikiTitle": "St. Stephen's Cathedral, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/6518322",
@@ -1229,7 +1382,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.2075,
     "lon": 16.372778,
-    "wikiTitle": "Church of the Teutonic Order, Vienna"
+    "wikiTitle": "Church of the Teutonic Order, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/49558009",
@@ -1237,7 +1391,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 48.2092,
     "lon": 16.3731,
-    "wikiTitle": "Episcopal Palace, Vienna"
+    "wikiTitle": "Episcopal Palace, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/15131166",
@@ -1245,7 +1400,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.2061,
     "lon": 16.3744,
-    "wikiTitle": "Franciscan Church, Vienna"
+    "wikiTitle": "Franciscan Church, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/40786125",
@@ -1253,15 +1409,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 48.205556,
     "lon": 16.372778,
-    "wikiTitle": "Winter Palace of Prince Eugene"
-  },
-  {
-    "id": "w-en/20786302",
-    "name": "1981 Vienna synagogue attack",
-    "category": "synagogue",
-    "lat": 48.210556,
-    "lon": 16.376944,
-    "wikiTitle": "1981 Vienna synagogue attack"
+    "wikiTitle": "Winter Palace of Prince Eugene",
+    "region": "europe"
   },
   {
     "id": "w-en/22359436",
@@ -1269,7 +1418,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 48.207229,
     "lon": 16.369017,
-    "wikiTitle": "Jewish Museum Vienna"
+    "wikiTitle": "Jewish Museum Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/5978301",
@@ -1277,7 +1427,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.2088,
     "lon": 16.3788,
-    "wikiTitle": "Dominican Church, Vienna"
+    "wikiTitle": "Dominican Church, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/78019076",
@@ -1285,7 +1436,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.20694,
     "lon": 16.36873,
-    "wikiTitle": "Reformed City Church of Vienna"
+    "wikiTitle": "Reformed City Church of Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/19246987",
@@ -1293,7 +1445,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.205,
     "lon": 16.371111,
-    "wikiTitle": "Maltese Church, Vienna"
+    "wikiTitle": "Maltese Church, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/2738909",
@@ -1301,7 +1454,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.211944,
     "lon": 16.374444,
-    "wikiTitle": "St. Rupert's Church, Vienna"
+    "wikiTitle": "St. Rupert's Church, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/3378098",
@@ -1309,7 +1463,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.20555,
     "lon": 16.36972,
-    "wikiTitle": "Capuchin Church, Vienna"
+    "wikiTitle": "Capuchin Church, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/28724858",
@@ -1317,7 +1472,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.206533,
     "lon": 16.36848,
-    "wikiTitle": "Lutheran City Church"
+    "wikiTitle": "Lutheran City Church",
+    "region": "europe"
   },
   {
     "id": "w-en/13772397",
@@ -1325,7 +1481,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.2044,
     "lon": 16.3716,
-    "wikiTitle": "St. Anne's Church, Vienna"
+    "wikiTitle": "St. Anne's Church, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/22362449",
@@ -1333,7 +1490,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 48.205556,
     "lon": 16.368333,
-    "wikiTitle": "Austrian Theatre Museum"
+    "wikiTitle": "Austrian Theatre Museum",
+    "region": "europe"
   },
   {
     "id": "w-en/6392473",
@@ -1341,7 +1499,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 48.208056,
     "lon": 16.366944,
-    "wikiTitle": "Church of Saint Michael, Vienna"
+    "wikiTitle": "Church of Saint Michael, Vienna",
+    "region": "europe"
   },
   {
     "id": "w-en/12224",
@@ -1349,7 +1508,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.979167,
     "lon": 31.134167,
-    "wikiTitle": "Great Pyramid of Giza"
+    "wikiTitle": "Great Pyramid of Giza",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/38040282",
@@ -1357,7 +1517,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 29.978056,
     "lon": 31.134444,
-    "wikiTitle": "Giza Solar boat museum"
+    "wikiTitle": "Giza Solar boat museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/36474009",
@@ -1365,7 +1526,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.978056,
     "lon": 31.135806,
-    "wikiTitle": "Pyramid G1-d"
+    "wikiTitle": "Pyramid G1-d",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/33863310",
@@ -1373,7 +1535,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.978836,
     "lon": 31.136261,
-    "wikiTitle": "Pyramid G1-a"
+    "wikiTitle": "Pyramid G1-a",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/33863699",
@@ -1381,7 +1544,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.978333,
     "lon": 31.136111,
-    "wikiTitle": "Pyramid G1-b"
+    "wikiTitle": "Pyramid G1-b",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/33894464",
@@ -1389,7 +1553,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.97785,
     "lon": 31.136256,
-    "wikiTitle": "Pyramid G1-c"
+    "wikiTitle": "Pyramid G1-c",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/1979299",
@@ -1397,7 +1562,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.976111,
     "lon": 31.132778,
-    "wikiTitle": "Giza pyramid complex"
+    "wikiTitle": "Giza pyramid complex",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/1942584",
@@ -1405,7 +1571,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.976111,
     "lon": 31.130833,
-    "wikiTitle": "Pyramid of Khafre"
+    "wikiTitle": "Pyramid of Khafre",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/66858001",
@@ -1413,7 +1580,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.97474,
     "lon": 31.13099,
-    "wikiTitle": "Pyramid G2-a"
+    "wikiTitle": "Pyramid G2-a",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/61847009",
@@ -1421,7 +1589,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.973306,
     "lon": 31.135361,
-    "wikiTitle": "Pyramid of Khentkaus I"
+    "wikiTitle": "Pyramid of Khentkaus I",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/1970544",
@@ -1429,7 +1598,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.9725,
     "lon": 31.128333,
-    "wikiTitle": "Pyramid of Menkaure"
+    "wikiTitle": "Pyramid of Menkaure",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/66856904",
@@ -1437,7 +1607,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.971667,
     "lon": 31.128333,
-    "wikiTitle": "Pyramid G3-a"
+    "wikiTitle": "Pyramid G3-a",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/66856965",
@@ -1445,7 +1616,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.971667,
     "lon": 31.127778,
-    "wikiTitle": "Pyramid G3-b"
+    "wikiTitle": "Pyramid G3-b",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/57286419",
@@ -1453,7 +1625,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.9716,
     "lon": 31.1273,
-    "wikiTitle": "Pyramid G3-c"
+    "wikiTitle": "Pyramid G3-c",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/84482078",
@@ -1461,7 +1634,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.971111,
     "lon": 31.140556,
-    "wikiTitle": "Heit el-Ghurab (City of the Pyramid Builders)"
+    "wikiTitle": "Heit el-Ghurab (City of the Pyramid Builders)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/5359115",
@@ -1469,7 +1643,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 29.995,
     "lon": 31.1193,
-    "wikiTitle": "Grand Egyptian Museum"
+    "wikiTitle": "Grand Egyptian Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/41873307",
@@ -1477,7 +1652,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.940122,
     "lon": 31.151556,
-    "wikiTitle": "Unfinished Northern Pyramid of Zawyet El Aryan"
+    "wikiTitle": "Unfinished Northern Pyramid of Zawyet El Aryan",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/16810361",
@@ -1485,7 +1661,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 30.0049,
     "lon": 31.1851,
-    "wikiTitle": "Taha Hussein Museum"
+    "wikiTitle": "Taha Hussein Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/2898810",
@@ -1493,7 +1670,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 29.932778,
     "lon": 31.161111,
-    "wikiTitle": "Layer Pyramid"
+    "wikiTitle": "Layer Pyramid",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/60645629",
@@ -1501,7 +1679,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 30.040833,
     "lon": 31.094444,
-    "wikiTitle": "Lepsius I Pyramid"
+    "wikiTitle": "Lepsius I Pyramid",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/3246046",
@@ -1509,7 +1688,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 30.032222,
     "lon": 31.074722,
-    "wikiTitle": "Pyramid of Djedefre"
+    "wikiTitle": "Pyramid of Djedefre",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/63664945",
@@ -1517,7 +1697,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 30.007,
     "lon": 31.2247,
-    "wikiTitle": "Manasterly Palace"
+    "wikiTitle": "Manasterly Palace",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/16810251",
@@ -1525,7 +1706,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 29.9963,
     "lon": 31.2286,
-    "wikiTitle": "Egyptian Geological Museum"
+    "wikiTitle": "Egyptian Geological Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/16810204",
@@ -1533,7 +1715,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 30.021389,
     "lon": 31.2175,
-    "wikiTitle": "Ahmed Shawki Museum"
+    "wikiTitle": "Ahmed Shawki Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/16810303",
@@ -1541,7 +1724,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 30.007222,
     "lon": 31.225278,
-    "wikiTitle": "Umm Kulthum Museum"
+    "wikiTitle": "Umm Kulthum Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/13065978",
@@ -1549,15 +1733,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 30.0018,
     "lon": 31.2308,
-    "wikiTitle": "Church of the Holy Virgin (Babylon El-Darag)"
-  },
-  {
-    "id": "w-en/55685610",
-    "name": "Siege of Babylon Fortress",
-    "category": "castle",
-    "lat": 30.0061,
-    "lon": 31.2297,
-    "wikiTitle": "Siege of Babylon Fortress"
+    "wikiTitle": "Church of the Holy Virgin (Babylon El-Darag)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/12835988",
@@ -1565,7 +1742,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "castle",
     "lat": 30.006111,
     "lon": 31.229722,
-    "wikiTitle": "Babylon Fortress"
+    "wikiTitle": "Babylon Fortress",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/12835443",
@@ -1573,7 +1751,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 30.0054,
     "lon": 31.2301,
-    "wikiTitle": "Hanging Church"
+    "wikiTitle": "Hanging Church",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/21305754",
@@ -1581,7 +1760,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 30.0064,
     "lon": 31.23006,
-    "wikiTitle": "Church of St. George (Cairo)"
+    "wikiTitle": "Church of St. George (Cairo)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/12674700",
@@ -1589,7 +1769,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 30.00563,
     "lon": 31.23055,
-    "wikiTitle": "Coptic Museum"
+    "wikiTitle": "Coptic Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/11440371",
@@ -1597,7 +1778,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "synagogue",
     "lat": 30.00581,
     "lon": 31.23097,
-    "wikiTitle": "Ben Ezra Synagogue"
+    "wikiTitle": "Ben Ezra Synagogue",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/19030942",
@@ -1605,7 +1787,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 30.0057,
     "lon": 31.2311,
-    "wikiTitle": "Saint Barbara Church in Coptic Cairo"
+    "wikiTitle": "Saint Barbara Church in Coptic Cairo",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/18974245",
@@ -1613,7 +1796,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 30.006389,
     "lon": 31.231667,
-    "wikiTitle": "Church of Saint Menas (Cairo)"
+    "wikiTitle": "Church of Saint Menas (Cairo)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/4341677",
@@ -1621,7 +1805,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 25.7195,
     "lon": 32.6574,
-    "wikiTitle": "Karnak Open Air Museum"
+    "wikiTitle": "Karnak Open Air Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/2052707",
@@ -1629,7 +1814,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.7182,
     "lon": 32.6582,
-    "wikiTitle": "Temple of Amenhotep IV"
+    "wikiTitle": "Temple of Amenhotep IV",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/8191269",
@@ -1637,7 +1823,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.7196,
     "lon": 32.6597,
-    "wikiTitle": "Temple of Ptah (Karnak)"
+    "wikiTitle": "Temple of Ptah (Karnak)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/8191337",
@@ -1645,7 +1832,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.716667,
     "lon": 32.655833,
-    "wikiTitle": "Temple of Khonsu"
+    "wikiTitle": "Temple of Khonsu",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/1776608",
@@ -1653,7 +1841,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 25.7075,
     "lon": 32.644722,
-    "wikiTitle": "Luxor Museum"
+    "wikiTitle": "Luxor Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/918219",
@@ -1661,7 +1850,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 25.702222,
     "lon": 32.639722,
-    "wikiTitle": "Mummification Museum"
+    "wikiTitle": "Mummification Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/2957308",
@@ -1669,7 +1859,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 25.7,
     "lon": 32.639444,
-    "wikiTitle": "Abu Haggag Mosque"
+    "wikiTitle": "Abu Haggag Mosque",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/9527123",
@@ -1677,7 +1868,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.732778,
     "lon": 32.628056,
-    "wikiTitle": "Mortuary Temple of Seti I"
+    "wikiTitle": "Mortuary Temple of Seti I",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/84296072",
@@ -1685,7 +1877,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 25.737043,
     "lon": 32.624022,
-    "wikiTitle": "Pyramid of Nubkheperre Intef"
+    "wikiTitle": "Pyramid of Nubkheperre Intef",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/83172007",
@@ -1693,7 +1886,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.730278,
     "lon": 32.615278,
-    "wikiTitle": "Mortuary temple of Thutmose I"
+    "wikiTitle": "Mortuary temple of Thutmose I",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/3255630",
@@ -1701,7 +1895,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.721,
     "lon": 32.61,
-    "wikiTitle": "Mortuary Temple of Amenhotep III"
+    "wikiTitle": "Mortuary Temple of Amenhotep III",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/15496978",
@@ -1709,7 +1904,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 25.7346,
     "lon": 32.6122,
-    "wikiTitle": "TT33 (tomb)"
+    "wikiTitle": "TT33 (tomb)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/83110974",
@@ -1717,7 +1913,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.725002,
     "lon": 32.606572,
-    "wikiTitle": "Mortuary Temple of Merneptah"
+    "wikiTitle": "Mortuary Temple of Merneptah",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/16429736",
@@ -1725,7 +1922,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monastery",
     "lat": 25.734167,
     "lon": 32.608333,
-    "wikiTitle": "Monastery of Saint Epiphanius"
+    "wikiTitle": "Monastery of Saint Epiphanius",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/12936708",
@@ -1733,7 +1931,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.738278,
     "lon": 32.606583,
-    "wikiTitle": "Mortuary temple of Hatshepsut"
+    "wikiTitle": "Mortuary temple of Hatshepsut",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/33862680",
@@ -1741,7 +1940,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.734239,
     "lon": 32.710172,
-    "wikiTitle": "Temple of Montu (Medamud)"
+    "wikiTitle": "Temple of Montu (Medamud)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/83158790",
@@ -1749,7 +1949,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.721796,
     "lon": 32.601201,
-    "wikiTitle": "Mortuary Temple of Ay and Horemheb"
+    "wikiTitle": "Mortuary Temple of Ay and Horemheb",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/79227863",
@@ -1757,7 +1958,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 25.735311,
     "lon": 32.60404,
-    "wikiTitle": "Tomb of Wah"
+    "wikiTitle": "Tomb of Wah",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/17377615",
@@ -1765,7 +1967,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 25.729039,
     "lon": 32.600639,
-    "wikiTitle": "Tomb of Kha and Merit"
+    "wikiTitle": "Tomb of Kha and Merit",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/83256894",
@@ -1773,7 +1976,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 25.73375,
     "lon": 32.601639,
-    "wikiTitle": "Mortuary Temple of Mentuhotep III"
+    "wikiTitle": "Mortuary Temple of Mentuhotep III",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/60762579",
@@ -1781,7 +1985,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 30.3288,
     "lon": 35.4423,
-    "wikiTitle": "Great Temple (Petra)"
+    "wikiTitle": "Great Temple (Petra)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/60756571",
@@ -1789,7 +1994,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 30.33036,
     "lon": 35.44254,
-    "wikiTitle": "Temple of the Winged Lions"
+    "wikiTitle": "Temple of the Winged Lions",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/64267482",
@@ -1797,7 +2003,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "castle",
     "lat": 30.333056,
     "lon": 35.465833,
-    "wikiTitle": "Wu'ayra Castle"
+    "wikiTitle": "Wu'ayra Castle",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/66506675",
@@ -1805,7 +2012,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 30.3246,
     "lon": 35.46797,
-    "wikiTitle": "Old Petra Museum"
+    "wikiTitle": "Old Petra Museum",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/18411283",
@@ -1813,7 +2021,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 30.31697,
     "lon": 35.40636,
-    "wikiTitle": "Tomb of Aaron (Jordan)"
+    "wikiTitle": "Tomb of Aaron (Jordan)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/31296552",
@@ -1821,7 +2030,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "archaeological_site",
     "lat": 30.37078,
     "lon": 35.447756,
-    "wikiTitle": "Beidha (archaeological site)"
+    "wikiTitle": "Beidha (archaeological site)",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/34787313",
@@ -1829,7 +2039,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 29.988889,
     "lon": 52.874722,
-    "wikiTitle": "Tomb of Darius the Great"
+    "wikiTitle": "Tomb of Darius the Great",
+    "region": "middle-east-anatolia"
   },
   {
     "id": "w-en/83265927",
@@ -1837,7 +2048,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 27.175612,
     "lon": 78.044128,
-    "wikiTitle": "Tomb of Sirhindi Begum"
+    "wikiTitle": "Tomb of Sirhindi Begum",
+    "region": "asia"
   },
   {
     "id": "w-en/83278404",
@@ -1845,7 +2057,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 27.17069,
     "lon": 78.04074,
-    "wikiTitle": "Tomb of Fatehpuri Begum"
+    "wikiTitle": "Tomb of Fatehpuri Begum",
+    "region": "asia"
   },
   {
     "id": "w-en/21504167",
@@ -1853,7 +2066,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 27.182497,
     "lon": 78.039401,
-    "wikiTitle": "Humayun Mosque"
+    "wikiTitle": "Humayun Mosque",
+    "region": "asia"
   },
   {
     "id": "w-en/20694995",
@@ -1861,7 +2075,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 27.178833,
     "lon": 78.022944,
-    "wikiTitle": "Mina Mosque"
+    "wikiTitle": "Mina Mosque",
+    "region": "asia"
   },
   {
     "id": "w-en/19552420",
@@ -1869,7 +2084,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "mosque",
     "lat": 27.182056,
     "lon": 78.016194,
-    "wikiTitle": "Jama Mosque, Agra"
+    "wikiTitle": "Jama Mosque, Agra",
+    "region": "asia"
   },
   {
     "id": "w-en/54390754",
@@ -1877,7 +2093,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 27.197342,
     "lon": 78.010397,
-    "wikiTitle": "Akbar's Church"
+    "wikiTitle": "Akbar's Church",
+    "region": "asia"
   },
   {
     "id": "w-en/75136322",
@@ -1885,7 +2102,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "tomb",
     "lat": 27.1379,
     "lon": 78.002,
-    "wikiTitle": "Tomb of Firoz Khan"
+    "wikiTitle": "Tomb of Firoz Khan",
+    "region": "asia"
   },
   {
     "id": "w-en/68144438",
@@ -1893,7 +2111,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 13.382114,
     "lon": 103.88079,
-    "wikiTitle": "Preah Norodom Sihanouk-Angkor Museum"
+    "wikiTitle": "Preah Norodom Sihanouk-Angkor Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/55301503",
@@ -1901,7 +2120,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 13.445556,
     "lon": 103.855833,
-    "wikiTitle": "The Royal Palace, Angkor Thom"
+    "wikiTitle": "The Royal Palace, Angkor Thom",
+    "region": "asia"
   },
   {
     "id": "w-en/70100022",
@@ -1909,7 +2129,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 13.377594,
     "lon": 103.88065,
-    "wikiTitle": "Angkor Panorama Museum"
+    "wikiTitle": "Angkor Panorama Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/70283604",
@@ -1917,7 +2138,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 13.375373,
     "lon": 103.880242,
-    "wikiTitle": "MGC Asian Traditional Textiles Museum"
+    "wikiTitle": "MGC Asian Traditional Textiles Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/40852905",
@@ -1925,7 +2147,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 13.3666,
     "lon": 103.8599,
-    "wikiTitle": "Angkor National Museum"
+    "wikiTitle": "Angkor National Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/73241351",
@@ -1933,7 +2156,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.91887,
     "lon": 116.39241,
-    "wikiTitle": "Palace of Prolonging Happiness"
+    "wikiTitle": "Palace of Prolonging Happiness",
+    "region": "asia"
   },
   {
     "id": "w-en/341991",
@@ -1941,7 +2165,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.916944,
     "lon": 116.390833,
-    "wikiTitle": "Palace Museum"
+    "wikiTitle": "Palace Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/4790556",
@@ -1949,7 +2174,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.91877,
     "lon": 116.39075,
-    "wikiTitle": "Palace of Heavenly Purity"
+    "wikiTitle": "Palace of Heavenly Purity",
+    "region": "asia"
   },
   {
     "id": "w-en/12819617",
@@ -1957,7 +2183,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.919389,
     "lon": 116.390472,
-    "wikiTitle": "Palace of Earthly Tranquility"
+    "wikiTitle": "Palace of Earthly Tranquility",
+    "region": "asia"
   },
   {
     "id": "w-en/64946060",
@@ -1965,7 +2192,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.91886,
     "lon": 116.38959,
-    "wikiTitle": "Palace of Eternal Longevity"
+    "wikiTitle": "Palace of Eternal Longevity",
+    "region": "asia"
   },
   {
     "id": "w-en/65470748",
@@ -1973,7 +2201,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.9193,
     "lon": 116.3896,
-    "wikiTitle": "Palace of Earthly Honour"
+    "wikiTitle": "Palace of Earthly Honour",
+    "region": "asia"
   },
   {
     "id": "w-en/19135274",
@@ -1981,7 +2210,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 39.915833,
     "lon": 116.405833,
-    "wikiTitle": "St. Joseph's Church, Beijing"
+    "wikiTitle": "St. Joseph's Church, Beijing",
+    "region": "asia"
   },
   {
     "id": "w-en/15998626",
@@ -1989,7 +2219,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 39.909964,
     "lon": 116.393542,
-    "wikiTitle": "Imperial Ancestral Temple"
+    "wikiTitle": "Imperial Ancestral Temple",
+    "region": "asia"
   },
   {
     "id": "w-en/65469974",
@@ -1997,7 +2228,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.9193,
     "lon": 116.3889,
-    "wikiTitle": "Palace of Eternal Spring"
+    "wikiTitle": "Palace of Eternal Spring",
+    "region": "asia"
   },
   {
     "id": "w-en/65478826",
@@ -2005,7 +2237,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 39.91976,
     "lon": 116.38892,
-    "wikiTitle": "Palace of Universal Happiness"
+    "wikiTitle": "Palace of Universal Happiness",
+    "region": "asia"
   },
   {
     "id": "w-en/41673736",
@@ -2013,7 +2246,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": 39.9225,
     "lon": 116.4031,
-    "wikiTitle": "Xuanren Temple"
+    "wikiTitle": "Xuanren Temple",
+    "region": "asia"
   },
   {
     "id": "w-en/17682025",
@@ -2021,7 +2255,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 39.923611,
     "lon": 116.402778,
-    "wikiTitle": "National Art Museum of China"
+    "wikiTitle": "National Art Museum of China",
+    "region": "asia"
   },
   {
     "id": "w-en/4478888",
@@ -2029,7 +2264,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 39.9036,
     "lon": 116.395,
-    "wikiTitle": "National Museum of China"
+    "wikiTitle": "National Museum of China",
+    "region": "asia"
   },
   {
     "id": "w-en/553605",
@@ -2037,15 +2273,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 39.903056,
     "lon": 116.391667,
-    "wikiTitle": "Monument to the People's Heroes"
-  },
-  {
-    "id": "w-en/1569098",
-    "name": "Siege of Sanjō Palace",
-    "category": "palace",
-    "lat": 35.0116,
-    "lon": 135.768,
-    "wikiTitle": "Siege of Sanjō Palace"
+    "wikiTitle": "Monument to the People's Heroes",
+    "region": "asia"
   },
   {
     "id": "w-en/50921429",
@@ -2053,7 +2282,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 35.0097,
     "lon": 135.7694,
-    "wikiTitle": "St. Francis Xavier Cathedral, Kyoto"
+    "wikiTitle": "St. Francis Xavier Cathedral, Kyoto",
+    "region": "asia"
   },
   {
     "id": "w-en/61592832",
@@ -2061,7 +2291,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 35.009389,
     "lon": 135.762333,
-    "wikiTitle": "Museum of Kyoto"
+    "wikiTitle": "Museum of Kyoto",
+    "region": "asia"
   },
   {
     "id": "w-en/14845316",
@@ -2069,7 +2300,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 35.011649,
     "lon": 135.759243,
-    "wikiTitle": "Kyoto International Manga Museum"
+    "wikiTitle": "Kyoto International Manga Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/48347851",
@@ -2077,7 +2309,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 35.0138,
     "lon": 135.779649,
-    "wikiTitle": "Hosomi Museum"
+    "wikiTitle": "Hosomi Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/61786599",
@@ -2085,7 +2318,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 35.011728,
     "lon": 135.781269,
-    "wikiTitle": "Yūrinkan Museum"
+    "wikiTitle": "Yūrinkan Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/22737744",
@@ -2093,14 +2327,17 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 35.019778,
     "lon": 135.759028,
-    "wikiTitle": "St. Agnes Cathedral (Kyoto)"
+    "wikiTitle": "St. Agnes Cathedral (Kyoto)",
+    "region": "asia"
   },
   {
     "id": "w-en/13116922",
     "name": "Sentō Imperial Palace",
     "category": "palace",
     "lat": 35.023303,
-"wikiTitle": "Sentō Imperial Palace"
+    "lon": 135.763292,
+    "wikiTitle": "Sentō Imperial Palace",
+    "region": "asia"
   },
   {
     "id": "w-en/7107624",
@@ -2108,7 +2345,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 35.012836,
     "lon": 135.783569,
-    "wikiTitle": "Kyoto Municipal Museum of Art"
+    "wikiTitle": "Kyoto Municipal Museum of Art",
+    "region": "asia"
   },
   {
     "id": "w-en/1559855",
@@ -2116,7 +2354,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 35.025278,
     "lon": 135.762222,
-    "wikiTitle": "Kyoto Imperial Palace"
+    "wikiTitle": "Kyoto Imperial Palace",
+    "region": "asia"
   },
   {
     "id": "w-en/62611052",
@@ -2124,7 +2363,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "bridge",
     "lat": 34.995833,
     "lon": 135.767778,
-    "wikiTitle": "Gojo Bridge"
+    "wikiTitle": "Gojo Bridge",
+    "region": "asia"
   },
   {
     "id": "w-en/48327945",
@@ -2132,7 +2372,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 35.028039,
     "lon": 135.770411,
-    "wikiTitle": "Kitamura Museum"
+    "wikiTitle": "Kitamura Museum",
+    "region": "asia"
   },
   {
     "id": "w-en/545743",
@@ -2140,7 +2381,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "castle",
     "lat": 35.014167,
     "lon": 135.7475,
-    "wikiTitle": "Nijō Castle"
+    "wikiTitle": "Nijō Castle",
+    "region": "asia"
   },
   {
     "id": "w-en/30373594",
@@ -2148,15 +2390,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 34.998944,
     "lon": 135.782639,
-    "wikiTitle": "Ryozen Museum of History"
-  },
-  {
-    "id": "w-en/44117289",
-    "name": "Belmond Sanctuary Lodge",
-    "category": "temple",
-    "lat": -13.166,
-    "lon": -72.5429,
-    "wikiTitle": "Belmond Sanctuary Lodge"
+    "wikiTitle": "Ryozen Museum of History",
+    "region": "asia"
   },
   {
     "id": "w-en/3803107",
@@ -2164,7 +2399,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": -13.152161,
     "lon": -72.546944,
-    "wikiTitle": "Temple of the Moon (Peru)"
+    "wikiTitle": "Temple of the Moon (Peru)",
+    "region": "americas"
   },
   {
     "id": "w-en/77607423",
@@ -2172,7 +2408,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "temple",
     "lat": -13.202778,
     "lon": -72.555278,
-    "wikiTitle": "Historic Sanctuary of Machu Picchu"
+    "wikiTitle": "Historic Sanctuary of Machu Picchu",
+    "region": "americas"
   },
   {
     "id": "w-en/59158122",
@@ -2180,7 +2417,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "monument",
     "lat": 19.433944,
     "lon": -99.133861,
-    "wikiTitle": "Monument to Enrico Martínez"
+    "wikiTitle": "Monument to Enrico Martínez",
+    "region": "americas"
   },
   {
     "id": "w-en/59158276",
@@ -2188,7 +2426,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.434306,
     "lon": -99.133722,
-    "wikiTitle": "Statue of Pope John Paul II (Mexico City Metropolitan Cathedral)"
+    "wikiTitle": "Statue of Pope John Paul II (Mexico City Metropolitan Cathedral)",
+    "region": "americas"
   },
   {
     "id": "w-en/5302839",
@@ -2196,7 +2435,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.434394,
     "lon": -99.133082,
-    "wikiTitle": "Mexico City Metropolitan Cathedral"
+    "wikiTitle": "Mexico City Metropolitan Cathedral",
+    "region": "americas"
   },
   {
     "id": "w-en/79868445",
@@ -2204,7 +2444,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 19.43435,
     "lon": -99.134083,
-    "wikiTitle": "Palace of Axayacatl"
+    "wikiTitle": "Palace of Axayacatl",
+    "region": "americas"
   },
   {
     "id": "w-en/84525313",
@@ -2212,15 +2453,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 19.43107,
     "lon": -99.13535,
-    "wikiTitle": "Palace of the Counts of San Bartolomé de Xala"
-  },
-  {
-    "id": "w-en/621357",
-    "name": "Massacre in the Great Temple of Tenochtitlan",
-    "category": "temple",
-    "lat": 19.435,
-    "lon": -99.1314,
-    "wikiTitle": "Massacre in the Great Temple of Tenochtitlan"
+    "wikiTitle": "Palace of the Counts of San Bartolomé de Xala",
+    "region": "americas"
   },
   {
     "id": "w-en/22486471",
@@ -2228,7 +2462,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 19.435639,
     "lon": -99.132722,
-    "wikiTitle": "Caricature Museum, Mexico City"
+    "wikiTitle": "Caricature Museum, Mexico City",
+    "region": "americas"
   },
   {
     "id": "w-en/23893776",
@@ -2236,7 +2471,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.433733,
     "lon": -99.136547,
-    "wikiTitle": "Church of San Felipe Neri \"La Profesa\""
+    "wikiTitle": "Church of San Felipe Neri \"La Profesa\"",
+    "region": "americas"
   },
   {
     "id": "w-en/22416100",
@@ -2244,7 +2480,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.436097,
     "lon": -99.132225,
-    "wikiTitle": "La Enseñanza Church"
+    "wikiTitle": "La Enseñanza Church",
+    "region": "americas"
   },
   {
     "id": "w-en/60713710",
@@ -2252,7 +2489,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.433417,
     "lon": -99.129083,
-    "wikiTitle": "Church of Santa Inés"
+    "wikiTitle": "Church of Santa Inés",
+    "region": "americas"
   },
   {
     "id": "w-en/22190866",
@@ -2260,7 +2498,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 19.433653,
     "lon": -99.128983,
-    "wikiTitle": "José Luis Cuevas Museum"
+    "wikiTitle": "José Luis Cuevas Museum",
+    "region": "americas"
   },
   {
     "id": "w-en/24695027",
@@ -2268,7 +2507,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.429408,
     "lon": -99.130433,
-    "wikiTitle": "Valvanera Cathedral, Mexico City"
+    "wikiTitle": "Valvanera Cathedral, Mexico City",
+    "region": "americas"
   },
   {
     "id": "w-en/22915889",
@@ -2276,7 +2516,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 19.437872,
     "lon": -99.133383,
-    "wikiTitle": "Palace of the Inquisition"
+    "wikiTitle": "Palace of the Inquisition",
+    "region": "americas"
   },
   {
     "id": "w-en/51590655",
@@ -2284,7 +2525,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "synagogue",
     "lat": 19.435139,
     "lon": -99.128194,
-    "wikiTitle": "Historic Synagogue Justo Sierra 71"
+    "wikiTitle": "Historic Synagogue Justo Sierra 71",
+    "region": "americas"
   },
   {
     "id": "w-en/22108807",
@@ -2292,7 +2534,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "palace",
     "lat": 19.433764,
     "lon": -99.138867,
-    "wikiTitle": "Palace of Iturbide"
+    "wikiTitle": "Palace of Iturbide",
+    "region": "americas"
   },
   {
     "id": "w-en/26417852",
@@ -2300,7 +2543,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "museum",
     "lat": 19.435417,
     "lon": -99.138417,
-    "wikiTitle": "Interactive Museum of Economics"
+    "wikiTitle": "Interactive Museum of Economics",
+    "region": "americas"
   },
   {
     "id": "w-en/22365837",
@@ -2308,7 +2552,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.433158,
     "lon": -99.126861,
-    "wikiTitle": "La Santísima Church"
+    "wikiTitle": "La Santísima Church",
+    "region": "americas"
   },
   {
     "id": "w-en/22636279",
@@ -2316,7 +2561,8 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.436303,
     "lon": -99.127644,
-    "wikiTitle": "Nuestra Señora de Loreto Church"
+    "wikiTitle": "Nuestra Señora de Loreto Church",
+    "region": "americas"
   },
   {
     "id": "w-en/52413353",
@@ -2324,6 +2570,7 @@ window.NAVRE_SEED_PLACES = [
     "category": "church",
     "lat": 19.43345,
     "lon": -99.140197,
-    "wikiTitle": "Porta Coeli Cathedral"
+    "wikiTitle": "Porta Coeli Cathedral",
+    "region": "americas"
   }
 ];

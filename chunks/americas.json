@@ -1,0 +1,182 @@
+[
+  {
+    "id": "w-en/3803107",
+    "name": "Temple of the Moon (Peru)",
+    "category": "temple",
+    "lat": -13.152161,
+    "lon": -72.546944,
+    "wikiTitle": "Temple of the Moon (Peru)",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/77607423",
+    "name": "Historic Sanctuary of Machu Picchu",
+    "category": "temple",
+    "lat": -13.202778,
+    "lon": -72.555278,
+    "wikiTitle": "Historic Sanctuary of Machu Picchu",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/59158122",
+    "name": "Monument to Enrico Martínez",
+    "category": "monument",
+    "lat": 19.433944,
+    "lon": -99.133861,
+    "wikiTitle": "Monument to Enrico Martínez",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/59158276",
+    "name": "Statue of Pope John Paul II (Mexico City Metropolitan Cathedral)",
+    "category": "church",
+    "lat": 19.434306,
+    "lon": -99.133722,
+    "wikiTitle": "Statue of Pope John Paul II (Mexico City Metropolitan Cathedral)",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/5302839",
+    "name": "Mexico City Metropolitan Cathedral",
+    "category": "church",
+    "lat": 19.434394,
+    "lon": -99.133082,
+    "wikiTitle": "Mexico City Metropolitan Cathedral",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/79868445",
+    "name": "Palace of Axayacatl",
+    "category": "palace",
+    "lat": 19.43435,
+    "lon": -99.134083,
+    "wikiTitle": "Palace of Axayacatl",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/84525313",
+    "name": "Palace of the Counts of San Bartolomé de Xala",
+    "category": "palace",
+    "lat": 19.43107,
+    "lon": -99.13535,
+    "wikiTitle": "Palace of the Counts of San Bartolomé de Xala",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22486471",
+    "name": "Caricature Museum, Mexico City",
+    "category": "museum",
+    "lat": 19.435639,
+    "lon": -99.132722,
+    "wikiTitle": "Caricature Museum, Mexico City",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/23893776",
+    "name": "Church of San Felipe Neri \"La Profesa\"",
+    "category": "church",
+    "lat": 19.433733,
+    "lon": -99.136547,
+    "wikiTitle": "Church of San Felipe Neri \"La Profesa\"",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22416100",
+    "name": "La Enseñanza Church",
+    "category": "church",
+    "lat": 19.436097,
+    "lon": -99.132225,
+    "wikiTitle": "La Enseñanza Church",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/60713710",
+    "name": "Church of Santa Inés",
+    "category": "church",
+    "lat": 19.433417,
+    "lon": -99.129083,
+    "wikiTitle": "Church of Santa Inés",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22190866",
+    "name": "José Luis Cuevas Museum",
+    "category": "museum",
+    "lat": 19.433653,
+    "lon": -99.128983,
+    "wikiTitle": "José Luis Cuevas Museum",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/24695027",
+    "name": "Valvanera Cathedral, Mexico City",
+    "category": "church",
+    "lat": 19.429408,
+    "lon": -99.130433,
+    "wikiTitle": "Valvanera Cathedral, Mexico City",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22915889",
+    "name": "Palace of the Inquisition",
+    "category": "palace",
+    "lat": 19.437872,
+    "lon": -99.133383,
+    "wikiTitle": "Palace of the Inquisition",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/51590655",
+    "name": "Historic Synagogue Justo Sierra 71",
+    "category": "synagogue",
+    "lat": 19.435139,
+    "lon": -99.128194,
+    "wikiTitle": "Historic Synagogue Justo Sierra 71",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22108807",
+    "name": "Palace of Iturbide",
+    "category": "palace",
+    "lat": 19.433764,
+    "lon": -99.138867,
+    "wikiTitle": "Palace of Iturbide",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/26417852",
+    "name": "Interactive Museum of Economics",
+    "category": "museum",
+    "lat": 19.435417,
+    "lon": -99.138417,
+    "wikiTitle": "Interactive Museum of Economics",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22365837",
+    "name": "La Santísima Church",
+    "category": "church",
+    "lat": 19.433158,
+    "lon": -99.126861,
+    "wikiTitle": "La Santísima Church",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/22636279",
+    "name": "Nuestra Señora de Loreto Church",
+    "category": "church",
+    "lat": 19.436303,
+    "lon": -99.127644,
+    "wikiTitle": "Nuestra Señora de Loreto Church",
+    "region": "americas"
+  },
+  {
+    "id": "w-en/52413353",
+    "name": "Porta Coeli Cathedral",
+    "category": "church",
+    "lat": 19.43345,
+    "lon": -99.140197,
+    "wikiTitle": "Porta Coeli Cathedral",
+    "region": "americas"
+  }
+]

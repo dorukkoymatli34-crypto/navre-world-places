@@ -1,0 +1,353 @@
+[
+  {
+    "id": "w-en/83265927",
+    "name": "Tomb of Sirhindi Begum",
+    "category": "tomb",
+    "lat": 27.175612,
+    "lon": 78.044128,
+    "wikiTitle": "Tomb of Sirhindi Begum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/83278404",
+    "name": "Tomb of Fatehpuri Begum",
+    "category": "tomb",
+    "lat": 27.17069,
+    "lon": 78.04074,
+    "wikiTitle": "Tomb of Fatehpuri Begum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/21504167",
+    "name": "Humayun Mosque",
+    "category": "mosque",
+    "lat": 27.182497,
+    "lon": 78.039401,
+    "wikiTitle": "Humayun Mosque",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/20694995",
+    "name": "Mina Mosque",
+    "category": "mosque",
+    "lat": 27.178833,
+    "lon": 78.022944,
+    "wikiTitle": "Mina Mosque",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/19552420",
+    "name": "Jama Mosque, Agra",
+    "category": "mosque",
+    "lat": 27.182056,
+    "lon": 78.016194,
+    "wikiTitle": "Jama Mosque, Agra",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/54390754",
+    "name": "Akbar's Church",
+    "category": "church",
+    "lat": 27.197342,
+    "lon": 78.010397,
+    "wikiTitle": "Akbar's Church",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/75136322",
+    "name": "Tomb of Firoz Khan",
+    "category": "tomb",
+    "lat": 27.1379,
+    "lon": 78.002,
+    "wikiTitle": "Tomb of Firoz Khan",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/68144438",
+    "name": "Preah Norodom Sihanouk-Angkor Museum",
+    "category": "museum",
+    "lat": 13.382114,
+    "lon": 103.88079,
+    "wikiTitle": "Preah Norodom Sihanouk-Angkor Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/55301503",
+    "name": "The Royal Palace, Angkor Thom",
+    "category": "palace",
+    "lat": 13.445556,
+    "lon": 103.855833,
+    "wikiTitle": "The Royal Palace, Angkor Thom",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/70100022",
+    "name": "Angkor Panorama Museum",
+    "category": "museum",
+    "lat": 13.377594,
+    "lon": 103.88065,
+    "wikiTitle": "Angkor Panorama Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/70283604",
+    "name": "MGC Asian Traditional Textiles Museum",
+    "category": "museum",
+    "lat": 13.375373,
+    "lon": 103.880242,
+    "wikiTitle": "MGC Asian Traditional Textiles Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/40852905",
+    "name": "Angkor National Museum",
+    "category": "museum",
+    "lat": 13.3666,
+    "lon": 103.8599,
+    "wikiTitle": "Angkor National Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/73241351",
+    "name": "Palace of Prolonging Happiness",
+    "category": "palace",
+    "lat": 39.91887,
+    "lon": 116.39241,
+    "wikiTitle": "Palace of Prolonging Happiness",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/341991",
+    "name": "Palace Museum",
+    "category": "palace",
+    "lat": 39.916944,
+    "lon": 116.390833,
+    "wikiTitle": "Palace Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/4790556",
+    "name": "Palace of Heavenly Purity",
+    "category": "palace",
+    "lat": 39.91877,
+    "lon": 116.39075,
+    "wikiTitle": "Palace of Heavenly Purity",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/12819617",
+    "name": "Palace of Earthly Tranquility",
+    "category": "palace",
+    "lat": 39.919389,
+    "lon": 116.390472,
+    "wikiTitle": "Palace of Earthly Tranquility",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/64946060",
+    "name": "Palace of Eternal Longevity",
+    "category": "palace",
+    "lat": 39.91886,
+    "lon": 116.38959,
+    "wikiTitle": "Palace of Eternal Longevity",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/65470748",
+    "name": "Palace of Earthly Honour",
+    "category": "palace",
+    "lat": 39.9193,
+    "lon": 116.3896,
+    "wikiTitle": "Palace of Earthly Honour",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/19135274",
+    "name": "St. Joseph's Church, Beijing",
+    "category": "church",
+    "lat": 39.915833,
+    "lon": 116.405833,
+    "wikiTitle": "St. Joseph's Church, Beijing",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/15998626",
+    "name": "Imperial Ancestral Temple",
+    "category": "temple",
+    "lat": 39.909964,
+    "lon": 116.393542,
+    "wikiTitle": "Imperial Ancestral Temple",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/65469974",
+    "name": "Palace of Eternal Spring",
+    "category": "palace",
+    "lat": 39.9193,
+    "lon": 116.3889,
+    "wikiTitle": "Palace of Eternal Spring",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/65478826",
+    "name": "Palace of Universal Happiness",
+    "category": "palace",
+    "lat": 39.91976,
+    "lon": 116.38892,
+    "wikiTitle": "Palace of Universal Happiness",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/41673736",
+    "name": "Xuanren Temple",
+    "category": "temple",
+    "lat": 39.9225,
+    "lon": 116.4031,
+    "wikiTitle": "Xuanren Temple",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/17682025",
+    "name": "National Art Museum of China",
+    "category": "museum",
+    "lat": 39.923611,
+    "lon": 116.402778,
+    "wikiTitle": "National Art Museum of China",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/4478888",
+    "name": "National Museum of China",
+    "category": "museum",
+    "lat": 39.9036,
+    "lon": 116.395,
+    "wikiTitle": "National Museum of China",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/553605",
+    "name": "Monument to the People's Heroes",
+    "category": "monument",
+    "lat": 39.903056,
+    "lon": 116.391667,
+    "wikiTitle": "Monument to the People's Heroes",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/50921429",
+    "name": "St. Francis Xavier Cathedral, Kyoto",
+    "category": "church",
+    "lat": 35.0097,
+    "lon": 135.7694,
+    "wikiTitle": "St. Francis Xavier Cathedral, Kyoto",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/61592832",
+    "name": "Museum of Kyoto",
+    "category": "museum",
+    "lat": 35.009389,
+    "lon": 135.762333,
+    "wikiTitle": "Museum of Kyoto",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/14845316",
+    "name": "Kyoto International Manga Museum",
+    "category": "museum",
+    "lat": 35.011649,
+    "lon": 135.759243,
+    "wikiTitle": "Kyoto International Manga Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/48347851",
+    "name": "Hosomi Museum",
+    "category": "museum",
+    "lat": 35.0138,
+    "lon": 135.779649,
+    "wikiTitle": "Hosomi Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/61786599",
+    "name": "Yūrinkan Museum",
+    "category": "museum",
+    "lat": 35.011728,
+    "lon": 135.781269,
+    "wikiTitle": "Yūrinkan Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/22737744",
+    "name": "St. Agnes Cathedral (Kyoto)",
+    "category": "church",
+    "lat": 35.019778,
+    "lon": 135.759028,
+    "wikiTitle": "St. Agnes Cathedral (Kyoto)",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/13116922",
+    "name": "Sentō Imperial Palace",
+    "category": "palace",
+    "lat": 35.023303,
+    "lon": 135.763292,
+    "wikiTitle": "Sentō Imperial Palace",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/7107624",
+    "name": "Kyoto Municipal Museum of Art",
+    "category": "museum",
+    "lat": 35.012836,
+    "lon": 135.783569,
+    "wikiTitle": "Kyoto Municipal Museum of Art",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/1559855",
+    "name": "Kyoto Imperial Palace",
+    "category": "palace",
+    "lat": 35.025278,
+    "lon": 135.762222,
+    "wikiTitle": "Kyoto Imperial Palace",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/62611052",
+    "name": "Gojo Bridge",
+    "category": "bridge",
+    "lat": 34.995833,
+    "lon": 135.767778,
+    "wikiTitle": "Gojo Bridge",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/48327945",
+    "name": "Kitamura Museum",
+    "category": "museum",
+    "lat": 35.028039,
+    "lon": 135.770411,
+    "wikiTitle": "Kitamura Museum",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/545743",
+    "name": "Nijō Castle",
+    "category": "castle",
+    "lat": 35.014167,
+    "lon": 135.7475,
+    "wikiTitle": "Nijō Castle",
+    "region": "asia"
+  },
+  {
+    "id": "w-en/30373594",
+    "name": "Ryozen Museum of History",
+    "category": "museum",
+    "lat": 34.998944,
+    "lon": 135.782639,
+    "wikiTitle": "Ryozen Museum of History",
+    "region": "asia"
+  }
+]
