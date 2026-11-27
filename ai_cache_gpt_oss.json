@@ -16006,5 +16006,165 @@
   "en:kõvaküla": {
     "keep": false,
     "category": null
+  },
+  "en:keuruu": {
+    "keep": false,
+    "category": null
+  },
+  "en:alvajärvi (jyväskylä)": {
+    "keep": false,
+    "category": null
+  },
+  "en:palokka": {
+    "keep": false,
+    "category": null
+  },
+  "en:jyväskylän maalaiskunta": {
+    "keep": false,
+    "category": null
+  },
+  "en:palokkajärvi": {
+    "keep": false,
+    "category": null
+  },
+  "en:korttajärvi": {
+    "keep": false,
+    "category": null
+  },
+  "en:tuomiojärvi": {
+    "keep": false,
+    "category": null
+  },
+  "en:puuppola": {
+    "keep": false,
+    "category": null
+  },
+  "en:saarenmaa": {
+    "keep": false,
+    "category": null
+  },
+  "en:lohikoski": {
+    "keep": false,
+    "category": null
+  },
+  "en:viitaniemi": {
+    "keep": false,
+    "category": null
+  },
+  "en:kortepohja": {
+    "keep": false,
+    "category": null
+  },
+  "en:taulumäki church": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:lehesjärvi–vähäjärvi": {
+    "keep": false,
+    "category": null
+  },
+  "en:ruoke": {
+    "keep": false,
+    "category": null
+  },
+  "en:pupuhuhta": {
+    "keep": false,
+    "category": null
+  },
+  "en:huhtasuo": {
+    "keep": false,
+    "category": null
+  },
+  "en:kangaslampi (jyväskylä)": {
+    "keep": false,
+    "category": null
+  },
+  "en:st. olaf's church, jyväskylä": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:tourula": {
+    "keep": false,
+    "category": null
+  },
+  "en:kangasvuori": {
+    "keep": false,
+    "category": null
+  },
+  "en:harjun stadion": {
+    "keep": false,
+    "category": null
+  },
+  "en:puistola, jyväskylä": {
+    "keep": false,
+    "category": null
+  },
+  "en:mäki-matti": {
+    "keep": false,
+    "category": null
+  },
+  "en:köhniönjärvi": {
+    "keep": false,
+    "category": null
+  },
+  "en:jyväskylä sub-region": {
+    "keep": false,
+    "category": null
+  },
+  "en:jyväskylä": {
+    "keep": false,
+    "category": null
+  },
+  "en:craft museum of finland": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:kypärämäki": {
+    "keep": false,
+    "category": null
+  },
+  "en:keskusta, jyväskylä": {
+    "keep": false,
+    "category": null
+  },
+  "en:jyväskylä defence corps building": {
+    "keep": false,
+    "category": null
+  },
+  "en:kaakkolampi (jyväskylä, huhtasuo)": {
+    "keep": false,
+    "category": null
+  },
+  "en:museum of central finland": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:jyväskylä central station": {
+    "keep": false,
+    "category": null
+  },
+  "en:jyväskylä city theatre": {
+    "keep": false,
+    "category": null
+  },
+  "en:2012 world masters athletics indoor championships": {
+    "keep": false,
+    "category": null
+  },
+  "en:2013 jyväskylä library stabbing": {
+    "keep": false,
+    "category": null
+  },
+  "en:jyväskylä rail accident": {
+    "keep": false,
+    "category": null
+  },
+  "en:alvar aalto museum": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:jyväsjärvi": {
+    "keep": false,
+    "category": null
   }
 }

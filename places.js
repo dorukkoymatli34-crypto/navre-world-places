@@ -6640,5 +6640,50 @@ window.NAVRE_SEED_PLACES = [
     "lon": 23.974167,
     "region": "europe",
     "wikiTitle": "Holy Transfiguration Church, Kėdainiai"
+  },
+  {
+    "id": "w-en/30015328",
+    "name": "Taulumäki Church",
+    "category": "church",
+    "lat": 62.253333,
+    "lon": 25.751389,
+    "region": "europe",
+    "wikiTitle": "Taulumäki Church"
+  },
+  {
+    "id": "w-en/49793280",
+    "name": "St. Olaf's Church, Jyväskylä",
+    "category": "church",
+    "lat": 62.2479,
+    "lon": 25.7483,
+    "region": "europe",
+    "wikiTitle": "St. Olaf's Church, Jyväskylä"
+  },
+  {
+    "id": "w-en/52642235",
+    "name": "Craft Museum of Finland",
+    "category": "museum",
+    "lat": 62.242225,
+    "lon": 25.745858,
+    "region": "europe",
+    "wikiTitle": "Craft Museum of Finland"
+  },
+  {
+    "id": "w-en/65847579",
+    "name": "Museum of Central Finland",
+    "category": "museum",
+    "lat": 62.24,
+    "lon": 25.7475,
+    "region": "europe",
+    "wikiTitle": "Museum of Central Finland"
+  },
+  {
+    "id": "w-en/43378193",
+    "name": "Alvar Aalto Museum",
+    "category": "museum",
+    "lat": 62.23344,
+    "lon": 25.73102,
+    "region": "europe",
+    "wikiTitle": "Alvar Aalto Museum"
   }
 ];
