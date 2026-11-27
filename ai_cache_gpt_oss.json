@@ -17338,5 +17338,221 @@
   "en:embassy of indonesia, bandar seri begawan": {
     "keep": false,
     "category": null
+  },
+  "en:ou dambang muoy": {
+    "keep": false,
+    "category": null
+  },
+  "en:kampong prieng": {
+    "keep": false,
+    "category": null
+  },
+  "en:ou dambang pir": {
+    "keep": false,
+    "category": null
+  },
+  "en:voat ta muem": {
+    "keep": false,
+    "category": null
+  },
+  "en:krông năng district": {
+    "keep": false,
+    "category": null
+  },
+  "en:gloria, oriental mindoro": {
+    "keep": false,
+    "category": null
+  },
+  "en:pinamalayan": {
+    "keep": false,
+    "category": null
+  },
+  "en:oriental mindoro": {
+    "keep": false,
+    "category": null
+  },
+  "en:sorsogon cultural center": {
+    "keep": false,
+    "category": null
+  },
+  "en:gubat": {
+    "keep": false,
+    "category": null
+  },
+  "en:sorsogon sports arena": {
+    "keep": false,
+    "category": null
+  },
+  "en:dabbe falls (sagara)": {
+    "keep": false,
+    "category": null
+  },
+  "en:chaturmukha basadi, gerusoppa": {
+    "keep": true,
+    "category": "temple"
+  },
+  "en:sharavathi pumped storage hydropower project": {
+    "keep": false,
+    "category": null
+  },
+  "en:gangasagara": {
+    "keep": false,
+    "category": null
+  },
+  "en:pavagada": {
+    "keep": false,
+    "category": null
+  },
+  "en:pavagada assembly constituency": {
+    "keep": false,
+    "category": null
+  },
+  "en:nagulamadaka": {
+    "keep": false,
+    "category": null
+  },
+  "en:naliganahalli": {
+    "keep": false,
+    "category": null
+  },
+  "en:surabhi, kadapa district": {
+    "keep": false,
+    "category": null
+  },
+  "en:chakarayapet": {
+    "keep": false,
+    "category": null
+  },
+  "en:chillakur": {
+    "keep": false,
+    "category": null
+  },
+  "en:manubolu": {
+    "keep": false,
+    "category": null
+  },
+  "en:chennur, nellore district": {
+    "keep": false,
+    "category": null
+  },
+  "en:gudur": {
+    "keep": false,
+    "category": null
+  },
+  "en:gudur mandal, nellore district": {
+    "keep": false,
+    "category": null
+  },
+  "en:gudur junction railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:gudur assembly constituency": {
+    "keep": false,
+    "category": null
+  },
+  "en:kakitalupuru": {
+    "keep": false,
+    "category": null
+  },
+  "en:nellatur": {
+    "keep": false,
+    "category": null
+  },
+  "en:maungmagan": {
+    "keep": false,
+    "category": null
+  },
+  "en:khao chon kai training camp": {
+    "keep": false,
+    "category": null
+  },
+  "en:supreme artist hall": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:wang noi district": {
+    "keep": false,
+    "category": null
+  },
+  "en:chiang rak noi, bang pa-in": {
+    "keep": false,
+    "category": null
+  },
+  "en:golden jubilee museum of agriculture": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:khong island": {
+    "keep": false,
+    "category": null
+  },
+  "en:majayjay": {
+    "keep": false,
+    "category": null
+  },
+  "en:saint gregory the great parish church (majayjay)": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:luisiana": {
+    "keep": false,
+    "category": null
+  },
+  "en:lucban church": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:liliw": {
+    "keep": false,
+    "category": null
+  },
+  "en:saint john the baptist parish church (liliw)": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:lucban": {
+    "keep": false,
+    "category": null
+  },
+  "en:nagcarlan church": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:nagcarlan": {
+    "keep": false,
+    "category": null
+  },
+  "en:mount banahaw": {
+    "keep": false,
+    "category": null
+  },
+  "en:magdalena, laguna": {
+    "keep": false,
+    "category": null
+  },
+  "en:magdalena, laguna church": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:nagcarlan underground cemetery": {
+    "keep": true,
+    "category": "museum"
+  },
+  "en:kamay ni hesus healing church": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:labo, camarines norte": {
+    "keep": false,
+    "category": null
+  },
+  "en:camarines norte": {
+    "keep": false,
+    "category": null
+  },
+  "en:san vicente, camarines norte": {
+    "keep": false,
+    "category": null
   }
 }

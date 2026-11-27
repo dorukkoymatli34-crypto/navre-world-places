@@ -394,5 +394,95 @@
     "lon": 115.014907,
     "region": "asia",
     "wikiTitle": "Tanjong Kindana Royal Mausoleum"
+  },
+  {
+    "id": "w-en/71382288",
+    "name": "Chaturmukha Basadi, Gerusoppa",
+    "category": "temple",
+    "lat": 14.228722,
+    "lon": 74.664722,
+    "region": "asia",
+    "wikiTitle": "Chaturmukha Basadi, Gerusoppa"
+  },
+  {
+    "id": "w-en/17305519",
+    "name": "Supreme Artist Hall",
+    "category": "museum",
+    "lat": 14.072081,
+    "lon": 100.704617,
+    "region": "asia",
+    "wikiTitle": "Supreme Artist Hall"
+  },
+  {
+    "id": "w-en/17305396",
+    "name": "Golden Jubilee Museum of Agriculture",
+    "category": "museum",
+    "lat": 14.118935,
+    "lon": 100.619348,
+    "region": "asia",
+    "wikiTitle": "Golden Jubilee Museum of Agriculture"
+  },
+  {
+    "id": "w-en/43102309",
+    "name": "Saint Gregory the Great Parish Church (Majayjay)",
+    "category": "church",
+    "lat": 14.144564,
+    "lon": 121.472313,
+    "region": "asia",
+    "wikiTitle": "Saint Gregory the Great Parish Church (Majayjay)"
+  },
+  {
+    "id": "w-en/44503871",
+    "name": "Lucban Church",
+    "category": "church",
+    "lat": 14.114846,
+    "lon": 121.553686,
+    "region": "asia",
+    "wikiTitle": "Lucban Church"
+  },
+  {
+    "id": "w-en/43151117",
+    "name": "Saint John the Baptist Parish Church (Liliw)",
+    "category": "church",
+    "lat": 14.12982,
+    "lon": 121.43581,
+    "region": "asia",
+    "wikiTitle": "Saint John the Baptist Parish Church (Liliw)"
+  },
+  {
+    "id": "w-en/43529760",
+    "name": "Nagcarlan Church",
+    "category": "church",
+    "lat": 14.13629,
+    "lon": 121.4174,
+    "region": "asia",
+    "wikiTitle": "Nagcarlan Church"
+  },
+  {
+    "id": "w-en/44535260",
+    "name": "Magdalena, Laguna Church",
+    "category": "church",
+    "lat": 14.198907,
+    "lon": 121.429145,
+    "region": "asia",
+    "wikiTitle": "Magdalena, Laguna Church"
+  },
+  {
+    "id": "w-en/43110093",
+    "name": "Nagcarlan Underground Cemetery",
+    "category": "museum",
+    "lat": 14.13135,
+    "lon": 121.41482,
+    "region": "asia",
+    "wikiTitle": "Nagcarlan Underground Cemetery"
+  },
+  {
+    "id": "w-en/74014368",
+    "name": "Kamay ni Hesus Healing Church",
+    "category": "church",
+    "lat": 14.10127,
+    "lon": 121.57286,
+    "region": "asia",
+    "wikiTitle": "Kamay ni Hesus Healing Church"
   }
 ]
