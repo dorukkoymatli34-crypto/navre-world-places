@@ -6028,5 +6028,86 @@ window.NAVRE_SEED_PLACES = [
     "lon": 32.032778,
     "region": "middle-east-anatolia",
     "wikiTitle": "Tieion"
+  },
+  {
+    "id": "w-en/21448995",
+    "name": "Great Mosque of Maarat al-Numan",
+    "category": "mosque",
+    "lat": 35.649722,
+    "lon": 36.677778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Great Mosque of Maarat al-Numan"
+  },
+  {
+    "id": "w-en/33493358",
+    "name": "Church of San Jorge (Alcalá de los Gazules)",
+    "category": "church",
+    "lat": 36.46289,
+    "lon": -5.723267,
+    "region": "europe",
+    "wikiTitle": "Church of San Jorge (Alcalá de los Gazules)"
+  },
+  {
+    "id": "w-en/33493891",
+    "name": "Castle of Alcalá de los Gazules",
+    "category": "castle",
+    "lat": 36.463595,
+    "lon": -5.723262,
+    "region": "europe",
+    "wikiTitle": "Castle of Alcalá de los Gazules"
+  },
+  {
+    "id": "w-en/24540765",
+    "name": "Castle of Alcantarilha",
+    "category": "castle",
+    "lat": 37.130025,
+    "lon": -8.345264,
+    "region": "europe",
+    "wikiTitle": "Castle of Alcantarilha"
+  },
+  {
+    "id": "w-en/17277433",
+    "name": "Fort of Nossa Senhora da Rocha (Porches)",
+    "category": "castle",
+    "lat": 37.095653,
+    "lon": -8.386183,
+    "region": "europe",
+    "wikiTitle": "Fort of Nossa Senhora da Rocha (Porches)"
+  },
+  {
+    "id": "w-en/43896692",
+    "name": "Lagbe",
+    "category": "archaeological_site",
+    "lat": 37.142961,
+    "lon": 29.924947,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Lagbe"
+  },
+  {
+    "id": "w-en/22300886",
+    "name": "Morka",
+    "category": "archaeological_site",
+    "lat": 37.11455,
+    "lon": 30.79518,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Morka"
+  },
+  {
+    "id": "w-en/45065737",
+    "name": "Erymna",
+    "category": "archaeological_site",
+    "lat": 37.073397,
+    "lon": 31.584094,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Erymna"
+  },
+  {
+    "id": "w-en/17910217",
+    "name": "Cotenna",
+    "category": "archaeological_site",
+    "lat": 37.033333,
+    "lon": 31.633333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cotenna"
   }
 ];

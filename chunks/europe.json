@@ -871,5 +871,41 @@
     "lon": 16.366944,
     "wikiTitle": "Church of Saint Michael, Vienna",
     "region": "europe"
+  },
+  {
+    "id": "w-en/33493358",
+    "name": "Church of San Jorge (Alcalá de los Gazules)",
+    "category": "church",
+    "lat": 36.46289,
+    "lon": -5.723267,
+    "region": "europe",
+    "wikiTitle": "Church of San Jorge (Alcalá de los Gazules)"
+  },
+  {
+    "id": "w-en/33493891",
+    "name": "Castle of Alcalá de los Gazules",
+    "category": "castle",
+    "lat": 36.463595,
+    "lon": -5.723262,
+    "region": "europe",
+    "wikiTitle": "Castle of Alcalá de los Gazules"
+  },
+  {
+    "id": "w-en/24540765",
+    "name": "Castle of Alcantarilha",
+    "category": "castle",
+    "lat": 37.130025,
+    "lon": -8.345264,
+    "region": "europe",
+    "wikiTitle": "Castle of Alcantarilha"
+  },
+  {
+    "id": "w-en/17277433",
+    "name": "Fort of Nossa Senhora da Rocha (Porches)",
+    "category": "castle",
+    "lat": 37.095653,
+    "lon": -8.386183,
+    "region": "europe",
+    "wikiTitle": "Fort of Nossa Senhora da Rocha (Porches)"
   }
 ]

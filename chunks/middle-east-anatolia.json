@@ -4624,5 +4624,50 @@
     "lon": 32.032778,
     "region": "middle-east-anatolia",
     "wikiTitle": "Tieion"
+  },
+  {
+    "id": "w-en/21448995",
+    "name": "Great Mosque of Maarat al-Numan",
+    "category": "mosque",
+    "lat": 35.649722,
+    "lon": 36.677778,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Great Mosque of Maarat al-Numan"
+  },
+  {
+    "id": "w-en/43896692",
+    "name": "Lagbe",
+    "category": "archaeological_site",
+    "lat": 37.142961,
+    "lon": 29.924947,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Lagbe"
+  },
+  {
+    "id": "w-en/22300886",
+    "name": "Morka",
+    "category": "archaeological_site",
+    "lat": 37.11455,
+    "lon": 30.79518,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Morka"
+  },
+  {
+    "id": "w-en/45065737",
+    "name": "Erymna",
+    "category": "archaeological_site",
+    "lat": 37.073397,
+    "lon": 31.584094,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Erymna"
+  },
+  {
+    "id": "w-en/17910217",
+    "name": "Cotenna",
+    "category": "archaeological_site",
+    "lat": 37.033333,
+    "lon": 31.633333,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Cotenna"
   }
 ]

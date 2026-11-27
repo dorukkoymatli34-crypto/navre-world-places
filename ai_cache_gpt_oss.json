@@ -13286,5 +13286,485 @@
   "tr:ömerli, kastamonu": {
     "keep": false,
     "category": null
+  },
+  "en:ein el-bayda": {
+    "keep": false,
+    "category": null
+  },
+  "en:burj islam": {
+    "keep": false,
+    "category": null
+  },
+  "en:babilla, idlib": {
+    "keep": false,
+    "category": null
+  },
+  "en:jarada": {
+    "keep": false,
+    "category": null
+  },
+  "en:idlib governorate": {
+    "keep": false,
+    "category": null
+  },
+  "en:al-ghadfa": {
+    "keep": false,
+    "category": null
+  },
+  "en:maasaran": {
+    "keep": false,
+    "category": null
+  },
+  "en:al-dana, maarat al-numan": {
+    "keep": false,
+    "category": null
+  },
+  "en:jabal zawiya": {
+    "keep": false,
+    "category": null
+  },
+  "en:great mosque of maarat al-numan": {
+    "keep": true,
+    "category": "mosque"
+  },
+  "en:maar dibsah": {
+    "keep": false,
+    "category": null
+  },
+  "en:hantutin": {
+    "keep": false,
+    "category": null
+  },
+  "en:kafr battikh": {
+    "keep": false,
+    "category": null
+  },
+  "en:jarjnaz": {
+    "keep": false,
+    "category": null
+  },
+  "en:maarat al-numan": {
+    "keep": false,
+    "category": null
+  },
+  "en:banin, idlib": {
+    "keep": false,
+    "category": null
+  },
+  "en:ithriyah-raqqa offensive (june 2016)": {
+    "keep": false,
+    "category": null
+  },
+  "en:makhmur, iraq": {
+    "keep": false,
+    "category": null
+  },
+  "en:german submarine u-300": {
+    "keep": false,
+    "category": null
+  },
+  "en:barbate reservoir": {
+    "keep": false,
+    "category": null
+  },
+  "en:barbate (river)": {
+    "keep": false,
+    "category": null
+  },
+  "en:church of san jorge (alcalá de los gazules)": {
+    "keep": true,
+    "category": "church"
+  },
+  "en:castle of alcalá de los gazules": {
+    "keep": true,
+    "category": "castle"
+  },
+  "en:alcalá de los gazules": {
+    "keep": false,
+    "category": null
+  },
+  "en:benalup-casas viejas": {
+    "keep": false,
+    "category": null
+  },
+  "en:casas viejas incident": {
+    "keep": false,
+    "category": null
+  },
+  "en:talassa": {
+    "keep": false,
+    "category": null
+  },
+  "en:moussadek": {
+    "keep": false,
+    "category": null
+  },
+  "en:aïn romana": {
+    "keep": false,
+    "category": null
+  },
+  "en:el hamdania": {
+    "keep": false,
+    "category": null
+  },
+  "en:chiffa": {
+    "keep": false,
+    "category": null
+  },
+  "en:blida province": {
+    "keep": false,
+    "category": null
+  },
+  "en:blida district": {
+    "keep": false,
+    "category": null
+  },
+  "en:mouzaïa district": {
+    "keep": false,
+    "category": null
+  },
+  "en:mouzaïa": {
+    "keep": false,
+    "category": null
+  },
+  "en:bouarfa, algeria": {
+    "keep": false,
+    "category": null
+  },
+  "en:souk el khemis district": {
+    "keep": false,
+    "category": null
+  },
+  "en:souk el khemis": {
+    "keep": false,
+    "category": null
+  },
+  "en:maghraoua, médéa": {
+    "keep": false,
+    "category": null
+  },
+  "en:el khabouzia": {
+    "keep": false,
+    "category": null
+  },
+  "en:shaqlawa": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia do evaristo": {
+    "keep": false,
+    "category": null
+  },
+  "en:guia (albufeira)": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia da coelha": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia do castelo": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia de são rafael": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia dos arrifes": {
+    "keep": false,
+    "category": null
+  },
+  "en:international sand sculpture festival": {
+    "keep": false,
+    "category": null
+  },
+  "en:pêra (silves)": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia do túnel (peneco)": {
+    "keep": false,
+    "category": null
+  },
+  "en:albufeira (parish)": {
+    "keep": false,
+    "category": null
+  },
+  "en:alcantarilha river": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia dos pescadores (albufeira)": {
+    "keep": false,
+    "category": null
+  },
+  "en:albufeira": {
+    "keep": false,
+    "category": null
+  },
+  "en:castle of alcantarilha": {
+    "keep": true,
+    "category": "castle"
+  },
+  "en:praia do inatel": {
+    "keep": false,
+    "category": null
+  },
+  "en:alcantarilha e pêra": {
+    "keep": false,
+    "category": null
+  },
+  "en:armação de pêra": {
+    "keep": false,
+    "category": null
+  },
+  "en:kiss fm (portugal)": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia dos alemães": {
+    "keep": false,
+    "category": null
+  },
+  "en:ferreiras": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia dos aveiros": {
+    "keep": false,
+    "category": null
+  },
+  "en:praça de toiros de albufeira": {
+    "keep": false,
+    "category": null
+  },
+  "en:albufeira-ferreiras railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia da oura": {
+    "keep": false,
+    "category": null
+  },
+  "en:algoz e tunes": {
+    "keep": false,
+    "category": null
+  },
+  "en:albufeira e olhos de água": {
+    "keep": false,
+    "category": null
+  },
+  "en:algoz": {
+    "keep": false,
+    "category": null
+  },
+  "en:algoz halt": {
+    "keep": false,
+    "category": null
+  },
+  "en:fort of nossa senhora da rocha (porches)": {
+    "keep": true,
+    "category": "castle"
+  },
+  "en:praia de santa eulália": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia de nossa senhora da rocha (porches)": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia nova": {
+    "keep": false,
+    "category": null
+  },
+  "en:praia da balaia": {
+    "keep": false,
+    "category": null
+  },
+  "en:tunes (silves)": {
+    "keep": false,
+    "category": null
+  },
+  "en:tunes railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:sobrado halt": {
+    "keep": false,
+    "category": null
+  },
+  "en:alcantarilha": {
+    "keep": false,
+    "category": null
+  },
+  "en:alcantarilha railway station": {
+    "keep": false,
+    "category": null
+  },
+  "en:porches (lagoa)": {
+    "keep": false,
+    "category": null
+  },
+  "en:sandalcık, acıpayam": {
+    "keep": false,
+    "category": null
+  },
+  "en:kolak, çameli": {
+    "keep": false,
+    "category": null
+  },
+  "en:alcı, acıpayam": {
+    "keep": false,
+    "category": null
+  },
+  "en:lagbe": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:kırkpınar, korkuteli": {
+    "keep": false,
+    "category": null
+  },
+  "en:osmankalfalar, korkuteli": {
+    "keep": false,
+    "category": null
+  },
+  "en:yukarıkaraman, korkuteli": {
+    "keep": false,
+    "category": null
+  },
+  "en:kızılcadağ, korkuteli": {
+    "keep": false,
+    "category": null
+  },
+  "en:morka": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:yeşilkaraman, aksu": {
+    "keep": false,
+    "category": null
+  },
+  "en:kurşunlu, aksu": {
+    "keep": false,
+    "category": null
+  },
+  "en:çatallar, serik": {
+    "keep": false,
+    "category": null
+  },
+  "en:çamlıca, kepez": {
+    "keep": false,
+    "category": null
+  },
+  "en:kızıllı, kepez": {
+    "keep": false,
+    "category": null
+  },
+  "en:dorumlar, serik": {
+    "keep": false,
+    "category": null
+  },
+  "en:alaylı, aksu": {
+    "keep": false,
+    "category": null
+  },
+  "en:i̇bradı": {
+    "keep": false,
+    "category": null
+  },
+  "en:akşahap, akseki": {
+    "keep": false,
+    "category": null
+  },
+  "en:erymna": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:menteşbey, akseki": {
+    "keep": false,
+    "category": null
+  },
+  "en:cotenna": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:minareli": {
+    "keep": false,
+    "category": null
+  },
+  "en:eğiste": {
+    "keep": false,
+    "category": null
+  },
+  "en:gödet dam": {
+    "keep": false,
+    "category": null
+  },
+  "en:dere, karaman": {
+    "keep": false,
+    "category": null
+  },
+  "en:karaman (electoral district)": {
+    "keep": false,
+    "category": null
+  },
+  "en:küçükçınar, çukurova": {
+    "keep": false,
+    "category": null
+  },
+  "en:bozcalar, çukurova": {
+    "keep": false,
+    "category": null
+  },
+  "en:fadıl, çukurova": {
+    "keep": false,
+    "category": null
+  },
+  "en:tepeçaylak": {
+    "keep": false,
+    "category": null
+  },
+  "en:salbaş esentepe": {
+    "keep": false,
+    "category": null
+  },
+  "en:topçu, tarsus": {
+    "keep": false,
+    "category": null
+  },
+  "en:gökkuyu, çukurova": {
+    "keep": false,
+    "category": null
+  },
+  "en:i̇ncirgediği": {
+    "keep": false,
+    "category": null
+  },
+  "en:kuzgun, karaisalı": {
+    "keep": false,
+    "category": null
+  },
+  "en:kumdere, tarsus": {
+    "keep": false,
+    "category": null
+  },
+  "en:söğütlü, çukurova": {
+    "keep": false,
+    "category": null
+  },
+  "en:kütüklü, tarsus": {
+    "keep": false,
+    "category": null
+  },
+  "en:aladağ, tarsus": {
+    "keep": false,
+    "category": null
+  },
+  "en:pirili, çukurova": {
+    "keep": false,
+    "category": null
   }
 }
