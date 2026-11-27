@@ -1,25 +1,38 @@
-import argparse
+import hashlib
 import json
+import math
 import os
 import re
 import time
-import requests
+import urllib.error
+import urllib.parse
+import urllib.request
+from pathlib import Path
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-JSON_PATH = os.path.join(BASE_DIR, "places.json")
-JS_PATH = os.path.join(BASE_DIR, "places.js")
-CACHE_PATH = os.path.join(BASE_DIR, "ai_cache_gpt_oss.json")
-STATE_PATH = os.path.join(BASE_DIR, "progress_state.json")
-CHUNKS_DIR = os.path.join(BASE_DIR, "chunks")
+ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
+CHUNKS_DIR = DATA_DIR / "chunks"
 
-MODEL_NAME = "openai/gpt-oss-120b"
-FALLBACK_MODELS = [
+PLACES_JSON = DATA_DIR / "places.json"
+PLACES_JS = DATA_DIR / "places.js"
+STATE_JSON = DATA_DIR / "progress_state.json"
+CACHE_JSON = DATA_DIR / "ai_cache_gpt_oss.json"
+
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+GROQ_MODELS = [
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
-    "llama-3.1-8b-instant",
 ]
 
-ALLOWED_CATEGORIES = [
+OPENROUTER_FREE_MODELS = [
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "openrouter/free",
+]
+
+ALLOWED_CATEGORIES = {
     "castle",
     "palace",
     "mosque",
@@ -36,603 +49,627 @@ ALLOWED_CATEGORIES = [
     "tower",
     "bridge",
     "monument",
-]
+}
 
 HARD_BLOCK_REGEX = re.compile(
-    r"\b(lisesi|anadolu lisesi|fen lisesi|meslek lisesi|koleji|okulu|ilkokulu|ortaokulu|"
-    r"üniversitesi|universitesi|fakültesi|fakultesi|hastanesi|belediyesi|valiliği|"
-    r"havalimanı|stadyumu|stadyum|oteli|hotel|lodge|resort|hostel|avm|alışveriş merkezi|shopping mall|"
-    r"istasyon|metro|marmaray|metrobüs|tramvay|durak|gar|terminal|iskele|otogar|"
-    r"parkı|parki|park|otopark|korusu|koru|high school|school|university|hospital|airport|stadium|"
-    r"siege of|massacre|attack|battle of|bombing|earthquake|election|treaty of|assassination)\b",
+    r"\b("
+    r"airport|railway station|train station|metro station|subway station|bus station|"
+    r"shopping mall|supermarket|hypermarket|department store|outlet|retail park|"
+    r"stadium|arena|golf course|ski resort|theme park|amusement park|water park|"
+    r"hospital|clinic|university|college|high school|elementary school|campus|"
+    r"power plant|dam|reservoir|wind farm|solar farm|factory| refinery|industrial|"
+    r"election|referendum|earthquake|flood|hurricane|typhoon|massacre|battle of|"
+    r"municipality|district of|province of|county of|prefecture|commune of|"
+    r"belediyesi|ilçesi|ili|bucak|mahallesi|köyü"
+    r")\b",
     re.IGNORECASE,
 )
 
-# KATMAN 1: Dünyanın ve Türkiye'nin en ikonik tarihi merkezleri
-ICONIC_ANCHORS = [
-    ("TR-Istanbul-Sultanahmet-Fatih", 41.0082, 28.9784, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Istanbul-Beyoglu-Besiktas-Uskudar", 41.0369, 28.9850, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Edirne", 41.6771, 26.5557, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Bursa", 40.1885, 29.0610, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Iznik", 40.4286, 29.7211, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Canakkale-Truva-Gelibolu", 39.9575, 26.2389, 10000, 400, "tr", "middle-east-anatolia"),
-    ("TR-Assos-Behramkale", 39.4906, 26.3367, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Bergama-Pergamon", 39.1325, 27.1842, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Selcuk-Efes", 37.9497, 27.3686, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Pamukkale-Hierapolis", 37.9250, 29.1264, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Afrodisias", 37.7089, 28.7236, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Bodrum-Halikarnas", 37.0344, 27.4305, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Fethiye-Xanthos-Patara", 36.3561, 29.3186, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Myra-Demre", 36.2592, 29.9853, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Antalya-Kaleici-Perge", 36.8841, 30.7056, 10000, 450, "tr", "middle-east-anatolia"),
-    ("TR-Aspendos-Side", 36.7667, 31.3889, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Konya", 37.8714, 32.4846, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Catalhoyuk", 37.6675, 32.8283, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Goreme-Kapadokya", 38.6431, 34.8289, 10000, 500, "tr", "middle-east-anatolia"),
-    ("TR-Hattusas-Bogazkale", 40.0194, 34.6156, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Safranbolu", 41.2508, 32.6942, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Amasya", 40.6499, 35.8353, 10000, 350, "tr", "middle-east-anatolia"),
-    ("TR-Divrigi", 39.3711, 38.1172, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Nemrut", 37.9806, 38.7408, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Gobeklitepe-Sanliurfa", 37.2231, 38.9225, 10000, 400, "tr", "middle-east-anatolia"),
-    ("TR-Harran", 36.8650, 39.0314, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Mardin-Dara", 37.3131, 40.7350, 10000, 400, "tr", "middle-east-anatolia"),
-    ("TR-Midyat-MorGabriel", 37.4167, 41.3667, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Hasankeyf", 37.7122, 41.4125, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Diyarbakir-Surlar", 37.9144, 40.2306, 10000, 400, "tr", "middle-east-anatolia"),
-    ("TR-Ani-Kars", 40.5067, 43.5722, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-IshakPasa-Dogubayazit", 39.5206, 44.1292, 10000, 250, "tr", "middle-east-anatolia"),
-    ("TR-Van-Akdamar", 38.3408, 43.0369, 10000, 300, "tr", "middle-east-anatolia"),
-    ("TR-Sumela-Macka", 40.6903, 39.6583, 10000, 250, "tr", "middle-east-anatolia"),
-
-    ("IT-Rome-Historic", 41.8902, 12.4922, 10000, 500, "en", "europe"),
-    ("IT-Vatican", 41.9022, 12.4539, 10000, 450, "en", "europe"),
-    ("IT-Florence", 43.7696, 11.2558, 10000, 500, "en", "europe"),
-    ("IT-Venice", 45.4340, 12.3388, 10000, 500, "en", "europe"),
-    ("IT-Pompeii-Herculaneum", 40.7509, 14.4869, 10000, 450, "en", "europe"),
-    ("IT-Naples", 40.8518, 14.2681, 10000, 450, "en", "europe"),
-    ("IT-Milan", 45.4642, 9.1900, 10000, 400, "en", "europe"),
-    ("IT-Pisa", 43.7228, 10.4017, 10000, 300, "en", "europe"),
-    ("IT-Siena", 43.3188, 11.3308, 10000, 350, "en", "europe"),
-    ("IT-Agrigento-ValleyOfTemples", 37.2906, 13.5856, 10000, 300, "en", "europe"),
-    ("GR-Athens-Acropolis", 37.9715, 23.7257, 10000, 500, "en", "europe"),
-    ("GR-Delphi", 38.4824, 22.5010, 10000, 300, "en", "europe"),
-    ("GR-Olympia", 37.6383, 21.6300, 10000, 250, "en", "europe"),
-    ("GR-Mycenae-Epidaurus", 37.7308, 22.7561, 10000, 300, "en", "europe"),
-    ("GR-Meteora", 39.7217, 21.6306, 10000, 300, "en", "europe"),
-    ("GR-Knossos", 35.2979, 25.1632, 10000, 300, "en", "europe"),
-    ("FR-Paris-Center", 48.8566, 2.3522, 10000, 500, "en", "europe"),
-    ("FR-Versailles", 48.8049, 2.1204, 10000, 300, "en", "europe"),
-    ("FR-MontSaintMichel", 48.6361, -1.5115, 10000, 250, "en", "europe"),
-    ("FR-Carcassonne", 43.2066, 2.3639, 10000, 280, "en", "europe"),
-    ("FR-Loire-Chambord", 47.6161, 1.5170, 10000, 280, "en", "europe"),
-    ("ES-Madrid", 40.4168, -3.7038, 10000, 500, "en", "europe"),
-    ("ES-Barcelona", 41.3874, 2.1686, 10000, 500, "en", "europe"),
-    ("ES-Granada-Alhambra", 37.1773, -3.5986, 10000, 450, "en", "europe"),
-    ("ES-Cordoba", 37.8882, -4.7794, 10000, 400, "en", "europe"),
-    ("ES-Seville", 37.3891, -5.9845, 10000, 450, "en", "europe"),
-    ("ES-Toledo", 39.8628, -4.0273, 10000, 400, "en", "europe"),
-    ("ES-Segovia", 40.9429, -4.1088, 10000, 300, "en", "europe"),
-    ("PT-Lisbon-Belem", 38.6979, -9.2064, 10000, 400, "en", "europe"),
-    ("PT-Sintra", 38.7875, -9.3906, 10000, 300, "en", "europe"),
-    ("UK-London", 51.5072, -0.1276, 10000, 500, "en", "europe"),
-    ("UK-Stonehenge-Salisbury", 51.1789, -1.8262, 10000, 280, "en", "europe"),
-    ("UK-Edinburgh", 55.9486, -3.1999, 10000, 400, "en", "europe"),
-    ("UK-Oxford", 51.7520, -1.2577, 10000, 350, "en", "europe"),
-    ("DE-Berlin", 52.5200, 13.4050, 10000, 450, "en", "europe"),
-    ("DE-Neuschwanstein-Fussen", 47.5576, 10.7498, 10000, 250, "en", "europe"),
-    ("DE-Cologne", 50.9413, 6.9583, 10000, 350, "en", "europe"),
-    ("AT-Vienna", 48.2082, 16.3738, 10000, 500, "en", "europe"),
-    ("CZ-Prague", 50.0909, 14.4005, 10000, 500, "en", "europe"),
-    ("HU-Budapest", 47.4979, 19.0402, 10000, 450, "en", "europe"),
-    ("PL-Krakow", 50.0647, 19.9450, 10000, 400, "en", "europe"),
-    ("HR-Dubrovnik", 42.6412, 18.1083, 10000, 350, "en", "europe"),
-    ("RO-Bran-Brasov", 45.5149, 25.3672, 10000, 300, "en", "europe"),
-    ("GE-Tbilisi-Mtskheta", 41.7151, 44.8271, 10000, 400, "en", "europe"),
-    ("AM-Geghard-Garni", 40.1406, 44.7986, 10000, 300, "en", "europe"),
-
-    ("EG-Giza-Pyramids", 29.9792, 31.1342, 10000, 500, "en", "middle-east-anatolia"),
-    ("EG-Cairo-Islamic-Coptic", 30.0444, 31.2357, 10000, 500, "en", "middle-east-anatolia"),
-    ("EG-Luxor-Karnak-ValleyOfKings", 25.7188, 32.6573, 10000, 500, "en", "middle-east-anatolia"),
-    ("EG-AbuSimbel", 22.3372, 31.6258, 10000, 220, "en", "middle-east-anatolia"),
-    ("JO-Petra", 30.3285, 35.4444, 10000, 400, "en", "middle-east-anatolia"),
-    ("JO-Jerash", 32.2746, 35.8961, 10000, 300, "en", "middle-east-anatolia"),
-    ("LB-Baalbek", 34.0069, 36.2039, 10000, 280, "en", "middle-east-anatolia"),
-    ("IR-Persepolis", 29.9352, 52.8916, 10000, 350, "en", "middle-east-anatolia"),
-    ("IR-Isfahan", 32.6575, 51.6775, 10000, 400, "en", "middle-east-anatolia"),
-    ("UZ-Samarkand", 39.6542, 66.9597, 10000, 400, "en", "asia"),
-    ("UZ-Bukhara", 39.7747, 64.4286, 10000, 380, "en", "asia"),
-    ("MA-Marrakesh", 31.6295, -7.9811, 10000, 400, "en", "africa"),
-    ("MA-Fes", 34.0617, -4.9778, 10000, 400, "en", "africa"),
-    ("ET-Lalibela", 12.0319, 39.0475, 10000, 300, "en", "africa"),
-    ("TN-Carthage", 36.8531, 10.3233, 10000, 320, "en", "africa"),
-    ("IN-Agra-TajMahal", 27.1751, 78.0421, 10000, 450, "en", "asia"),
-    ("IN-Delhi", 28.6139, 77.2090, 10000, 500, "en", "asia"),
-    ("IN-Jaipur", 26.9124, 75.7873, 10000, 400, "en", "asia"),
-    ("IN-Hampi", 15.3350, 76.4600, 10000, 400, "en", "asia"),
-    ("IN-Ellora-Ajanta", 20.0268, 75.1771, 10000, 280, "en", "asia"),
-    ("KH-AngkorWat", 13.4125, 103.8670, 10000, 500, "en", "asia"),
-    ("ID-Borobudur-Prambanan", -7.6079, 110.2038, 10000, 320, "en", "asia"),
-    ("MM-Bagan", 21.1717, 94.8585, 10000, 350, "en", "asia"),
-    ("TH-Ayutthaya", 14.3692, 100.5877, 10000, 350, "en", "asia"),
-    ("CN-Beijing-ForbiddenCity", 39.9163, 116.3972, 10000, 500, "en", "asia"),
-    ("CN-GreatWall-Badaling", 40.3598, 116.0200, 10000, 280, "en", "asia"),
-    ("CN-Xian-Terracotta", 34.3841, 109.2785, 10000, 400, "en", "asia"),
-    ("JP-Kyoto", 35.0116, 135.7681, 10000, 500, "en", "asia"),
-    ("JP-Nara", 34.6851, 135.8048, 10000, 450, "en", "asia"),
-    ("JP-Himeji", 34.8394, 134.6939, 10000, 300, "en", "asia"),
-    ("KR-Gyeongju", 35.8562, 129.2247, 10000, 350, "en", "asia"),
-    ("PE-MachuPicchu", -13.1631, -72.5450, 10000, 350, "en", "americas"),
-    ("PE-Cusco", -13.5319, -71.9675, 10000, 450, "en", "americas"),
-    ("MX-Teotihuacan", 19.6925, -98.8438, 10000, 350, "en", "americas"),
-    ("MX-ChichenItza", 20.6843, -88.5678, 10000, 280, "en", "americas"),
-    ("MX-MexicoCity", 19.4326, -99.1332, 10000, 500, "en", "americas"),
-    ("GT-Tikal", 17.2220, -89.6237, 10000, 320, "en", "americas"),
-    ("CL-EasterIsland", -27.1127, -109.3497, 10000, 250, "en", "americas"),
-]
-
-# KATMAN 2: Küresel grid
+# Dengeli kuresel grid: Turkiye'ye yigilmayi azaltip tum kitalari dengeli tarar
 GLOBAL_GRID_BANDS = [
-    ("middle-east-anatolia", "tr", 35.8, 42.2, 0.30, 25.8, 44.8, 0.35, 10000, 300),
-    ("europe", "en", 35.0, 64.0, 0.70, -10.0, 45.0, 0.85, 10000, 280),
-    ("middle-east-anatolia", "en", 19.0, 38.0, 0.85, -13.0, 63.0, 1.00, 10000, 260),
-    ("africa", "en", -35.0, 19.0, 1.50, -18.0, 51.0, 1.50, 10000, 220),
-    ("asia", "en", -10.0, 55.0, 1.15, 50.0, 146.0, 1.30, 10000, 260),
-    ("americas", "en", -54.0, 52.0, 1.35, -125.0, -34.0, 1.50, 10000, 240),
+    # (name, region, lat_min, lat_max, lon_min, lon_max, lat_step, lon_step, radius_m, wiki_lang)
+    ("turkiye_anatolia", "middle-east-anatolia", 35.8, 42.2, 25.8, 44.8, 0.48, 0.56, 10000, "tr"),
+    ("levant_mesopotamia_persia", "middle-east-anatolia", 29.0, 39.5, 34.5, 61.0, 0.65, 0.75, 10000, "en"),
+    ("egypt_north_africa", "africa", 22.0, 37.2, -10.5, 35.0, 0.75, 0.85, 10000, "en"),
+    ("sub_saharan_africa", "africa", -34.8, 17.5, -17.5, 51.0, 0.95, 1.05, 10000, "en"),
+    ("western_central_europe", "europe", 36.0, 60.5, -10.0, 22.0, 0.55, 0.65, 10000, "en"),
+    ("eastern_northern_europe", "europe", 44.0, 69.5, 22.0, 45.0, 0.70, 0.85, 10000, "en"),
+    ("south_southeast_asia", "asia", -10.5, 28.5, 68.0, 126.0, 0.75, 0.85, 10000, "en"),
+    ("east_central_asia", "asia", 22.0, 52.0, 62.0, 145.0, 0.80, 0.90, 10000, "en"),
+    ("north_america", "americas", 18.0, 62.0, -135.0, -60.0, 0.90, 1.05, 10000, "en"),
+    ("mesoamerica_south_america", "americas", -54.0, 18.0, -105.0, -35.0, 0.85, 0.95, 10000, "en"),
+    ("oceania", "oceania", -46.0, -10.0, 113.0, 178.0, 1.00, 1.15, 10000, "en"),
+]
+
+ICONIC_ANCHORS = [
+    # Turkiye & Dogu Akdeniz
+    ("Sultanahmet / Fatih, Istanbul", "middle-east-anatolia", 41.0086, 28.9802, 7500, "tr"),
+    ("Beyoglu / Karakoy, Istanbul", "middle-east-anatolia", 41.0285, 28.9765, 7500, "tr"),
+    ("Uskudar / Kadikoy, Istanbul", "middle-east-anatolia", 41.0120, 29.0250, 8500, "tr"),
+    ("Edirne Merkez", "middle-east-anatolia", 41.6771, 26.5557, 8000, "tr"),
+    ("Bursa Merkez", "middle-east-anatolia", 40.1885, 29.0610, 8500, "tr"),
+    ("Selcuk / Efes, Izmir", "middle-east-anatolia", 37.9497, 27.3639, 9000, "tr"),
+    ("Bergama, Izmir", "middle-east-anatolia", 39.1214, 27.1836, 9000, "tr"),
+    ("Goreme / Urgup, Kapadokya", "middle-east-anatolia", 38.6431, 34.8289, 10000, "tr"),
+    ("Konya Merkez", "middle-east-anatolia", 37.8714, 32.4846, 9000, "tr"),
+    ("Mardin Merkez", "middle-east-anatolia", 37.3122, 40.7350, 9000, "tr"),
+    ("Diyarbakir Sur", "middle-east-anatolia", 37.9100, 40.2366, 8500, "tr"),
+    ("Sanliurfa / Gobeklitepe", "middle-east-anatolia", 37.1850, 38.8500, 10000, "tr"),
+    ("Ani, Kars", "middle-east-anatolia", 40.5069, 43.5722, 9000, "tr"),
+
+    # Avrupa
+    ("Centro Storico / Colosseum, Rome", "europe", 41.8925, 12.4853, 7500, "en"),
+    ("Vatican / Castel Sant'Angelo, Rome", "europe", 41.9029, 12.4534, 7000, "en"),
+    ("Acropolis / Plaka, Athens", "europe", 37.9715, 23.7257, 7500, "en"),
+    ("Ile de la Cite / Louvre, Paris", "europe", 48.8566, 2.3522, 8000, "en"),
+    ("Westminster / Tower, London", "europe", 51.5055, -0.1050, 8500, "en"),
+    ("Alhambra / Albayzin, Granada", "europe", 37.1760, -3.5881, 8000, "en"),
+    ("Innere Stadt, Vienna", "europe", 48.2082, 16.3738, 8000, "en"),
+    ("Old Town / Prague Castle", "europe", 50.0880, 14.4208, 8000, "en"),
+    ("Hradcany / Lesser Town, Prague", "europe", 50.0909, 14.4006, 7500, "en"),
+    ("Buda Castle / Pest, Budapest", "europe", 47.4979, 19.0402, 8500, "en"),
+    ("Dubrovnik Old Town", "europe", 42.6414, 18.1086, 7500, "en"),
+
+    # Orta Dogu & Afrika
+    ("Giza Necropolis, Cairo", "middle-east-anatolia", 29.9792, 31.1342, 9500, "en"),
+    ("Islamic / Coptic Cairo", "middle-east-anatolia", 30.0250, 31.2450, 9000, "en"),
+    ("Luxor / Karnak", "middle-east-anatolia", 25.7188, 32.6573, 10000, "en"),
+    ("Petra, Jordan", "middle-east-anatolia", 30.3285, 35.4444, 9500, "en"),
+    ("Persepolis, Iran", "middle-east-anatolia", 29.9352, 52.8916, 9500, "en"),
+    ("Isfahan Naqsh-e Jahan", "middle-east-anatolia", 32.6572, 51.6776, 9000, "en"),
+    ("Medina of Fez, Morocco", "africa", 34.0631, -4.9780, 8500, "en"),
+    ("Marrakech Medina", "africa", 31.6295, -7.9811, 8500, "en"),
+    ("Lalibela, Ethiopia", "africa", 12.0319, 39.0476, 9000, "en"),
+    ("Great Zimbabwe", "africa", -20.2742, 30.9336, 9500, "en"),
+
+    # Asya
+    ("Forbidden City, Beijing", "asia", 39.9163, 116.3972, 9000, "en"),
+    ("Higashiyama / Central Kyoto", "asia", 35.0116, 135.7681, 8500, "en"),
+    ("Angkor Archaeological Park", "asia", 13.4125, 103.8670, 10000, "en"),
+    ("Agra / Taj Mahal", "asia", 27.1751, 78.0421, 9000, "en"),
+    ("Old Delhi, India", "asia", 28.6562, 77.2410, 9000, "en"),
+    ("Samarkand Registan", "asia", 39.6542, 66.9756, 9000, "en"),
+    ("Bukhara Historic Center", "asia", 39.7747, 64.4286, 9000, "en"),
+    ("Gyeongju Historic Areas", "asia", 35.8562, 129.2247, 9500, "en"),
+
+    # Amerika & Okyanusya
+    ("Zocalo / Historic Center, Mexico City", "americas", 19.4326, -99.1332, 8500, "en"),
+    ("Cusco / Machu Picchu Axis", "americas", -13.5319, -71.9675, 9500, "en"),
+    ("Teotihuacan", "americas", 19.6925, -98.8435, 9500, "en"),
+    ("Cartagena Old Town", "americas", 10.4236, -75.5517, 8000, "en"),
+    ("Boston Freedom Trail / Beacon Hill", "americas", 42.3588, -71.0636, 8500, "en"),
+    ("Aotearoa / Waitangi & Rotorua", "oceania", -38.1368, 176.2497, 10000, "en"),
 ]
 
 
-def classify_region(lat: float, lon: float, default_region: str) -> str:
-    if 35.5 <= lat <= 42.5 and 25.5 <= lon <= 45.0:
-        return "middle-east-anatolia"
-    if 34.5 <= lat <= 71.0 and -25.0 <= lon <= 45.0:
-        return "europe"
-    if 18.0 <= lat <= 37.5 and -17.0 <= lon <= 62.0:
-        return "middle-east-anatolia"
-    if -36.0 <= lat < 18.0 and -18.0 <= lon <= 52.0:
-        return "africa"
-    if -12.0 <= lat <= 70.0 and 45.0 < lon <= 180.0:
-        return "asia"
-    if -56.0 <= lat <= 72.0 and -170.0 <= lon <= -30.0:
-        return "americas"
-    return default_region
+def load_json(path: Path, default):
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
 
 
-def build_all_hubs():
-    hubs = list(ICONIC_ANCHORS)
-    idx = 0
-    for region, lang, lat_min, lat_max, lat_step, lon_min, lon_max, lon_step, radius_m, limit in GLOBAL_GRID_BANDS:
+def save_json(path: Path, payload) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def build_hubs() -> list[dict]:
+    hubs: list[dict] = []
+    seen_coords: set[tuple[float, float, str]] = set()
+
+    for label, region, lat, lon, radius, lang in ICONIC_ANCHORS:
+        key = (round(lat, 2), round(lon, 2), lang)
+        if key not in seen_coords:
+            seen_coords.add(key)
+            hubs.append(
+                {
+                    "id": f"anchor-{region}-{len(hubs)}",
+                    "label": label,
+                    "region": region,
+                    "lat": round(lat, 4),
+                    "lon": round(lon, 4),
+                    "radius": radius,
+                    "lang": lang,
+                }
+            )
+
+    for band_name, region, lat_min, lat_max, lon_min, lon_max, lat_step, lon_step, radius, lang in GLOBAL_GRID_BANDS:
         lat = lat_min
         while lat <= lat_max + 1e-9:
             lon = lon_min
             while lon <= lon_max + 1e-9:
-                idx += 1
-                hubs.append((
-                    f"G{idx}-{lang}-{round(lat,2)}-{round(lon,2)}",
-                    round(lat, 4),
-                    round(lon, 4),
-                    radius_m,
-                    limit,
-                    lang,
-                    classify_region(lat, lon, region),
-                ))
+                key = (round(lat, 2), round(lon, 2), lang)
+                if key not in seen_coords:
+                    seen_coords.add(key)
+                    hubs.append(
+                        {
+                            "id": f"{band_name}-{len(hubs)}",
+                            "label": f"{band_name} ({lat:.2f}, {lon:.2f})",
+                            "region": region,
+                            "lat": round(lat, 4),
+                            "lon": round(lon, 4),
+                            "radius": radius,
+                            "lang": lang,
+                        }
+                    )
                 lon += lon_step
             lat += lat_step
+
     return hubs
 
 
-def load_json_list(path):
-    if os.path.exists(path):
+def http_get_json(url: str, timeout: int = 20):
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "NAVRE-World-Curator/2.1 (contact@navre.app)",
+            "Accept": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def wiki_get_with_retry(url: str, max_retries: int = 5):
+    for attempt in range(max_retries):
         try:
-            with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    return data
+            return http_get_json(url, timeout=20)
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                retry_after = e.headers.get("Retry-After") if e.headers else None
+                wait_s = float(retry_after) if retry_after and retry_after.isdigit() else (4.0 * (attempt + 1))
+                wait_s = min(wait_s, 25.0)
+                print(f"  [Wiki 429] {wait_s:.1f} sn bekleniyor...", flush=True)
+                time.sleep(wait_s)
+                continue
+            if e.code in (500, 502, 503, 504):
+                time.sleep(2.0 * (attempt + 1))
+                continue
+            raise
         except Exception:
-            pass
-    return []
+            time.sleep(1.5 * (attempt + 1))
+    return None
 
 
-def load_cache():
-    if os.path.exists(CACHE_PATH):
+def fetch_geosearch(lat: float, lon: float, radius_m: int, lang: str, limit: int = 500) -> list[dict]:
+    params = urllib.parse.urlencode(
+        {
+            "action": "query",
+            "list": "geosearch",
+            "gscoord": f"{lat}|{lon}",
+            "gsradius": min(max(radius_m, 100), 10000),
+            "gslimit": min(max(limit, 1), 500),
+            "format": "json",
+        }
+    )
+    url = f"https://{lang}.wikipedia.org/w/api.php?{params}"
+    data = wiki_get_with_retry(url)
+    if not isinstance(data, dict):
+        return []
+    return data.get("query", {}).get("geosearch", []) or []
+
+
+def fetch_extracts(pageids: list[int], lang: str) -> dict[str, str]:
+    extracts: dict[str, str] = {}
+    for i in range(0, len(pageids), 50):
+        batch = pageids[i : i + 50]
+        params = urllib.parse.urlencode(
+            {
+                "action": "query",
+                "prop": "extracts",
+                "exintro": "1",
+                "explaintext": "1",
+                "exchars": "280",
+                "pageids": "|".join(str(pid) for pid in batch),
+                "format": "json",
+            }
+        )
+        url = f"https://{lang}.wikipedia.org/w/api.php?{params}"
+        data = wiki_get_with_retry(url)
+        if isinstance(data, dict):
+            pages = data.get("query", {}).get("pages", {}) or {}
+            for pid_str, page_obj in pages.items():
+                if isinstance(page_obj, dict):
+                    extracts[str(pid_str)] = (page_obj.get("extract") or "").strip()
+    return extracts
+
+
+def is_hard_blocked(title: str, extract: str) -> bool:
+    combined = f"{title} {extract}".strip()
+    if not combined:
+        return True
+    return bool(HARD_BLOCK_REGEX.search(combined))
+
+
+def parse_json_array_response(content: str) -> list[dict] | None:
+    text = (content or "").strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+    match = re.search(r"\[[\s\S]*\]", text)
+    if not match:
+        return None
+    try:
+        parsed = json.loads(match.group(0))
+        return parsed if isinstance(parsed, list) else None
+    except Exception:
+        return None
+
+
+def call_chat_completion(endpoint: str, api_key: str, model: str, messages: list[dict], extra_headers: dict | None = None):
+    payload = {
+        "model": model,
+        "messages": messages,
+        "temperature": 0.1,
+        "max_tokens": 2200,
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}",
+        "User-Agent": "NAVRE-World-Curator/2.1",
+    }
+    if extra_headers:
+        headers.update(extra_headers)
+
+    req = urllib.request.Request(
+        endpoint,
+        data=json.dumps(payload).encode("utf-8"),
+        headers=headers,
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=35) as resp:
+        body = json.loads(resp.read().decode("utf-8"))
+    return body["choices"][0]["message"]["content"]
+
+
+def curate_batch_with_ai(
+    candidates: list[dict],
+    groq_key: str,
+    openrouter_key: str,
+    cache: dict,
+) -> dict[str, dict]:
+    results: dict[str, dict] = {}
+    uncached: list[dict] = []
+
+    for item in candidates:
+        c_key = f"{item['lang']}:{item['pageid']}"
+        if c_key in cache:
+            results[c_key] = cache[c_key]
+        else:
+            uncached.append(item)
+
+    if not uncached:
+        return results
+
+    system_prompt = (
+        "You are a strict historical and cultural heritage curator for NAVRE (a global map of notable historical sites).\n"
+        "Evaluate each candidate fairly across ALL world regions without bias toward or against any country.\n"
+        "KEEP (keep: true) ONLY tangible historical/cultural heritage landmarks, monuments, archaeological sites, ruins, "
+        "ancient temples/churches/mosques/synagogues/monasteries, historic palaces/castles/towers/bridges/cisterns/aqueducts/tombs, "
+        "or notable museums.\n"
+        "REJECT (keep: false) cities, towns, villages, neighborhoods, districts, provinces, countries, rivers, mountains, lakes, "
+        "modern infrastructure, transport stops, schools, hospitals, malls, sports venues, events, battles, or generic/trivial items.\n"
+        "Allowed categories: castle, palace, mosque, church, synagogue, monastery, temple, archaeological_site, "
+        "ruins, museum, cistern, aqueduct, tomb, tower, bridge, monument.\n"
+        "Return ONLY a JSON array of objects: [{\"idx\": 0, \"keep\": true/false, \"category\": \"...\"}]."
+    )
+
+    compact_list = [
+        {
+            "idx": i,
+            "title": c["title"],
+            "lang": c["lang"],
+            "summary": (c.get("extract") or "")[:220],
+        }
+        for i, c in enumerate(uncached)
+    ]
+
+    user_prompt = json.dumps(compact_list, ensure_ascii=False)
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt},
+    ]
+
+    providers: list[tuple[str, str, str, dict | None]] = []
+    if groq_key:
+        for m in GROQ_MODELS:
+            providers.append(("Groq", GROQ_API_URL, groq_key, m, None))
+    if openrouter_key:
+        or_headers = {
+            "HTTP-Referer": "[https://navre.app](https://navre.app)",
+            "X-Title": "NAVRE World Curator",
+        }
+        for m in OPENROUTER_FREE_MODELS:
+            providers.append(("OpenRouter", OPENROUTER_API_URL, openrouter_key, m, or_headers))
+
+    parsed_arr = None
+    for prov_name, endpoint, key, model_name, extra_hdrs in providers:
         try:
-            with open(CACHE_PATH, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, dict):
-                    return data
-        except Exception:
-            pass
-    return {}
+            raw_content = call_chat_completion(endpoint, key, model_name, messages, extra_hdrs)
+            arr = parse_json_array_response(raw_content)
+            if arr is not None:
+                parsed_arr = arr
+                break
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 404, 429, 500, 502, 503):
+                print(f"  [{prov_name} {e.code}] {model_name} gecildi.", flush=True)
+                continue
+            print(f"  [{prov_name} HTTP {e.code}] {model_name} hata.", flush=True)
+            continue
+        except Exception as exc:
+            print(f"  [{prov_name} Err] {model_name}: {str(exc)[:80]}", flush=True)
+            continue
+
+    if parsed_arr is None:
+        return results
+
+    decision_by_idx: dict[int, dict] = {}
+    for entry in parsed_arr:
+        if isinstance(entry, dict) and isinstance(entry.get("idx"), int):
+            keep = bool(entry.get("keep"))
+            cat = (entry.get("category") or "monument").strip().lower()
+            if cat not in ALLOWED_CATEGORIES:
+                cat = "monument"
+            decision_by_idx[entry["idx"]] = {"keep": keep, "category": cat}
+
+    for idx, item in enumerate(uncached):
+        dec = decision_by_idx.get(idx, {"keep": False, "category": "monument"})
+        c_key = f"{item['lang']}:{item['pageid']}"
+        cache[c_key] = dec
+        results[c_key] = dec
+
+    return results
 
 
-def save_cache(cache):
-    with open(CACHE_PATH, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
+def dedupe_and_clean_places(raw_places: list[dict]) -> list[dict]:
+    cleaned: list[dict] = []
+    seen_ids: set[str] = set()
+    seen_coord_name: set[tuple[float, float, str]] = set()
 
-
-def load_state(total_hubs: int):
-    default_state = {"hub_index": 0, "completed_cycles": 0}
-    if os.path.exists(STATE_PATH):
-        try:
-            with open(STATE_PATH, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, dict):
-                    idx = int(data.get("hub_index", 0))
-                    if idx < 0 or idx >= total_hubs:
-                        idx = 0
-                    return {
-                        "hub_index": idx,
-                        "completed_cycles": int(data.get("completed_cycles", 0)),
-                    }
-        except Exception:
-            pass
-    return default_state
-
-
-def save_state(state):
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
-
-
-def save_places(places):
-    cleaned = []
-    seen_ids = set()
-    for p in places:
+    for p in raw_places:
         if not isinstance(p, dict):
             continue
-        lat = p.get("lat")
-        lon = p.get("lon")
-        name = (p.get("name") or "").strip()
-        if not name or not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
+        pid = str(p.get("id") or "").strip()
+        name = str(p.get("name") or "").strip()
+        cat = str(p.get("category") or "monument").strip().lower()
+        region = str(p.get("region") or "europe").strip().lower()
+        wiki_title = str(p.get("wikiTitle") or name).strip()
+
+        try:
+            lat = float(p["lat"])
+            lon = float(p["lon"])
+        except Exception:
             continue
-        if HARD_BLOCK_REGEX.search(name):
+
+        if not name or not (-90.0 <= lat <= 90.0) or not (-180.0 <= lon <= 180.0):
             continue
-        pid = str(p.get("id") or "")
-        if pid and pid in seen_ids:
+        if cat not in ALLOWED_CATEGORIES:
+            cat = "monument"
+        if is_hard_blocked(name, ""):
             continue
+
+        coord_key = (round(lat, 4), round(lon, 4), name.lower())
+        if (pid and pid in seen_ids) or coord_key in seen_coord_name:
+            continue
+
         if pid:
             seen_ids.add(pid)
-        item = dict(p)
-        item["lat"] = round(float(lat), 6)
-        item["lon"] = round(float(lon), 6)
-        item["region"] = classify_region(item["lat"], item["lon"], item.get("region") or "global")
-        cleaned.append(item)
+        seen_coord_name.add(coord_key)
 
-    with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(cleaned, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-
-    with open(JS_PATH, "w", encoding="utf-8") as f:
-        f.write("window.NAVRE_SEED_PLACES = ")
-        json.dump(cleaned, f, ensure_ascii=False, indent=2)
-        f.write(";\n")
-
-    os.makedirs(CHUNKS_DIR, exist_ok=True)
-    grouped = {}
-    for p in cleaned:
-        reg = re.sub(r"[^a-z0-9-]", "", str(p.get("region", "global")).lower()) or "global"
-        grouped.setdefault(reg, []).append(p)
-
-    for reg, items in grouped.items():
-        chunk_file = os.path.join(CHUNKS_DIR, f"{reg}.json")
-        with open(chunk_file, "w", encoding="utf-8") as cf:
-            json.dump(items, cf, ensure_ascii=False, indent=2)
-            cf.write("\n")
+        cleaned.append(
+            {
+                "id": pid or f"w/{hashlib.md5(f'{name}:{lat}:{lon}'.encode()).hexdigest()[:10]}",
+                "name": name,
+                "category": cat,
+                "lat": round(lat, 6),
+                "lon": round(lon, 6),
+                "wikiTitle": wiki_title,
+                "region": region,
+            }
+        )
 
     return cleaned
 
 
-def wiki_get_with_retry(url, params):
-    for attempt in range(4):
-        resp = requests.get(
-            url,
-            params=params,
-            headers={"User-Agent": "NAVRE-GPT-OSS-Curator/2.4 (https://navre.app; doruk@navre.app)"},
-            timeout=20,
-        )
-        if resp.status_code == 429:
-            retry_after = resp.headers.get("Retry-After")
-            wait_s = int(retry_after) if (retry_after and retry_after.isdigit()) else (2 * (attempt + 1))
-            wait_s = min(wait_s, 15)
-            time.sleep(wait_s)
-            continue
-        resp.raise_for_status()
-        return resp.json()
-    raise RuntimeError("Wikipedia 429 tekrar deneme limiti aşıldı")
+def rebuild_and_save(places: list[dict]) -> list[dict]:
+    cleaned = dedupe_and_clean_places(places)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
 
+    save_json(PLACES_JSON, cleaned)
+    js_body = "window.NAVRE_SEED_PLACES = " + json.dumps(cleaned, ensure_ascii=False, indent=2) + ";\n"
+    PLACES_JS.write_text(js_body, encoding="utf-8")
 
-def fetch_geosearch(lang, lat, lon, radius, limit):
-    url = f"https://{lang}.wikipedia.org/w/api.php"
-    params = {
-        "action": "query",
-        "list": "geosearch",
-        "gscoord": f"{lat}|{lon}",
-        "gsradius": min(radius, 10000),
-        "gslimit": min(limit, 500),
-        "format": "json",
-    }
-    data = wiki_get_with_retry(url, params)
-    return data.get("query", {}).get("geosearch", [])
+    chunk_size = 250
+    index_manifest = []
+    for idx in range(0, len(cleaned), chunk_size):
+        part = cleaned[idx : idx + chunk_size]
+        part_num = (idx // chunk_size) + 1
+        fname = f"places-{part_num:03d}.json"
+        save_json(CHUNKS_DIR / fname, part)
+        index_manifest.append({"file": fname, "count": len(part)})
 
-
-def fetch_extracts(lang, titles):
-    out = {}
-    for i in range(0, len(titles), 40):
-        chunk = titles[i : i + 40]
-        url = f"https://{lang}.wikipedia.org/w/api.php"
-        params = {
-            "action": "query",
-            "prop": "extracts",
-            "exintro": 1,
-            "explaintext": 1,
-            "exchars": 260,
-            "titles": "|".join(chunk),
-            "format": "json",
-        }
-        data = wiki_get_with_retry(url, params)
-        pages = data.get("query", {}).get("pages", {})
-        for p in pages.values():
-            t = (p.get("title") or "").strip().lower()
-            if t:
-                out[t] = (p.get("extract") or "").strip()
-        time.sleep(0.25)
-    return out
-
-
-def parse_json_array_loose(raw_text: str):
-    txt = (raw_text or "").strip()
-    if not txt:
-        return []
-    txt = re.sub(r"^```(?:json)?\s*", "", txt, flags=re.IGNORECASE)
-    txt = re.sub(r"\s*```$", "", txt)
-    try:
-        parsed = json.loads(txt)
-        if isinstance(parsed, list):
-            return parsed
-        if isinstance(parsed, dict):
-            for k in ("results", "items", "places", "data"):
-                if isinstance(parsed.get(k), list):
-                    return parsed[k]
-    except Exception:
-        pass
-    m = re.search(r"\[[\s\S]*\]", txt)
-    if m:
-        try:
-            arr = json.loads(m.group(0))
-            if isinstance(arr, list):
-                return arr
-        except Exception:
-            pass
-    return []
-
-
-def ask_groq_curate(items_batch, api_key: str):
-    payload = [
-        {"idx": i, "title": it["title"], "extract": it["extract"][:200]}
-        for i, it in enumerate(items_batch)
-    ]
-
-    system_prompt = (
-        "You are a strict, expert historical & cultural heritage curator for NAVRE, a global discovery map app. "
-        "Users browse both world-famous landmarks and remote, lesser-known historical treasures. "
-        "Set keep=true ONLY for tangible, physical historical or cultural heritage sites: "
-        "ancient ruins, archaeological sites, castles, fortresses, palaces, historic mosques, churches, "
-        "synagogues, monasteries, temples, heritage/history/art museums, cisterns, aqueducts, historic tombs, "
-        "mausoleums, historic towers, historic bridges, caravanserais, madrasas, and significant monuments. "
-        "Set keep=false for historical events/battles/attacks/sieges/massacres/treaties, hotels/lodges/resorts, "
-        "modern schools, universities, hospitals, transit stations, airports, stadiums, shopping malls, "
-        "ordinary city parks, administrative districts, neighborhoods, villages, cities, rivers, lakes, or mountains. "
-        f"Allowed categories: {ALLOWED_CATEGORIES}. "
-        "Reply ONLY with a valid JSON array of objects: "
-        '[{"idx": 0, "keep": true, "category": "castle"}]'
+    save_json(
+        DATA_DIR / "index.json",
+        {
+            "total": len(cleaned),
+            "chunkSize": chunk_size,
+            "chunks": index_manifest,
+        },
     )
-
-    models_to_try = [MODEL_NAME] + [m for m in FALLBACK_MODELS if m != MODEL_NAME]
-
-    for active_model in models_to_try:
-        for attempt in range(3):
-            resp = requests.post(
-                "https://api.groq.com/openai/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {api_key}",
-                    "Content-Type": "application/json",
-                },
-                json={
-                    "model": active_model,
-                    "temperature": 0.1,
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
-                    ],
-                },
-                timeout=60,
-            )
-            if resp.status_code == 404:
-                print(f"  [Model 404] {active_model} bulunamadı, yedek modele geçiliyor...")
-                break
-            if resp.status_code == 429:
-                wait_s = 6 * (attempt + 1)
-                print(f"  [Rate limit 429 - {active_model}] {wait_s} sn bekleniyor...")
-                time.sleep(wait_s)
-                continue
-            resp.raise_for_status()
-            content = resp.json()["choices"][0]["message"].get("content", "")
-            return parse_json_array_loose(content)
-
-    return []
-
-
-def rebuild_and_save(places, candidates, cache, reset_places=False):
-    seen_coords = set()
-    base = [] if reset_places else list(places)
-    for p in base:
-        if isinstance(p, dict) and isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lon"), (int, float)):
-            seen_coords.add((
-                str(p.get("name", "")).strip().lower(),
-                round(float(p["lat"]), 3),
-                round(float(p["lon"]), 3),
-            ))
-
-    added = []
-    for c in candidates:
-        decision = cache.get(c["ckey"])
-        if not decision or not decision.get("keep"):
-            continue
-        dkey = (c["title"].lower(), round(c["lat"], 3), round(c["lon"], 3))
-        if dkey in seen_coords:
-            continue
-        seen_coords.add(dkey)
-        cat = decision.get("category")
-        if cat not in ALLOWED_CATEGORIES:
-            cat = "monument"
-        added.append({
-            "id": f"w-{c['lang']}/{c['pageid'] or len(base) + len(added) + 1}",
-            "name": c["title"],
-            "category": cat,
-            "lat": c["lat"],
-            "lon": c["lon"],
-            "region": c["region"],
-            "wikiTitle": c["title"],
-        })
-
-    return save_places(base + added)
+    return cleaned
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--batch-size", type=int, default=40)
-    parser.add_argument("--reset-places", action="store_true")
-    parser.add_argument("--max-new-per-run", type=int, default=0)
-    parser.add_argument("--max-hubs", type=int, default=300)
-    parser.add_argument("--max-seconds", type=int, default=720)
-    args = parser.parse_args()
-
-    api_key = os.environ.get("GROQ_API_KEY", "").strip()
-    if not api_key:
-        raise RuntimeError("GROQ_API_KEY ortam değişkeni tanımlı değil.")
-
     start_time = time.monotonic()
-    cache = load_cache()
-    places = [] if args.reset_places else load_json_list(JSON_PATH)
-    hubs = build_all_hubs()
-    state = load_state(len(hubs))
+    max_hubs = int(os.environ.get("MAX_HUBS_PER_RUN", "300"))
+    max_seconds = int(os.environ.get("MAX_SECONDS_PER_RUN", "720"))
+    reset_hub_index = os.environ.get("RESET_HUB_INDEX", "0").strip() in ("1", "true", "yes")
 
-    start_idx = 0 if args.reset_places else state["hub_index"]
-    candidates = []
-    seen_cand = set()
+    groq_key = (os.environ.get("GROQ_API_KEY") or "").strip()
+    openrouter_key = (os.environ.get("OPENROUTER_API_KEY") or "").strip()
+
+    hubs = build_hubs()
+    total_hubs = len(hubs)
+
+    existing_places = load_json(PLACES_JSON, [])
+    if isinstance(existing_places, dict) and isinstance(existing_places.get("places"), list):
+        existing_places = existing_places["places"]
+    if not isinstance(existing_places, list):
+        existing_places = []
+
+    places = dedupe_and_clean_places(existing_places)
+    cache = load_json(CACHE_JSON, {})
+    if not isinstance(cache, dict):
+        cache = {}
+
+    state = load_json(STATE_JSON, {})
+    if not isinstance(state, dict):
+        state = {}
+
+    grid_signature = hashlib.md5(f"{total_hubs}:{len(GLOBAL_GRID_BANDS)}:{len(ICONIC_ANCHORS)}".encode()).hexdigest()[:10]
+    if reset_hub_index or state.get("grid_signature") != grid_signature:
+        current_idx = 0
+    else:
+        current_idx = int(state.get("hub_index", 0)) % max(total_hubs, 1)
+
+    completed_cycles = int(state.get("completed_cycles", 0))
+    seen_page_keys: set[str] = {str(p.get("id")) for p in places if p.get("id")}
+
+    start_idx = current_idx
+    processed_in_run = 0
+    candidates_buffer: list[dict] = []
+    candidate_meta_map: dict[str, dict] = {}
+    new_added_count = 0
 
     print(
-        f"Toplam hub: {len(hubs)} | Başlangıç indeksi: {start_idx} | "
-        f"Max hub/tur: {args.max_hubs} | Max süre: {args.max_seconds} sn | Model: {MODEL_NAME}"
+        f"Toplam hub: {total_hubs} | Baslangic indeksi: {current_idx} | "
+        f"Mevcut kayit: {len(places)} | OpenRouter: {'AKTIF' if openrouter_key else 'YOK'}",
+        flush=True,
     )
 
-    processed_hubs = 0
-    current_idx = start_idx
+    def flush_candidates():
+        nonlocal places, new_added_count
+        if not candidates_buffer:
+            return
+        decisions = curate_batch_with_ai(candidates_buffer, groq_key, openrouter_key, cache)
+        for c_key, dec in decisions.items():
+            if dec.get("keep") and c_key in candidate_meta_map:
+                meta = candidate_meta_map[c_key]
+                if meta["id"] not in seen_page_keys:
+                    seen_page_keys.add(meta["id"])
+                    places.append(
+                        {
+                            "id": meta["id"],
+                            "name": meta["title"],
+                            "category": dec.get("category", "monument"),
+                            "lat": meta["lat"],
+                            "lon": meta["lon"],
+                            "wikiTitle": meta["title"],
+                            "region": meta["region"],
+                        }
+                    )
+                    new_added_count += 1
+        candidates_buffer.clear()
+        candidate_meta_map.clear()
 
-    while processed_hubs < args.max_hubs:
-        if (time.monotonic() - start_time) >= args.max_seconds:
-            print("Zaman sınırına ulaşıldı, hub taraması durduruluyor ve kayıt aşamasına geçiliyor.")
-            break
+    while processed_in_run < max_hubs and (time.monotonic() - start_time) < max_seconds:
+        hub = hubs[current_idx]
+        lang = hub["lang"]
+        geo_items = fetch_geosearch(hub["lat"], hub["lon"], hub["radius"], lang, limit=500)
 
-        hub_name, lat, lon, radius, limit, lang, region = hubs[current_idx]
-        try:
-            raw = fetch_geosearch(lang, lat, lon, radius, limit)
-            titles_to_fetch = []
-            valid_raw = []
-            for it in raw:
-                title = (it.get("title") or "").strip()
-                plat, plon = it.get("lat"), it.get("lon")
-                if not title or not isinstance(plat, (int, float)) or not isinstance(plon, (int, float)):
+        page_ids_to_fetch: list[int] = []
+        raw_items_by_pid: dict[int, dict] = {}
+
+        for g in geo_items:
+            pid = g.get("pageid")
+            title = (g.get("title") or "").strip()
+            lat = g.get("lat")
+            lon = g.get("lon")
+            if not isinstance(pid, int) or not title or lat is None or lon is None:
+                continue
+
+            rec_id = f"w-{lang}/{pid}"
+            c_key = f"{lang}:{pid}"
+            if rec_id in seen_page_keys or c_key in cache:
+                continue
+
+            raw_items_by_pid[pid] = {
+                "pageid": pid,
+                "id": rec_id,
+                "title": title,
+                "lat": float(lat),
+                "lon": float(lon),
+                "lang": lang,
+                "region": hub["region"],
+            }
+            page_ids_to_fetch.append(pid)
+
+        if page_ids_to_fetch:
+            extracts = fetch_extracts(page_ids_to_fetch, lang)
+            for pid in page_ids_to_fetch:
+                item = raw_items_by_pid[pid]
+                ext = extracts.get(str(pid), "")
+                if is_hard_blocked(item["title"], ext):
+                    cache[f"{lang}:{pid}"] = {"keep": False, "category": "monument"}
                     continue
-                if HARD_BLOCK_REGEX.search(title):
-                    continue
-                ckey = f"{lang}:{title.lower()}"
-                if ckey in seen_cand:
-                    continue
-                seen_cand.add(ckey)
-                valid_raw.append((title, float(plat), float(plon), it.get("pageid")))
-                if ckey not in cache:
-                    titles_to_fetch.append(title)
+                item["extract"] = ext
+                c_key = f"{lang}:{pid}"
+                candidates_buffer.append(item)
+                candidate_meta_map[c_key] = item
 
-            extracts = fetch_extracts(lang, titles_to_fetch) if titles_to_fetch else {}
-            for title, plat, plon, pageid in valid_raw:
-                ckey = f"{lang}:{title.lower()}"
-                candidates.append({
-                    "ckey": ckey,
-                    "lang": lang,
-                    "region": region,
-                    "title": title,
-                    "lat": round(plat, 6),
-                    "lon": round(plon, 6),
-                    "pageid": pageid,
-                    "extract": extracts.get(title.lower(), ""),
-                })
-        except Exception as e:
-            print(f"[Geosearch Uyarı] {hub_name}: {e}")
+        if len(candidates_buffer) >= 40:
+            flush_candidates()
 
-        processed_hubs += 1
+        processed_in_run += 1
         current_idx += 1
-        if current_idx >= len(hubs):
+        if current_idx >= total_hubs:
             current_idx = 0
-            state["completed_cycles"] += 1
+            completed_cycles += 1
+            print(f"[Dongu Tamamlandi] Toplam tamamlanan dongu: {completed_cycles}", flush=True)
 
-        if processed_hubs % 100 == 0:
-            print(
-                f"  Tur içi hub: {processed_hubs}/{args.max_hubs} | "
-                f"Sonraki indeks: {current_idx}/{len(hubs)} | Aday: {len(candidates)}"
+        if processed_in_run % 100 == 0:
+            flush_candidates()
+            places = rebuild_and_save(places)
+            save_json(CACHE_JSON, cache)
+            save_json(
+                STATE_JSON,
+                {
+                    "grid_signature": grid_signature,
+                    "hub_index": current_idx,
+                    "completed_cycles": completed_cycles,
+                    "total_places": len(places),
+                    "total_hubs": total_hubs,
+                },
             )
-        time.sleep(0.25)
+            print(
+                f"  Tur ici hub: {processed_in_run}/{max_hubs} | Sonraki indeks: {current_idx}/{total_hubs} | "
+                f"Toplam nitelikli yer: {len(places)}",
+                flush=True,
+            )
 
-    state["hub_index"] = current_idx
-    save_state(state)
-
-    uncached = [c for c in candidates if c["ckey"] not in cache]
-    if args.max_new_per_run > 0:
-        uncached = uncached[: args.max_new_per_run]
-
-    print(
-        f"Aday: {len(candidates)} | Önbellekte: {len(candidates) - len(uncached)} | "
-        f"Bu turda AI'a sorulacak: {len(uncached)}"
+    flush_candidates()
+    places = rebuild_and_save(places)
+    save_json(CACHE_JSON, cache)
+    save_json(
+        STATE_JSON,
+        {
+            "grid_signature": grid_signature,
+            "hub_index": current_idx,
+            "completed_cycles": completed_cycles,
+            "total_places": len(places),
+            "total_hubs": total_hubs,
+        },
     )
 
-    for i in range(0, len(uncached), args.batch_size):
-        if (time.monotonic() - start_time) >= args.max_seconds:
-            print("AI aşamasında zaman sınırına ulaşıldı, mevcut ilerleme kaydediliyor.")
-            break
-
-        batch = uncached[i : i + args.batch_size]
-        try:
-            decisions = ask_groq_curate(batch, api_key=api_key)
-            dec_map = {int(d.get("idx", -1)): d for d in decisions if isinstance(d, dict)}
-            for idx_in_batch, item in enumerate(batch):
-                d = dec_map.get(idx_in_batch)
-                if not d:
-                    continue
-                keep = bool(d.get("keep"))
-                cat = d.get("category")
-                if cat not in ALLOWED_CATEGORIES:
-                    cat = "monument"
-                cache[item["ckey"]] = {"keep": keep, "category": cat if keep else None}
-            save_cache(cache)
-
-            if (i // args.batch_size + 1) % 3 == 0:
-                places = rebuild_and_save(places, candidates, cache, reset_places=args.reset_places)
-                print(
-                    f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] "
-                    f"Ara kayıt yapıldı -> Toplam nitelikli yer: {len(places)}"
-                )
-            else:
-                print(f"[{min(i + len(batch), len(uncached))}/{len(uncached)}] Paket tamamlandı.")
-        except Exception as e:
-            print(f"[AI Uyarı] {e} — 5 sn sonra devam...")
-            time.sleep(5)
-        time.sleep(1.2)
-
-    merged = rebuild_and_save(places, candidates, cache, reset_places=args.reset_places)
-    save_state(state)
     print(
-        f"Tur bitti! Toplam nitelikli kayıt: {len(merged)} | "
-        f"Önbellekteki karar: {len(cache)} | Sonraki hub indeksi: {state['hub_index']}"
+        f"Tur bitti! Baslangic: {start_idx} -> Sonraki indeks: {current_idx}/{total_hubs} | "
+        f"Bu tur eklenen: +{new_added_count} | Toplam nitelikli yer: {len(places)} | "
+        f"Onbellek karar: {len(cache)}",
+        flush=True,
     )
 
 
