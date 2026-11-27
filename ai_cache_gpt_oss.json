@@ -16918,5 +16918,65 @@
   "en:mogincual district": {
     "keep": false,
     "category": null
+  },
+  "en:pakwach district": {
+    "keep": false,
+    "category": null
+  },
+  "en:pakwach": {
+    "keep": false,
+    "category": null
+  },
+  "en:karuma–olwiyo–pakwach–nebbi–arua road": {
+    "keep": false,
+    "category": null
+  },
+  "en:barlonyo memorial site": {
+    "keep": true,
+    "category": "monument"
+  },
+  "en:kargi, kenya": {
+    "keep": false,
+    "category": null
+  },
+  "en:sidimo": {
+    "keep": false,
+    "category": null
+  },
+  "en:galaangale": {
+    "keep": false,
+    "category": null
+  },
+  "en:sackbayeme": {
+    "keep": false,
+    "category": null
+  },
+  "en:song loulou hydroelectric power station": {
+    "keep": false,
+    "category": null
+  },
+  "en:ndelele": {
+    "keep": false,
+    "category": null
+  },
+  "en:lobaye": {
+    "keep": false,
+    "category": null
+  },
+  "en:mongounda": {
+    "keep": false,
+    "category": null
+  },
+  "en:bonguele": {
+    "keep": false,
+    "category": null
+  },
+  "en:mboma": {
+    "keep": false,
+    "category": null
+  },
+  "en:ndimbi": {
+    "keep": false,
+    "category": null
   }
 }
