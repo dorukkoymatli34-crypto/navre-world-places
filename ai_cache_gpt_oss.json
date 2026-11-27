@@ -16230,5 +16230,89 @@
   "en:mecca province": {
     "keep": false,
     "category": null
+  },
+  "en:hajjiabad, mardehek": {
+    "keep": false,
+    "category": null
+  },
+  "en:tavakkolabad, jebalbarez-e jonubi": {
+    "keep": false,
+    "category": null
+  },
+  "en:samsili, kerman": {
+    "keep": false,
+    "category": null
+  },
+  "en:gazabad, anbarabad": {
+    "keep": false,
+    "category": null
+  },
+  "en:rustai-ye shahid salari": {
+    "keep": false,
+    "category": null
+  },
+  "en:jamalabad-e qadiri": {
+    "keep": false,
+    "category": null
+  },
+  "en:amjadiyeh-ye pain": {
+    "keep": false,
+    "category": null
+  },
+  "en:hojjatabad, jebalbarez-e jonubi": {
+    "keep": false,
+    "category": null
+  },
+  "en:juzanan": {
+    "keep": false,
+    "category": null
+  },
+  "en:zakht": {
+    "keep": false,
+    "category": null
+  },
+  "en:hasanabad, jebalbarez-e jonubi": {
+    "keep": false,
+    "category": null
+  },
+  "en:ab sarduiyeh, anbarabad": {
+    "keep": false,
+    "category": null
+  },
+  "en:kochkahur": {
+    "keep": false,
+    "category": null
+  },
+  "en:sarzeh, rigan": {
+    "keep": false,
+    "category": null
+  },
+  "en:abegarm, rigan": {
+    "keep": false,
+    "category": null
+  },
+  "en:garich, kerman": {
+    "keep": false,
+    "category": null
+  },
+  "en:gurahi": {
+    "keep": false,
+    "category": null
+  },
+  "en:deh-e jehil": {
+    "keep": false,
+    "category": null
+  },
+  "en:kheyrabad, bazman": {
+    "keep": false,
+    "category": null
+  },
+  "en:poshtkuh district (khash county)": {
+    "keep": false,
+    "category": null
+  },
+  "en:poshtkuh rural district (khash county)": {
+    "keep": false,
+    "category": null
   }
 }
