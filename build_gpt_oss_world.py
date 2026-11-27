@@ -313,7 +313,6 @@ def parse_json_array_response(content: str) -> list[dict] | None:
         parsed = json.loads(raw_json)
         return parsed if isinstance(parsed, list) else None
     except Exception:
-        # Kesilmis veya son virgul hatali JSON dizilerini kurtarmayi dene
         cleaned = re.sub(r",\s*([\]}])", r"\1", raw_json)
         last_brace = cleaned.rfind("}")
         if last_brace != -1:
@@ -378,6 +377,7 @@ def curate_batch_with_ai(
     groq_key: str,
     openrouter_key: str,
     cache: dict,
+    deadline: float | None = None,
 ) -> dict[str, dict]:
     results: dict[str, dict] = {}
     uncached: list[dict] = []
@@ -419,72 +419,88 @@ def curate_batch_with_ai(
         {"role": "user", "content": user_prompt},
     ]
 
-    parsed_arr = None
+    backoff = 15.0
+    while True:
+        if deadline is not None and time.monotonic() >= deadline:
+            return results
 
-    if gemini_key:
-        for m in GEMINI_MODELS:
-            try:
-                raw = call_gemini(gemini_key, m, system_prompt, user_prompt)
-                arr = parse_json_array_response(raw)
-                if arr is not None:
-                    parsed_arr = arr
-                    break
-            except urllib.error.HTTPError as e:
-                print(f"  [Gemini {e.code}] {m} gecildi.", flush=True)
-                if e.code == 429:
-                    time.sleep(1.0)
-            except Exception as exc:
-                print(f"  [Gemini Err] {m}: {str(exc)[:70]}", flush=True)
+        parsed_arr = None
+        hit_429 = False
 
-    if parsed_arr is None:
-        providers = []
-        if groq_key:
-            for m in GROQ_MODELS:
-                providers.append(("Groq", GROQ_API_URL, groq_key, m, None))
-        if openrouter_key:
-            or_headers = {"HTTP-Referer": "[https://navre.app](https://navre.app)", "X-Title": "NAVRE World Curator"}
-            for m in OPENROUTER_FREE_MODELS:
-                providers.append(("OpenRouter", OPENROUTER_API_URL, openrouter_key, m, or_headers))
+        if gemini_key:
+            for m in GEMINI_MODELS:
+                try:
+                    raw = call_gemini(gemini_key, m, system_prompt, user_prompt)
+                    arr = parse_json_array_response(raw)
+                    if arr is not None:
+                        parsed_arr = arr
+                        break
+                except urllib.error.HTTPError as e:
+                    print(f"  [Gemini {e.code}] {m} gecildi.", flush=True)
+                    if e.code == 429:
+                        hit_429 = True
+                except Exception as exc:
+                    print(f"  [Gemini Err] {m}: {str(exc)[:70]}", flush=True)
 
-        for prov_name, endpoint, key, model_name, extra_hdrs in providers:
-            try:
-                raw = call_openai_compatible(endpoint, key, model_name, messages, extra_hdrs)
-                arr = parse_json_array_response(raw)
-                if arr is not None:
-                    parsed_arr = arr
-                    break
-            except urllib.error.HTTPError as e:
-                print(f"  [{prov_name} {e.code}] {model_name} gecildi.", flush=True)
-                if e.code == 429:
-                    time.sleep(1.0)
-            except Exception as exc:
-                print(f"  [{prov_name} Err] {model_name}: {str(exc)[:70]}", flush=True)
+        if parsed_arr is None:
+            providers = []
+            if groq_key:
+                for m in GROQ_MODELS:
+                    providers.append(("Groq", GROQ_API_URL, groq_key, m, None))
+            if openrouter_key:
+                or_headers = {"HTTP-Referer": "[https://navre.app](https://navre.app)", "X-Title": "NAVRE World Curator"}
+                for m in OPENROUTER_FREE_MODELS:
+                    providers.append(("OpenRouter", OPENROUTER_API_URL, openrouter_key, m, or_headers))
 
-    if parsed_arr is None:
-        return results
+            for prov_name, endpoint, key, model_name, extra_hdrs in providers:
+                try:
+                    raw = call_openai_compatible(endpoint, key, model_name, messages, extra_hdrs)
+                    arr = parse_json_array_response(raw)
+                    if arr is not None:
+                        parsed_arr = arr
+                        break
+                except urllib.error.HTTPError as e:
+                    print(f"  [{prov_name} {e.code}] {model_name} gecildi.", flush=True)
+                    if e.code == 429:
+                        hit_429 = True
+                except Exception as exc:
+                    print(f"  [{prov_name} Err] {model_name}: {str(exc)[:70]}", flush=True)
 
-    decision_by_idx: dict[int, dict] = {}
-    for entry in parsed_arr:
-        if isinstance(entry, dict) and isinstance(entry.get("idx"), int):
-            score = entry.get("score", 6.5)
-            try:
-                score_num = float(score)
-            except Exception:
-                score_num = 6.5
-            keep = bool(entry.get("keep")) and (score_num >= 6.5)
-            cat = (entry.get("category") or "monument").strip().lower()
-            if cat not in ALLOWED_CATEGORIES:
-                cat = "monument"
-            decision_by_idx[entry["idx"]] = {"keep": keep, "category": cat}
+        if parsed_arr is not None:
+            decision_by_idx: dict[int, dict] = {}
+            for entry in parsed_arr:
+                if isinstance(entry, dict) and isinstance(entry.get("idx"), int):
+                    score = entry.get("score", 6.5)
+                    try:
+                        score_num = float(score)
+                    except Exception:
+                        score_num = 6.5
+                    keep = bool(entry.get("keep")) and (score_num >= 6.5)
+                    cat = (entry.get("category") or "monument").strip().lower()
+                    if cat not in ALLOWED_CATEGORIES:
+                        cat = "monument"
+                    decision_by_idx[entry["idx"]] = {"keep": keep, "category": cat}
 
-    for idx, item in enumerate(uncached):
-        if idx in decision_by_idx:
-            dec = decision_by_idx[idx]
-            c_key = f"{item['lang']}:{item['pageid']}"
-            cache[c_key] = dec
-            results[c_key] = dec
+            for idx, item in enumerate(uncached):
+                if idx in decision_by_idx:
+                    dec = decision_by_idx[idx]
+                    c_key = f"{item['lang']}:{item['pageid']}"
+                    cache[c_key] = dec
+                    results[c_key] = dec
+            return results
 
-    return results
+        if hit_429:
+            sleep_sec = min(backoff, 180.0)
+            if deadline is not None:
+                remaining = deadline - time.monotonic()
+                if remaining <= 2.0:
+                    return results
+                sleep_sec = min(sleep_sec, max(1.0, remaining - 1.0))
+            print(f"  [Rate Limit 429] Tum modeller limitli, {sleep_sec:.0f}s bekleniyor...", flush=True)
+            time.sleep(sleep_sec)
+            backoff = min(backoff * 1.5, 180.0)
+        else:
+            return results
 
 
 def dedupe_and_clean_places(raw_places: list[dict]) -> list[dict]:
@@ -584,6 +600,7 @@ def main():
     max_new_per_run = int(os.environ.get("MAX_NEW_PER_RUN", str(args.max_new_per_run)))
     max_hubs = int(os.environ.get("MAX_HUBS_PER_RUN", str(args.max_hubs)))
     max_seconds = int(os.environ.get("MAX_SECONDS_PER_RUN", str(args.max_seconds)))
+    deadline = start_time + max_seconds
 
     gemini_key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     groq_key = (os.environ.get("GROQ_API_KEY") or "").strip()
@@ -644,7 +661,14 @@ def main():
         nonlocal places, new_added_count, dirty_since_save
         if not candidates_buffer:
             return
-        decisions = curate_batch_with_ai(candidates_buffer, gemini_key, groq_key, openrouter_key, cache)
+        decisions = curate_batch_with_ai(
+            candidates_buffer,
+            gemini_key,
+            groq_key,
+            openrouter_key,
+            cache,
+            deadline=deadline,
+        )
         for c_key, dec in decisions.items():
             if dec.get("keep") and c_key in candidate_meta_map:
                 if max_new_per_run > 0 and new_added_count >= max_new_per_run:
@@ -684,7 +708,7 @@ def main():
         save_json(STATE_JSON, st)
         dirty_since_save = False
 
-    while processed_in_run < max_hubs and (time.monotonic() - start_time) < max_seconds:
+    while processed_in_run < max_hubs and time.monotonic() < deadline:
         if max_new_per_run > 0 and new_added_count >= max_new_per_run:
             break
 
