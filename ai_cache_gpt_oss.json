@@ -16634,5 +16634,165 @@
   "en:cafarlet": {
     "keep": true,
     "category": "castle"
+  },
+  "en:naran rural district": {
+    "keep": false,
+    "category": null
+  },
+  "en:muyneh": {
+    "keep": false,
+    "category": null
+  },
+  "en:shineh, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:kilek": {
+    "keep": false,
+    "category": null
+  },
+  "en:chonu": {
+    "keep": false,
+    "category": null
+  },
+  "en:lenjabad, sanandaj": {
+    "keep": false,
+    "category": null
+  },
+  "en:chenareh, sanandaj": {
+    "keep": false,
+    "category": null
+  },
+  "en:burban, iran": {
+    "keep": false,
+    "category": null
+  },
+  "en:qasrian": {
+    "keep": false,
+    "category": null
+  },
+  "en:gazneh, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:aliabad, naran": {
+    "keep": false,
+    "category": null
+  },
+  "en:zarvan, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:chenaran, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:serenjianeh-ye sofla": {
+    "keep": false,
+    "category": null
+  },
+  "en:shahrak-e vahdat, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:gandoman, sanandaj": {
+    "keep": false,
+    "category": null
+  },
+  "en:dul bagh": {
+    "keep": false,
+    "category": null
+  },
+  "en:serenjianeh-ye olya": {
+    "keep": false,
+    "category": null
+  },
+  "en:khoshkeh dul, sanandaj": {
+    "keep": false,
+    "category": null
+  },
+  "en:shilan, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:anguzhan": {
+    "keep": false,
+    "category": null
+  },
+  "en:su, iran": {
+    "keep": false,
+    "category": null
+  },
+  "en:garabad, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:lareh val": {
+    "keep": false,
+    "category": null
+  },
+  "en:seman, iran": {
+    "keep": false,
+    "category": null
+  },
+  "en:semiran, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:naran, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:hovanleh": {
+    "keep": false,
+    "category": null
+  },
+  "en:zangabad, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:kamareh, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:jodaqayah": {
+    "keep": false,
+    "category": null
+  },
+  "en:qujaq": {
+    "keep": false,
+    "category": null
+  },
+  "en:nazemabad, kurdistan": {
+    "keep": false,
+    "category": null
+  },
+  "en:mejin": {
+    "keep": false,
+    "category": null
+  },
+  "en:hajjiabad-e seyyedeh": {
+    "keep": false,
+    "category": null
+  },
+  "en:do sar, qorveh": {
+    "keep": false,
+    "category": null
+  },
+  "en:delbaran rural district": {
+    "keep": false,
+    "category": null
+  },
+  "en:shokuhabad": {
+    "keep": false,
+    "category": null
+  },
+  "en:kharileh": {
+    "keep": false,
+    "category": null
+  },
+  "en:qasemabad, kurdistan": {
+    "keep": false,
+    "category": null
   }
 }
