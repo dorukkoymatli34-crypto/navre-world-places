@@ -16166,5 +16166,69 @@
   "en:jyväsjärvi": {
     "keep": false,
     "category": null
+  },
+  "en:jabal atherb": {
+    "keep": false,
+    "category": null
+  },
+  "en:fuhah": {
+    "keep": false,
+    "category": null
+  },
+  "en:qafeel": {
+    "keep": false,
+    "category": null
+  },
+  "en:al-ishy": {
+    "keep": false,
+    "category": null
+  },
+  "en:al qahab": {
+    "keep": false,
+    "category": null
+  },
+  "en:bareq": {
+    "keep": false,
+    "category": null
+  },
+  "en:faqah": {
+    "keep": false,
+    "category": null
+  },
+  "en:asir": {
+    "keep": false,
+    "category": null
+  },
+  "en:uronarti": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:shalfak": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:semna (nubia)": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:kumma (nubia)": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:mirgissa": {
+    "keep": true,
+    "category": "archaeological_site"
+  },
+  "en:al-ji'rana": {
+    "keep": false,
+    "category": null
+  },
+  "en:ash-sharaʼiʽ al-ʽulya": {
+    "keep": false,
+    "category": null
+  },
+  "en:mecca province": {
+    "keep": false,
+    "category": null
   }
 }

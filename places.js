@@ -6685,5 +6685,50 @@ window.NAVRE_SEED_PLACES = [
     "lon": 25.73102,
     "region": "europe",
     "wikiTitle": "Alvar Aalto Museum"
+  },
+  {
+    "id": "w-en/17068120",
+    "name": "Uronarti",
+    "category": "archaeological_site",
+    "lat": 21.525833,
+    "lon": 30.990278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Uronarti"
+  },
+  {
+    "id": "w-en/53382186",
+    "name": "Shalfak",
+    "category": "archaeological_site",
+    "lat": 21.541667,
+    "lon": 31.040278,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Shalfak"
+  },
+  {
+    "id": "w-en/15458801",
+    "name": "Semna (Nubia)",
+    "category": "archaeological_site",
+    "lat": 21.5,
+    "lon": 30.967,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Semna (Nubia)"
+  },
+  {
+    "id": "w-en/36670784",
+    "name": "Kumma (Nubia)",
+    "category": "archaeological_site",
+    "lat": 21.5,
+    "lon": 30.966667,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Kumma (Nubia)"
+  },
+  {
+    "id": "w-en/36707222",
+    "name": "Mirgissa",
+    "category": "archaeological_site",
+    "lat": 21.48,
+    "lon": 30.97,
+    "region": "middle-east-anatolia",
+    "wikiTitle": "Mirgissa"
   }
 ];
