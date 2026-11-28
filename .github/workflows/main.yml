@@ -2,8 +2,6 @@ name: NAVRE Global Places Curation
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */3 * * *"
 
 permissions:
   contents: write
@@ -12,7 +10,7 @@ permissions:
 jobs:
   curate:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -26,48 +24,34 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run curation loop continuously (up to 5.5 hours)
+      - name: Run single controlled curation pass
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           set -e
-          END_TIME=$((SECONDS + 19800))
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          while [ $SECONDS -lt $END_TIME ]; do
-            python -u build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0 --max-hubs 300 --max-seconds 720
+          python -u build_gpt_oss_world.py --batch-size 40 --max-new-per-run 0 --max-hubs 100 --max-seconds 600
 
-            for f in places.json places.js ai_cache_gpt_oss.json progress_state.json data/places.json data/places.js data/ai_cache_gpt_oss.json data/progress_state.json data/index.json; do
-              if [ -f "$f" ]; then
-                git add "$f"
-              fi
-            done
-
-            for d in chunks data/chunks; do
-              if [ -d "$d" ]; then
-                git add "$d"
-              fi
-            done
-
-            if ! git diff --staged --quiet; then
-              git commit -m "chore(data): continuous world places update"
-              git pull --rebase || true
-              git push
-            else
-              echo "Bu turda yeni değişiklik oluşmadı, bir sonraki tura geçiliyor."
+          for f in places.json places.js ai_cache_gpt_oss.json progress_state.json data/places.json data/places.js data/ai_cache_gpt_oss.json data/progress_state.json data/index.json; do
+            if [ -f "$f" ]; then
+              git add "$f"
             fi
-
-            sleep 5
           done
 
-      - name: Re-trigger next run if time limit reached
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ $SECONDS -ge 19700 ]; then
-            gh workflow run main.yml
+          for d in chunks data/chunks; do
+            if [ -d "$d" ]; then
+              git add "$d"
+            fi
+          done
+
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): manual places update"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "Bu çalıştırmada yeni değişiklik oluşmadı."
           fi
