@@ -7765,5 +7765,23 @@
     "lon": 25.605708,
     "wikiTitle": "Red Location Museum",
     "region": "africa"
+  },
+  {
+    "id": "w-en/69688052",
+    "name": "Prince Imperial Memorial",
+    "category": "monument",
+    "lat": -28.132028,
+    "lon": 30.797083,
+    "wikiTitle": "Prince Imperial Memorial",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/28990657",
+    "name": "ǁKhauxaǃnas",
+    "category": "archaeological_site",
+    "lat": -27.234003,
+    "lon": 19.330856,
+    "wikiTitle": "ǁKhauxaǃnas",
+    "region": "africa"
   }
 ]
