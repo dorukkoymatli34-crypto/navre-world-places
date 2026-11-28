@@ -898,5 +898,122 @@
     "lon": 6.466944,
     "wikiTitle": "Arch of Trajan (Timgad)",
     "region": "africa"
+  },
+  {
+    "id": "w-en/59464333",
+    "name": "Fort of Almádena",
+    "category": "castle",
+    "lat": 37.066667,
+    "lon": -8.804167,
+    "wikiTitle": "Fort of Almádena",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/40285009",
+    "name": "Faro Cathedral",
+    "category": "church",
+    "lat": 37.013333,
+    "lon": -7.934722,
+    "wikiTitle": "Faro Cathedral",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/43238627",
+    "name": "Capela dos Ossos (Faro)",
+    "category": "church",
+    "lat": 37.019901,
+    "lon": -7.934527,
+    "wikiTitle": "Capela dos Ossos (Faro)",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/26720118",
+    "name": "Alcazaba of Antequera",
+    "category": "castle",
+    "lat": 37.0141,
+    "lon": -4.5577,
+    "wikiTitle": "Alcazaba of Antequera",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/6217719",
+    "name": "Dolmen of Menga",
+    "category": "tomb",
+    "lat": 37.024586,
+    "lon": -4.546292,
+    "wikiTitle": "Dolmen of Menga",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/40427502",
+    "name": "Tholos de El Romeral",
+    "category": "archaeological_site",
+    "lat": 37.034444,
+    "lon": -4.535556,
+    "wikiTitle": "Tholos de El Romeral",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/68767666",
+    "name": "Palazzo Riggio, Aci Catena",
+    "category": "palace",
+    "lat": 37.0,
+    "lon": 15.0,
+    "wikiTitle": "Palazzo Riggio, Aci Catena",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/76367643",
+    "name": "Volimidia",
+    "category": "archaeological_site",
+    "lat": 37.058056,
+    "lon": 21.723611,
+    "wikiTitle": "Volimidia",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/28886708",
+    "name": "Palace of Nestor",
+    "category": "palace",
+    "lat": 37.027222,
+    "lon": 21.695,
+    "wikiTitle": "Palace of Nestor",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/83609128",
+    "name": "Archaeological Museum of Kalymnos",
+    "category": "museum",
+    "lat": 36.954667,
+    "lon": 26.983756,
+    "wikiTitle": "Archaeological Museum of Kalymnos",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/75114060",
+    "name": "Roman Theatre of Aspendos",
+    "category": "ruins",
+    "lat": 36.938889,
+    "lon": 31.172222,
+    "wikiTitle": "Roman Theatre of Aspendos",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/20219648",
+    "name": "Eurymedon Bridge (Aspendos)",
+    "category": "bridge",
+    "lat": 36.914232,
+    "lon": 31.162999,
+    "wikiTitle": "Eurymedon Bridge (Aspendos)",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/19117110",
+    "name": "Red Location Museum",
+    "category": "museum",
+    "lat": -33.898134,
+    "lon": 25.605708,
+    "wikiTitle": "Red Location Museum",
+    "region": "africa"
   }
 ]
