@@ -808,5 +808,23 @@
     "lon": 32.873333,
     "wikiTitle": "Temple of Edfu",
     "region": "africa"
+  },
+  {
+    "id": "w-en/75193846",
+    "name": "Al-Mnaykhrat",
+    "category": "tomb",
+    "lat": 32.461167,
+    "lon": 20.920667,
+    "wikiTitle": "Al-Mnaykhrat",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/5360997",
+    "name": "Barca (ancient city)",
+    "category": "archaeological_site",
+    "lat": 32.498333,
+    "lon": 20.892778,
+    "wikiTitle": "Barca (ancient city)",
+    "region": "africa"
   }
 ]
