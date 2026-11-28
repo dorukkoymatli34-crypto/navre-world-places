@@ -7297,5 +7297,59 @@
     "lon": 43.2282,
     "wikiTitle": "Ubisi",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/29553505",
+    "name": "Ganjali Khan Complex",
+    "category": "monument",
+    "lat": 30.29,
+    "lon": 57.078056,
+    "wikiTitle": "Ganjali Khan Complex",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/60717455",
+    "name": "Vakil Caravanserai",
+    "category": "monument",
+    "lat": 30.2914,
+    "lon": 57.0807,
+    "wikiTitle": "Vakil Caravanserai",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/61523372",
+    "name": "Malek Mosque",
+    "category": "mosque",
+    "lat": 30.287778,
+    "lon": 57.081667,
+    "wikiTitle": "Malek Mosque",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/66753099",
+    "name": "Ardeshir Castle",
+    "category": "castle",
+    "lat": 30.28872,
+    "lon": 57.10064,
+    "wikiTitle": "Ardeshir Castle",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/75829482",
+    "name": "Tell Dehaila",
+    "category": "archaeological_site",
+    "lat": 30.9667,
+    "lon": 45.7889,
+    "wikiTitle": "Tell Dehaila",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/4345463",
+    "name": "Seleucia-on-the-Hedyphon",
+    "category": "ruins",
+    "lat": 30.987222,
+    "lon": 49.426722,
+    "wikiTitle": "Seleucia-on-the-Hedyphon",
+    "region": "middle-east-anatolia"
   }
 ]
