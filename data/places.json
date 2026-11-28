@@ -7351,5 +7351,113 @@
     "lon": 49.426722,
     "wikiTitle": "Seleucia-on-the-Hedyphon",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/34371479",
+    "name": "Herod's Palace (Herodium)",
+    "category": "archaeological_site",
+    "lat": 31.665833,
+    "lon": 35.241389,
+    "wikiTitle": "Herod's Palace (Herodium)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1353923",
+    "name": "Herodium",
+    "category": "archaeological_site",
+    "lat": 31.665833,
+    "lon": 35.241389,
+    "wikiTitle": "Herodium",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/59855293",
+    "name": "Kharaysin",
+    "category": "archaeological_site",
+    "lat": 32.203889,
+    "lon": 36.008889,
+    "wikiTitle": "Kharaysin",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/19405035",
+    "name": "Abu Salabikh",
+    "category": "archaeological_site",
+    "lat": 32.266667,
+    "lon": 45.083333,
+    "wikiTitle": "Abu Salabikh",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1073172",
+    "name": "Naryn Castle, Meybod",
+    "category": "castle",
+    "lat": 32.2261,
+    "lon": 54.0145,
+    "wikiTitle": "Naryn Castle, Meybod",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/20142849",
+    "name": "Bridge at Nimreh",
+    "category": "bridge",
+    "lat": 32.833333,
+    "lon": 36.691667,
+    "wikiTitle": "Bridge at Nimreh",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/61316136",
+    "name": "Birjand Castle",
+    "category": "castle",
+    "lat": 32.8828,
+    "lon": 59.2053,
+    "wikiTitle": "Birjand Castle",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/1934088",
+    "name": "Furg Citadel",
+    "category": "castle",
+    "lat": 32.8448,
+    "lon": 59.9485,
+    "wikiTitle": "Furg Citadel",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/21326699",
+    "name": "Gibran Museum",
+    "category": "museum",
+    "lat": 34.249722,
+    "lon": 36.018889,
+    "wikiTitle": "Gibran Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/10665356",
+    "name": "Hadchit",
+    "category": "archaeological_site",
+    "lat": 34.251944,
+    "lon": 35.985278,
+    "wikiTitle": "Hadchit",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/71031893",
+    "name": "Qannoubine",
+    "category": "monastery",
+    "lat": 34.2574,
+    "lon": 35.9496,
+    "wikiTitle": "Qannoubine",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/65327285",
+    "name": "Zibad Castle",
+    "category": "castle",
+    "lat": 34.276389,
+    "lon": 58.4875,
+    "wikiTitle": "Zibad Castle",
+    "region": "middle-east-anatolia"
   }
 ]
