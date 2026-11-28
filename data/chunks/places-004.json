@@ -826,5 +826,77 @@
     "lon": 20.892778,
     "wikiTitle": "Barca (ancient city)",
     "region": "africa"
+  },
+  {
+    "id": "w-en/23217150",
+    "name": "Alassa",
+    "category": "archaeological_site",
+    "lat": 34.764167,
+    "lon": 32.9275,
+    "wikiTitle": "Alassa",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/5106081",
+    "name": "Tamuda",
+    "category": "archaeological_site",
+    "lat": 35.558333,
+    "lon": -5.409722,
+    "wikiTitle": "Tamuda",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/75633366",
+    "name": "Tetouan Archaeological Museum",
+    "category": "museum",
+    "lat": 35.5706,
+    "lon": -5.3704,
+    "wikiTitle": "Tetouan Archaeological Museum",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/62074816",
+    "name": "Isaac Ben Walid Synagogue",
+    "category": "synagogue",
+    "lat": 35.570032,
+    "lon": -5.367157,
+    "wikiTitle": "Isaac Ben Walid Synagogue",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/70117053",
+    "name": "Royal Palace of Tétouan",
+    "category": "palace",
+    "lat": 35.5709,
+    "lon": -5.3681,
+    "wikiTitle": "Royal Palace of Tétouan",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/77741328",
+    "name": "Tetouan Ethnographic Museum",
+    "category": "museum",
+    "lat": 35.5703,
+    "lon": -5.364,
+    "wikiTitle": "Tetouan Ethnographic Museum",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/428994",
+    "name": "Timgad",
+    "category": "archaeological_site",
+    "lat": 35.484167,
+    "lon": 6.468611,
+    "wikiTitle": "Timgad",
+    "region": "africa"
+  },
+  {
+    "id": "w-en/41111546",
+    "name": "Arch of Trajan (Timgad)",
+    "category": "monument",
+    "lat": 35.485056,
+    "lon": 6.466944,
+    "wikiTitle": "Arch of Trajan (Timgad)",
+    "region": "africa"
   }
 ]
