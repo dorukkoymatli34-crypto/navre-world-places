@@ -7513,5 +7513,41 @@
     "lon": 51.802071,
     "wikiTitle": "Apamea Ragiana",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/42248497",
+    "name": "Cemilli Castle",
+    "category": "castle",
+    "lat": 36.8025,
+    "lon": 34.452778,
+    "wikiTitle": "Cemilli Castle",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/3477037",
+    "name": "Soli (Cilicia)",
+    "category": "archaeological_site",
+    "lat": 36.741944,
+    "lon": 34.54,
+    "wikiTitle": "Soli (Cilicia)",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/58712915",
+    "name": "Mersin Archaeological Museum",
+    "category": "museum",
+    "lat": 36.781389,
+    "lon": 34.601389,
+    "wikiTitle": "Mersin Archaeological Museum",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/12796797",
+    "name": "Çineköy inscription",
+    "category": "archaeological_site",
+    "lat": 36.798333,
+    "lon": 35.260278,
+    "wikiTitle": "Çineköy inscription",
+    "region": "middle-east-anatolia"
   }
 ]
