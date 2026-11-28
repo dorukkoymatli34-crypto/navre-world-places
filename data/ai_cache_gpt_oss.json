@@ -38426,5 +38426,917 @@
   "en:40630373": {
     "keep": false,
     "category": "monument"
+  },
+  "en:40578994": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40579000": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40579069": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673319": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40579001": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40579064": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40578995": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673312": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40569335": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40579063": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673381": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40579068": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40578397": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673322": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40648395": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40672954": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673592": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671026": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671020": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673506": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671998": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673589": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40647676": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40647704": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40648336": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673624": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40333585": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41119515": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37590616": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41119501": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23419124": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23423419": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23423460": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23431498": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23431461": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23431260": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40334454": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41119717": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41118722": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41064903": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:398944": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:11510119": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41064901": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:71117793": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:210689": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33561844": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41064625": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41064902": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41085513": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41141915": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41092893": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41141914": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41085528": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41141919": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41085688": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41085685": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41085623": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41064714": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41085686": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:22933599": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36062792": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083879": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083826": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36084041": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083856": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36076052": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083836": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083866": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36084108": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36084152": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36090351": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36090363": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36084147": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:25026168": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083848": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36084052": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093563": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36084444": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:20900918": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36083994": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35700743": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35700008": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35700063": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35607630": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35619485": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35700459": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35698391": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35620679": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35700378": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35714983": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:20358753": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35714873": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35714841": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35714998": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35714866": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35715035": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35714956": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35712657": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35659292": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35715062": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35715070": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35715066": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40648159": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40670931": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671119": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671891": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40670926": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40670935": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40673658": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671125": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671889": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40672061": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671017": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40671015": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:40916505": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:23439120": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41119707": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41119711": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:7348566": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41141937": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41074044": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:41074030": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:14935051": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:25026164": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36062337": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36059291": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093682": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093615": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093619": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36090452": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:45511249": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093699": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093589": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36099156": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093677": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36099336": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093724": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093578": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093667": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36093650": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35627382": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35627515": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36407354": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36406972": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36407099": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214304": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36213798": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36213643": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36222363": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36222342": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36222380": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214148": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214114": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214099": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36222299": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214022": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214058": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:36214041": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:73452590": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:25457539": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:4116910": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33174769": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33174753": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33175113": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33174728": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33175110": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:13391359": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:25456775": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:73186599": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72732222": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:82818772": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:33219057": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72732634": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:4104352": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66856763": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66856698": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66859785": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66859450": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66859730": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66856806": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66871710": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66856860": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66871888": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66859890": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66859545": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66856838": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66798291": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66775075": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66769322": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66768833": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66769355": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66769341": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66768745": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66769092": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66769221": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66768800": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66768784": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66794841": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66769032": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66779461": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66779682": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66775134": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37929069": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37929061": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37929045": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37910298": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37929090": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37910239": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:35696881": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37910211": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37910953": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37911001": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37929035": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:37910989": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72743392": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72744377": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:4116659": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72735205": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72734900": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72744333": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72744398": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72744386": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72734849": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72743169": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:66286146": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72748177": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72744699": {
+    "keep": false,
+    "category": "monument"
+  },
+  "en:72748778": {
+    "keep": false,
+    "category": "monument"
   }
 }
