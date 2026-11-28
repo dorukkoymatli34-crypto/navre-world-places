@@ -709,5 +709,50 @@
     "lon": 58.4875,
     "wikiTitle": "Zibad Castle",
     "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/29159494",
+    "name": "HaYonim Cave",
+    "category": "archaeological_site",
+    "lat": 32.920089,
+    "lon": 35.218264,
+    "wikiTitle": "HaYonim Cave",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/641856",
+    "name": "Cabul",
+    "category": "archaeological_site",
+    "lat": 32.869722,
+    "lon": 35.202222,
+    "wikiTitle": "Cabul",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/82224889",
+    "name": "Horvat Tefen",
+    "category": "archaeological_site",
+    "lat": 32.951861,
+    "lon": 35.255944,
+    "wikiTitle": "Horvat Tefen",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/6680774",
+    "name": "Yodfat",
+    "category": "archaeological_site",
+    "lat": 32.836944,
+    "lon": 35.273611,
+    "wikiTitle": "Yodfat",
+    "region": "middle-east-anatolia"
+  },
+  {
+    "id": "w-en/56969244",
+    "name": "Tell Keisan",
+    "category": "archaeological_site",
+    "lat": 32.8731,
+    "lon": 35.1508,
+    "wikiTitle": "Tell Keisan",
+    "region": "middle-east-anatolia"
   }
 ]
